@@ -4,7 +4,6 @@ import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 import Steps from '~/components/widgets/Steps.astro';
-import Stats from '~/components/widgets/Stats.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
@@ -39,7 +38,7 @@ const metadata = {
   >
     <Fragment slot="title">
       Your AI meeting companion<br />
-      <span class="text-accent dark:text-violet-400">that never leaves your device</span>
+      <span class="bg-gradient-to-r from-blue-500 to-violet-600 bg-clip-text text-transparent">that never leaves your device</span>
     </Fragment>
 
     <Fragment slot="subtitle">
@@ -48,7 +47,7 @@ const metadata = {
     </Fragment>
 
     <Fragment slot="bg">
-      <div class="absolute inset-0 bg-gradient-to-br from-violet-50 via-white to-indigo-50 dark:from-[#0D0A1E] dark:via-[#07050F] dark:to-[#0A0D1E]"></div>
+      <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"></div>
     </Fragment>
   </Hero>
 
@@ -138,19 +137,9 @@ const metadata = {
     }}
   >
     <Fragment slot="bg">
-      <div class="absolute inset-0 bg-gradient-to-b from-violet-50 to-white dark:from-[#0D0A1E] dark:to-transparent"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-blue-50 to-white dark:from-[#06051A] dark:to-transparent"></div>
     </Fragment>
   </Steps>
-
-  <!-- Stats Widget -->
-  <Stats
-    stats={[
-      { title: 'Meetings Transcribed', amount: '2.4M+' },
-      { title: 'Active Users', amount: '48K+' },
-      { title: 'Transcription Accuracy', amount: '98.5%' },
-      { title: 'Hours Saved Weekly', amount: '4 hrs' },
-    ]}
-  />
 
   <!-- Testimonials Widget -->
   <Testimonials
@@ -252,7 +241,7 @@ const metadata = {
     </Fragment>
 
     <Fragment slot="bg">
-      <div class="absolute inset-0 bg-gradient-to-br from-violet-600 to-indigo-700 dark:from-violet-900 dark:to-indigo-950"></div>
+      <div class="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-700 to-violet-700 dark:from-blue-900 dark:via-blue-950 dark:to-violet-950"></div>
     </Fragment>
   </CallToAction>
 </Layout>

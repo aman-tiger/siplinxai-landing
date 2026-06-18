@@ -2,19 +2,56 @@
 import { SITE } from 'astrowind:config';
 ---
 
-<span class="flex items-center gap-2">
-  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="32" height="32" rx="8" fill="url(#logo-gradient)"/>
-    <path d="M16 7C13.79 7 12 8.79 12 11v6c0 2.21 1.79 4 4 4s4-1.79 4-4v-6c0-2.21-1.79-4-4-4z" fill="white"/>
-    <path d="M20.5 17c0 2.485-2.015 4.5-4.5 4.5S11.5 19.485 11.5 17H9.5c0 3.314 2.46 6.05 5.667 6.45V26h1.666v-2.55C20.04 23.05 22.5 20.314 22.5 17h-2z" fill="white"/>
+<span class="flex items-center gap-2.5">
+  <!-- SipLinxAI "S" ribbon logo — blue→purple gradient with 3D depth -->
+  <svg width="36" height="40" viewBox="0 0 200 220" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <defs>
-      <linearGradient id="logo-gradient" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#7C3AED"/>
-        <stop offset="1" stop-color="#4F46E5"/>
+      <linearGradient id="s-grad-top" x1="20" y1="10" x2="180" y2="100" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#93C5FD"/>
+        <stop offset="50%" stop-color="#3B82F6"/>
+        <stop offset="100%" stop-color="#2563EB"/>
       </linearGradient>
+      <linearGradient id="s-grad-bot" x1="20" y1="120" x2="180" y2="215" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#7C3AED"/>
+        <stop offset="100%" stop-color="#5B21B6"/>
+      </linearGradient>
+      <linearGradient id="s-shine-top" x1="30" y1="15" x2="140" y2="80" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#BFDBFE" stop-opacity="0.7"/>
+        <stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/>
+      </linearGradient>
+      <filter id="s-glow">
+        <feGaussianBlur stdDeviation="6" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
     </defs>
+
+    <!-- Bottom arc (rendered first / behind) -->
+    <path
+      d="M48 178 C48 200 65 213 93 213 L128 213 C157 213 172 199 172 178 C172 159 161 146 138 138 L76 119 C50 110 38 97 38 75 C38 50 55 36 85 36 L120 36 C150 36 164 50 164 72"
+      stroke="url(#s-grad-bot)"
+      stroke-width="40"
+      stroke-linecap="round"
+      fill="none"
+    />
+    <!-- Top arc (rendered on top) -->
+    <path
+      d="M152 42 C152 20 136 7 108 7 L68 7 C40 7 26 21 26 42 C26 61 37 74 60 82 L122 101 C150 111 163 124 163 145"
+      stroke="url(#s-grad-top)"
+      stroke-width="40"
+      stroke-linecap="round"
+      fill="none"
+    />
+    <!-- Highlight shine on top arc -->
+    <path
+      d="M152 42 C152 20 136 7 108 7 L68 7 C40 7 26 21 26 42 C26 55 34 66 52 75"
+      stroke="url(#s-shine-top)"
+      stroke-width="16"
+      stroke-linecap="round"
+      fill="none"
+    />
   </svg>
-  <span class="self-center text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white">
-    {SITE?.name}
+
+  <span class="self-center text-xl font-bold whitespace-nowrap tracking-tight text-gray-900 dark:text-white">
+    Siplinx <span class="bg-gradient-to-r from-blue-500 to-violet-600 bg-clip-text text-transparent">AI</span>
   </span>
 </span>
