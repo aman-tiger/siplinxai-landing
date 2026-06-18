@@ -2,8 +2,19 @@
 import { SITE } from 'astrowind:config';
 ---
 
-<span
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
->
-  🚀 {SITE?.name}
+<span class="flex items-center gap-2">
+  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="32" height="32" rx="8" fill="url(#logo-gradient)"/>
+    <path d="M16 7C13.79 7 12 8.79 12 11v6c0 2.21 1.79 4 4 4s4-1.79 4-4v-6c0-2.21-1.79-4-4-4z" fill="white"/>
+    <path d="M20.5 17c0 2.485-2.015 4.5-4.5 4.5S11.5 19.485 11.5 17H9.5c0 3.314 2.46 6.05 5.667 6.45V26h1.666v-2.55C20.04 23.05 22.5 20.314 22.5 17h-2z" fill="white"/>
+    <defs>
+      <linearGradient id="logo-gradient" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#7C3AED"/>
+        <stop offset="1" stop-color="#4F46E5"/>
+      </linearGradient>
+    </defs>
+  </svg>
+  <span class="self-center text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white">
+    {SITE?.name}
+  </span>
 </span>

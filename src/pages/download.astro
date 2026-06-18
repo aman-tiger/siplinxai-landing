@@ -1,0 +1,85 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import { Icon } from 'astro-icon/components';
+
+const metadata = {
+  title: 'Download SipLinxAI',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero -->
+  <HeroText
+    tagline="Free Download"
+    title="Download SipLinxAI"
+    subtitle="Available for Mac and Windows. Free to start — no account, no credit card required."
+  />
+
+  <div class="max-w-4xl mx-auto px-4 py-12">
+    <!-- Download Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+      <!-- Mac -->
+      <div class="relative rounded-2xl border border-violet-200 dark:border-violet-800 bg-gradient-to-br from-violet-50 to-indigo-50 dark:from-violet-950/40 dark:to-indigo-950/40 p-8 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-black mb-6">
+          <Icon name="tabler:brand-apple" class="w-8 h-8 text-white" />
+        </div>
+        <h2 class="text-2xl font-bold mb-2 dark:text-white">macOS</h2>
+        <p class="text-muted dark:text-slate-400 mb-2">macOS 12 (Monterey) or later</p>
+        <p class="text-sm text-muted dark:text-slate-500 mb-6">Apple Silicon & Intel supported</p>
+        <a
+          href="#"
+          class="inline-flex items-center gap-2 w-full justify-center px-6 py-3 bg-violet-600 hover:bg-violet-700 text-white font-semibold rounded-xl transition-colors duration-200"
+        >
+          <Icon name="tabler:download" class="w-5 h-5" />
+          Download for Mac
+        </a>
+        <p class="text-xs text-muted dark:text-slate-500 mt-3">Version 1.0.0 · ~85 MB</p>
+      </div>
+
+      <!-- Windows -->
+      <div class="relative rounded-2xl border border-blue-200 dark:border-blue-800 bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-950/40 dark:to-cyan-950/40 p-8 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-blue-500 mb-6">
+          <Icon name="tabler:brand-windows" class="w-8 h-8 text-white" />
+        </div>
+        <h2 class="text-2xl font-bold mb-2 dark:text-white">Windows</h2>
+        <p class="text-muted dark:text-slate-400 mb-2">Windows 10 / 11 (64-bit)</p>
+        <p class="text-sm text-muted dark:text-slate-500 mb-6">4GB RAM minimum required</p>
+        <a
+          href="#"
+          class="inline-flex items-center gap-2 w-full justify-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl transition-colors duration-200"
+        >
+          <Icon name="tabler:download" class="w-5 h-5" />
+          Download for Windows
+        </a>
+        <p class="text-xs text-muted dark:text-slate-500 mt-3">Version 1.0.0 · ~92 MB</p>
+      </div>
+    </div>
+
+    <!-- Requirements & Info -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+      <div class="text-center p-6 rounded-xl bg-gray-50 dark:bg-gray-900/50">
+        <Icon name="tabler:shield-lock" class="w-8 h-8 text-violet-600 mx-auto mb-3" />
+        <h3 class="font-semibold mb-2 dark:text-white">100% Private</h3>
+        <p class="text-sm text-muted dark:text-slate-400">All processing happens on your device. Nothing leaves your machine.</p>
+      </div>
+      <div class="text-center p-6 rounded-xl bg-gray-50 dark:bg-gray-900/50">
+        <Icon name="tabler:rocket" class="w-8 h-8 text-violet-600 mx-auto mb-3" />
+        <h3 class="font-semibold mb-2 dark:text-white">Instant Setup</h3>
+        <p class="text-sm text-muted dark:text-slate-400">Install and start transcribing in under 2 minutes. No account needed.</p>
+      </div>
+      <div class="text-center p-6 rounded-xl bg-gray-50 dark:bg-gray-900/50">
+        <Icon name="tabler:refresh" class="w-8 h-8 text-violet-600 mx-auto mb-3" />
+        <h3 class="font-semibold mb-2 dark:text-white">Free Updates</h3>
+        <p class="text-sm text-muted dark:text-slate-400">Automatic updates with new features and model improvements.</p>
+      </div>
+    </div>
+
+    <!-- Pricing note -->
+    <div class="text-center p-8 rounded-2xl border border-violet-200 dark:border-violet-800 bg-violet-50 dark:bg-violet-950/30">
+      <h3 class="text-xl font-bold mb-2 dark:text-white">Free Plan Included</h3>
+      <p class="text-muted dark:text-slate-400 mb-4">Start with 10 free meetings per month. Upgrade anytime for unlimited access.</p>
+      <a href="/pricing" class="text-violet-600 dark:text-violet-400 font-semibold hover:underline">View Pricing →</a>
+    </div>
+  </div>
+</Layout>
