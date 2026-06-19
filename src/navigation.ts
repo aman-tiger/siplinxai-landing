@@ -38,17 +38,6 @@ export const footerData = {
         { text: 'How it Works', href: '/#how-it-works' },
         { text: 'Pricing', href: '/pricing' },
         { text: 'Download', href: '/download' },
-        { text: 'Changelog', href: '#' },
-      ],
-    },
-    {
-      title: 'Integrations',
-      links: [
-        { text: 'Zoom', href: '#' },
-        { text: 'Google Meet', href: '#' },
-        { text: 'Microsoft Teams', href: '#' },
-        { text: 'Webex', href: '#' },
-        { text: 'Slack', href: '#' },
       ],
     },
     {
@@ -79,7 +68,6 @@ export const footerData = {
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
     { ariaLabel: 'YouTube', icon: 'tabler:brand-youtube', href: '#' },
-    { ariaLabel: 'GitHub', icon: 'tabler:brand-github', href: '#' },
   ],
   footNote: `
     © ${new Date().getFullYear()} <a class="bg-gradient-to-r from-blue-500 to-violet-600 bg-clip-text text-transparent font-semibold" href="/">Siplinx AI</a> · All rights reserved.
