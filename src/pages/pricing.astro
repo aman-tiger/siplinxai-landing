@@ -35,8 +35,8 @@ const metadata = {
 
   <!-- Pricing Widget -->
   <Prices
-    title="Plans for every team"
-    subtitle="All plans include 100% local processing — local LLM and STT models run on your device. Your data never leaves your machine."
+    title="Simple, honest pricing"
+    subtitle="Start free for 14 days — no credit card. Then one simple plan. Local LLM and STT models run on your device. Your data never leaves your machine."
     prices={[
       {
         title: 'free trial',
@@ -70,65 +70,41 @@ const metadata = {
       },
       {
         title: 'pro',
-        subtitle: 'For professionals and power users',
-        price: 15,
+        subtitle: 'Everything you need, forever',
+        price: 9,
         period: 'per month',
         items: [
           {
             description: 'Unlimited meetings',
           },
           {
-            description: 'Everything in Free Trial',
+            description: 'Local LLM + STT models included',
+          },
+          {
+            description: 'AI transcription & summaries',
+          },
+          {
+            description: 'Action item extraction',
           },
           {
             description: 'Speaker identification',
           },
           {
+            description: 'Export to Notion, Obsidian, PDF, Markdown',
+          },
+          {
             description: 'Custom vocabulary & names',
           },
           {
-            description: 'Notion, Obsidian & Slack export',
-          },
-          {
-            description: 'Priority model updates',
+            description: 'Free model updates',
           },
         ],
         callToAction: {
-          text: 'Get Pro',
+          text: 'Get Pro — $9/mo',
           href: '/download',
         },
         hasRibbon: true,
-        ribbonTitle: 'popular',
-      },
-      {
-        title: 'team',
-        subtitle: 'For growing teams',
-        price: 49,
-        period: 'per month',
-        items: [
-          {
-            description: 'Up to 10 team members',
-          },
-          {
-            description: 'Everything in Pro',
-          },
-          {
-            description: 'Shared meeting library',
-          },
-          {
-            description: 'Team action item tracking',
-          },
-          {
-            description: 'Admin & user management',
-          },
-          {
-            description: 'Priority support',
-          },
-        ],
-        callToAction: {
-          text: 'Get Team',
-          href: '/download',
-        },
+        ribbonTitle: 'best value',
       },
     ]}
   />
@@ -196,7 +172,7 @@ const metadata = {
         icon: 'tabler:number-4',
       },
       {
-        title: 'Upgrade when you need more',
+        title: 'Upgrade to Pro for $9/mo when ready',
         icon: 'tabler:number-5',
       },
     ]}
@@ -223,9 +199,9 @@ const metadata = {
           'When you install Siplinx AI, it downloads local AI models to your machine: a speech-to-text (STT) model for transcription, and a large language model (LLM) for summarization and action item extraction. These models run directly on your CPU or GPU — no cloud connection needed.',
       },
       {
-        title: 'Can I upgrade or downgrade at any time?',
+        title: 'Can I cancel at any time?',
         description:
-          'Absolutely. You can upgrade to Pro or Team at any time. Downgrades take effect at the start of your next billing cycle.',
+          'Yes. Cancel anytime from your account settings. No lock-ins, no penalties. Your locally stored meeting notes remain on your device — we never delete your data.',
       },
       {
         title: 'What payment methods do you accept?',
@@ -235,7 +211,7 @@ const metadata = {
       {
         title: 'Is there an annual discount?',
         description:
-          'Yes! Pay annually and save 20%. Pro becomes $12/mo and Team becomes $39/mo when billed yearly.',
+          'Yes! Pay annually and save 20% — Pro becomes just $7/mo when billed yearly.',
       },
       {
         title: 'What happens after the 14-day trial ends?',
