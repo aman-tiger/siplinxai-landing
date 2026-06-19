@@ -1,4 +1,4 @@
-import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
+import { getPermalink, getBlogPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -21,7 +21,7 @@ export const headerData = {
   ],
   actions: [
     {
-      variant: 'primary',
+      variant: 'primary' as const,
       text: 'Download Free',
       href: '/download',
       icon: 'tabler:download',
