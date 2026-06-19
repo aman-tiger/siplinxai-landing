@@ -9,7 +9,7 @@ metadata:
   title:
     default: Siplinx AI — AI Meeting Notes That Stay Private
     template: '%s — Siplinx AI'
-  description: "Siplinx AI is your AI meeting companion. Get instant transcriptions, smart summaries, and action items — all processed locally on your device. 100% private."
+  description: 'Siplinx AI is your AI meeting companion. Get instant transcriptions, smart summaries, and action items — all processed locally on your device. 100% private.'
   robots:
     index: true
     follow: true
