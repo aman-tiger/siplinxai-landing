@@ -8,16 +8,15 @@ import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Pricing — 14 Days Free',
+  title: 'Pricing — Simple & Transparent',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- HeroText Widget -->
   <HeroText
     tagline="Pricing"
-    title="14 Days Free. Then Simple, Honest Pricing."
-    subtitle="Try everything free for 14 days — no credit card needed. Use code QATEST100 for 100% off."
+    title="One plan. Everything included."
+    subtitle="14 days free, then $9/month. No tiers, no hidden fees. Use code QATEST100 to start free."
   />
 
   <!-- Promo Code Banner -->
@@ -39,110 +38,42 @@ const metadata = {
     </div>
   </div>
 
-  <!-- Pricing Widget -->
+  <!-- Pricing Widget — one plan -->
   <Prices
-    title="Plans for every team"
-    subtitle="All plans include 100% local processing — local LLM and STT models run on your device. Your data never leaves your machine."
+    title="Simple, honest pricing"
+    subtitle="All features included. Local LLM and STT models run on your device. Your data never leaves your machine."
     prices={[
       {
-        title: 'free trial',
-        subtitle: '14 days to try everything',
-        price: 0,
-        period: 'for 14 days',
-        items: [
-          {
-            description: 'Full access for 14 days',
-          },
-          {
-            description: 'Local LLM + STT models included',
-          },
-          {
-            description: 'AI transcription & summaries',
-          },
-          {
-            description: 'Action item extraction',
-          },
-          {
-            description: 'Export to Markdown & PDF',
-          },
-          {
-            description: 'No credit card required',
-          },
-        ],
-        callToAction: {
-          text: 'Start Free Trial',
-          href: '/download',
-        },
-      },
-      {
         title: 'pro',
-        subtitle: 'For professionals and power users',
-        price: 15,
+        subtitle: 'Everything you need for private AI meeting notes',
+        price: 9,
         period: 'per month',
         items: [
-          {
-            description: 'Unlimited meetings',
-          },
-          {
-            description: 'Everything in Free Trial',
-          },
-          {
-            description: 'Speaker identification',
-          },
-          {
-            description: 'Custom vocabulary & names',
-          },
-          {
-            description: 'Notion, Obsidian & Slack export',
-          },
-          {
-            description: 'Priority model updates',
-          },
+          { description: 'Unlimited meetings' },
+          { description: 'Local LLM + STT models included' },
+          { description: 'Real-time AI transcription' },
+          { description: 'Smart summaries & action items' },
+          { description: 'Speaker identification' },
+          { description: 'Custom vocabulary & names' },
+          { description: 'Export to Markdown, PDF, Notion, Obsidian' },
+          { description: 'Works offline — no internet required' },
+          { description: 'Mac & Windows native apps' },
+          { description: 'Priority model updates' },
         ],
         callToAction: {
-          text: 'Get Pro',
+          text: 'Start 14-Day Free Trial',
           href: '/download',
         },
         hasRibbon: true,
-        ribbonTitle: 'popular',
-      },
-      {
-        title: 'team',
-        subtitle: 'For growing teams',
-        price: 49,
-        period: 'per month',
-        items: [
-          {
-            description: 'Up to 10 team members',
-          },
-          {
-            description: 'Everything in Pro',
-          },
-          {
-            description: 'Shared meeting library',
-          },
-          {
-            description: 'Team action item tracking',
-          },
-          {
-            description: 'Admin & user management',
-          },
-          {
-            description: 'Priority support',
-          },
-        ],
-        callToAction: {
-          text: 'Get Team',
-          href: '/download',
-        },
+        ribbonTitle: '14 days free',
       },
     ]}
   />
 
   <!-- Features3 Widget -->
   <Features3
-    title="Every plan includes"
-    subtitle="Core privacy and AI features available across all Siplinx AI plans."
+    title="Everything included in your plan"
+    subtitle="No add-ons, no upsells. One price, all features."
     columns={2}
     items={[
       {
@@ -152,8 +83,7 @@ const metadata = {
       },
       {
         title: 'Works Offline',
-        description:
-          'No internet required for transcription or summarization. Siplinx AI works anywhere — even on a plane.',
+        description: 'No internet required for transcription or summarization. Works anywhere — even on a plane.',
         icon: 'tabler:wifi-off',
       },
       {
@@ -173,8 +103,7 @@ const metadata = {
       },
       {
         title: 'Mac & Windows',
-        description:
-          'Native apps for macOS (Apple Silicon + Intel) and Windows 10/11. Fast, lightweight, privacy-first.',
+        description: 'Native apps for macOS (Apple Silicon + Intel) and Windows 10/11.',
         icon: 'tabler:device-laptop',
       },
     ]}
@@ -203,10 +132,6 @@ const metadata = {
         title: 'Join any meeting — notes appear instantly',
         icon: 'tabler:number-4',
       },
-      {
-        title: 'Upgrade when you need more',
-        icon: 'tabler:number-5',
-      },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=987&q=80',
@@ -217,23 +142,23 @@ const metadata = {
   <!-- FAQs Widget -->
   <FAQs
     title="Pricing FAQs"
-    subtitle="Have questions about our plans? We've got answers."
+    subtitle="Have questions? We've got answers."
     columns={1}
     items={[
       {
         title: 'How does the 14-day free trial work?',
         description:
-          'Download Siplinx AI for Mac or Windows — no credit card required. Enter promo code QATEST100 at checkout to get 100% off for 14 days. You get full access to all Pro features during the trial. After 14 days, choose a paid plan to continue.',
+          'Download Siplinx AI for Mac or Windows — no credit card required. Enter promo code QATEST100 at checkout to get 100% off for 14 days. You get full access to all features during the trial. After 14 days, subscribe for $9/month to continue.',
       },
       {
         title: 'What does "local LLM and STT" mean?',
         description:
-          'When you install Siplinx AI, it downloads local AI models to your machine: a speech-to-text (STT) model for transcription, and a large language model (LLM) for summarization and action item extraction. These models run directly on your CPU or GPU — no cloud connection needed.',
+          'When you install Siplinx AI, it downloads local AI models to your machine: a speech-to-text (STT) model for transcription, and a large language model (LLM) for summarization. These models run directly on your CPU or GPU — no cloud connection needed.',
       },
       {
-        title: 'Can I upgrade or downgrade at any time?',
+        title: 'Can I cancel at any time?',
         description:
-          'Absolutely. You can upgrade to Pro or Team at any time. Downgrades take effect at the start of your next billing cycle.',
+          'Absolutely. Cancel anytime from your account settings with no fees or penalties. Your subscription ends at the current billing period.',
       },
       {
         title: 'What payment methods do you accept?',
@@ -241,13 +166,14 @@ const metadata = {
           'We accept all major credit cards (Visa, Mastercard, Amex) and PayPal. All payments are processed securely through Stripe.',
       },
       {
-        title: 'Is there an annual discount?',
-        description: 'Yes! Pay annually and save 20%. Pro becomes $12/mo and Team becomes $39/mo when billed yearly.',
-      },
-      {
         title: 'What happens after the 14-day trial ends?',
         description:
           'If you choose not to subscribe, your access to AI features ends. Your locally stored meeting notes remain on your device — we never delete your data.',
+      },
+      {
+        title: 'Is there a discount for annual billing?',
+        description:
+          'Yes! Pay annually and get 2 months free — that works out to $7.50/month billed as $90/year.',
       },
     ]}
   />
@@ -258,7 +184,7 @@ const metadata = {
     subtitle="Use code QATEST100 for 100% off. No credit card. No cloud."
     actions={[
       {
-        variant: 'primary',
+        variant: 'primary' as const,
         text: 'Download Free',
         href: '/download',
         icon: 'tabler:download',
