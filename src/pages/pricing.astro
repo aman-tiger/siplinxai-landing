@@ -13,231 +13,233 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- HeroText Widget ******************* -->
+  <!-- HeroText Widget -->
 
   <HeroText
     tagline="Pricing"
-    title="Stellar Pricing for Every Journey"
-    subtitle="Choose the perfect plan that aligns with your cosmic goals."
+    title="Simple, Honest Pricing"
+    subtitle="Start free, upgrade when you're ready. No hidden fees, no surprises — just powerful local AI meeting notes."
   />
 
-  <!-- Pricing Widget ******************* -->
+  <!-- Pricing Widget -->
 
   <Prices
-    title="Our prices"
-    subtitle="Only pay for what you need"
+    title="Plans for every meeting style"
+    subtitle="All plans include 100% local processing — your data never leaves your device."
     prices={[
       {
-        title: 'basic',
-        subtitle: 'Optimal choice for personal use',
-        price: 29,
+        title: 'free',
+        subtitle: 'Perfect for getting started',
+        price: 0,
         period: 'per month',
         items: [
           {
-            description: 'Etiam in libero, et volutpat',
+            description: '10 meetings per month',
           },
           {
-            description: 'Aenean ac nunc dolor tristique',
+            description: 'Full AI transcription',
           },
           {
-            description: 'Cras scelerisque accumsan lib',
+            description: 'Smart meeting summaries',
           },
           {
-            description: 'In hac habitasse',
+            description: 'Action item extraction',
+          },
+          {
+            description: 'Export to Markdown & PDF',
           },
         ],
         callToAction: {
-          target: '_blank',
-          text: 'Get started',
-          href: '#',
+          text: 'Download Free',
+          href: '/download',
         },
       },
       {
-        title: 'standard',
-        subtitle: 'Optimal choice for small teams',
-        price: 69,
-        period: 'Per Month',
+        title: 'pro',
+        subtitle: 'For power users and professionals',
+        price: 15,
+        period: 'per month',
         items: [
           {
-            description: 'Proin vel laoreet',
+            description: 'Unlimited meetings',
           },
           {
-            description: 'Ut efficitur habitasse egestas',
+            description: 'Everything in Free',
           },
           {
-            description: 'Volutpat hac curabitur',
+            description: 'Speaker identification',
           },
           {
-            description: 'Pellentesque blandit ut nibh',
+            description: 'Custom vocabulary & names',
           },
           {
-            description: 'Donec fringilla sem',
+            description: 'Notion, Obsidian & Slack export',
+          },
+          {
+            description: 'Priority model updates',
           },
         ],
         callToAction: {
-          target: '_blank',
-          text: 'Get started',
-          href: '#',
+          text: 'Get Pro',
+          href: '/download',
         },
         hasRibbon: true,
         ribbonTitle: 'popular',
       },
       {
-        title: 'premium',
-        subtitle: 'Optimal choice for companies',
-        price: 199,
-        period: 'Per Month',
+        title: 'team',
+        subtitle: 'For growing teams',
+        price: 49,
+        period: 'per month',
         items: [
           {
-            description: 'Curabitur suscipit risus',
+            description: 'Up to 10 team members',
           },
           {
-            description: 'Aliquam habitasse malesuada',
+            description: 'Everything in Pro',
           },
           {
-            description: 'Suspendisse sit amet blandit',
+            description: 'Shared meeting library',
           },
           {
-            description: 'Suspendisse auctor blandit dui',
+            description: 'Team action item tracking',
+          },
+          {
+            description: 'Admin & user management',
+          },
+          {
+            description: 'Priority support',
           },
         ],
         callToAction: {
-          target: '_blank',
-          text: 'Get started',
-          href: '#',
+          text: 'Get Team',
+          href: '/download',
         },
       },
     ]}
   />
 
-  <!-- Features3 Widget ************** -->
+  <!-- Features3 Widget -->
 
   <Features3
-    title="Price-related features"
-    subtitle="Discover the advantages of choosing our plans"
+    title="Every plan includes"
+    subtitle="Core privacy and AI features available across all SipLinxAI plans"
     columns={2}
     items={[
       {
-        title: 'Tiered Pricing Plans',
-        description: 'Choose from a range of pricing plans designed to accommodate different budgets and requirements.',
-        icon: 'tabler:stairs',
-      },
-      {
-        title: 'Transparent Pricing',
-        description: 'Clearly displayed pricing details for each plan, with no hidden costs or unexpected charges.',
-        icon: 'tabler:flip-vertical',
-      },
-      {
-        title: 'Secure Payment Methods',
-        description: 'Secure payment gateways to protect your financial information during transactions.',
+        title: '100% Local Processing',
+        description: 'All AI transcription and summarization runs on your device. Zero cloud dependency, zero data exposure.',
         icon: 'tabler:shield-lock',
       },
       {
-        title: 'Instant Access',
-        description: `Immediate access to your chosen plan's features and templates upon subscription.`,
-        icon: 'tabler:accessible',
+        title: 'Works Offline',
+        description: 'No internet required for transcription. SipLinxAI works anywhere, anytime — even on a plane.',
+        icon: 'tabler:wifi-off',
       },
       {
-        title: 'Upgrade Value',
-        description: 'Upgrade to higher-tier plans to unlock more features and benefits for an enhanced experience.',
-        icon: 'tabler:chevrons-up',
+        title: 'Multi-Platform Support',
+        description: 'Zoom, Google Meet, Teams, Webex, Slack Huddles — works with every platform you already use.',
+        icon: 'tabler:apps',
       },
       {
-        title: '24H support',
-        description: 'Questions answered via live chat, email or phone, every calendar day.',
-        icon: 'tabler:headset',
+        title: 'Real-time Transcription',
+        description: 'See your meeting transcript build in real time as the conversation unfolds.',
+        icon: 'tabler:microphone',
+      },
+      {
+        title: 'Automatic Updates',
+        description: 'Receive free model upgrades and new features automatically as we release them.',
+        icon: 'tabler:refresh',
+      },
+      {
+        title: 'Mac & Windows',
+        description: 'Native apps for macOS (Apple Silicon + Intel) and Windows 10/11. Fast, smooth, no Electron bloat.',
+        icon: 'tabler:device-laptop',
       },
     ]}
     classes={{ container: 'max-w-5xl' }}
   />
 
-  <!-- Steps Widget ****************** -->
+  <!-- Steps Widget -->
 
   <Steps
-    title="A guided journey from plans to creativity"
-    tagline="simplified process"
+    title="Get started in minutes"
+    tagline="quick setup"
     isReversed={true}
     items={[
       {
-        title: 'Explore plans',
+        title: 'Download SipLinxAI',
         icon: 'tabler:number-1',
       },
       {
-        title: 'Select a plan',
+        title: 'Install (no account needed)',
         icon: 'tabler:number-2',
       },
       {
-        title: 'Sign Up / Log In',
+        title: 'Join any meeting',
         icon: 'tabler:number-3',
       },
       {
-        title: 'Review order',
+        title: 'Get your notes instantly',
         icon: 'tabler:number-4',
       },
       {
-        title: 'Enter payment details',
+        title: 'Upgrade when you need more',
         icon: 'tabler:number-5',
-      },
-      {
-        title: 'Confirmation',
-        icon: 'tabler:number-6',
-      },
-      {
-        title: 'Download and start using the template(s)',
-        icon: 'tabler:number-7',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
+      src: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=987&q=80',
+      alt: 'SipLinxAI setup steps',
     }}
   />
 
-  <!-- FAQs Widget ******************* -->
+  <!-- FAQs Widget -->
 
   <FAQs
     title="Pricing FAQs"
-    subtitle="Choosing the right plan is important, and we're here to answer your questions. If you have queries about our pricing options, you're in the right place."
+    subtitle="Have questions about our plans? We've got answers."
     columns={1}
     items={[
       {
-        title: 'Do the plans come with customer support?',
+        title: 'Is the free plan really free forever?',
         description:
-          'Absolutely, all plans include access to our dedicated customer support to assist you with any queries or concerns.',
+          'Yes. The free plan includes 10 meetings per month with no time limit and no credit card required. It stays free as long as you use SipLinxAI.',
       },
       {
-        title: 'Is there a trial period for the different plans?',
+        title: 'Can I upgrade or downgrade at any time?',
         description:
-          "Unfortunately, we don't offer trial periods for the plans. However, you can check out our demo section to preview the quality of our templates.",
+          'Absolutely. You can upgrade to Pro or Team at any time, or downgrade back to Free. Changes take effect at the start of your next billing cycle.',
       },
       {
-        title: 'Can I switch between plans?',
+        title: 'What counts as a "meeting"?',
         description:
-          'Certainly! You can easily upgrade or downgrade your plan, at any time, to find the one that best suits your evolving requirements.',
+          'Any transcription session counts as one meeting, regardless of length. A 10-minute standup and a 2-hour strategy session each count as one meeting.',
       },
       {
         title: 'What payment methods do you accept?',
         description:
-          'We accept major credit cards and online payment methods to ensure a convenient and secure transaction process.',
+          'We accept all major credit cards (Visa, Mastercard, Amex) and PayPal. All payments are processed securely through Stripe.',
       },
       {
-        title: 'Are there any hidden fees beyond the displayed cost?',
+        title: 'Is there an annual discount?',
         description:
-          'No, the subscription cost covers all the features and templates listed under each plan. There are no hidden fees or extra charges.',
+          'Yes! Pay annually and save 20%. Pro becomes $12/mo and Team becomes $39/mo when billed yearly.',
       },
     ]}
   />
 
-  <!-- CallToAction Widget *********** -->
+  <!-- CallToAction Widget -->
 
   <CallToAction
-    title="Ready to boost your projects?"
-    subtitle="Join our community of satisfied customers who have transformed their work with our templates."
+    title="Start your first AI meeting free"
+    subtitle="No credit card. No cloud. No compromise on privacy."
     actions={[
       {
         variant: 'primary',
-        text: 'Get started now',
-        href: '/',
+        text: 'Download Free',
+        href: '/download',
+        icon: 'tabler:download',
       },
     ]}
   />
