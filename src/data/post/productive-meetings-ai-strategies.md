@@ -69,6 +69,7 @@ This eliminates the most common cause of dropped balls: someone commits to somet
 When reviewing meeting notes, it matters who said what. AI meeting tools with speaker diarization label each segment of the transcript by speaker.
 
 This helps with:
+
 - Accountability ("You said you'd do X by Thursday")
 - Understanding different perspectives
 - Reviewing what decisions a specific person made across multiple meetings
@@ -121,6 +122,7 @@ This reduces the burden on non-native speakers to take notes in a second languag
 ## 9. Meeting Analytics and Patterns
 
 Over time, AI-generated meeting data can reveal patterns:
+
 - How much time is spent discussing each topic
 - Which meetings consistently run over time
 - Which participants tend to monopolize discussion

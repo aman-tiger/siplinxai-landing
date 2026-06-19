@@ -110,16 +110,19 @@ Does it work on macOS, Windows, and Linux? Does it integrate with Zoom, Google M
 Even the best AI meeting notes tool performs better with a little setup. Here are practical tips:
 
 **Before the meeting:**
+
 - Test your microphone and audio levels so the transcription is clean
 - Set up speaker profiles or name assignments if your tool supports it
 - Share a brief agenda so participants stay on topic—structured meetings produce cleaner notes
 
 **During the meeting:**
+
 - Speak clearly and avoid talking over each other
 - State decisions and action items explicitly: "So we've decided to go with Option B, and Sarah will draft the proposal by Friday"
 - Pause briefly between major agenda items
 
 **After the meeting:**
+
 - Review the AI summary within an hour while your memory is fresh
 - Correct any misattributed action items before distributing
 - Push action items to your task manager so they don't live only in the note
