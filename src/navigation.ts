@@ -82,6 +82,6 @@ export const footerData = {
     { ariaLabel: 'GitHub', icon: 'tabler:brand-github', href: '#' },
   ],
   footNote: `
-    © ${new Date().getFullYear()} <a class="text-purple-600 underline dark:text-purple-400" href="/">SipLinxAI</a> · All rights reserved.
+    © ${new Date().getFullYear()} <a class="bg-gradient-to-r from-blue-500 to-violet-600 bg-clip-text text-transparent font-semibold" href="/">Siplinx AI</a> · All rights reserved.
   `,
 };
