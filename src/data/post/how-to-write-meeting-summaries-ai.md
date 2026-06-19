@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-06-15T00:00:00Z
+publishDate: 2026-06-19T00:00:00Z
 title: 'How AI Writes Better Meeting Summaries Than You Do (And How to Use It)'
 excerpt: 'Discover how AI meeting summary tools outperform human note-takers, what a great summary includes, and templates for standups, client calls, and planning sessions.'
 image: https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1200&q=80

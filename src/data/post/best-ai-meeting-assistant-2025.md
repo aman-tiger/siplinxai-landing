@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-06-15T00:00:00Z
+publishDate: 2026-06-19T00:00:00Z
 title: 'Best AI Meeting Assistant in 2025: What to Look For (And Why Local Matters)'
 excerpt: 'Comparing the best AI meeting assistants in 2025—cloud vs. local processing, privacy risks, and why on-device AI is the right choice for serious teams.'
 image: https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80
