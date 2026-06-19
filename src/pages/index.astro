@@ -17,7 +17,7 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget -->
   <Hero
-    tagline="Now available for Mac & Windows"
+    tagline="14 days free — no credit card required"
     actions={[
       {
         variant: 'primary',
@@ -42,14 +42,24 @@ const metadata = {
     </Fragment>
 
     <Fragment slot="subtitle">
-      Siplinx AI listens, transcribes, and writes your meeting notes in real time —
-      all processed <strong>locally on your machine</strong>. No cloud. No data leaks. Just perfect notes.
+      Siplinx AI installs local LLM and STT models directly on your machine —
+      then listens, transcribes, and writes your meeting notes in real time.
+      <strong>No cloud. No data leaks. 100% private.</strong>
     </Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"></div>
     </Fragment>
   </Hero>
+
+  <!-- Promo code banner -->
+  <div class="bg-gradient-to-r from-blue-600 to-violet-600 text-white py-3 px-4 text-center text-sm font-medium">
+    🎁 Try it free for 14 days — use promo code
+    <span class="inline-flex items-center gap-1 mx-1 px-2.5 py-0.5 rounded-md bg-white/20 font-mono font-bold tracking-wider text-white border border-white/30">
+      QATEST100
+    </span>
+    for 100% off your first 14 days
+  </div>
 
   <!-- Note Widget -->
   <Note
@@ -62,18 +72,18 @@ const metadata = {
     id="features"
     tagline="Why Siplinx AI"
     title="Everything your meetings deserve"
-    subtitle="Powerful AI features that respect your privacy. Your conversations never leave your device."
+    subtitle="Local LLM and STT models run directly on your device — no internet needed, no cloud involved."
     items={[
       {
-        title: 'Real-time AI Transcription',
+        title: 'Real-time AI Transcription (STT)',
         description:
-          'Accurate, speaker-labeled transcripts generated instantly as you speak — powered by on-device AI models with no latency.',
+          'A local speech-to-text model runs on your machine and converts speech to text in real time — with zero latency and no upload.',
         icon: 'tabler:microphone',
       },
       {
-        title: 'Smart Summaries',
+        title: 'Smart Summaries (Local LLM)',
         description:
-          'Get concise meeting summaries automatically. Key decisions, discussion points, and context — all captured and organized.',
+          'An on-device language model reads your transcript and writes a concise summary with key decisions and context — all locally.',
         icon: 'tabler:file-text-ai',
       },
       {
@@ -85,13 +95,13 @@ const metadata = {
       {
         title: '100% Private & Local',
         description:
-          'Your meetings are confidential. Everything runs on your device. No cloud processing, no data storage on our servers, ever.',
+          'LLM and STT models are installed locally on your machine. Your meetings never leave your device. Not even for AI processing.',
         icon: 'tabler:shield-lock',
       },
       {
         title: 'Multi-Platform Support',
         description:
-          'Works seamlessly with Zoom, Google Meet, Microsoft Teams, Webex, and any audio source on your Mac or Windows PC.',
+          'Works with Zoom, Google Meet, Microsoft Teams, Webex, and any audio source on your Mac or Windows PC.',
         icon: 'tabler:apps',
       },
       {
@@ -111,19 +121,19 @@ const metadata = {
       {
         title: 'Step 1: <span class="font-medium">Download & Install</span>',
         description:
-          'Download Siplinx AI for Mac or Windows. Installation takes under 2 minutes. No account required — just install and launch.',
+          'Download Siplinx AI for Mac or Windows. The installer sets up the local LLM and STT models on your machine — takes under 5 minutes.',
         icon: 'tabler:download',
       },
       {
         title: 'Step 2: <span class="font-medium">Join Your Meeting</span>',
         description:
-          'Start any meeting on Zoom, Google Meet, Teams, or any platform. Siplinx AI automatically detects audio and begins transcribing.',
+          'Start any meeting on Zoom, Google Meet, Teams, or any platform. Siplinx AI automatically detects audio and begins transcribing locally.',
         icon: 'tabler:video',
       },
       {
         title: 'Step 3: <span class="font-medium">Get Your Notes</span>',
         description:
-          'When the meeting ends, your notes are ready: full transcript, smart summary, action items, and key decisions — all organized.',
+          'When the meeting ends, your notes are ready: full transcript, smart summary, action items, and key decisions — all generated on your device.',
         icon: 'tabler:notes',
       },
       {
@@ -184,32 +194,32 @@ const metadata = {
       {
         title: 'How does Siplinx AI protect my privacy?',
         description:
-          'Siplinx AI runs entirely on your device. All AI processing, transcription, and note generation happens locally — nothing is sent to our servers or any cloud service. Your meeting content stays on your machine.',
+          'Siplinx AI installs local LLM and STT models directly on your machine. All transcription and summarization happens on your device — nothing is sent to the internet. Your meeting content never leaves your computer.',
+      },
+      {
+        title: 'How does the 14-day free trial work?',
+        description:
+          'Download and install Siplinx AI — no credit card needed. Use promo code QATEST100 at checkout for 100% off your first 14 days. After 14 days, choose a paid plan to continue or your subscription ends.',
       },
       {
         title: 'Which meeting platforms does Siplinx AI support?',
         description:
-          'Siplinx AI works with any application that uses your microphone or speaker output — including Zoom, Google Meet, Microsoft Teams, Webex, Slack Huddles, BlueJeans, and in-person meetings.',
+          'Siplinx AI works with any application that uses your microphone or speaker output — including Zoom, Google Meet, Microsoft Teams, Webex, Slack Huddles, and in-person meetings.',
       },
       {
         title: 'What are the system requirements?',
         description:
-          'For Mac: macOS 12 (Monterey) or later, Apple Silicon or Intel processor, 8GB RAM minimum. For Windows: Windows 10/11 (64-bit), 8GB RAM minimum, 4GB free storage.',
+          'For Mac: macOS 12 (Monterey) or later, Apple Silicon or Intel, 8GB RAM minimum. For Windows: Windows 10/11 (64-bit), 8GB RAM minimum, 4GB free storage for local models.',
       },
       {
-        title: 'Is Siplinx AI free to use?',
+        title: 'Do the local AI models need internet to work?',
         description:
-          'Siplinx AI offers a free plan. Download and try it free — no credit card required. Upgrade anytime for unlimited access.',
-      },
-      {
-        title: 'How accurate is the transcription?',
-        description:
-          'Siplinx AI uses state-of-the-art on-device speech recognition. Accuracy depends on audio quality — with a good microphone and clear audio, results are highly accurate. We continuously improve our local models with every release.',
+          'No. Once the local LLM and STT models are installed during setup, Siplinx AI works completely offline. Internet is only used for optional features like software updates.',
       },
       {
         title: 'Can I export my meeting notes?',
         description:
-          'Yes! Export to Markdown, PDF, Notion, Obsidian, Microsoft Word, or copy directly to clipboard. We also offer integrations with popular project management tools.',
+          'Yes! Export to Markdown, PDF, Notion, Obsidian, Microsoft Word, or copy to clipboard. All exports happen locally — your data never touches our servers.',
       },
     ]}
   />
@@ -232,12 +242,12 @@ const metadata = {
     ]}
   >
     <Fragment slot="title">
-      Start your first<br class="block sm:hidden" /><span class="sm:whitespace-nowrap"> AI-powered meeting today</span>
+      Try Siplinx AI free for 14 days
     </Fragment>
 
     <Fragment slot="subtitle">
-      Free to start. No credit card. No cloud. <br class="hidden md:inline" />
-      Your meetings stay yours — always.
+      Use code <span class="font-mono font-bold bg-white/20 px-2 py-0.5 rounded">QATEST100</span> for 100% off. <br class="hidden md:inline" />
+      No credit card. No cloud. Your meetings stay private — always.
     </Fragment>
 
     <Fragment slot="bg">

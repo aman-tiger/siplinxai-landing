@@ -8,39 +8,50 @@ import Features3 from '~/components/widgets/Features3.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'Pricing',
+  title: 'Pricing — 14 Days Free',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget -->
-
   <HeroText
     tagline="Pricing"
-    title="Simple, Honest Pricing"
-    subtitle="Start free, upgrade when you're ready. No hidden fees, no surprises — just powerful local AI meeting notes."
+    title="14 Days Free. Then Simple, Honest Pricing."
+    subtitle="Try everything free for 14 days — no credit card needed. Use code QATEST100 for 100% off."
   />
 
-  <!-- Pricing Widget -->
+  <!-- Promo Code Banner -->
+  <div class="max-w-2xl mx-auto px-4 mb-8 -mt-4">
+    <div class="flex items-center justify-center gap-3 bg-gradient-to-r from-blue-50 to-violet-50 dark:from-blue-950/40 dark:to-violet-950/40 border border-blue-200 dark:border-blue-800 rounded-2xl px-6 py-4">
+      <span class="text-2xl">🎁</span>
+      <div class="text-center">
+        <p class="text-sm text-muted dark:text-slate-400 mb-1">Use this code at checkout for 100% off your first 14 days</p>
+        <span class="inline-block font-mono font-bold text-xl tracking-widest px-4 py-1.5 rounded-lg bg-gradient-to-r from-blue-600 to-violet-600 text-white select-all">
+          QATEST100
+        </span>
+      </div>
+    </div>
+  </div>
 
+  <!-- Pricing Widget -->
   <Prices
-    title="Plans for every meeting style"
-    subtitle="All plans include 100% local processing — your data never leaves your device."
+    title="Plans for every team"
+    subtitle="All plans include 100% local processing — local LLM and STT models run on your device. Your data never leaves your machine."
     prices={[
       {
-        title: 'free',
-        subtitle: 'Perfect for getting started',
+        title: 'free trial',
+        subtitle: '14 days to try everything',
         price: 0,
-        period: 'per month',
+        period: 'for 14 days',
         items: [
           {
-            description: '10 meetings per month',
+            description: 'Full access for 14 days',
           },
           {
-            description: 'Full AI transcription',
+            description: 'Local LLM + STT models included',
           },
           {
-            description: 'Smart meeting summaries',
+            description: 'AI transcription & summaries',
           },
           {
             description: 'Action item extraction',
@@ -48,15 +59,18 @@ const metadata = {
           {
             description: 'Export to Markdown & PDF',
           },
+          {
+            description: 'No credit card required',
+          },
         ],
         callToAction: {
-          text: 'Download Free',
+          text: 'Start Free Trial',
           href: '/download',
         },
       },
       {
         title: 'pro',
-        subtitle: 'For power users and professionals',
+        subtitle: 'For professionals and power users',
         price: 15,
         period: 'per month',
         items: [
@@ -64,7 +78,7 @@ const metadata = {
             description: 'Unlimited meetings',
           },
           {
-            description: 'Everything in Free',
+            description: 'Everything in Free Trial',
           },
           {
             description: 'Speaker identification',
@@ -120,20 +134,19 @@ const metadata = {
   />
 
   <!-- Features3 Widget -->
-
   <Features3
     title="Every plan includes"
-    subtitle="Core privacy and AI features available across all SipLinxAI plans"
+    subtitle="Core privacy and AI features available across all Siplinx AI plans."
     columns={2}
     items={[
       {
         title: '100% Local Processing',
-        description: 'All AI transcription and summarization runs on your device. Zero cloud dependency, zero data exposure.',
+        description: 'Local LLM and STT models run on your device. Zero cloud dependency, zero data exposure.',
         icon: 'tabler:shield-lock',
       },
       {
         title: 'Works Offline',
-        description: 'No internet required for transcription. SipLinxAI works anywhere, anytime — even on a plane.',
+        description: 'No internet required for transcription or summarization. Siplinx AI works anywhere — even on a plane.',
         icon: 'tabler:wifi-off',
       },
       {
@@ -147,13 +160,13 @@ const metadata = {
         icon: 'tabler:microphone',
       },
       {
-        title: 'Automatic Updates',
-        description: 'Receive free model upgrades and new features automatically as we release them.',
+        title: 'Automatic Model Updates',
+        description: 'Receive free local model upgrades and new features automatically as we release them.',
         icon: 'tabler:refresh',
       },
       {
         title: 'Mac & Windows',
-        description: 'Native apps for macOS (Apple Silicon + Intel) and Windows 10/11. Fast, smooth, no Electron bloat.',
+        description: 'Native apps for macOS (Apple Silicon + Intel) and Windows 10/11. Fast, lightweight, privacy-first.',
         icon: 'tabler:device-laptop',
       },
     ]}
@@ -161,26 +174,25 @@ const metadata = {
   />
 
   <!-- Steps Widget -->
-
   <Steps
     title="Get started in minutes"
     tagline="quick setup"
     isReversed={true}
     items={[
       {
-        title: 'Download SipLinxAI',
+        title: 'Download Siplinx AI',
         icon: 'tabler:number-1',
       },
       {
-        title: 'Install (no account needed)',
+        title: 'Local LLM + STT models install automatically',
         icon: 'tabler:number-2',
       },
       {
-        title: 'Join any meeting',
+        title: 'Enter code QATEST100 for 14 days free',
         icon: 'tabler:number-3',
       },
       {
-        title: 'Get your notes instantly',
+        title: 'Join any meeting — notes appear instantly',
         icon: 'tabler:number-4',
       },
       {
@@ -189,32 +201,31 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=987&q=80',
-      alt: 'SipLinxAI setup steps',
+      src: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=987&q=80',
+      alt: 'Siplinx AI setup steps',
     }}
   />
 
   <!-- FAQs Widget -->
-
   <FAQs
     title="Pricing FAQs"
     subtitle="Have questions about our plans? We've got answers."
     columns={1}
     items={[
       {
-        title: 'Is the free plan really free forever?',
+        title: 'How does the 14-day free trial work?',
         description:
-          'Yes. The free plan includes 10 meetings per month with no time limit and no credit card required. It stays free as long as you use SipLinxAI.',
+          'Download Siplinx AI for Mac or Windows — no credit card required. Enter promo code QATEST100 at checkout to get 100% off for 14 days. You get full access to all Pro features during the trial. After 14 days, choose a paid plan to continue.',
+      },
+      {
+        title: 'What does "local LLM and STT" mean?',
+        description:
+          'When you install Siplinx AI, it downloads local AI models to your machine: a speech-to-text (STT) model for transcription, and a large language model (LLM) for summarization and action item extraction. These models run directly on your CPU or GPU — no cloud connection needed.',
       },
       {
         title: 'Can I upgrade or downgrade at any time?',
         description:
-          'Absolutely. You can upgrade to Pro or Team at any time, or downgrade back to Free. Changes take effect at the start of your next billing cycle.',
-      },
-      {
-        title: 'What counts as a "meeting"?',
-        description:
-          'Any transcription session counts as one meeting, regardless of length. A 10-minute standup and a 2-hour strategy session each count as one meeting.',
+          'Absolutely. You can upgrade to Pro or Team at any time. Downgrades take effect at the start of your next billing cycle.',
       },
       {
         title: 'What payment methods do you accept?',
@@ -226,14 +237,18 @@ const metadata = {
         description:
           'Yes! Pay annually and save 20%. Pro becomes $12/mo and Team becomes $39/mo when billed yearly.',
       },
+      {
+        title: 'What happens after the 14-day trial ends?',
+        description:
+          'If you choose not to subscribe, your access to AI features ends. Your locally stored meeting notes remain on your device — we never delete your data.',
+      },
     ]}
   />
 
   <!-- CallToAction Widget -->
-
   <CallToAction
-    title="Start your first AI meeting free"
-    subtitle="No credit card. No cloud. No compromise on privacy."
+    title="Start your 14-day free trial"
+    subtitle="Use code QATEST100 for 100% off. No credit card. No cloud."
     actions={[
       {
         variant: 'primary',
