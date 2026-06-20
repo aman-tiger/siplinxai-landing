@@ -1,8 +1,54 @@
-# AstroWind Agent Instructions
+# Siplinx AI — Инструкции для AI-агента
 
-## Project Overview
+---
 
-AstroWind is a free, open-source website template built with **Astro v6** and **Tailwind CSS v4**. It generates a fully static site optimized for performance, SEO, and accessibility.
+## 🔴 ОБЯЗАТЕЛЬНЫЕ ПРАВИЛА (выполнять ВСЕГДА)
+
+### 1. После каждого изменения — коммит и пуш
+```
+git add <файлы>
+git commit -m "описание на русском"
+git push -u origin main
+```
+**Никогда не оставлять изменения без коммита.** Если хук жалуется на незакоммиченные файлы — сразу коммитить и пушить.
+
+### 2. Деплой на Cloudflare Pages
+После пуша в main — запускать `workflow_dispatch` через GitHub MCP:
+```
+mcp__github__actions_run_trigger(method="run_workflow", owner="aman-tiger", repo="siplinxai-landing", workflow_id="actions.yaml", ref="main")
+```
+
+### 3. Язык
+Все планы, комментарии, описания коммитов — **на русском языке**.
+
+### 4. SE Ranking MCP — правила работы с ключевыми словами
+- Семена (seeds): **1–2 слова максимум** для максимального охвата
+- На каждый сид — вызов: `getRelatedKeywords` + `getSimilarKeywords` + `getLongTailKeywords` + `getKeywordQuestions`
+- Фильтр для своего сайта: KD 0–40, Volume 50+, Intent C или T
+- Фильтр для внешних: KD 41–75, Volume 200+
+- Фильтр для AEO: KD 0–85, Volume 1000+
+- Если по сиду < 20 результатов → берём следующий сид, **не зацикливаемся**
+- Максимум 3 попытки на один сид — затем идём дальше
+- Результаты пишем в CSV: `seo/` папка, формат как в примерах
+
+### 5. Структура CSV файлов (seo/)
+Колонки: `keyword, priority, volume, kd, cpc, intent, seed, flag, published, Ссылка конкурента 1, Ссылка конкурента 2, Ссылка конкурента 3, Заголовок конкурента 1, Заголовок конкурента 2, Заголовок конкурента 3, Сниппет конкурента 1, Сниппет конкурента 2, Сниппет конкурента 3`
+
+- `flag`: `ok` (релевантно) или `irrelevant` (нерелевантно)
+- `published`: пусто пока статья не написана; потом ставим URL
+
+---
+
+## О проекте
+
+**Siplinx AI** — десктопное приложение для записи и транскрипции встреч с локальным ИИ.
+- Конкуренты: Granola, Fireflies.ai, Otter.ai, Fathom, tl;dv
+- Локальный LLM + STT на устройстве пользователя (без облака)
+- Mac + Windows
+- 14 дней бесплатно по промокоду QATEST100
+- Цена после триала: $9/месяц
+
+**Стек:** Astro v6 | Tailwind CSS v4 | TypeScript 5.9 | MDX | Sharp
 
 **Stack:** Astro v6 | Tailwind CSS v4 | TypeScript 5.9 | MDX | Sharp
 
