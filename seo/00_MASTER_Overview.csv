@@ -1,0 +1,21 @@
+Block,File,Priority,Emoji,KD_Filter,Volume_Filter,Intent,Total_Keywords,Filled,Notes
+Alternatives Own,01_Alternatives_Own.csv,1,🔥,0-40,50+,"C,T",0,0,granola/fireflies/otter alternatives
+VS Own,02_VS_Own.csv,1,🔥,0-40,50+,"C,T",0,0,head-to-head comparisons
+Solutions Own,03_Solutions_Own.csv,1,🔥,0-40,50+,"C,T",0,0,meeting notes/transcription use cases
+For Own,04_For_Own.csv,2,✅,0-40,50+,"C,T",0,0,for sales/doctors/students etc
+UseCases Own,05_UseCases_Own.csv,2,✅,0-40,50+,"C,T",0,0,specific meeting scenarios
+Guides Own,06_Guides_Own.csv,2,✅,0-40,50+,"C,T",0,0,how-to guides
+Blog Own,07_Blog_Own.csv,2,✅,0-40,50+,"C,T",0,0,blog posts / thought leadership
+Templates Own,08_Templates_Own.csv,3,📌,0-40,50+,"C,T",0,0,meeting notes templates
+FAQ Own,09_FAQ_Own.csv,3,📌,0-40,50+,"C,T",0,0,common questions
+Dictionary Own,10_Dictionary_Own.csv,3,📌,0-40,50+,"C,T",0,0,glossary terms (STT/LLM/etc)
+Integrations Own,11_Integrations_Own.csv,4,⏳,0-40,50+,"C,T",0,0,Zoom/Teams/Meet integrations
+Tools Own,12_Tools_Own.csv,4,⏳,0-40,50+,"C,T",0,0,free mini tools
+Alternatives Ext,13_Alternatives_Ext.csv,1,🔥,41-75,200+,"C,T",0,0,external placements
+VS Ext,14_VS_Ext.csv,1,🔥,41-75,200+,"C,T",0,0,external vs articles
+Guides Ext,15_Guides_Ext.csv,2,✅,41-75,200+,"C,T",0,0,guest posts / external guides
+Solutions Ext,16_Solutions_Ext.csv,2,✅,41-75,200+,"C,T",0,0,external solutions content
+Blog Ext,17_Blog_Ext.csv,3,📌,41-75,200+,"C,T",0,0,external blog placements
+AEO Questions,18_AEO_Questions.csv,1,🔥,0-85,1000+,"C,T,I",0,0,PAA / AI Overview targets
+AEO Dictionary,19_AEO_Dictionary.csv,2,✅,0-85,1000+,"C,T,I",0,0,Featured Snippet targets
+AEO Guides,20_AEO_Guides.csv,2,✅,0-85,1000+,"C,T,I",0,0,AI Overview guide targets
