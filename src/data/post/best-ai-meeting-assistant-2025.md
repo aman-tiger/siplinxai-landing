@@ -95,6 +95,7 @@ The ability to search past meetings transforms your meeting notes from isolated 
 ### Integration Ecosystem
 
 The best meeting assistant fits into your existing workflow. Look for native integrations with:
+
 - Calendar apps (Google Calendar, Outlook) for auto-start
 - Task managers (Notion, Linear, Jira, Todoist) for action item export
 - Communication tools (Slack, Teams) for sharing summaries

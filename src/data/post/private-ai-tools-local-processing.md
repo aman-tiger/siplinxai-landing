@@ -73,15 +73,15 @@ Financial advisors and investment professionals operate under regulatory framewo
 
 ## Industries That Should Use Local-Only AI Meeting Tools
 
-| Industry | Primary Concern |
-|----------|----------------|
-| Legal / Law Firms | Attorney-client privilege |
-| Healthcare | HIPAA / patient confidentiality |
-| Financial Services | Regulatory compliance |
-| Government / Defense | Security clearances |
-| HR / Recruitment | Personal data protection |
+| Industry             | Primary Concern                    |
+| -------------------- | ---------------------------------- |
+| Legal / Law Firms    | Attorney-client privilege          |
+| Healthcare           | HIPAA / patient confidentiality    |
+| Financial Services   | Regulatory compliance              |
+| Government / Defense | Security clearances                |
+| HR / Recruitment     | Personal data protection           |
 | Executive Leadership | Trade secrets, M&A confidentiality |
-| Therapy / Counseling | Patient privacy |
+| Therapy / Counseling | Patient privacy                    |
 
 ---
 
@@ -92,6 +92,7 @@ Local AI processing means the entire AI pipeline — audio capture, speech recog
 This is possible because modern AI models can run efficiently on consumer hardware. Apple Silicon chips and modern Intel/AMD processors can run high-quality speech recognition and language models entirely on-device.
 
 **With a local AI meeting tool like Siplinx AI:**
+
 - Your audio never leaves your computer
 - No internet connection required for processing
 - No one — not even the software developer — can access your meeting content
@@ -104,17 +105,20 @@ This is possible because modern AI models can run efficiently on consumer hardwa
 Before using any AI tool for sensitive conversations, ask:
 
 **Data processing:**
+
 - [ ] Is audio processed locally or uploaded to a server?
 - [ ] Does the tool use third-party AI APIs?
 - [ ] What is the data retention policy?
 - [ ] Can you request data deletion?
 
 **Legal compliance:**
+
 - [ ] Does the vendor offer a BAA for HIPAA?
 - [ ] Is the vendor GDPR-compliant?
 - [ ] Has the vendor published a clear privacy policy?
 
 **Transparency:**
+
 - [ ] Is the privacy policy written in plain language?
 - [ ] Does the vendor explain exactly what data is collected?
 

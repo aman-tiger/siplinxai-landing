@@ -108,6 +108,7 @@ Different meetings have different goals, and a great summary format reflects tho
 **Format:** Brief, action-oriented, under 200 words
 
 **Sections:**
+
 - **Status Updates** — What each person accomplished since the last standup
 - **Today's Focus** — What each person is working on today
 - **Blockers** — What's preventing progress and who needs to address it
@@ -120,6 +121,7 @@ Standups are about flow and visibility, not deep discussion. The summary should 
 **Format:** Professional, context-rich, shareable externally
 
 **Sections:**
+
 - **Meeting Purpose** — Why the call was held
 - **Attendees** — Names and roles from both sides
 - **Key Discussion Topics** — What was covered
@@ -135,6 +137,7 @@ Client summaries often get shared with people who weren't on the call, so they n
 **Format:** Structured, detailed, decision-heavy
 
 **Sections:**
+
 - **Objectives of the Session** — What the planning session was trying to achieve
 - **Options Considered** — Alternatives that were discussed
 - **Decisions Made** — What was chosen and why
@@ -150,6 +153,7 @@ Planning sessions generate a lot of content. A good summary distills this into t
 **Format:** Personal, concise, relationship-aware
 
 **Sections:**
+
 - **Topics Discussed** — Key themes from the conversation
 - **Feedback Exchanged** — Specific feedback given or received
 - **Goals and Development** — Career or project goals discussed
