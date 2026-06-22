@@ -17,10 +17,14 @@ const metadata = {
   />
 
   <div class="max-w-4xl mx-auto px-4 py-12">
+    <!-- OS detection banner -->
+    <div id="os-banner" class="hidden mb-8 text-center text-sm font-medium text-blue-700 dark:text-blue-300 bg-blue-50 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-800 rounded-xl px-4 py-3"></div>
+
     <!-- Download Cards -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+    <div id="download-cards" class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
       <!-- Mac -->
       <div
+        id="card-mac"
         class="relative rounded-2xl border border-gray-200 dark:border-blue-900 bg-gradient-to-br from-gray-50 via-blue-50/30 to-violet-50/40 dark:from-[#0A0918] dark:via-blue-950/30 dark:to-violet-950/30 p-8 text-center shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
       >
         <div
@@ -32,7 +36,7 @@ const metadata = {
         <p class="text-muted dark:text-slate-400 mb-1">macOS 12 (Monterey) or later</p>
         <p class="text-sm text-muted dark:text-slate-500 mb-6">Apple Silicon &amp; Intel · ~85 MB</p>
         <a
-          href="#"
+          href="https://siplinx-ai.vercel.app/download"
           class="inline-flex items-center gap-2 w-full justify-center px-6 py-4 bg-gradient-to-r from-blue-600 to-violet-600 hover:from-blue-700 hover:to-violet-700 text-white font-bold rounded-xl transition-all duration-200 shadow-md hover:shadow-lg text-base"
         >
           <Icon name="tabler:download" class="w-5 h-5" />
@@ -43,6 +47,7 @@ const metadata = {
 
       <!-- Windows -->
       <div
+        id="card-win"
         class="relative rounded-2xl border border-gray-200 dark:border-blue-900 bg-gradient-to-br from-gray-50 via-blue-50/30 to-cyan-50/40 dark:from-[#0A0918] dark:via-blue-950/30 dark:to-cyan-950/30 p-8 text-center shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300"
       >
         <div
@@ -54,7 +59,7 @@ const metadata = {
         <p class="text-muted dark:text-slate-400 mb-1">Windows 10 / 11 (64-bit)</p>
         <p class="text-sm text-muted dark:text-slate-500 mb-6">x64 · ~92 MB</p>
         <a
-          href="#"
+          href="https://siplinx-ai.vercel.app/download"
           class="inline-flex items-center gap-2 w-full justify-center px-6 py-4 bg-gradient-to-r from-blue-600 to-violet-600 hover:from-blue-700 hover:to-violet-700 text-white font-bold rounded-xl transition-all duration-200 shadow-md hover:shadow-lg text-base"
         >
           <Icon name="tabler:download" class="w-5 h-5" />
@@ -121,4 +126,49 @@ const metadata = {
       </a>
     </div>
   </div>
+
+<script>
+  // OS Detection — supports new + old browsers, Win7/8/10/11 + all Mac generations
+  function detectOS(): 'mac' | 'windows' | 'unknown' {
+    // Modern API (Chrome 90+, Edge 90+)
+    const uaData = (navigator as any).userAgentData;
+    if (uaData?.platform) {
+      const p = uaData.platform.toLowerCase();
+      if (p.includes('mac')) return 'mac';
+      if (p.includes('win')) return 'windows';
+    }
+    // Fallback: userAgent string (works on all browsers incl. Safari, Firefox, IE, old Win)
+    const ua = navigator.userAgent.toLowerCase();
+    const platform = (navigator.platform || '').toLowerCase();
+    if (platform.includes('mac') || ua.includes('macintosh') || ua.includes('mac os x')) return 'mac';
+    if (platform.includes('win') || ua.includes('windows nt') || ua.includes('win32') || ua.includes('win64')) return 'windows';
+    return 'unknown';
+  }
+
+  const os = detectOS();
+  const cardMac = document.getElementById('card-mac');
+  const cardWin = document.getElementById('card-win');
+  const banner = document.getElementById('os-banner');
+  const grid = document.getElementById('download-cards');
+
+  if (os === 'mac' && cardMac && cardWin && grid) {
+    // Move Mac card first, add highlight ring
+    grid.insertBefore(cardMac, grid.firstChild);
+    cardMac.classList.add('ring-2', 'ring-blue-500', 'dark:ring-blue-400');
+    cardWin.classList.add('opacity-60');
+    if (banner) {
+      banner.classList.remove('hidden');
+      banner.textContent = '🍎 We detected macOS — your download is ready below!';
+    }
+  } else if (os === 'windows' && cardMac && cardWin && grid) {
+    // Move Windows card first, add highlight ring
+    grid.insertBefore(cardWin, grid.firstChild);
+    cardWin.classList.add('ring-2', 'ring-blue-500', 'dark:ring-blue-400');
+    cardMac.classList.add('opacity-60');
+    if (banner) {
+      banner.classList.remove('hidden');
+      banner.textContent = '🪟 We detected Windows — your download is ready below!';
+    }
+  }
+</script>
 </Layout>
