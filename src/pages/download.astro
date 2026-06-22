@@ -17,10 +17,8 @@ const metadata = {
   />
 
   <div class="max-w-4xl mx-auto px-4 py-12">
-
     <!-- Single primary card — shown by OS detection -->
     <div id="download-primary" class="flex justify-center mb-6">
-
       <!-- Mac card (shown by default until JS runs) -->
       <div
         id="card-mac"
@@ -71,7 +69,11 @@ const metadata = {
     <!-- Secondary OS link -->
     <p id="os-alt-link" class="hidden text-center text-sm text-muted dark:text-slate-500 mb-16">
       Not on a Mac?
-      <a id="os-alt-anchor" href="https://siplinx-ai.vercel.app/download" class="underline hover:text-blue-600 dark:hover:text-blue-400">
+      <a
+        id="os-alt-anchor"
+        href="https://siplinx-ai.vercel.app/download"
+        class="underline hover:text-blue-600 dark:hover:text-blue-400"
+      >
         Download for Windows
       </a>
     </p>
@@ -85,9 +87,7 @@ const metadata = {
           <Icon name="tabler:shield-lock" class="w-6 h-6 text-white" />
         </div>
         <h3 class="font-bold mb-2 dark:text-white">100% Private</h3>
-        <p class="text-sm text-muted dark:text-slate-400">
-          All processing happens on your device. Nothing leaves your machine.
-        </p>
+        <p class="text-sm text-muted dark:text-slate-400">All processing happens on your device. Nothing leaves your machine.</p>
       </div>
       <div class="text-center p-6 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/10">
         <div
@@ -96,9 +96,7 @@ const metadata = {
           <Icon name="tabler:rocket" class="w-6 h-6 text-white" />
         </div>
         <h3 class="font-bold mb-2 dark:text-white">Instant Setup</h3>
-        <p class="text-sm text-muted dark:text-slate-400">
-          Install and start transcribing in under 2 minutes. No account needed.
-        </p>
+        <p class="text-sm text-muted dark:text-slate-400">Install and start transcribing in under 2 minutes. No account needed.</p>
       </div>
       <div class="text-center p-6 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/10">
         <div
@@ -107,9 +105,7 @@ const metadata = {
           <Icon name="tabler:refresh" class="w-6 h-6 text-white" />
         </div>
         <h3 class="font-bold mb-2 dark:text-white">Free Updates</h3>
-        <p class="text-sm text-muted dark:text-slate-400">
-          Automatic updates with new features and model improvements.
-        </p>
+        <p class="text-sm text-muted dark:text-slate-400">Automatic updates with new features and model improvements.</p>
       </div>
     </div>
 
@@ -135,18 +131,16 @@ const metadata = {
   </div>
 
 <script>
-  function detectOS(): 'mac' | 'windows' | 'unknown' {
+  function detectOS(): 'mac' | 'windows' {
     const uaData = (navigator as any).userAgentData;
     if (uaData?.platform) {
       const p = uaData.platform.toLowerCase();
-      if (p.includes('mac')) return 'mac';
       if (p.includes('win')) return 'windows';
     }
     const ua = navigator.userAgent.toLowerCase();
     const platform = (navigator.platform || '').toLowerCase();
-    if (platform.includes('mac') || ua.includes('macintosh') || ua.includes('mac os x')) return 'mac';
     if (platform.includes('win') || ua.includes('windows nt') || ua.includes('win32') || ua.includes('win64')) return 'windows';
-    return 'unknown';
+    return 'mac';
   }
 
   const os = detectOS();
@@ -155,15 +149,7 @@ const metadata = {
   const altLink = document.getElementById('os-alt-link');
   const altAnchor = document.getElementById('os-alt-anchor') as HTMLAnchorElement | null;
 
-  if (os === 'mac') {
-    cardMac?.classList.remove('hidden');
-    cardWin?.classList.add('hidden');
-    if (altLink && altAnchor) {
-      altLink.classList.remove('hidden');
-      altLink.childNodes[0].textContent = 'Not on a Mac? ';
-      altAnchor.textContent = 'Download for Windows';
-    }
-  } else if (os === 'windows') {
+  if (os === 'windows') {
     cardMac?.classList.add('hidden');
     cardWin?.classList.remove('hidden');
     if (altLink && altAnchor) {
@@ -171,13 +157,13 @@ const metadata = {
       altLink.childNodes[0].textContent = 'Not on Windows? ';
       altAnchor.textContent = 'Download for Mac';
     }
-  }
-  if (os === 'unknown') {
+  } else {
     cardMac?.classList.remove('hidden');
-    cardWin?.classList.remove('hidden');
-    const primary = document.getElementById('download-primary');
-    if (primary) {
-      primary.classList.add('flex-col', 'items-center', 'gap-8');
+    cardWin?.classList.add('hidden');
+    if (altLink && altAnchor) {
+      altLink.classList.remove('hidden');
+      altLink.childNodes[0].textContent = 'Not on a Mac? ';
+      altAnchor.textContent = 'Download for Windows';
     }
   }
 </script>
