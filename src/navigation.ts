@@ -23,7 +23,7 @@ export const headerData = {
     {
       variant: 'primary' as const,
       text: 'Download Free',
-      href: '/download',
+      href: 'https://siplinx-ai.vercel.app/download',
       icon: 'tabler:download',
     },
   ],

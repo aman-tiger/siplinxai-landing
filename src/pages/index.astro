@@ -22,13 +22,16 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Download for Mac',
-        href: '/download',
+        href: 'https://siplinx-ai.vercel.app/download',
         icon: 'tabler:brand-apple',
+        class: 'hero-btn-mac',
       },
       {
+        variant: 'secondary',
         text: 'Download for Windows',
-        href: '/download',
+        href: 'https://siplinx-ai.vercel.app/download',
         icon: 'tabler:brand-windows',
+        class: 'hero-btn-win',
       },
     ]}
     image={{
@@ -250,14 +253,16 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Download for Mac',
-        href: '/download',
+        href: 'https://siplinx-ai.vercel.app/download',
         icon: 'tabler:brand-apple',
+        class: 'cta-btn-mac',
       },
       {
         variant: 'secondary',
         text: 'Download for Windows',
-        href: '/download',
+        href: 'https://siplinx-ai.vercel.app/download',
         icon: 'tabler:brand-windows',
+        class: 'cta-btn-win',
       },
     ]}
   >
@@ -277,4 +282,50 @@ const metadata = {
       </div>
     </Fragment>
   </CallToAction>
+
+  <script>
+    // OS Detection for hero + CTA buttons
+    function detectOS(): 'mac' | 'windows' | 'unknown' {
+      const uaData = (navigator as any).userAgentData;
+      if (uaData?.platform) {
+        const p = uaData.platform.toLowerCase();
+        if (p.includes('mac')) return 'mac';
+        if (p.includes('win')) return 'windows';
+      }
+      const ua = navigator.userAgent.toLowerCase();
+      const platform = (navigator.platform || '').toLowerCase();
+      if (platform.includes('mac') || ua.includes('macintosh') || ua.includes('mac os x')) return 'mac';
+      if (platform.includes('win') || ua.includes('windows nt') || ua.includes('win32') || ua.includes('win64')) return 'windows';
+      return 'unknown';
+    }
+
+    const os = detectOS();
+
+    function applyOsToButtons(macClass: string, winClass: string) {
+      const macBtns = document.querySelectorAll<HTMLElement>(`.${macClass}`);
+      const winBtns = document.querySelectorAll<HTMLElement>(`.${winClass}`);
+
+      if (os === 'mac') {
+        // Mac button stays primary (visible), Windows becomes subtle secondary
+        winBtns.forEach((btn) => {
+          btn.style.opacity = '0.55';
+          btn.style.fontSize = '0.85em';
+        });
+      } else if (os === 'windows') {
+        // Swap: make Windows button look primary, Mac secondary
+        macBtns.forEach((btn) => {
+          btn.style.opacity = '0.55';
+          btn.style.fontSize = '0.85em';
+        });
+        winBtns.forEach((btn) => {
+          // Promote win button to primary style
+          btn.classList.add('btn-primary');
+          btn.classList.remove('btn-secondary');
+        });
+      }
+    }
+
+    applyOsToButtons('hero-btn-mac', 'hero-btn-win');
+    applyOsToButtons('cta-btn-mac', 'cta-btn-win');
+  </script>
 </Layout>
