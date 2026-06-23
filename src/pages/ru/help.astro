@@ -79,10 +79,12 @@ const sections = [
 <Layout metadata={metadata}>
   <section class="relative py-20 md:py-24 overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"></div>
+    <div class="orb orb-blue w-64 h-64 -top-16 -left-16"></div>
+    <div class="orb orb-violet w-56 h-56 -bottom-10 -right-10"></div>
     <div class="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
-      <p class="text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4">Центр помощи</p>
-      <h1 class="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6">Чем можем помочь?</h1>
-      <p class="text-xl text-gray-600 dark:text-slate-300 max-w-xl mx-auto mb-10">
+      <p class="reveal text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4">Центр помощи</p>
+      <h1 class="reveal text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6" data-delay="80">Чем можем помочь?</h1>
+      <p class="reveal text-xl text-gray-600 dark:text-slate-300 max-w-xl mx-auto mb-10" data-delay="160">
         Руководства, ответы и устранение неполадок для Siplinx AI. Не нашли ответ? Напишите нам напрямую.
       </p>
     </div>
@@ -90,14 +92,14 @@ const sections = [
 
   <section class="py-8 max-w-4xl mx-auto px-4 sm:px-6 space-y-12">
     {sections.map((section) => (
-      <div id={section.id}>
+      <div id={section.id} class="reveal">
         <div class="flex items-center gap-3 mb-6">
           <span class="text-3xl">{section.icon}</span>
           <h2 class="text-2xl font-bold text-gray-900 dark:text-white">{section.title}</h2>
         </div>
         <div class="space-y-3">
           {section.items.map((item) => (
-            <details class="group bg-white dark:bg-slate-900/50 border border-gray-100 dark:border-slate-800 rounded-xl overflow-hidden hover:border-blue-200 dark:hover:border-blue-800 transition-colors">
+            <details class="group card-hover bg-white dark:bg-slate-900/50 border border-gray-100 dark:border-slate-800 rounded-xl overflow-hidden hover:border-blue-200 dark:hover:border-blue-800 transition-colors">
               <summary class="flex items-center justify-between gap-4 px-6 py-4 cursor-pointer select-none list-none">
                 <span class="font-semibold text-gray-900 dark:text-white text-sm leading-snug">{item.q}</span>
                 <svg class="w-5 h-5 flex-shrink-0 text-gray-400 transition-transform duration-200 group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -115,11 +117,11 @@ const sections = [
   </section>
 
   <section class="py-16 max-w-3xl mx-auto px-4 sm:px-6 text-center">
-    <div class="bg-gradient-to-br from-blue-50 to-violet-50 dark:from-blue-950/40 dark:to-violet-950/40 border border-blue-100 dark:border-blue-900/50 rounded-2xl p-10">
+    <div class="reveal bg-gradient-to-br from-blue-50 to-violet-50 dark:from-blue-950/40 dark:to-violet-950/40 border border-blue-100 dark:border-blue-900/50 rounded-2xl p-10">
       <div class="text-4xl mb-4">💬</div>
       <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Нужна дополнительная помощь?</h2>
       <p class="text-gray-600 dark:text-slate-300 mb-6">Наша команда поддержки обычно отвечает в течение нескольких часов в рабочие дни.</p>
-      <a href="mailto:support@siplinx.com" class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-violet-600 text-white font-semibold hover:from-blue-700 hover:to-violet-700 transition-all shadow-md">
+      <a href="mailto:support@siplinx.com" class="btn-shimmer inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-violet-600 text-white font-semibold hover:from-blue-700 hover:to-violet-700 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 duration-200">
         <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
