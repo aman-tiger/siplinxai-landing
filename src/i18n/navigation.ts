@@ -8,9 +8,9 @@ export const headerDataRu = {
     {
       text: 'Ресурсы',
       links: [
-        { text: 'Центр помощи', href: getPermalink('/help') },
-        { text: 'Безопасность', href: getPermalink('/security') },
-        { text: 'Пресса', href: getPermalink('/press') },
+        { text: 'Центр помощи', href: getPermalink('/ru/help') },
+        { text: 'Безопасность', href: getPermalink('/ru/security') },
+        { text: 'Пресса', href: getPermalink('/ru/press') },
         { text: 'Карьера', href: getPermalink('/ru/careers') },
         { text: 'Блог', href: getBlogPermalink() },
       ],
@@ -43,7 +43,7 @@ export const footerDataRu = {
         { text: 'О нас', href: '/ru/about' },
         { text: 'Блог', href: getBlogPermalink() },
         { text: 'Карьера', href: '/ru/careers' },
-        { text: 'Пресса', href: '/press' },
+        { text: 'Пресса', href: '/ru/press' },
         { text: 'Контакты', href: '/ru/contact' },
         { text: 'Политика конфиденциальности', href: '/ru/privacy' },
         { text: 'Условия', href: '/ru/terms' },
@@ -52,8 +52,8 @@ export const footerDataRu = {
     {
       title: 'Поддержка',
       links: [
-        { text: 'Центр помощи', href: '/help' },
-        { text: 'Безопасность', href: '/security' },
+        { text: 'Центр помощи', href: '/ru/help' },
+        { text: 'Безопасность', href: '/ru/security' },
         { text: 'Сообщество', href: '#' },
         { text: 'Статус', href: '#' },
         { text: 'Связаться с нами', href: '/ru/contact' },
