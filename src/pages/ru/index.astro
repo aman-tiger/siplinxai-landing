@@ -15,6 +15,17 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
+  <!-- Промобаннер — первый блок страницы -->
+  <div class="bg-gradient-to-r from-blue-600 to-violet-600 text-white py-3 px-4 text-center text-sm font-medium">
+    🎁 Попробуйте 14 дней бесплатно — используйте промокод
+    <span
+      class="inline-flex items-center gap-1 mx-1 px-2.5 py-0.5 rounded-md bg-white/20 font-mono font-bold tracking-wider text-white border border-white/30"
+    >
+      QATEST100
+    </span>
+    для 100% скидки на первые 14 дней
+  </div>
+
   <Hero
     tagline="14 дней бесплатно — без кредитной карты"
     actions={[
@@ -58,16 +69,6 @@ const metadata = {
       </div>
     </Fragment>
   </Hero>
-
-  <div class="bg-gradient-to-r from-blue-600 to-violet-600 text-white py-3 px-4 text-center text-sm font-medium">
-    🎁 Попробуйте 14 дней бесплатно — используйте промокод
-    <span
-      class="inline-flex items-center gap-1 mx-1 px-2.5 py-0.5 rounded-md bg-white/20 font-mono font-bold tracking-wider text-white border border-white/30"
-    >
-      QATEST100
-    </span>
-    для 100% скидки на первые 14 дней
-  </div>
 
   <Note
     title="Работает с:"
