@@ -6,65 +6,143 @@ const metadata = {
   description: 'Find answers to common questions, setup guides, and troubleshooting help for Siplinx AI.',
 };
 
-const categories = [
+const sections = [
   {
     icon: '🚀',
     title: 'Getting Started',
-    articles: [
-      { title: 'How to download and install Siplinx AI', href: '#install' },
-      { title: 'Setting up local AI models (first-time guide)', href: '#models' },
-      { title: 'System requirements for Mac and Windows', href: '#requirements' },
-      { title: 'How to activate your free 14-day trial', href: '#trial' },
+    id: 'getting-started',
+    items: [
+      {
+        q: 'How do I download and install Siplinx AI?',
+        a: 'Go to the download page and choose the installer for your OS — Mac (.dmg) or Windows (.exe). Run the installer and follow the on-screen steps. During first launch, the app will automatically download the local AI models (LLM + STT). This takes 3–7 minutes depending on your internet speed.',
+      },
+      {
+        q: 'How do I set up the local AI models?',
+        a: 'Model setup happens automatically on first launch. Siplinx AI downloads a quantized LLM (for summaries) and a Whisper-based STT model (for transcription) directly to your device. You don\'t need to configure anything — the app handles it all. After setup, no internet is needed for AI processing.',
+      },
+      {
+        q: 'What are the system requirements?',
+        a: 'Mac: macOS 12 (Monterey) or later, Apple Silicon or Intel, 8 GB RAM minimum, 4 GB free storage. Windows: Windows 10/11 (64-bit), 8 GB RAM minimum, 4 GB free storage. For best performance, 16 GB RAM or Apple Silicon is recommended.',
+      },
+      {
+        q: 'How do I activate my free 14-day trial?',
+        a: 'Download and install Siplinx AI — no credit card is required. At the activation screen, enter promo code QATEST100 for 100% off your first 14 days. After 14 days, you can choose a paid plan or your trial will end automatically.',
+      },
     ],
   },
   {
     icon: '🎙️',
     title: 'Recording & Transcription',
-    articles: [
-      { title: 'How to start recording a meeting', href: '#recording' },
-      { title: 'Supported meeting platforms (Zoom, Teams, Meet…)', href: '#platforms' },
-      { title: 'Transcription accuracy tips', href: '#accuracy' },
-      { title: 'How to record in-person meetings', href: '#in-person' },
+    id: 'recording',
+    items: [
+      {
+        q: 'How do I start recording a meeting?',
+        a: 'Open Siplinx AI before or during your meeting. Click "Start Recording" and select your audio source (microphone, system audio, or both). Transcription begins immediately — you\'ll see the text appear in real time. When the meeting ends, click "Stop" to generate your summary.',
+      },
+      {
+        q: 'Which meeting platforms are supported?',
+        a: 'Siplinx AI works with any application that uses your device audio — including Zoom, Google Meet, Microsoft Teams, Webex, Slack Huddles, and in-person meetings. It captures system audio directly, so no bot joins your meeting.',
+      },
+      {
+        q: 'How do I improve transcription accuracy?',
+        a: 'Use a good quality microphone or headset. Reduce background noise. Speak clearly and avoid overlapping conversations. In Siplinx AI settings, you can choose a larger Whisper model for higher accuracy (at the cost of more CPU/RAM usage).',
+      },
+      {
+        q: 'Can I record in-person meetings?',
+        a: 'Yes. Place your device with Siplinx AI open near the participants. Select "Microphone" as the audio source. The local STT model will transcribe speech from the room in real time — no internet needed.',
+      },
     ],
   },
   {
     icon: '📝',
     title: 'Notes & Summaries',
-    articles: [
-      { title: 'How summaries are generated', href: '#summaries' },
-      { title: 'Extracting action items from meetings', href: '#action-items' },
-      { title: 'Exporting notes to Notion, PDF, or Markdown', href: '#export' },
-      { title: 'Searching your meeting history', href: '#search' },
+    id: 'notes',
+    items: [
+      {
+        q: 'How are summaries generated?',
+        a: 'When the meeting ends, the on-device LLM reads the full transcript and generates a structured summary: key topics, decisions made, and action items. Everything runs locally — the model never sends your transcript to any server.',
+      },
+      {
+        q: 'How does action item extraction work?',
+        a: 'The local LLM identifies tasks, commitments, and follow-ups mentioned during the meeting. Each action item includes the task description, the person responsible (if named), and any deadline mentioned. You can edit them before exporting.',
+      },
+      {
+        q: 'How do I export meeting notes?',
+        a: 'After the meeting, click "Export" to choose your format: Markdown, PDF, Notion, Obsidian, or Microsoft Word. All exports happen locally — your notes never touch our servers. You can also copy the full transcript or summary to clipboard.',
+      },
+      {
+        q: 'Can I search my meeting history?',
+        a: 'Yes. Use the search bar in the Siplinx AI app to search across all your past meetings by keyword, date, or participant name. Search runs locally against your encrypted local database.',
+      },
     ],
   },
   {
     icon: '🔒',
     title: 'Privacy & Security',
-    articles: [
-      { title: 'How Siplinx AI keeps your data private', href: '#privacy' },
-      { title: 'Does Siplinx AI work offline?', href: '#offline' },
-      { title: 'What data is stored and where', href: '#data-storage' },
-      { title: 'Enterprise privacy compliance (GDPR, HIPAA)', href: '#compliance' },
+    id: 'privacy',
+    items: [
+      {
+        q: 'How does Siplinx AI protect my privacy?',
+        a: 'All AI processing — transcription, summarization, action item extraction — happens on your device using local models. Your audio and meeting content never leave your computer. The only data on our servers is your account email and subscription status.',
+      },
+      {
+        q: 'Does Siplinx AI work offline?',
+        a: 'Yes. Once the AI models are installed during setup, Siplinx AI works completely offline. No internet is needed for recording, transcription, or generating summaries. Internet is only used for optional features like software updates.',
+      },
+      {
+        q: 'Where is my data stored?',
+        a: 'All transcripts, summaries, and notes are stored in an encrypted local database on your machine. You choose where the folder is located in settings. You can delete all local data at any time from within the app.',
+      },
+      {
+        q: 'Is Siplinx AI GDPR and HIPAA compliant?',
+        a: 'Because no meeting data is processed on our servers, Siplinx AI is well-suited for GDPR and HIPAA requirements. Your meeting content stays within your own device and network boundary. We recommend consulting your compliance team for your specific use case.',
+      },
     ],
   },
   {
     icon: '💳',
     title: 'Account & Billing',
-    articles: [
-      { title: 'How to use promo code QATEST100', href: '#promo' },
-      { title: 'Upgrading from trial to a paid plan', href: '#upgrade' },
-      { title: 'Cancelling your subscription', href: '#cancel' },
-      { title: 'Managing multiple devices', href: '#devices' },
+    id: 'billing',
+    items: [
+      {
+        q: 'How do I use promo code QATEST100?',
+        a: 'Enter QATEST100 at the activation screen when you first launch Siplinx AI after installation. This gives you 100% off your first 14 days — no credit card required. The code is applied automatically at checkout.',
+      },
+      {
+        q: 'How do I upgrade from trial to a paid plan?',
+        a: 'When your trial ends (or at any time during the trial), go to Settings → Subscription and choose your plan. You\'ll be prompted to enter your payment details. Your notes and settings are preserved automatically.',
+      },
+      {
+        q: 'How do I cancel my subscription?',
+        a: 'Go to Settings → Subscription → Cancel Plan. Your subscription stays active until the end of the current billing period. You can still access your local notes after cancellation — they stay on your device.',
+      },
+      {
+        q: 'Can I use Siplinx AI on multiple devices?',
+        a: 'Yes, depending on your plan. The Starter plan covers 1 device. Pro and Enterprise plans support multiple devices. Sign in with the same account on each device — notes are stored locally per device.',
+      },
     ],
   },
   {
     icon: '🛠️',
     title: 'Troubleshooting',
-    articles: [
-      { title: 'Audio not being detected — fix guide', href: '#audio' },
-      { title: 'Model installation errors', href: '#model-errors' },
-      { title: 'App crashes or freezes', href: '#crashes' },
-      { title: 'High CPU / RAM usage during meetings', href: '#performance' },
+    id: 'troubleshooting',
+    items: [
+      {
+        q: 'Audio is not being detected — what do I do?',
+        a: 'Make sure Siplinx AI has microphone permission in your OS settings (System Preferences → Privacy on Mac; Settings → Privacy → Microphone on Windows). If capturing system audio, enable "Loopback" or "Stereo Mix" in your audio settings. Restart the app after changing permissions.',
+      },
+      {
+        q: 'The AI model installation fails — how do I fix it?',
+        a: 'Check that you have at least 4 GB of free disk space. Ensure your internet connection is stable during the initial model download. If the download fails, go to Settings → Models → Re-download Models. If the problem persists, contact support via Telegram.',
+      },
+      {
+        q: 'The app crashes or freezes during a meeting.',
+        a: 'Make sure you have at least 8 GB RAM available (close other heavy apps). Update Siplinx AI to the latest version (Settings → Check for Updates). If you\'re on Windows, ensure your GPU drivers are up to date. Send us a crash report via Telegram with the log file from Settings → Logs.',
+      },
+      {
+        q: 'CPU or RAM usage is too high during meetings.',
+        a: 'In Settings → Models, switch to the "Fast" model variant — it uses less memory at slightly lower accuracy. On Mac, Apple Silicon handles local AI much more efficiently than Intel. Close unnecessary applications before starting a long meeting.',
+      },
     ],
   },
 ];
@@ -73,70 +151,57 @@ const categories = [
 <Layout metadata={metadata}>
   <!-- Hero -->
   <section class="relative py-20 md:py-24 overflow-hidden">
-    <div
-      class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"
-    >
-    </div>
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"></div>
+    <div class="orb orb-blue w-64 h-64 -top-16 -left-16"></div>
+    <div class="orb orb-violet w-56 h-56 -bottom-10 -right-10"></div>
     <div class="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
-      <p class="text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4">Help Center</p>
-      <h1 class="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6">
+      <p class="reveal text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4">Help Center</p>
+      <h1 class="reveal text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6" data-delay="80">
         How can we help?
       </h1>
-      <p class="text-xl text-gray-600 dark:text-slate-300 max-w-xl mx-auto mb-10">
+      <p class="reveal text-xl text-gray-600 dark:text-slate-300 max-w-xl mx-auto mb-10" data-delay="160">
         Guides, answers, and troubleshooting for Siplinx AI. Can't find what you need? Write to us directly.
       </p>
-      <div class="max-w-lg mx-auto relative">
-        <div class="flex items-center bg-white dark:bg-slate-900 border border-gray-200 dark:border-slate-700 rounded-xl shadow-sm px-4 py-3.5 gap-3">
-          <svg class="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35m0 0A7 7 0 104.65 4.65a7 7 0 0011.99 11.99z" />
-          </svg>
-          <span class="text-gray-400 dark:text-slate-500">Search help articles…</span>
-        </div>
-      </div>
     </div>
   </section>
 
-  <!-- Categories -->
-  <section class="py-16 max-w-6xl mx-auto px-4 sm:px-6">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {
-        categories.map((cat) => (
-          <div class="bg-white dark:bg-slate-900/50 border border-gray-100 dark:border-slate-800 rounded-xl p-6 hover:border-blue-200 dark:hover:border-blue-800 hover:shadow-md transition-all duration-200">
-            <div class="text-3xl mb-3">{cat.icon}</div>
-            <h2 class="text-lg font-bold text-gray-900 dark:text-white mb-4">{cat.title}</h2>
-            <ul class="space-y-2">
-              {cat.articles.map((a) => (
-                <li>
-                  <a
-                    href={a.href}
-                    class="text-sm text-blue-600 dark:text-blue-400 hover:underline flex items-start gap-1.5"
-                  >
-                    <svg class="w-4 h-4 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                    </svg>
-                    {a.title}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))
-      }
-    </div>
+  <!-- Q&A Sections -->
+  <section class="py-8 max-w-4xl mx-auto px-4 sm:px-6 space-y-12">
+    {sections.map((section) => (
+      <div id={section.id} class="reveal">
+        <div class="flex items-center gap-3 mb-6">
+          <span class="text-3xl">{section.icon}</span>
+          <h2 class="text-2xl font-bold text-gray-900 dark:text-white">{section.title}</h2>
+        </div>
+        <div class="space-y-3">
+          {section.items.map((item) => (
+            <details class="group card-hover bg-white dark:bg-slate-900/50 border border-gray-100 dark:border-slate-800 rounded-xl overflow-hidden hover:border-blue-200 dark:hover:border-blue-800 transition-colors">
+              <summary class="flex items-center justify-between gap-4 px-6 py-4 cursor-pointer select-none list-none">
+                <span class="font-semibold text-gray-900 dark:text-white text-sm leading-snug">{item.q}</span>
+                <svg class="w-5 h-5 flex-shrink-0 text-gray-400 transition-transform duration-200 group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div class="px-6 pb-5 pt-1 text-sm text-gray-600 dark:text-slate-300 leading-relaxed border-t border-gray-50 dark:border-slate-800">
+                {item.a}
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+    ))}
   </section>
 
   <!-- Contact support -->
   <section class="py-16 max-w-3xl mx-auto px-4 sm:px-6 text-center">
-    <div class="bg-gradient-to-br from-blue-50 to-violet-50 dark:from-blue-950/40 dark:to-violet-950/40 border border-blue-100 dark:border-blue-900/50 rounded-2xl p-10">
+    <div class="reveal bg-gradient-to-br from-blue-50 to-violet-50 dark:from-blue-950/40 dark:to-violet-950/40 border border-blue-100 dark:border-blue-900/50 rounded-2xl p-10">
       <div class="text-4xl mb-4">💬</div>
       <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Still need help?</h2>
       <p class="text-gray-600 dark:text-slate-300 mb-6">
         Our support team typically responds within a few hours on business days.
       </p>
-      <a
-        href="mailto:support@siplinx.com"
-        class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-violet-600 text-white font-semibold hover:from-blue-700 hover:to-violet-700 transition-all shadow-md"
-      >
+      <a href="mailto:support@siplinx.com"
+        class="btn-shimmer inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-violet-600 text-white font-semibold hover:from-blue-700 hover:to-violet-700 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 duration-200">
         <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>

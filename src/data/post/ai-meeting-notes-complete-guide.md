@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-06-15T00:00:00Z
+publishDate: 2026-06-21T00:00:00Z
 title: 'AI Meeting Notes: The Complete Guide to Never Missing Action Items Again'
 excerpt: 'Learn how AI meeting notes work, why manual note-taking fails, and how to choose the right tool—including local, private options like SipLinxAI.'
 image: https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80

@@ -19,7 +19,11 @@
   --font-serif: 'var(--aw-font-serif, ui-serif)', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
   --font-heading: 'var(--aw-font-heading, ui-sans-serif)', ui-sans-serif, system-ui, sans-serif;
 
-  --animate-fade: fadeInUp 1s both;
+  --animate-fade: fadeInUp 0.7s both;
+  --animate-fade-left: fadeInLeft 0.7s both;
+  --animate-fade-right: fadeInRight 0.7s both;
+  --animate-scale: scaleIn 0.6s both;
+  --animate-float: floatUp 3s ease-in-out infinite;
 
   @keyframes fadeInUp {
     0% {
@@ -30,6 +34,63 @@
       opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-2rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(2rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes floatUp {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-0.75rem);
+    }
+  }
+
+  @keyframes shimmer {
+    0% { background-position: -200% center; }
+    100% { background-position: 200% center; }
+  }
+
+  @keyframes gradientShift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 20px 0px rgba(59, 130, 246, 0.3); }
+    50% { box-shadow: 0 0 40px 8px rgba(124, 58, 237, 0.4); }
   }
 }
 

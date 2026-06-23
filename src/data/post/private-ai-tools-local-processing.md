@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-05-20T00:00:00Z
+publishDate: 2026-06-18T00:00:00Z
 title: 'Why Your AI Meeting Tool Might Be Leaking Confidential Data (And How to Stop It)'
 excerpt: 'Most cloud-based AI meeting tools upload your conversations to remote servers. Learn how local AI processing protects your confidential meetings and what to look for in a privacy-first tool.'
 image: https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80

@@ -1,0 +1,92 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Пресс-центр — Siplinx AI',
+  description: 'Последние новости, пресс-релизы и обновления компании Siplinx AI.',
+};
+
+const articles = [
+  {
+    date: '20 июня 2026',
+    category: 'Запуск продукта',
+    title: 'Siplinx AI запускает публичную бета-версию: первый AI для встреч, который никогда не отправляет ваши данные в облако',
+    summary: 'Сегодня мы объявляем о публичной бета-версии Siplinx AI — десктопного приложения, которое устанавливает локальные LLM и STT модели прямо на ваш Mac или Windows PC. В отличие от всех других AI-инструментов для встреч, Siplinx AI никогда не подключается к удалённому AI-серверу. Ваши аудиозаписи, транскрипты и резюме генерируются исключительно на вашем устройстве.',
+    body: `<p class="mb-4">Мы создали Siplinx AI, потому что верим: нынешнее поколение AI-инструментов для встреч имеет фундаментальную проблему конфиденциальности. Когда вы используете Fireflies, Otter или Granola, аудиозапись вашей встречи отправляется на их серверы, обрабатывается их AI и хранится бессрочно. Для юридических команд, медицинских практик, финансовых консультантов и всех, кто ведёт конфиденциальные переговоры, это неприемлемо.</p>
+    <p class="mb-4">Siplinx AI придерживается противоположного подхода. При установке приложение загружает квантованную локальную LLM (для резюме) и STT-модель на основе Whisper (для транскрипции) прямо на ваш компьютер. С этого момента для AI-обработки не требуется сетевое подключение.</p>
+    <p class="mb-4">Ключевые возможности публичной бета-версии:</p>
+    <ul class="list-disc list-inside mb-4 space-y-1">
+      <li>Транскрипция в реальном времени без задержки загрузки</li>
+      <li>Локальные резюме встреч и извлечение задач</li>
+      <li>Работает с Zoom, Google Meet, Microsoft Teams, Webex и очными встречами</li>
+      <li>Экспорт в Markdown, PDF, Notion, Obsidian</li>
+      <li>Доступно для macOS 12+ (Apple Silicon и Intel) и Windows 10/11</li>
+    </ul>
+    <p>Публичная бета-версия доступна сегодня с 14-дневным бесплатным пробным периодом. Используйте промокод <strong>QATEST100</strong> при оформлении для 100% скидки на первые 14 дней.</p>`,
+    author: 'Команда Siplinx AI',
+  },
+  {
+    date: '18 июня 2026',
+    category: 'Новости компании',
+    title: 'Почему мы отказались от облака: история создания Siplinx AI',
+    summary: 'Наши основатели годами наблюдали, как конфиденциальный контент встреч утекает через сторонние AI-сервисы. Каждая демонстрация продукта, обсуждение совета директоров и звонок с клиентом загружались, обрабатывались и хранились вендорами с конфликтующими интересами в области конфиденциальности. Мы решили создать альтернативу.',
+    body: `<p class="mb-4">Идея Siplinx AI возникла в 2024 году, когда наши основатели — с опытом в корпоративном ПО и ML-инфраструктуре — заметили закономерность: команды, наиболее стремящиеся использовать AI-инструменты для встреч, были теми же командами, которым юридически запрещено отправлять данные встреч за пределы организации.</p>
+    <p class="mb-4">Юридические фирмы не могли использовать Otter из-за конфиденциальности клиентов. Медицинские команды не могли использовать Fireflies из-за HIPAA. Финансовые консультанты не могли использовать Granola из-за нормативных требований к хранению данных. Ответ каждого существующего вендора был одинаковым: «Мы сертифицированы по SOC 2». Но сертификация не меняет фундаментальную архитектуру — ваши данные всё равно поступают на их серверы.</p>
+    <p class="mb-4">Мы провели шесть месяцев, исследуя, могут ли современные квантованные LLM и STT-модели работать достаточно быстро на потребительском оборудовании для практического использования. Результат нас удивил: на Apple Silicon и современных процессорах Intel/AMD локальная транскрипция на основе Whisper работает быстрее, чем потоковая передача в облачный API. Локальная суммаризация с квантованной моделью на 7B параметров занимает менее 30 секунд после окончания встречи.</p>
+    <p class="mb-4">Мы поняли, что можем обеспечить лучшую производительность, лучшую конфиденциальность и более простую модель доверия — всё в одном десктопном приложении.</p>
+    <p>Сегодня Siplinx AI находится в публичной бета-версии. Мы небольшая полностью удалённая команда, создающая AI для встреч, который всегда хотели для себя. Если это вам близко, <a href="/ru/careers" class="text-blue-600 hover:underline">мы нанимаем</a>.</p>`,
+    author: 'Команда Siplinx AI',
+  },
+];
+---
+
+<Layout metadata={metadata}>
+  <section class="relative py-20 md:py-24 overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"></div>
+    <div class="orb orb-blue w-60 h-60 -top-10 -left-12"></div>
+    <div class="orb orb-violet w-52 h-52 -bottom-8 -right-10"></div>
+    <div class="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
+      <p class="reveal text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4">Пресс-центр</p>
+      <h1 class="reveal text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6" data-delay="80">Новости Siplinx AI</h1>
+      <p class="reveal text-xl text-gray-600 dark:text-slate-300 max-w-xl mx-auto" data-delay="160">Пресс-релизы, анонсы продуктов и новости компании.</p>
+    </div>
+  </section>
+
+  <section class="py-16 max-w-4xl mx-auto px-4 sm:px-6">
+    <div class="space-y-8">
+      {articles.map((article, i) => (
+        <article id={`article-${i + 1}`} class="reveal card-hover bg-white dark:bg-slate-900/50 border border-gray-100 dark:border-slate-800 rounded-2xl p-8 hover:border-blue-200 dark:hover:border-blue-800" data-delay={i * 120}>
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 border border-blue-100 dark:border-blue-800">{article.category}</span>
+            <span class="text-sm text-gray-500 dark:text-slate-500">{article.date}</span>
+          </div>
+          <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3 leading-snug">{article.title}</h2>
+          <p class="text-gray-600 dark:text-slate-300 mb-6 leading-relaxed">{article.summary}</p>
+          <details class="group">
+            <summary class="cursor-pointer text-blue-600 dark:text-blue-400 font-semibold text-sm hover:underline flex items-center gap-1.5 select-none">
+              <svg class="w-4 h-4 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
+              Читать полностью
+            </summary>
+            <div class="mt-6 pt-6 border-t border-gray-100 dark:border-slate-800 text-gray-600 dark:text-slate-300 text-sm leading-relaxed prose dark:prose-invert max-w-none" set:html={article.body} />
+          </details>
+          <div class="mt-6 pt-4 border-t border-gray-50 dark:border-slate-800/60 text-xs text-gray-400 dark:text-slate-600">{article.author}</div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="py-16 max-w-3xl mx-auto px-4 sm:px-6 text-center">
+    <div class="reveal bg-gradient-to-br from-blue-50 to-violet-50 dark:from-blue-950/40 dark:to-violet-950/40 border border-blue-100 dark:border-blue-900/50 rounded-2xl p-10">
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Запросы от прессы и СМИ</h2>
+      <p class="text-gray-600 dark:text-slate-300 mb-6 text-sm">Журналисты и аналитики: мы готовы предоставить комментарии, демонстрации или справочную информацию о локальном AI и пространстве конфиденциальных встреч.</p>
+      <a href="https://t.me/amanyessen" target="_blank" rel="noopener noreferrer" class="btn-shimmer inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-violet-600 text-white font-semibold hover:from-blue-700 hover:to-violet-700 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 duration-200">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L6.922 14.06l-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.46c.537-.194 1.006.131.828.498z"/>
+        </svg>
+        Написать в Telegram
+      </a>
+    </div>
+  </section>
+</Layout>

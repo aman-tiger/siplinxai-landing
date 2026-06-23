@@ -1,0 +1,120 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Privacy Policy — Siplinx AI',
+  description: 'How Siplinx AI collects, uses, and protects your data. Local-first architecture means your meeting content never leaves your device.',
+};
+
+const lastUpdated = 'June 18, 2026';
+---
+
+<Layout metadata={metadata}>
+  <section class="relative py-20 md:py-24 overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"></div>
+    <div class="orb orb-blue w-52 h-52 -top-10 -left-10"></div>
+    <div class="orb orb-violet w-44 h-44 -bottom-8 -right-8"></div>
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 text-center">
+      <p class="reveal text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4">Legal</p>
+      <h1 class="reveal text-4xl md:text-5xl font-bold tracking-tight text-gray-900 dark:text-white mb-4" data-delay="80">Privacy Policy</h1>
+      <p class="reveal text-gray-500 dark:text-slate-400 text-sm" data-delay="160">Last updated: {lastUpdated}</p>
+    </div>
+  </section>
+
+  <section class="py-12 max-w-3xl mx-auto px-4 sm:px-6">
+    <div class="prose prose-gray dark:prose-invert max-w-none prose-headings:font-bold prose-headings:tracking-tight prose-a:text-blue-600 dark:prose-a:text-blue-400">
+
+      <div class="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-xl px-6 py-4 mb-8 not-prose">
+        <p class="text-green-800 dark:text-green-300 text-sm font-medium">
+          <strong>TL;DR:</strong> Siplinx AI processes all your meeting audio, transcripts, and notes entirely on your device using local AI models. We never receive, store, or process your meeting content on our servers.
+        </p>
+      </div>
+
+      <h2>1. Who We Are</h2>
+      <p>Siplinx AI ("we", "us", "our") is a software company that develops and distributes a desktop application for private, local AI meeting notes. Our registered contact email is <a href="mailto:support@siplinx.com">support@siplinx.com</a>.</p>
+
+      <h2>2. Our Core Privacy Principle</h2>
+      <p>Siplinx AI is built on a local-first architecture. The application installs AI models directly on your device. All audio capture, speech-to-text transcription, and language model summarization happens on your machine — not on our servers. We have no technical ability to access your meeting content because it never travels to us.</p>
+
+      <h2>3. What We Collect</h2>
+      <h3>3.1 Account Information</h3>
+      <p>When you create an account or activate a subscription, we collect:</p>
+      <ul>
+        <li>Email address</li>
+        <li>Subscription status and plan type</li>
+        <li>Payment information (processed by our payment provider; we do not store card details)</li>
+        <li>License key and activation timestamps</li>
+      </ul>
+
+      <h3>3.2 App Usage Telemetry (Optional)</h3>
+      <p>With your explicit consent, we may collect anonymized, aggregated usage data to improve the product, such as:</p>
+      <ul>
+        <li>App version and OS version</li>
+        <li>Feature usage frequency (e.g., "export to PDF used")</li>
+        <li>Crash reports (without any meeting content)</li>
+      </ul>
+      <p>You can opt out of telemetry at any time in Settings → Privacy.</p>
+
+      <h3>3.3 What We Never Collect</h3>
+      <p>We never collect, receive, or store:</p>
+      <ul>
+        <li>Meeting audio recordings</li>
+        <li>Transcripts or text of conversations</li>
+        <li>AI-generated summaries, notes, or action items</li>
+        <li>Names of meeting participants</li>
+        <li>Names of clients, projects, or files discussed</li>
+        <li>Screen content or window titles</li>
+        <li>Any biometric or voice data</li>
+        <li>Meeting metadata from Zoom, Teams, Meet, or other platforms</li>
+      </ul>
+
+      <h2>4. How We Use Your Data</h2>
+      <p>The account information we collect is used to:</p>
+      <ul>
+        <li>Provide and maintain your Siplinx AI subscription</li>
+        <li>Send transactional emails (license confirmation, subscription receipts, expiry reminders)</li>
+        <li>Respond to support requests</li>
+        <li>Improve the software through aggregated, anonymized telemetry (with consent)</li>
+      </ul>
+      <p>We do not sell, rent, or share your personal data with third parties for marketing purposes.</p>
+
+      <h2>5. Local Data Storage</h2>
+      <p>All meeting transcripts, summaries, and notes are stored in an encrypted local database on your device. The location of this database is configurable in the app settings. You have full control over your local data and can delete it at any time from within the app.</p>
+
+      <h2>6. Third-Party Services</h2>
+      <p>Siplinx AI uses the following third-party services for non-meeting operations:</p>
+      <ul>
+        <li><strong>Stripe</strong> — payment processing. Stripe's privacy policy applies to payment data.</li>
+        <li><strong>Cloudflare</strong> — website hosting and CDN. Cloudflare may process IP addresses for security and performance.</li>
+        <li><strong>Microsoft Clarity</strong> — anonymized website analytics (pages, not app behavior).</li>
+      </ul>
+      <p>None of these services receive your meeting content.</p>
+
+      <h2>7. Data Retention</h2>
+      <p>Account data is retained for as long as your account is active and for up to 12 months after account deletion, as required by applicable tax and accounting laws. You may request deletion of your account data by emailing <a href="mailto:support@siplinx.com">support@siplinx.com</a>.</p>
+
+      <h2>8. Your Rights (GDPR)</h2>
+      <p>If you are located in the European Economic Area, you have the following rights:</p>
+      <ul>
+        <li><strong>Access</strong> — request a copy of the personal data we hold about you</li>
+        <li><strong>Rectification</strong> — request correction of inaccurate data</li>
+        <li><strong>Erasure</strong> — request deletion of your account and associated data</li>
+        <li><strong>Portability</strong> — request your data in a machine-readable format</li>
+        <li><strong>Objection</strong> — object to processing for marketing purposes</li>
+      </ul>
+      <p>To exercise any of these rights, contact us at <a href="mailto:support@siplinx.com">support@siplinx.com</a>.</p>
+
+      <h2>9. Children's Privacy</h2>
+      <p>Siplinx AI is not directed at children under 16. We do not knowingly collect personal data from anyone under 16. If you believe a child has provided us with personal data, please contact us to have it removed.</p>
+
+      <h2>10. Security</h2>
+      <p>We use industry-standard security practices to protect account data: encrypted storage, TLS in transit, and access controls. Because meeting content is processed locally on your device, it is not subject to cloud data breaches.</p>
+
+      <h2>11. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. We will notify you by email or in-app notification for material changes. The "Last updated" date at the top of this page will always reflect the most recent revision.</p>
+
+      <h2>12. Contact</h2>
+      <p>For privacy-related questions or requests, contact us at <a href="mailto:support@siplinx.com">support@siplinx.com</a>.</p>
+    </div>
+  </section>
+</Layout>

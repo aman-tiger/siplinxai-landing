@@ -102,7 +102,7 @@ const jobs = [
     title: 'Developer Advocate',
     department: 'Marketing',
     type: 'Full-time · Remote',
-    description: "Engage developers and technical users who care about local AI. Create tutorials, demos, and open-source integrations that showcase Siplinx AI's capabilities.",
+    description: 'Engage developers and technical users who care about local AI. Create tutorials, demos, and open-source integrations that showcase Siplinx AI\'s capabilities.',
     tags: ['DevRel', 'Open Source', 'Community', 'Technical Writing'],
   },
   {
@@ -155,23 +155,22 @@ const departments = [...new Set(jobs.map((j) => j.department))];
 <Layout metadata={metadata}>
   <!-- Hero -->
   <section class="relative py-20 md:py-28 overflow-hidden">
-    <div
-      class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"
-    >
-    </div>
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"></div>
+    <div class="orb orb-blue w-80 h-80 top-0 -left-24"></div>
+    <div class="orb orb-violet w-72 h-72 bottom-0 -right-20"></div>
     <div class="relative max-w-5xl mx-auto px-4 sm:px-6 text-center">
-      <p class="text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4">We're hiring</p>
-      <h1 class="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6">
+      <p class="reveal text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4">We're hiring</p>
+      <h1 class="reveal text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6" data-delay="100">
         Build the future of<br />
-        <span class="bg-gradient-to-r from-blue-500 to-violet-600 bg-clip-text text-transparent">private AI</span>
+        <span class="gradient-animate">private AI</span>
       </h1>
-      <p class="text-xl text-gray-600 dark:text-slate-300 max-w-2xl mx-auto mb-10">
+      <p class="reveal text-xl text-gray-600 dark:text-slate-300 max-w-2xl mx-auto mb-10" data-delay="200">
         At Siplinx AI we believe AI should work for you — on your device, under your control. Join a small, ambitious
         team building the meeting AI that never sends your data anywhere.
       </p>
-      <div class="flex flex-wrap justify-center gap-6 text-sm text-gray-600 dark:text-slate-400">
+      <div class="reveal flex flex-wrap justify-center gap-6 text-sm text-gray-600 dark:text-slate-400" data-delay="280">
         <span class="flex items-center gap-2">
-          <span class="w-2 h-2 rounded-full bg-green-500 inline-block"></span>
+          <span class="w-2 h-2 rounded-full bg-green-500 inline-block animate-pulse"></span>
           100% Remote
         </span>
         <span class="flex items-center gap-2">
@@ -189,106 +188,78 @@ const departments = [...new Set(jobs.map((j) => j.department))];
   <!-- Values strip -->
   <section class="bg-white dark:bg-[#060512] border-y border-gray-100 dark:border-slate-800 py-12">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
-      {
-        [
-          {
-            icon: '🔒',
-            title: 'Privacy by default',
-            desc: "Everything we build starts with the assumption that your data is yours. That's not a feature — it's a principle.",
-          },
-          {
-            icon: '⚡',
-            title: 'Local-first engineering',
-            desc: 'We run LLMs and STT models on your device. Our engineering challenges are real: latency, accuracy, power, and size.',
-          },
-          {
-            icon: '🌍',
-            title: 'Async & remote',
-            desc: 'We hire the best people regardless of location. We communicate in writing, move fast, and respect deep work.',
-          },
-        ].map((v) => (
-          <div class="px-4">
-            <div class="text-4xl mb-3">{v.icon}</div>
-            <h3 class="font-bold text-gray-900 dark:text-white mb-2">{v.title}</h3>
-            <p class="text-sm text-gray-600 dark:text-slate-400 leading-relaxed">{v.desc}</p>
-          </div>
-        ))
-      }
+      {[
+        { icon: '🔒', title: 'Privacy by default', desc: "Everything we build starts with the assumption that your data is yours. That's not a feature — it's a principle." },
+        { icon: '⚡', title: 'Local-first engineering', desc: 'We run LLMs and STT models on your device. Our engineering challenges are real: latency, accuracy, power, and size.' },
+        { icon: '🌍', title: 'Async & remote', desc: 'We hire the best people regardless of location. We communicate in writing, move fast, and respect deep work.' },
+      ].map((v, i) => (
+        <div class="reveal-scale px-4" data-delay={i * 100}>
+          <div class="text-4xl mb-3">{v.icon}</div>
+          <h3 class="font-bold text-gray-900 dark:text-white mb-2">{v.title}</h3>
+          <p class="text-sm text-gray-600 dark:text-slate-400 leading-relaxed">{v.desc}</p>
+        </div>
+      ))}
     </div>
   </section>
 
   <!-- Job listings -->
   <section class="py-20 max-w-6xl mx-auto px-4 sm:px-6">
-    <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center">Open Positions</h2>
+    <h2 class="reveal text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center">Open Positions</h2>
 
-    {
-      departments.map((dept) => (
-        <div class="mb-14">
-          <h3 class="text-xs font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4 pb-2 border-b border-gray-100 dark:border-slate-800">
-            {dept}
-          </h3>
-          <div class="space-y-4">
-            {jobs
-              .filter((j) => j.department === dept)
-              .map((job) => (
-                <div class="group bg-white dark:bg-slate-900/50 border border-gray-100 dark:border-slate-800 rounded-xl p-6 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all duration-200">
-                  <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
-                    <div class="flex-1">
-                      <h4 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                        {job.title}
-                      </h4>
-                      <p class="text-sm text-gray-500 dark:text-slate-400 mt-0.5 mb-3">{job.type}</p>
-                      <p class="text-gray-600 dark:text-slate-300 text-sm leading-relaxed">{job.description}</p>
-                      <div class="flex flex-wrap gap-2 mt-4">
-                        {job.tags.map((tag) => (
-                          <span class="px-2.5 py-0.5 rounded-md text-xs font-medium bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 border border-blue-100 dark:border-blue-800">
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                    <div class="flex-shrink-0">
-                      <a
-                        href={`mailto:careers@siplinx.com?subject=Application: ${encodeURIComponent(job.title)}`}
-                        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-violet-600 text-white text-sm font-semibold hover:from-blue-700 hover:to-violet-700 transition-all"
-                      >
-                        Apply now
-                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                        </svg>
-                      </a>
-                    </div>
+    {departments.map((dept) => (
+      <div class="mb-14">
+        <h3 class="reveal text-xs font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4 pb-2 border-b border-gray-100 dark:border-slate-800">
+          {dept}
+        </h3>
+        <div class="space-y-4">
+          {jobs.filter((j) => j.department === dept).map((job, i) => (
+            <div class="reveal card-hover group bg-white dark:bg-slate-900/50 border border-gray-100 dark:border-slate-800 rounded-xl p-6 hover:border-blue-300 dark:hover:border-blue-700" data-delay={i * 60}>
+              <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
+                <div class="flex-1">
+                  <h4 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    {job.title}
+                  </h4>
+                  <p class="text-sm text-gray-500 dark:text-slate-400 mt-0.5 mb-3">{job.type}</p>
+                  <p class="text-gray-600 dark:text-slate-300 text-sm leading-relaxed">{job.description}</p>
+                  <div class="flex flex-wrap gap-2 mt-4">
+                    {job.tags.map((tag) => (
+                      <span class="px-2.5 py-0.5 rounded-md text-xs font-medium bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 border border-blue-100 dark:border-blue-800">
+                        {tag}
+                      </span>
+                    ))}
                   </div>
                 </div>
-              ))}
-          </div>
+                <div class="flex-shrink-0">
+                  <a href="https://t.me/amanyessen" target="_blank" rel="noopener noreferrer"
+                    class="btn-shimmer inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-violet-600 text-white text-sm font-semibold hover:from-blue-700 hover:to-violet-700 transition-all hover:-translate-y-0.5 duration-200">
+                    Apply now
+                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
-      ))
-    }
+      </div>
+    ))}
   </section>
 
   <!-- CTA -->
-  <section
-    class="relative py-20 overflow-hidden bg-gradient-to-br from-blue-600 via-blue-700 to-violet-700 dark:from-blue-900 dark:via-blue-950 dark:to-violet-950"
-  >
+  <section class="relative py-20 overflow-hidden bg-gradient-to-br from-blue-600 via-blue-700 to-violet-700 dark:from-blue-900 dark:via-blue-950 dark:to-violet-950">
+    <div class="orb orb-cyan w-64 h-64 top-0 right-0 opacity-20"></div>
     <div class="relative max-w-3xl mx-auto px-4 sm:px-6 text-center">
-      <h2 class="text-4xl font-bold text-white mb-4">Don't see your role?</h2>
-      <p class="text-xl text-blue-100 mb-8">
-        We're always looking for exceptional people. If you believe in local AI and privacy-first tech, reach out and
-        tell us what you'd build.
+      <h2 class="reveal text-4xl font-bold text-white mb-4">Don't see your role?</h2>
+      <p class="reveal text-xl text-blue-100 mb-8" data-delay="100">
+        We're always looking for exceptional people. If you believe in local AI and privacy-first tech, reach out and tell us what you'd build.
       </p>
-      <a
-        href="mailto:careers@siplinx.com"
-        class="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-white text-blue-700 font-bold text-lg hover:bg-blue-50 transition-colors shadow-lg"
-      >
-        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-          ></path>
+      <a href="https://t.me/amanyessen" target="_blank" rel="noopener noreferrer"
+        class="reveal btn-shimmer inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-white text-blue-700 font-bold text-lg hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 duration-200" data-delay="200">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L6.922 14.06l-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.46c.537-.194 1.006.131.828.498z"/>
         </svg>
-        careers@siplinx.com
+        Message on Telegram
       </a>
     </div>
   </section>
