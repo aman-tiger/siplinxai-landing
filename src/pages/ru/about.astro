@@ -1,0 +1,102 @@
+---
+import Features2 from '~/components/widgets/Features2.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'О Siplinx AI',
+};
+---
+
+<Layout metadata={metadata}>
+  <Hero
+    tagline="О Siplinx AI"
+    image={{
+      src: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2070&q=80',
+      alt: 'Команда Siplinx AI',
+    }}
+  >
+    <Fragment slot="title">
+      Создано для людей, которые заботятся о<br />
+      <span class="bg-gradient-to-r from-blue-500 to-violet-600 bg-clip-text text-transparent"
+        >приватности и продуктивности</span
+      >
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Siplinx AI создан на основе простого убеждения: ваши переговоры на встречах конфиденциальны и должны оставаться
+      таковыми. Мы создаём AI-инструменты, которые работают полностью на вашем устройстве — без облака, без третьих
+      сторон, без компромиссов.
+    </Fragment>
+  </Hero>
+
+  <Steps2
+    title="Наша миссия"
+    subtitle="Мы верим, что мощный AI не должен стоить вашей приватности. Siplinx AI создан для того, чтобы дать людям и командам преимущества AI-транскрипции и умных заметок — без отправки чувствительных разговоров в облако."
+    items={[
+      {
+        title: 'Приватность в основе',
+        description:
+          'Каждая функция Siplinx AI создана с учётом приватности с самого начала, а не как дополнение. Все AI-модели работают локально на вашем устройстве.',
+      },
+      {
+        title: 'Радикальная простота',
+        description:
+          'Заметки со встреч должны просто работать. Установите Siplinx AI, войдите в встречу, и ваши заметки будут готовы по её окончании. Никаких мастеров настройки, никаких интеграций для настройки.',
+      },
+      {
+        title: 'Открытость к отзывам',
+        description:
+          'Мы слушаем наших пользователей и постоянно выпускаем улучшения. Есть идея новой функции? Мы хотим её услышать.',
+      },
+    ]}
+  />
+
+  <Steps2
+    title="Что делает Siplinx AI особенным"
+    isReversed={true}
+    callToAction={{
+      text: 'Скачать бесплатно',
+      href: '/ru/download',
+    }}
+    items={[
+      {
+        title: '100% локальная обработка AI',
+        description:
+          'Ваш аудио никогда не покидает ваше устройство. Транскрипция, обобщение и извлечение задач — всё работает на вашем CPU/GPU.',
+        icon: 'tabler:shield-lock',
+      },
+      {
+        title: 'Работает с любой платформой для встреч',
+        description:
+          'Zoom, Google Meet, Microsoft Teams, Webex, Slack Huddles — если это воспроизводит аудио на вашем компьютере, Siplinx AI это захватит.',
+        icon: 'tabler:apps',
+      },
+      {
+        title: 'Доступен для Mac и Windows',
+        description:
+          'Нативные десктопные приложения для macOS (Apple Silicon + Intel) и Windows 10/11. Быстрые, лёгкие, с офлайн-режимом.',
+        icon: 'tabler:device-laptop',
+      },
+    ]}
+  />
+
+  <Features2
+    title="Свяжитесь с нами"
+    tagline="Поддержка"
+    columns={2}
+    items={[
+      {
+        title: 'Email поддержка',
+        description: 'Напишите нашей команде по адресу support@siplinxai.com — мы отвечаем в течение одного рабочего дня.',
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'Сообщество и отзывы',
+        description: 'Присоединяйтесь к нашему сообществу, чтобы делиться идеями, сообщать об ошибках и голосовать за предстоящие функции.',
+        icon: 'tabler:messages',
+      },
+    ]}
+  />
+</Layout>

@@ -4,24 +4,21 @@ import HeroText from '~/components/widgets/HeroText.astro';
 import { Icon } from 'astro-icon/components';
 
 const metadata = {
-  title: 'Download Siplinx AI — 14 Days Free',
+  title: 'Скачать Siplinx AI — 14 дней бесплатно',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero -->
   <HeroText
-    tagline="14 days free — no credit card"
-    title="Download Siplinx AI"
-    subtitle="Install in minutes. Local LLM + STT models set up automatically. Use code QATEST100 for 14 days 100% free."
+    tagline="14 дней бесплатно — без кредитной карты"
+    title="Скачать Siplinx AI"
+    subtitle="Установка за несколько минут. Локальные LLM + STT модели настраиваются автоматически. Используйте код QATEST100 для 14 дней 100% бесплатно."
   />
 
   <div class="max-w-4xl mx-auto px-4 py-12">
 
-    <!-- Single primary card — shown by OS detection -->
     <div id="download-primary" class="flex justify-center mb-6">
 
-      <!-- Mac card (shown by default until JS runs) -->
       <div
         id="card-mac"
         class="w-full max-w-sm rounded-2xl border border-gray-200 dark:border-blue-900 bg-gradient-to-br from-gray-50 via-blue-50/30 to-violet-50/40 dark:from-[#0A0918] dark:via-blue-950/30 dark:to-violet-950/30 p-10 text-center shadow-xl ring-2 ring-blue-500 dark:ring-blue-400"
@@ -31,20 +28,19 @@ const metadata = {
         >
           <Icon name="tabler:brand-apple" class="w-12 h-12 text-white" />
         </div>
-        <h2 class="text-2xl font-bold mb-2 dark:text-white">Download for Mac</h2>
-        <p class="text-muted dark:text-slate-400 mb-1">macOS 12 (Monterey) or later</p>
-        <p class="text-sm text-muted dark:text-slate-500 mb-8">Apple Silicon &amp; Intel · ~85 MB</p>
+        <h2 class="text-2xl font-bold mb-2 dark:text-white">Скачать для Mac</h2>
+        <p class="text-muted dark:text-slate-400 mb-1">macOS 12 (Monterey) и выше</p>
+        <p class="text-sm text-muted dark:text-slate-500 mb-8">Apple Silicon и Intel · ~85 МБ</p>
         <a
           href="https://siplinx-ai.vercel.app/download"
           class="inline-flex items-center gap-2 w-full justify-center px-6 py-4 bg-gradient-to-r from-blue-600 to-violet-600 hover:from-blue-700 hover:to-violet-700 text-white font-bold rounded-xl transition-all duration-200 shadow-md hover:shadow-lg text-base"
         >
           <Icon name="tabler:download" class="w-5 h-5" />
-          Download .dmg
+          Скачать .dmg
         </a>
-        <p class="text-xs text-muted dark:text-slate-500 mt-3">Free · Version 1.0.0</p>
+        <p class="text-xs text-muted dark:text-slate-500 mt-3">Бесплатно · Версия 1.0.0</p>
       </div>
 
-      <!-- Windows card (hidden until JS detects Windows) -->
       <div
         id="card-win"
         class="hidden w-full max-w-sm rounded-2xl border border-gray-200 dark:border-blue-900 bg-gradient-to-br from-gray-50 via-blue-50/30 to-cyan-50/40 dark:from-[#0A0918] dark:via-blue-950/30 dark:to-cyan-950/30 p-10 text-center shadow-xl ring-2 ring-blue-500 dark:ring-blue-400"
@@ -54,29 +50,27 @@ const metadata = {
         >
           <Icon name="tabler:brand-windows" class="w-12 h-12 text-white" />
         </div>
-        <h2 class="text-2xl font-bold mb-2 dark:text-white">Download for Windows</h2>
-        <p class="text-muted dark:text-slate-400 mb-1">Windows 10 / 11 (64-bit)</p>
-        <p class="text-sm text-muted dark:text-slate-500 mb-8">x64 · ~92 MB</p>
+        <h2 class="text-2xl font-bold mb-2 dark:text-white">Скачать для Windows</h2>
+        <p class="text-muted dark:text-slate-400 mb-1">Windows 10 / 11 (64-бит)</p>
+        <p class="text-sm text-muted dark:text-slate-500 mb-8">x64 · ~92 МБ</p>
         <a
           href="https://siplinx-ai.vercel.app/download"
           class="inline-flex items-center gap-2 w-full justify-center px-6 py-4 bg-gradient-to-r from-blue-600 to-violet-600 hover:from-blue-700 hover:to-violet-700 text-white font-bold rounded-xl transition-all duration-200 shadow-md hover:shadow-lg text-base"
         >
           <Icon name="tabler:download" class="w-5 h-5" />
-          Download .exe
+          Скачать .exe
         </a>
-        <p class="text-xs text-muted dark:text-slate-500 mt-3">Free · Version 1.0.0</p>
+        <p class="text-xs text-muted dark:text-slate-500 mt-3">Бесплатно · Версия 1.0.0</p>
       </div>
     </div>
 
-    <!-- Secondary OS link -->
     <p id="os-alt-link" class="hidden text-center text-sm text-muted dark:text-slate-500 mb-16">
-      Not on a Mac?
+      Не на Mac?
       <a id="os-alt-anchor" href="https://siplinx-ai.vercel.app/download" class="underline hover:text-blue-600 dark:hover:text-blue-400">
-        Download for Windows
+        Скачать для Windows
       </a>
     </p>
 
-    <!-- Feature highlights -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
       <div class="text-center p-6 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/10">
         <div
@@ -84,8 +78,10 @@ const metadata = {
         >
           <Icon name="tabler:shield-lock" class="w-6 h-6 text-white" />
         </div>
-        <h3 class="font-bold mb-2 dark:text-white">100% Private</h3>
-        <p class="text-sm text-muted dark:text-slate-400">All processing happens on your device. Nothing leaves your machine.</p>
+        <h3 class="font-bold mb-2 dark:text-white">100% Приватно</h3>
+        <p class="text-sm text-muted dark:text-slate-400">
+          Вся обработка происходит на вашем устройстве. Ничего не покидает ваш компьютер.
+        </p>
       </div>
       <div class="text-center p-6 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/10">
         <div
@@ -93,8 +89,10 @@ const metadata = {
         >
           <Icon name="tabler:rocket" class="w-6 h-6 text-white" />
         </div>
-        <h3 class="font-bold mb-2 dark:text-white">Instant Setup</h3>
-        <p class="text-sm text-muted dark:text-slate-400">Install and start transcribing in under 2 minutes. No account needed.</p>
+        <h3 class="font-bold mb-2 dark:text-white">Мгновенная настройка</h3>
+        <p class="text-sm text-muted dark:text-slate-400">
+          Установите и начните транскрипцию менее чем за 2 минуты. Аккаунт не нужен.
+        </p>
       </div>
       <div class="text-center p-6 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/10">
         <div
@@ -102,28 +100,29 @@ const metadata = {
         >
           <Icon name="tabler:refresh" class="w-6 h-6 text-white" />
         </div>
-        <h3 class="font-bold mb-2 dark:text-white">Free Updates</h3>
-        <p class="text-sm text-muted dark:text-slate-400">Automatic updates with new features and model improvements.</p>
+        <h3 class="font-bold mb-2 dark:text-white">Бесплатные обновления</h3>
+        <p class="text-sm text-muted dark:text-slate-400">
+          Автоматические обновления с новыми функциями и улучшениями моделей.
+        </p>
       </div>
     </div>
 
-    <!-- Promo code + trial note -->
     <div
       class="text-center p-8 rounded-2xl border border-blue-200 dark:border-blue-900 bg-gradient-to-br from-blue-50 to-violet-50 dark:from-blue-950/30 dark:to-violet-950/30"
     >
-      <p class="text-sm font-medium text-muted dark:text-slate-400 mb-2">🎁 First 14 days completely free</p>
-      <h3 class="text-xl font-bold mb-3 dark:text-white">Use promo code at checkout</h3>
+      <p class="text-sm font-medium text-muted dark:text-slate-400 mb-2">🎁 Первые 14 дней полностью бесплатно</p>
+      <h3 class="text-xl font-bold mb-3 dark:text-white">Используйте промокод при оплате</h3>
       <span
         class="inline-block font-mono font-bold text-2xl tracking-widest px-6 py-2 rounded-xl bg-gradient-to-r from-blue-600 to-violet-600 text-white select-all mb-3"
       >
         QATEST100
       </span>
-      <p class="text-sm text-muted dark:text-slate-400 mb-4">100% discount · 14 days · No credit card required</p>
+      <p class="text-sm text-muted dark:text-slate-400 mb-4">100% скидка · 14 дней · Без кредитной карты</p>
       <a
-        href="/pricing"
+        href="/ru/pricing"
         class="inline-flex items-center gap-1 bg-gradient-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent font-semibold hover:underline"
       >
-        View all plans →
+        Посмотреть все планы →
       </a>
     </div>
   </div>
@@ -152,16 +151,16 @@ const metadata = {
     cardWin?.classList.remove('hidden');
     if (altLink && altAnchor) {
       altLink.classList.remove('hidden');
-      altLink.childNodes[0].textContent = 'Not on Windows? ';
-      altAnchor.textContent = 'Download for Mac';
+      altLink.childNodes[0].textContent = 'Не на Windows? ';
+      altAnchor.textContent = 'Скачать для Mac';
     }
   } else {
     cardMac?.classList.remove('hidden');
     cardWin?.classList.add('hidden');
     if (altLink && altAnchor) {
       altLink.classList.remove('hidden');
-      altLink.childNodes[0].textContent = 'Not on a Mac? ';
-      altAnchor.textContent = 'Download for Windows';
+      altLink.childNodes[0].textContent = 'Не на Mac? ';
+      altAnchor.textContent = 'Скачать для Windows';
     }
   }
 </script>

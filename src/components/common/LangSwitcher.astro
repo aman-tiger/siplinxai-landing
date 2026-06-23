@@ -1,0 +1,38 @@
+---
+const currentPath = Astro.url.pathname;
+const isRu = currentPath.startsWith('/ru');
+const enPath = isRu ? currentPath.replace(/^\/ru/, '') || '/' : currentPath;
+const ruPath = isRu ? currentPath : `/ru${currentPath === '/' ? '' : currentPath}`;
+---
+
+<div class="flex items-center gap-0.5 ml-2">
+  <a
+    href={enPath}
+    data-lang-switch="en"
+    class:list={[
+      'px-2 py-1 text-xs font-semibold rounded transition-colors',
+      !isRu
+        ? 'bg-blue-600 text-white'
+        : 'text-muted dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400',
+    ]}
+  >EN</a>
+  <a
+    href={ruPath}
+    data-lang-switch="ru"
+    class:list={[
+      'px-2 py-1 text-xs font-semibold rounded transition-colors',
+      isRu
+        ? 'bg-blue-600 text-white'
+        : 'text-muted dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400',
+    ]}
+  >RU</a>
+</div>
+
+<script>
+  document.querySelectorAll('[data-lang-switch]').forEach((link) => {
+    link.addEventListener('click', () => {
+      const lang = (link as HTMLElement).getAttribute('data-lang-switch');
+      if (lang) localStorage.setItem('siplinx-lang', lang);
+    });
+  });
+</script>

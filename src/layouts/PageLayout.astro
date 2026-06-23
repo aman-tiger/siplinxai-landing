@@ -5,6 +5,7 @@ import Footer from '~/components/widgets/Footer.astro';
 import Announcement from '~/components/widgets/Announcement.astro';
 
 import { headerData, footerData } from '~/navigation';
+import { headerDataRu, footerDataRu } from '~/i18n/navigation';
 
 import type { MetaData } from '~/types';
 
@@ -13,6 +14,9 @@ export interface Props {
 }
 
 const { metadata } = Astro.props;
+const isRu = Astro.url.pathname.startsWith('/ru');
+const currentHeaderData = isRu ? headerDataRu : headerData;
+const currentFooterData = isRu ? footerDataRu : footerData;
 ---
 
 <Layout metadata={metadata}>
@@ -20,12 +24,12 @@ const { metadata } = Astro.props;
     <Announcement />
   </slot>
   <slot name="header">
-    <Header {...headerData} isSticky showRssFeed showToggleTheme />
+    <Header {...currentHeaderData} isSticky showRssFeed showToggleTheme />
   </slot>
   <main>
     <slot />
   </main>
   <slot name="footer">
-    <Footer {...footerData} />
+    <Footer {...currentFooterData} />
   </slot>
 </Layout>

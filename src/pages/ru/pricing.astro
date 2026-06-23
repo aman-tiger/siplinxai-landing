@@ -1,0 +1,209 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Prices from '~/components/widgets/Pricing.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Цены — Просто и прозрачно',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText
+    tagline="Цены"
+    title="Простые, прозрачные цены"
+    subtitle="14 дней бесплатно, затем месячный или годовой план. Используйте код QATEST100 для старта. Нужна команда — напишите нам."
+  />
+
+  <div class="max-w-2xl mx-auto px-4 mb-8 -mt-4">
+    <div
+      class="flex items-center justify-center gap-3 bg-gradient-to-r from-blue-50 to-violet-50 dark:from-blue-950/40 dark:to-violet-950/40 border border-blue-200 dark:border-blue-800 rounded-2xl px-6 py-4"
+    >
+      <span class="text-2xl">🎁</span>
+      <div class="text-center">
+        <p class="text-sm text-muted dark:text-slate-400 mb-1">
+          Используйте этот код при оплате для 100% скидки на первые 14 дней
+        </p>
+        <span
+          class="inline-block font-mono font-bold text-xl tracking-widest px-4 py-1.5 rounded-lg bg-gradient-to-r from-blue-600 to-violet-600 text-white select-all"
+        >
+          QATEST100
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <Prices
+    title="Простые, честные цены"
+    subtitle="Все функции включены. Локальные LLM и STT модели работают на вашем устройстве. Ваши данные никогда не покидают ваш компьютер."
+    prices={[
+      {
+        title: 'месяц',
+        subtitle: 'Всё необходимое для приватных AI-заметок на встречах',
+        price: 9,
+        period: 'в месяц',
+        items: [
+          { description: 'Неограниченное количество встреч' },
+          { description: 'Локальные LLM + STT модели включены' },
+          { description: 'Транскрипция AI в реальном времени' },
+          { description: 'Умные резюме и задачи' },
+          { description: 'Идентификация спикеров' },
+          { description: 'Пользовательский словарь и имена' },
+          { description: 'Экспорт в Markdown, PDF, Notion, Obsidian' },
+          { description: 'Работает офлайн — интернет не нужен' },
+          { description: 'Нативные приложения для Mac и Windows' },
+        ],
+        callToAction: {
+          text: 'Начать 14-дневную пробную версию',
+          href: '/ru/download',
+        },
+      },
+      {
+        title: 'год',
+        subtitle: 'Те же функции, лучшая цена — экономия 2 месяца',
+        price: 7.5,
+        period: 'в месяц · $90 в год',
+        items: [
+          { description: 'Всё из месячного плана' },
+          { description: '2 месяца бесплатно vs месячный' },
+          { description: 'Неограниченное количество встреч' },
+          { description: 'Локальные LLM + STT модели включены' },
+          { description: 'Транскрипция AI в реальном времени' },
+          { description: 'Умные резюме и задачи' },
+          { description: 'Идентификация спикеров' },
+          { description: 'Экспорт в Markdown, PDF, Notion, Obsidian' },
+          { description: 'Работает офлайн — интернет не нужен' },
+          { description: 'Нативные приложения для Mac и Windows' },
+        ],
+        callToAction: {
+          text: 'Начать 14-дневную пробную версию',
+          href: '/ru/download',
+        },
+        hasRibbon: true,
+        ribbonTitle: 'Лучшая цена',
+      },
+      {
+        title: 'энтерпрайз',
+        subtitle: 'Для команд, которым важны контроль, соответствие требованиям и прямая связь с нами',
+        items: [
+          { description: 'Всё из годового плана' },
+          { description: 'Командное лицензирование' },
+          { description: 'Приоритетная поддержка и онбординг' },
+          { description: 'Офлайн и изолированное развёртывание' },
+          { description: 'Кастомная конфигурация моделей' },
+          { description: 'Помощь с HIPAA / GDPR / 152-ФЗ' },
+          { description: 'Выделенный канал поддержки в Telegram' },
+        ],
+        callToAction: {
+          text: 'Написать в Telegram →',
+          href: 'https://t.me/amanyessen',
+          target: '_blank',
+        },
+      },
+    ]}
+  />
+
+  <Features3
+    title="Всё включено в ваш план"
+    subtitle="Никаких дополнений, никаких допродаж. Одна цена, все функции."
+    columns={2}
+    items={[
+      {
+        title: '100% Локальная обработка',
+        description: 'Локальные LLM и STT модели работают на вашем устройстве. Нулевая зависимость от облака, нулевое раскрытие данных.',
+        icon: 'tabler:shield-lock',
+      },
+      {
+        title: 'Работает офлайн',
+        description: 'Интернет не нужен для транскрипции или обобщения. Работает где угодно — даже в самолёте.',
+        icon: 'tabler:wifi-off',
+      },
+      {
+        title: 'Поддержка всех платформ',
+        description: 'Zoom, Google Meet, Teams, Webex, Slack Huddles — работает с каждой платформой, которую вы уже используете.',
+        icon: 'tabler:apps',
+      },
+      {
+        title: 'Транскрипция в реальном времени',
+        description: 'Смотрите, как транскрипт встречи строится в реальном времени по мере развития разговора.',
+        icon: 'tabler:microphone',
+      },
+      {
+        title: 'Автоматические обновления моделей',
+        description: 'Получайте бесплатные обновления локальных моделей и новые функции автоматически по мере их выхода.',
+        icon: 'tabler:refresh',
+      },
+      {
+        title: 'Mac и Windows',
+        description: 'Нативные приложения для macOS (Apple Silicon + Intel) и Windows 10/11.',
+        icon: 'tabler:device-laptop',
+      },
+    ]}
+    classes={{ container: 'max-w-5xl' }}
+  />
+
+  <Steps
+    title="Начните работу за несколько минут"
+    tagline="быстрая настройка"
+    isReversed={true}
+    items={[
+      { title: 'Скачайте Siplinx AI', icon: 'tabler:number-1' },
+      { title: 'Локальные LLM + STT модели устанавливаются автоматически', icon: 'tabler:number-2' },
+      { title: 'Введите код QATEST100 для 14 дней бесплатно', icon: 'tabler:number-3' },
+      { title: 'Присоединитесь к любой встрече — заметки появляются мгновенно', icon: 'tabler:number-4' },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=987&q=80',
+      alt: 'Шаги настройки Siplinx AI',
+    }}
+  />
+
+  <FAQs
+    title="Часто задаваемые вопросы о ценах"
+    subtitle="Есть вопросы? У нас есть ответы."
+    columns={1}
+    items={[
+      {
+        title: 'Как работает 14-дневная бесплатная пробная версия?',
+        description: 'Скачайте Siplinx AI для Mac или Windows — кредитная карта не нужна. Введите промокод QATEST100 при оплате для 100% скидки на 14 дней. После 14 дней подпишитесь за $9/месяц для продолжения.',
+      },
+      {
+        title: 'Что такое «локальные LLM и STT»?',
+        description: 'При установке Siplinx AI загружает локальные AI-модели на ваш компьютер: модель распознавания речи (STT) для транскрипции и языковую модель (LLM) для обобщения. Эти модели работают прямо на вашем CPU или GPU — без облачного подключения.',
+      },
+      {
+        title: 'Могу ли я отменить в любое время?',
+        description: 'Абсолютно. Отменяйте в любое время из настроек аккаунта без каких-либо сборов или штрафов. Ваша подписка заканчивается по окончании текущего расчётного периода.',
+      },
+      {
+        title: 'Какие способы оплаты вы принимаете?',
+        description: 'Мы принимаем все основные кредитные карты (Visa, Mastercard, Amex) и PayPal. Все платежи надёжно обрабатываются через Stripe.',
+      },
+      {
+        title: 'Что происходит после окончания 14-дневной пробной версии?',
+        description: 'Если вы решите не подписываться, ваш доступ к AI-функциям заканчивается. Локально сохранённые заметки со встреч остаются на вашем устройстве — мы никогда не удаляем ваши данные.',
+      },
+      {
+        title: 'Есть ли скидка при годовой оплате?',
+        description: 'Да! Платите ежегодно и получите 2 месяца бесплатно — это $7.50/месяц при оплате $90/год.',
+      },
+    ]}
+  />
+
+  <CallToAction
+    title="Начните 14-дневную бесплатную пробную версию"
+    subtitle="Используйте код QATEST100 для 100% скидки. Без кредитной карты. Без облака."
+    actions={[
+      {
+        variant: 'primary' as const,
+        text: 'Скачать бесплатно',
+        href: '/ru/download',
+        icon: 'tabler:download',
+      },
+    ]}
+  />
+</Layout>

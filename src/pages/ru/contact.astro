@@ -1,0 +1,62 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import ContactUs from '~/components/widgets/Contact.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'Контакты — Siplinx AI',
+};
+---
+
+<Layout metadata={metadata}>
+  <HeroText tagline="Контакты" title="Давайте общаться!" />
+
+  <ContactUs
+    id="form"
+    title="Напишите нам сегодня!"
+    subtitle="Для быстрых ответов изучите наш раздел FAQ. Возможно, вы найдёте решение прямо там! Если нет, наша команда поддержки с удовольствием поможет вам."
+    inputs={[
+      { type: 'text', name: 'name', label: 'Имя' },
+      { type: 'email', name: 'email', label: 'Электронная почта' },
+    ]}
+    textarea={{ label: 'Сообщение' }}
+    disclaimer={{
+      label: 'Отправляя эту форму, вы подтверждаете и соглашаетесь со сбором ваших персональных данных.',
+    }}
+    description="Наша служба поддержки обычно отвечает в течение 24 рабочих часов."
+  />
+
+  <Features2
+    title="Мы здесь, чтобы помочь!"
+    items={[
+      {
+        title: 'Общая поддержка',
+        description: 'Обращайтесь по вопросам управления аккаунтом, навигации по сайту, проблем с оплатой и общих вопросов о функциональности.',
+      },
+      {
+        title: 'Связаться с отделом продаж',
+        description: 'Обращайтесь по вопросам покупки, лицензирования и специальных запросов.',
+      },
+      {
+        title: 'Техническая поддержка',
+        description: 'Обращайтесь при технических проблемах с установкой, обновлением или совместимостью.',
+      },
+      {
+        title: 'Телефон',
+        description: '+1 (234) 567-890',
+        icon: 'tabler:headset',
+      },
+      {
+        title: 'Email',
+        description: 'support@siplinxai.com',
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'Сайт',
+        description: 'siplinxai.com',
+        icon: 'tabler:map-pin',
+      },
+    ]}
+  />
+</Layout>

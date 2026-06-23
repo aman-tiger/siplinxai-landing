@@ -15,8 +15,8 @@ const metadata = {
 <Layout metadata={metadata}>
   <HeroText
     tagline="Pricing"
-    title="One plan. Everything included."
-    subtitle="14 days free, then $9/month. No tiers, no hidden fees. Use code QATEST100 to start free."
+    title="Simple, transparent pricing"
+    subtitle="14 days free, then choose monthly or annual. Use code QATEST100 to start free. Need a team? Contact us."
   />
 
   <!-- Promo Code Banner -->
@@ -38,13 +38,13 @@ const metadata = {
     </div>
   </div>
 
-  <!-- Pricing Widget — one plan -->
+  <!-- Pricing Widget — three plans -->
   <Prices
     title="Simple, honest pricing"
     subtitle="All features included. Local LLM and STT models run on your device. Your data never leaves your machine."
     prices={[
       {
-        title: 'pro',
+        title: 'monthly',
         subtitle: 'Everything you need for private AI meeting notes',
         price: 9,
         period: 'per month',
@@ -58,14 +58,53 @@ const metadata = {
           { description: 'Export to Markdown, PDF, Notion, Obsidian' },
           { description: 'Works offline — no internet required' },
           { description: 'Mac & Windows native apps' },
-          { description: 'Priority model updates' },
+        ],
+        callToAction: {
+          text: 'Start 14-Day Free Trial',
+          href: '/download',
+        },
+      },
+      {
+        title: 'annual',
+        subtitle: 'Same features, better value — save 2 months',
+        price: 7.5,
+        period: 'per month · billed $90/year',
+        items: [
+          { description: 'Everything in Monthly' },
+          { description: '2 months free vs monthly' },
+          { description: 'Unlimited meetings' },
+          { description: 'Local LLM + STT models included' },
+          { description: 'Real-time AI transcription' },
+          { description: 'Smart summaries & action items' },
+          { description: 'Speaker identification' },
+          { description: 'Export to Markdown, PDF, Notion, Obsidian' },
+          { description: 'Works offline — no internet required' },
+          { description: 'Mac & Windows native apps' },
         ],
         callToAction: {
           text: 'Start 14-Day Free Trial',
           href: '/download',
         },
         hasRibbon: true,
-        ribbonTitle: '14 days free',
+        ribbonTitle: 'Best value',
+      },
+      {
+        title: 'enterprise',
+        subtitle: 'For teams that need control, compliance, and a direct line to us',
+        items: [
+          { description: 'Everything in Annual' },
+          { description: 'Volume licensing for your team' },
+          { description: 'Priority support & onboarding' },
+          { description: 'Air-gap & offline deployment' },
+          { description: 'Custom model configuration' },
+          { description: 'HIPAA / GDPR compliance help' },
+          { description: 'Dedicated Telegram support channel' },
+        ],
+        callToAction: {
+          text: 'Message us on Telegram →',
+          href: 'https://t.me/amanyessen',
+          target: '_blank',
+        },
       },
     ]}
   />
