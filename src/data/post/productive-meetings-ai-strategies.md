@@ -1,6 +1,6 @@
 ---
 publishDate: 2026-06-19T00:00:00Z
-title: '10 Ways AI Is Making Meetings More Productive in 2025'
+title: '10 Ways AI Is Making Meetings More Productive in 2026'
 excerpt: 'AI is transforming how teams run and follow up on meetings. Discover 10 concrete strategies — from auto-transcription to async catch-up — that make every meeting count.'
 image: https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80
 category: Productivity
