@@ -95,7 +95,7 @@ AI meeting summary tools don't just transcribe and copy. They apply language und
 
 **Formatting** assembles the output into a structured document with clear headings, making it easy to navigate and share.
 
-Tools like SipLinxAI run this entire process locally, meaning the language model doing this analysis never sees your conversation on a remote server—it all happens on your machine.
+Tools like Siplinx AI run this entire process locally, meaning the language model doing this analysis never sees your conversation on a remote server—it all happens on your machine.
 
 ---
 
@@ -182,15 +182,15 @@ AI summaries are excellent first drafts, not finished products. Here's how to ge
 
 **Q: Can AI write a meeting summary from a pre-recorded audio file?**
 
-Yes. Most AI meeting summary tools, including SipLinxAI, can process audio recordings in addition to live meetings. You upload or point the tool to the recording, and it produces the same summary output as it would for a live session.
+Yes. Most AI meeting summary tools, including Siplinx AI, can process audio recordings in addition to live meetings. You upload or point the tool to the recording, and it produces the same summary output as it would for a live session.
 
 **Q: How long does it take AI to generate a meeting summary?**
 
-For local tools like SipLinxAI, summary generation typically takes a fraction of the meeting duration—a one-hour meeting might produce a summary in a few minutes after the meeting ends. Cloud tools often deliver summaries faster but at the cost of processing your audio remotely.
+For local tools like Siplinx AI, summary generation typically takes a fraction of the meeting duration—a one-hour meeting might produce a summary in a few minutes after the meeting ends. Cloud tools often deliver summaries faster but at the cost of processing your audio remotely.
 
 **Q: Can I customize the format of AI meeting summaries?**
 
-Many tools allow you to configure the output format, choose which sections to include, and adjust the level of detail. SipLinxAI is designed to produce summaries that fit your team's workflow rather than forcing a one-size-fits-all template.
+Many tools allow you to configure the output format, choose which sections to include, and adjust the level of detail. Siplinx AI is designed to produce summaries that fit your team's workflow rather than forcing a one-size-fits-all template.
 
 **Q: What if the AI summary misses something important?**
 
@@ -202,7 +202,7 @@ This depends on jurisdiction and context. In general, meeting notes—human or A
 
 **Q: Can AI summarize technical meetings with specialized vocabulary?**
 
-Yes, though accuracy on highly specialized vocabulary can vary. Tools that allow you to add custom vocabulary lists perform better in technical contexts. SipLinxAI is designed to handle domain-specific language across engineering, legal, and medical contexts.
+Yes, though accuracy on highly specialized vocabulary can vary. Tools that allow you to add custom vocabulary lists perform better in technical contexts. Siplinx AI is designed to handle domain-specific language across engineering, legal, and medical contexts.
 
 ---
 
@@ -210,6 +210,6 @@ Yes, though accuracy on highly specialized vocabulary can vary. Tools that allow
 
 The gap between a human-written meeting summary and an AI-generated one isn't about intelligence—it's about conditions. AI doesn't get distracted, doesn't have a recency bias, doesn't miss ten minutes because it was trying to add something to its own to-do list. It produces consistent, structured, complete summaries every time.
 
-The templates and tips in this guide will help you get the most from AI-generated summaries regardless of which tool you use. But if you're looking for a tool that combines summary quality with complete privacy—where your meeting conversations never leave your machine—SipLinxAI is the right choice.
+The templates and tips in this guide will help you get the most from AI-generated summaries regardless of which tool you use. But if you're looking for a tool that combines summary quality with complete privacy—where your meeting conversations never leave your machine—Siplinx AI is the right choice.
 
-[Download SipLinxAI for free](#) and see what a meeting summary looks like when nothing is missed.
+[Download Siplinx AI for free](#) and see what a meeting summary looks like when nothing is missed.

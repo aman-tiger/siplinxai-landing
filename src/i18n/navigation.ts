@@ -12,7 +12,7 @@ export const headerDataRu = {
         { text: 'Безопасность', href: getPermalink('/ru/security') },
         { text: 'Пресса', href: getPermalink('/ru/press') },
         { text: 'Карьера', href: getPermalink('/ru/careers') },
-        { text: 'Блог', href: getBlogPermalink() },
+        { text: 'Блог', href: getPermalink('/ru/blog') },
       ],
     },
   ],
@@ -41,7 +41,7 @@ export const footerDataRu = {
       title: 'Компания',
       links: [
         { text: 'О нас', href: '/ru/about' },
-        { text: 'Блог', href: getBlogPermalink() },
+        { text: 'Блог', href: getPermalink('/ru/blog') },
         { text: 'Карьера', href: '/ru/careers' },
         { text: 'Пресса', href: '/ru/press' },
         { text: 'Контакты', href: '/ru/contact' },
