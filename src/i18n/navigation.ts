@@ -45,8 +45,8 @@ export const footerDataRu = {
         { text: 'Карьера', href: '/ru/careers' },
         { text: 'Пресса', href: '/press' },
         { text: 'Контакты', href: '/ru/contact' },
-        { text: 'Политика конфиденциальности', href: '/privacy' },
-        { text: 'Условия', href: '/terms' },
+        { text: 'Политика конфиденциальности', href: '/ru/privacy' },
+        { text: 'Условия', href: '/ru/terms' },
       ],
     },
     {
@@ -61,8 +61,8 @@ export const footerDataRu = {
     },
   ],
   secondaryLinks: [
-    { text: 'Условия', href: getPermalink('/terms') },
-    { text: 'Политика конфиденциальности', href: getPermalink('/privacy') },
+    { text: 'Условия', href: getPermalink('/ru/terms') },
+    { text: 'Политика конфиденциальности', href: getPermalink('/ru/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },

@@ -42,12 +42,55 @@ const lang = isRuPage ? 'ru' : language;
 
     <!-- Comment the line below to disable View Transitions -->
     <ClientRouter fallback="swap" />
+
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "xbp2gn6ew9");
+    </script>
   </head>
 
   <body class="antialiased text-default bg-page tracking-tight">
     <slot />
 
     <BasicScripts />
+
+    <!-- Clarity event tracking -->
+    <script>
+      document.addEventListener('click', (e) => {
+        const target = (e.target as HTMLElement).closest('a, button');
+        if (!target) return;
+        const href = (target as HTMLAnchorElement).href || '';
+        const text = target.textContent?.trim().toLowerCase() || '';
+        const cls = target.className || '';
+
+        const fire = (event: string) => {
+          if (typeof (window as any).clarity === 'function') {
+            (window as any).clarity('event', event);
+          }
+        };
+
+        if (href.includes('/download') || text.includes('download') || text.includes('скачать')) {
+          if (cls.includes('hero-btn') || cls.includes('hero')) fire('click_download_hero');
+          else if (cls.includes('cta-btn') || cls.includes('cta')) fire('click_download_cta');
+          else fire('click_download_nav');
+        } else if (href.includes('/pricing') || text.includes('pricing') || text.includes('цены') || text.includes('тарифы')) {
+          fire('click_pricing_nav');
+        } else if (href.includes('/help') || text.includes('help center') || text.includes('центр помощи')) {
+          fire('click_help_center');
+        } else if (href.includes('/blog') || text.includes('blog') || text.includes('блог')) {
+          fire('click_blog');
+        } else if (text.includes('get started') || text.includes('buy') || text.includes('choose') || text.includes('начать')) {
+          if (text.includes('starter') || text.includes('monthly') || text.includes('месяц')) fire('click_pricing_starter');
+          else if (text.includes('pro') || text.includes('annual') || text.includes('год')) fire('click_pricing_pro');
+          else fire('click_pricing_cta');
+        }
+      });
+    </script>
+
     <script>
       (function () {
         const stored = localStorage.getItem('siplinx-lang');

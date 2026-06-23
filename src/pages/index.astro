@@ -301,10 +301,11 @@ const metadata = {
     function applyOsToButtons(macClass: string, winClass: string) {
       const macBtns = document.querySelectorAll<HTMLElement>(`.${macClass}`);
       const winBtns = document.querySelectorAll<HTMLElement>(`.${winClass}`);
+      const hide = (btn: HTMLElement) => { (btn.parentElement ?? btn).style.display = 'none'; };
       if (os === 'mac') {
-        winBtns.forEach((btn) => (btn.style.display = 'none'));
+        winBtns.forEach(hide);
       } else {
-        macBtns.forEach((btn) => (btn.style.display = 'none'));
+        macBtns.forEach(hide);
       }
     }
 
