@@ -3,53 +3,74 @@
 ---
 
 <span class="flex items-center gap-2.5">
-  <!-- Siplinx AI — 3D ribbon S logo, blue→purple gradient -->
   <svg
     width="36"
     height="44"
-    viewBox="0 0 180 220"
+    viewBox="0 0 200 222"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     aria-hidden="true"
     style="overflow: visible;"
   >
     <defs>
-      <linearGradient id="lg-top" x1="20" y1="20" x2="160" y2="100" gradientUnits="userSpaceOnUse">
-        <stop offset="0%" stop-color="#93C5FD"></stop>
-        <stop offset="60%" stop-color="#3B82F6"></stop>
-        <stop offset="100%" stop-color="#2563EB"></stop>
+      <!-- Violet gradient for bottom ribbon (renders behind) -->
+      <linearGradient id="sl-v" x1="50" y1="106" x2="158" y2="214" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#4338CA"/>
+        <stop offset="55%" stop-color="#7C3AED"/>
+        <stop offset="100%" stop-color="#5B21B6"/>
       </linearGradient>
-      <linearGradient id="lg-bot" x1="20" y1="110" x2="160" y2="200" gradientUnits="userSpaceOnUse">
-        <stop offset="0%" stop-color="#8B5CF6"></stop>
-        <stop offset="100%" stop-color="#6D28D9"></stop>
+      <!-- Cyan→blue gradient for top ribbon (renders in front) -->
+      <linearGradient id="sl-b" x1="44" y1="12" x2="152" y2="120" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#BAE6FD"/>
+        <stop offset="22%" stop-color="#38BDF8"/>
+        <stop offset="62%" stop-color="#3B82F6"/>
+        <stop offset="100%" stop-color="#1D4ED8"/>
       </linearGradient>
-      <linearGradient id="lg-shine" x1="30" y1="20" x2="120" y2="70" gradientUnits="userSpaceOnUse">
-        <stop offset="0%" stop-color="#DBEAFE" stop-opacity="0.8"></stop>
-        <stop offset="100%" stop-color="#93C5FD" stop-opacity="0"></stop>
+      <!-- White rim highlight on the top ribbon -->
+      <linearGradient id="sl-rim" x1="44" y1="12" x2="88" y2="76" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.92"/>
+        <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+        <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
       </linearGradient>
+      <!-- Soft glow for the crossover seam -->
+      <filter id="sl-glow" x="-80%" y="-80%" width="260%" height="260%">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="b"/>
+        <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
     </defs>
 
-    <!-- Bottom arc of S (behind) -->
+    <!-- ── Bottom half / violet ribbon (back layer) ─────────────── -->
     <path
-      d="M50 170 C50 188 64 198 85 198 L112 198 C134 198 146 186 146 168 C146 152 137 142 118 136 L72 120 C50 112 40 100 40 82 C40 62 54 52 76 52 L104 52 C126 52 138 62 138 80"
-      stroke="url(#lg-bot)"
-      stroke-width="34"
+      d="M52 168 C50 194 68 214 96 214 L118 214 C146 214 158 196 158 172 C158 150 145 135 120 126 L78 110"
+      stroke="url(#sl-v)"
+      stroke-width="40"
       stroke-linecap="round"
-      fill="none"></path>
-    <!-- Top arc of S (in front) -->
+      fill="none"
+    />
+
+    <!-- ── Top half / blue ribbon (front layer — covers crossover) ─ -->
     <path
-      d="M130 50 C130 32 116 22 95 22 L68 22 C46 22 34 34 34 52 C34 68 43 78 62 84 L108 100 C130 108 142 120 142 140"
-      stroke="url(#lg-top)"
-      stroke-width="34"
+      d="M148 52 C148 27 131 10 106 10 L83 10 C55 10 44 28 44 54 C44 78 57 94 83 104 L124 120"
+      stroke="url(#sl-b)"
+      stroke-width="40"
       stroke-linecap="round"
-      fill="none"></path>
-    <!-- Shine highlight on top arc -->
+      fill="none"
+    />
+
+    <!-- ── Outer-edge rim light (the lit upper edge of blue ribbon) ─ -->
     <path
-      d="M130 50 C130 32 116 22 95 22 L68 22 C46 22 34 34 34 52 C34 64 41 72 56 78"
-      stroke="url(#lg-shine)"
-      stroke-width="13"
+      d="M148 52 C148 27 131 10 106 10 L83 10 C55 10 44 28 44 54 C44 69 52 82 66 91"
+      stroke="url(#sl-rim)"
+      stroke-width="11"
       stroke-linecap="round"
-      fill="none"></path>
+      fill="none"
+    />
+
+    <!-- ── Bright seam glow at the crossover point ───────────────── -->
+    <ellipse cx="101" cy="115" rx="5" ry="10" fill="white" opacity="0.75"
+      transform="rotate(-28 101 115)" filter="url(#sl-glow)"/>
+    <ellipse cx="101" cy="115" rx="2.5" ry="5" fill="white" opacity="1"
+      transform="rotate(-28 101 115)"/>
   </svg>
 
   <span class="self-center text-xl font-bold whitespace-nowrap tracking-tight text-gray-900 dark:text-white">
