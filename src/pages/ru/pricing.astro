@@ -15,8 +15,8 @@ const metadata = {
 <Layout metadata={metadata}>
   <HeroText
     tagline="Цены"
-    title="Один план. Всё включено."
-    subtitle="14 дней бесплатно, затем $9/месяц. Без тарифов и скрытых комиссий. Используйте код QATEST100 для начала бесплатно."
+    title="Простые, прозрачные цены"
+    subtitle="14 дней бесплатно, затем месячный или годовой план. Используйте код QATEST100 для старта. Нужна команда — напишите нам."
   />
 
   <div class="max-w-2xl mx-auto px-4 mb-8 -mt-4">
@@ -42,7 +42,7 @@ const metadata = {
     subtitle="Все функции включены. Локальные LLM и STT модели работают на вашем устройстве. Ваши данные никогда не покидают ваш компьютер."
     prices={[
       {
-        title: 'про',
+        title: 'месяц',
         subtitle: 'Всё необходимое для приватных AI-заметок на встречах',
         price: 9,
         period: 'в месяц',
@@ -56,14 +56,53 @@ const metadata = {
           { description: 'Экспорт в Markdown, PDF, Notion, Obsidian' },
           { description: 'Работает офлайн — интернет не нужен' },
           { description: 'Нативные приложения для Mac и Windows' },
-          { description: 'Приоритетные обновления моделей' },
+        ],
+        callToAction: {
+          text: 'Начать 14-дневную пробную версию',
+          href: '/ru/download',
+        },
+      },
+      {
+        title: 'год',
+        subtitle: 'Те же функции, лучшая цена — экономия 2 месяца',
+        price: 7.5,
+        period: 'в месяц · $90 в год',
+        items: [
+          { description: 'Всё из месячного плана' },
+          { description: '2 месяца бесплатно vs месячный' },
+          { description: 'Неограниченное количество встреч' },
+          { description: 'Локальные LLM + STT модели включены' },
+          { description: 'Транскрипция AI в реальном времени' },
+          { description: 'Умные резюме и задачи' },
+          { description: 'Идентификация спикеров' },
+          { description: 'Экспорт в Markdown, PDF, Notion, Obsidian' },
+          { description: 'Работает офлайн — интернет не нужен' },
+          { description: 'Нативные приложения для Mac и Windows' },
         ],
         callToAction: {
           text: 'Начать 14-дневную пробную версию',
           href: '/ru/download',
         },
         hasRibbon: true,
-        ribbonTitle: '14 дней бесплатно',
+        ribbonTitle: 'Лучшая цена',
+      },
+      {
+        title: 'энтерпрайз',
+        subtitle: 'Для команд, которым важны контроль, соответствие требованиям и прямая связь с нами',
+        items: [
+          { description: 'Всё из годового плана' },
+          { description: 'Командное лицензирование' },
+          { description: 'Приоритетная поддержка и онбординг' },
+          { description: 'Офлайн и изолированное развёртывание' },
+          { description: 'Кастомная конфигурация моделей' },
+          { description: 'Помощь с HIPAA / GDPR / 152-ФЗ' },
+          { description: 'Выделенный канал поддержки в Telegram' },
+        ],
+        callToAction: {
+          text: 'Написать в Telegram →',
+          href: 'https://t.me/amanyessen',
+          target: '_blank',
+        },
       },
     ]}
   />
