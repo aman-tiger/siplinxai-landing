@@ -23,10 +23,12 @@ export interface Props {
 
 const { metadata = {} } = Astro.props;
 const { language, textDirection } = I18N;
+const isRuPage = Astro.url.pathname.startsWith('/ru');
+const lang = isRuPage ? 'ru' : language;
 ---
 
 <!doctype html>
-<html lang={language} dir={textDirection} class="2xl:text-[20px]">
+<html lang={lang} dir={textDirection} class="2xl:text-[20px]">
   <head>
     <CommonMeta />
     <Favicons />
@@ -46,5 +48,24 @@ const { language, textDirection } = I18N;
     <slot />
 
     <BasicScripts />
+    <script>
+      (function () {
+        const stored = localStorage.getItem('siplinx-lang');
+        const path = window.location.pathname;
+        const onRu = path.startsWith('/ru');
+        if (!stored) {
+          const bl = (navigator.language || '').toLowerCase();
+          const wantRu = bl.startsWith('ru');
+          localStorage.setItem('siplinx-lang', wantRu ? 'ru' : 'en');
+          if (wantRu && !onRu) {
+            window.location.replace('/ru' + (path === '/' ? '' : path));
+          }
+        } else if (stored === 'ru' && !onRu) {
+          window.location.replace('/ru' + (path === '/' ? '' : path));
+        } else if (stored === 'en' && onRu) {
+          window.location.replace(path.replace(/^\/ru/, '') || '/');
+        }
+      })();
+    </script>
   </body>
 </html>
