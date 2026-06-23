@@ -15,8 +15,14 @@ export const headerData = {
       href: getPermalink('/pricing'),
     },
     {
-      text: 'Blog',
-      href: getBlogPermalink(),
+      text: 'Resources',
+      links: [
+        { text: 'Help Center', href: getPermalink('/help') },
+        { text: 'Security', href: getPermalink('/security') },
+        { text: 'Press', href: getPermalink('/press') },
+        { text: 'Careers', href: getPermalink('/careers') },
+        { text: 'Blog', href: getBlogPermalink() },
+      ],
     },
   ],
   actions: [
@@ -45,6 +51,8 @@ export const footerData = {
       links: [
         { text: 'About', href: '/about' },
         { text: 'Blog', href: getBlogPermalink() },
+        { text: 'Careers', href: '/careers' },
+        { text: 'Press', href: '/press' },
         { text: 'Contact', href: '/contact' },
         { text: 'Privacy Policy', href: '/privacy' },
         { text: 'Terms', href: '/terms' },
@@ -53,7 +61,8 @@ export const footerData = {
     {
       title: 'Support',
       links: [
-        { text: 'Documentation', href: '#' },
+        { text: 'Help Center', href: '/help' },
+        { text: 'Security', href: '/security' },
         { text: 'Community', href: '#' },
         { text: 'Status', href: '#' },
         { text: 'Contact Us', href: '/contact' },

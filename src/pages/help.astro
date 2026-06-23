@@ -1,0 +1,148 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Help Center — Siplinx AI',
+  description: 'Find answers to common questions, setup guides, and troubleshooting help for Siplinx AI.',
+};
+
+const categories = [
+  {
+    icon: '🚀',
+    title: 'Getting Started',
+    articles: [
+      { title: 'How to download and install Siplinx AI', href: '#install' },
+      { title: 'Setting up local AI models (first-time guide)', href: '#models' },
+      { title: 'System requirements for Mac and Windows', href: '#requirements' },
+      { title: 'How to activate your free 14-day trial', href: '#trial' },
+    ],
+  },
+  {
+    icon: '🎙️',
+    title: 'Recording & Transcription',
+    articles: [
+      { title: 'How to start recording a meeting', href: '#recording' },
+      { title: 'Supported meeting platforms (Zoom, Teams, Meet…)', href: '#platforms' },
+      { title: 'Transcription accuracy tips', href: '#accuracy' },
+      { title: 'How to record in-person meetings', href: '#in-person' },
+    ],
+  },
+  {
+    icon: '📝',
+    title: 'Notes & Summaries',
+    articles: [
+      { title: 'How summaries are generated', href: '#summaries' },
+      { title: 'Extracting action items from meetings', href: '#action-items' },
+      { title: 'Exporting notes to Notion, PDF, or Markdown', href: '#export' },
+      { title: 'Searching your meeting history', href: '#search' },
+    ],
+  },
+  {
+    icon: '🔒',
+    title: 'Privacy & Security',
+    articles: [
+      { title: 'How Siplinx AI keeps your data private', href: '#privacy' },
+      { title: 'Does Siplinx AI work offline?', href: '#offline' },
+      { title: 'What data is stored and where', href: '#data-storage' },
+      { title: 'Enterprise privacy compliance (GDPR, HIPAA)', href: '#compliance' },
+    ],
+  },
+  {
+    icon: '💳',
+    title: 'Account & Billing',
+    articles: [
+      { title: 'How to use promo code QATEST100', href: '#promo' },
+      { title: 'Upgrading from trial to a paid plan', href: '#upgrade' },
+      { title: 'Cancelling your subscription', href: '#cancel' },
+      { title: 'Managing multiple devices', href: '#devices' },
+    ],
+  },
+  {
+    icon: '🛠️',
+    title: 'Troubleshooting',
+    articles: [
+      { title: 'Audio not being detected — fix guide', href: '#audio' },
+      { title: 'Model installation errors', href: '#model-errors' },
+      { title: 'App crashes or freezes', href: '#crashes' },
+      { title: 'High CPU / RAM usage during meetings', href: '#performance' },
+    ],
+  },
+];
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero -->
+  <section class="relative py-20 md:py-24 overflow-hidden">
+    <div
+      class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"
+    >
+    </div>
+    <div class="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
+      <p class="text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4">Help Center</p>
+      <h1 class="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6">
+        How can we help?
+      </h1>
+      <p class="text-xl text-gray-600 dark:text-slate-300 max-w-xl mx-auto mb-10">
+        Guides, answers, and troubleshooting for Siplinx AI. Can't find what you need? Write to us directly.
+      </p>
+      <!-- Search box (visual only) -->
+      <div class="max-w-lg mx-auto relative">
+        <div class="flex items-center bg-white dark:bg-slate-900 border border-gray-200 dark:border-slate-700 rounded-xl shadow-sm px-4 py-3.5 gap-3">
+          <svg class="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35m0 0A7 7 0 104.65 4.65a7 7 0 0011.99 11.99z" />
+          </svg>
+          <span class="text-gray-400 dark:text-slate-500">Search help articles…</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="py-16 max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {
+        categories.map((cat) => (
+          <div class="bg-white dark:bg-slate-900/50 border border-gray-100 dark:border-slate-800 rounded-xl p-6 hover:border-blue-200 dark:hover:border-blue-800 hover:shadow-md transition-all duration-200">
+            <div class="text-3xl mb-3">{cat.icon}</div>
+            <h2 class="text-lg font-bold text-gray-900 dark:text-white mb-4">{cat.title}</h2>
+            <ul class="space-y-2">
+              {cat.articles.map((a) => (
+                <li>
+                  <a
+                    href={a.href}
+                    class="text-sm text-blue-600 dark:text-blue-400 hover:underline flex items-start gap-1.5"
+                  >
+                    <svg class="w-4 h-4 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                    </svg>
+                    {a.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Contact support -->
+  <section class="py-16 max-w-3xl mx-auto px-4 sm:px-6 text-center">
+    <div class="bg-gradient-to-br from-blue-50 to-violet-50 dark:from-blue-950/40 dark:to-violet-950/40 border border-blue-100 dark:border-blue-900/50 rounded-2xl p-10">
+      <div class="text-4xl mb-4">💬</div>
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Still need help?</h2>
+      <p class="text-gray-600 dark:text-slate-300 mb-6">
+        Our support team typically responds within a few hours on business days.
+      </p>
+      <a
+        href="mailto:support@siplinx.com"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-violet-600 text-white font-semibold hover:from-blue-700 hover:to-violet-700 transition-all shadow-md"
+      >
+        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+        support@siplinx.com
+      </a>
+    </div>
+  </section>
+</Layout>

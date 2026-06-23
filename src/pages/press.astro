@@ -1,0 +1,121 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Press — Siplinx AI News & Updates',
+  description: 'Latest news, press releases, and company updates from Siplinx AI.',
+};
+
+const articles = [
+  {
+    date: 'June 10, 2025',
+    category: 'Product Launch',
+    title: 'Siplinx AI Launches Public Beta: The First Meeting AI That Never Sends Your Data to the Cloud',
+    summary:
+      'Today we're announcing the public beta of Siplinx AI — a desktop application that installs local LLM and STT models directly on your Mac or Windows PC. Unlike every other AI meeting tool, Siplinx AI never connects to a remote AI server. Your audio, transcripts, and summaries are generated entirely on your device.',
+    body: `<p class="mb-4">We built Siplinx AI because we believe the current generation of AI meeting tools has a fundamental privacy problem. When you use Fireflies, Otter, or Granola, your meeting audio is sent to their servers, processed by their AI, and stored indefinitely. For legal teams, medical practices, financial advisors, and anyone handling confidential conversations, this is unacceptable.</p>
+    <p class="mb-4">Siplinx AI takes the opposite approach. During installation, the app downloads a quantized local LLM (for summaries) and a Whisper-based STT model (for transcription) directly to your machine. From that point forward, no network connection is required for AI processing.</p>
+    <p class="mb-4">Key features in the public beta:</p>
+    <ul class="list-disc list-inside mb-4 space-y-1">
+      <li>Real-time transcription with zero upload latency</li>
+      <li>On-device meeting summaries and action item extraction</li>
+      <li>Works with Zoom, Google Meet, Microsoft Teams, Webex, and in-person meetings</li>
+      <li>Export to Markdown, PDF, Notion, Obsidian</li>
+      <li>Available for macOS 12+ (Apple Silicon & Intel) and Windows 10/11</li>
+    </ul>
+    <p>The public beta is available today with a 14-day free trial. Use promo code <strong>QATEST100</strong> at checkout for 100% off your first 14 days.</p>`,
+    author: 'Siplinx AI Team',
+  },
+  {
+    date: 'May 22, 2025',
+    category: 'Company News',
+    title: 'Why We Left the Cloud Behind: Siplinx AI's Founding Story',
+    summary:
+      'Our founders spent years watching sensitive meeting content flow through third-party AI services. Every product demo, board discussion, and client call was being uploaded, processed, and retained by vendors with conflicting privacy interests. We decided to build the alternative.',
+    body: `<p class="mb-4">The idea for Siplinx AI started in 2024 when our founders — coming from enterprise software and ML infrastructure backgrounds — noticed a pattern: the teams most eager to use AI meeting tools were the same teams legally prohibited from sending meeting data outside their organization.</p>
+    <p class="mb-4">Legal firms couldn't use Otter because of client confidentiality. Healthcare teams couldn't use Fireflies because of HIPAA. Financial advisors couldn't use Granola because of regulatory data residency requirements. The answer from every existing vendor was the same: "We're SOC 2 certified." But certification doesn't change the fundamental architecture — your data still travels to their servers.</p>
+    <p class="mb-4">We spent six months exploring whether modern quantized LLMs and STT models could run fast enough on consumer hardware to be practical. The answer surprised us: on Apple Silicon and modern Intel/AMD CPUs, local Whisper-based transcription is faster than streaming to a cloud API. Local summarization with a 7B parameter quantized model adds under 30 seconds after a meeting ends.</p>
+    <p class="mb-4">We realized we could deliver better performance, better privacy, and a simpler trust model — all in a single desktop app.</p>
+    <p>Today Siplinx AI is in public beta. We're a small team, fully remote, building the meeting AI we always wanted for ourselves. If this resonates with you, <a href="/careers" class="text-blue-600 hover:underline">we're hiring</a>.</p>`,
+    author: 'Siplinx AI Team',
+  },
+];
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero -->
+  <section class="relative py-20 md:py-24 overflow-hidden">
+    <div
+      class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"
+    >
+    </div>
+    <div class="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
+      <p class="text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4">Press & News</p>
+      <h1 class="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6">
+        Siplinx AI Updates
+      </h1>
+      <p class="text-xl text-gray-600 dark:text-slate-300 max-w-xl mx-auto">
+        Press releases, product announcements, and company news.
+      </p>
+    </div>
+  </section>
+
+  <!-- Article list -->
+  <section class="py-16 max-w-4xl mx-auto px-4 sm:px-6">
+    <div class="space-y-8">
+      {
+        articles.map((article, i) => (
+          <article
+            id={`article-${i + 1}`}
+            class="bg-white dark:bg-slate-900/50 border border-gray-100 dark:border-slate-800 rounded-2xl p-8 hover:border-blue-200 dark:hover:border-blue-800 hover:shadow-md transition-all duration-200"
+          >
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 border border-blue-100 dark:border-blue-800">
+                {article.category}
+              </span>
+              <span class="text-sm text-gray-500 dark:text-slate-500">{article.date}</span>
+            </div>
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3 leading-snug">
+              {article.title}
+            </h2>
+            <p class="text-gray-600 dark:text-slate-300 mb-6 leading-relaxed">{article.summary}</p>
+
+            <!-- Article body (expandable feel) -->
+            <details class="group">
+              <summary class="cursor-pointer text-blue-600 dark:text-blue-400 font-semibold text-sm hover:underline flex items-center gap-1.5 select-none">
+                <svg class="w-4 h-4 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+                Read full article
+              </summary>
+              <div class="mt-6 pt-6 border-t border-gray-100 dark:border-slate-800 text-gray-600 dark:text-slate-300 text-sm leading-relaxed prose dark:prose-invert max-w-none" set:html={article.body} />
+            </details>
+
+            <div class="mt-6 pt-4 border-t border-gray-50 dark:border-slate-800/60 text-xs text-gray-400 dark:text-slate-600">
+              By {article.author}
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Press contact -->
+  <section class="py-16 max-w-3xl mx-auto px-4 sm:px-6 text-center">
+    <div class="bg-gradient-to-br from-blue-50 to-violet-50 dark:from-blue-950/40 dark:to-violet-950/40 border border-blue-100 dark:border-blue-900/50 rounded-2xl p-10">
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Press & media inquiries</h2>
+      <p class="text-gray-600 dark:text-slate-300 mb-6 text-sm">
+        Journalists and analysts: we're happy to provide comments, demos, or background on local AI and the privacy-first meeting space.
+      </p>
+      <a
+        href="mailto:support@siplinx.com?subject=Press Inquiry"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-violet-600 text-white font-semibold hover:from-blue-700 hover:to-violet-700 transition-all shadow-md"
+      >
+        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+        support@siplinx.com
+      </a>
+    </div>
+  </section>
+</Layout>
