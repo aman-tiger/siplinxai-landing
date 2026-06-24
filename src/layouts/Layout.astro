@@ -188,7 +188,7 @@ const lang = isRuPage ? 'ru' : language;
       type ClarityFn = (method: string, ...args: string[]) => void;
 
       function clarityFire(event: string) {
-        const w = window as Record<string, unknown>;
+        const w = window as unknown as Record<string, unknown>;
         if (typeof w.clarity === 'function') {
           (w.clarity as ClarityFn)('event', event);
         }
@@ -249,8 +249,8 @@ const lang = isRuPage ? 'ru' : language;
 
       // Attach click handler once; use astro:page-load to track SPA page views
       // Guard against double-registration across hot reloads
-      if (!(window as Record<string, unknown>).__clarityInit) {
-        (window as Record<string, unknown>).__clarityInit = true;
+      if (!(window as unknown as Record<string, unknown>).__clarityInit) {
+        (window as unknown as Record<string, unknown>).__clarityInit = true;
         document.addEventListener('click', clarityClickHandler);
       }
 
