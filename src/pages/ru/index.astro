@@ -278,7 +278,8 @@ const metadata = {
 
   <script>
     function detectOS(): 'mac' | 'windows' {
-      const uaData = (navigator as any).userAgentData;
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const uaData = (navigator as any).userAgentData;
       if (uaData?.platform) {
         const p = uaData.platform.toLowerCase();
         if (p.includes('win')) return 'windows';
