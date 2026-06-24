@@ -262,9 +262,8 @@ const metadata = {
     <Fragment slot="title"> Попробуйте Siplinx AI бесплатно 7 дней </Fragment>
 
     <Fragment slot="subtitle">
-      Используйте код <span class="font-mono font-bold bg-white/20 px-2 py-0.5 rounded">QATEST100</span> для 100% скидки. <br
-        class="hidden md:inline"
-      />
+      Используйте код <span class="font-mono font-bold bg-white/20 px-2 py-0.5 rounded">QATEST100</span> для 100% скидки.
+      <br class="hidden md:inline" />
       Без кредитной карты. Без облака. Ваши встречи всегда остаются приватными.
     </Fragment>
 
@@ -279,7 +278,7 @@ const metadata = {
   <script>
     function detectOS(): 'mac' | 'windows' {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const uaData = (navigator as any).userAgentData;
+      const uaData = (navigator as any).userAgentData;
       if (uaData?.platform) {
         const p = uaData.platform.toLowerCase();
         if (p.includes('win')) return 'windows';
@@ -296,7 +295,9 @@ const metadata = {
     function applyOsToButtons(macClass: string, winClass: string) {
       const macBtns = document.querySelectorAll<HTMLElement>(`.${macClass}`);
       const winBtns = document.querySelectorAll<HTMLElement>(`.${winClass}`);
-      const hide = (btn: HTMLElement) => { (btn.parentElement ?? btn).style.display = 'none'; };
+      const hide = (btn: HTMLElement) => {
+        (btn.parentElement ?? btn).style.display = 'none';
+      };
       if (os === 'mac') {
         winBtns.forEach(hide);
       } else {

@@ -11,21 +11,17 @@ const ruPath = isRu ? currentPath : `/ru${currentPath === '/' ? '' : currentPath
     data-lang-switch="en"
     class:list={[
       'px-2 py-1 text-xs font-semibold rounded transition-colors',
-      !isRu
-        ? 'bg-blue-600 text-white'
-        : 'text-muted dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400',
-    ]}
-  >EN</a>
+      !isRu ? 'bg-blue-600 text-white' : 'text-muted dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400',
+    ]}>EN</a
+  >
   <a
     href={ruPath}
     data-lang-switch="ru"
     class:list={[
       'px-2 py-1 text-xs font-semibold rounded transition-colors',
-      isRu
-        ? 'bg-blue-600 text-white'
-        : 'text-muted dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400',
-    ]}
-  >RU</a>
+      isRu ? 'bg-blue-600 text-white' : 'text-muted dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400',
+    ]}>RU</a
+  >
 </div>
 
 <script>

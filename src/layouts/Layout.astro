@@ -49,7 +49,9 @@ const lang = isRuPage ? 'ru' : language;
       .reveal {
         opacity: 0;
         transform: translateY(1.5rem);
-        transition: opacity 0.6s ease, transform 0.6s ease;
+        transition:
+          opacity 0.6s ease,
+          transform 0.6s ease;
       }
       .reveal.revealed {
         opacity: 1;
@@ -58,7 +60,9 @@ const lang = isRuPage ? 'ru' : language;
       .reveal-left {
         opacity: 0;
         transform: translateX(-2rem);
-        transition: opacity 0.6s ease, transform 0.6s ease;
+        transition:
+          opacity 0.6s ease,
+          transform 0.6s ease;
       }
       .reveal-left.revealed {
         opacity: 1;
@@ -67,7 +71,9 @@ const lang = isRuPage ? 'ru' : language;
       .reveal-scale {
         opacity: 0;
         transform: scale(0.93);
-        transition: opacity 0.5s ease, transform 0.5s ease;
+        transition:
+          opacity 0.5s ease,
+          transform 0.5s ease;
       }
       .reveal-scale.revealed {
         opacity: 1;
@@ -75,7 +81,10 @@ const lang = isRuPage ? 'ru' : language;
       }
       /* Gradient animated border glow on hover for cards */
       .card-hover {
-        transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+        transition:
+          transform 0.25s ease,
+          box-shadow 0.25s ease,
+          border-color 0.25s ease;
       }
       .card-hover:hover {
         transform: translateY(-3px);
@@ -99,9 +108,18 @@ const lang = isRuPage ? 'ru' : language;
         animation: floatUp 6s ease-in-out infinite;
         pointer-events: none;
       }
-      .orb-blue { background: #3b82f6; animation-delay: 0s; }
-      .orb-violet { background: #7c3aed; animation-delay: -3s; }
-      .orb-cyan { background: #06b6d4; animation-delay: -1.5s; }
+      .orb-blue {
+        background: #3b82f6;
+        animation-delay: 0s;
+      }
+      .orb-violet {
+        background: #7c3aed;
+        animation-delay: -3s;
+      }
+      .orb-cyan {
+        background: #06b6d4;
+        animation-delay: -1.5s;
+      }
       /* Shimmer CTA button effect */
       .btn-shimmer {
         position: relative;
@@ -111,7 +129,7 @@ const lang = isRuPage ? 'ru' : language;
         content: '';
         position: absolute;
         inset: 0;
-        background: linear-gradient(105deg, transparent 40%, rgba(255,255,255,0.25) 50%, transparent 60%);
+        background: linear-gradient(105deg, transparent 40%, rgba(255, 255, 255, 0.25) 50%, transparent 60%);
         background-size: 200% 100%;
         animation: shimmer 2.5s ease infinite;
       }
@@ -119,11 +137,18 @@ const lang = isRuPage ? 'ru' : language;
 
     <!-- Microsoft Clarity -->
     <script type="text/javascript">
-      (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(...args){(c[a].q=c[a].q||[]).push(args)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", "xbp2gn6ew9");
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function (...args) {
+            (c[a].q = c[a].q || []).push(args);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', 'xbp2gn6ew9');
     </script>
   </head>
 
@@ -137,17 +162,20 @@ const lang = isRuPage ? 'ru' : language;
       function initReveal() {
         const els = document.querySelectorAll<HTMLElement>('.reveal, .reveal-left, .reveal-scale');
         if (!els.length) return;
-        const io = new IntersectionObserver((entries) => {
-          entries.forEach((entry, idx) => {
-            if (entry.isIntersecting) {
-              const el = entry.target as HTMLElement;
-              const delay = (el.dataset.delay ? parseInt(el.dataset.delay) : idx * 80);
-              setTimeout(() => el.classList.add('revealed'), delay);
-              io.unobserve(el);
-            }
-          });
-        }, { threshold: 0.1 });
-        els.forEach(el => io.observe(el));
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry, idx) => {
+              if (entry.isIntersecting) {
+                const el = entry.target as HTMLElement;
+                const delay = el.dataset.delay ? parseInt(el.dataset.delay) : idx * 80;
+                setTimeout(() => el.classList.add('revealed'), delay);
+                io.unobserve(el);
+              }
+            });
+          },
+          { threshold: 0.1 }
+        );
+        els.forEach((el) => io.observe(el));
       }
       initReveal();
       document.addEventListener('astro:after-swap', initReveal);
@@ -172,14 +200,25 @@ const lang = isRuPage ? 'ru' : language;
           if (cls.includes('hero-btn') || cls.includes('hero')) fire('click_download_hero');
           else if (cls.includes('cta-btn') || cls.includes('cta')) fire('click_download_cta');
           else fire('click_download_nav');
-        } else if (href.includes('/pricing') || text.includes('pricing') || text.includes('цены') || text.includes('тарифы')) {
+        } else if (
+          href.includes('/pricing') ||
+          text.includes('pricing') ||
+          text.includes('цены') ||
+          text.includes('тарифы')
+        ) {
           fire('click_pricing_nav');
         } else if (href.includes('/help') || text.includes('help center') || text.includes('центр помощи')) {
           fire('click_help_center');
         } else if (href.includes('/blog') || text.includes('blog') || text.includes('блог')) {
           fire('click_blog');
-        } else if (text.includes('get started') || text.includes('buy') || text.includes('choose') || text.includes('начать')) {
-          if (text.includes('starter') || text.includes('monthly') || text.includes('месяц')) fire('click_pricing_starter');
+        } else if (
+          text.includes('get started') ||
+          text.includes('buy') ||
+          text.includes('choose') ||
+          text.includes('начать')
+        ) {
+          if (text.includes('starter') || text.includes('monthly') || text.includes('месяц'))
+            fire('click_pricing_starter');
           else if (text.includes('pro') || text.includes('annual') || text.includes('год')) fire('click_pricing_pro');
           else fire('click_pricing_cta');
         }

@@ -70,7 +70,8 @@
   }
 
   @keyframes floatUp {
-    0%, 100% {
+    0%,
+    100% {
       transform: translateY(0);
     }
     50% {
@@ -79,18 +80,32 @@
   }
 
   @keyframes shimmer {
-    0% { background-position: -200% center; }
-    100% { background-position: 200% center; }
+    0% {
+      background-position: -200% center;
+    }
+    100% {
+      background-position: 200% center;
+    }
   }
 
   @keyframes gradientShift {
-    0%, 100% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
+    0%,
+    100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
   }
 
   @keyframes pulse-glow {
-    0%, 100% { box-shadow: 0 0 20px 0px rgba(59, 130, 246, 0.3); }
-    50% { box-shadow: 0 0 40px 8px rgba(124, 58, 237, 0.4); }
+    0%,
+    100% {
+      box-shadow: 0 0 20px 0px rgba(59, 130, 246, 0.3);
+    }
+    50% {
+      box-shadow: 0 0 40px 8px rgba(124, 58, 237, 0.4);
+    }
   }
 }
 

@@ -3,7 +3,8 @@ import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
   title: 'Careers at Siplinx AI — Join Our Team',
-  description: 'Join Siplinx AI and help build the future of private, local AI for meetings. 20 open positions across engineering, design, and more.',
+  description:
+    'Join Siplinx AI and help build the future of private, local AI for meetings. 20 open positions across engineering, design, and more.',
 };
 
 const jobs = [
@@ -11,140 +12,160 @@ const jobs = [
     title: 'Senior Rust Engineer',
     department: 'Engineering',
     type: 'Full-time · Remote',
-    description: 'Build the core desktop engine powering local AI inference on macOS and Windows. Own performance-critical paths for STT and LLM pipelines.',
+    description:
+      'Build the core desktop engine powering local AI inference on macOS and Windows. Own performance-critical paths for STT and LLM pipelines.',
     tags: ['Rust', 'Systems', 'macOS', 'Windows'],
   },
   {
     title: 'ML Engineer — On-Device LLM',
     department: 'AI / ML',
     type: 'Full-time · Remote',
-    description: 'Optimize and fine-tune local language models for meeting summarization. Work with quantized models (GGUF, MLX, ONNX) to hit latency and accuracy targets on consumer hardware.',
+    description:
+      'Optimize and fine-tune local language models for meeting summarization. Work with quantized models (GGUF, MLX, ONNX) to hit latency and accuracy targets on consumer hardware.',
     tags: ['LLM', 'Python', 'GGUF', 'MLX'],
   },
   {
     title: 'Speech Recognition Engineer (STT)',
     department: 'AI / ML',
     type: 'Full-time · Remote',
-    description: 'Improve transcription accuracy and real-time streaming with local Whisper-based models. Work on speaker diarization, noise robustness, and multi-language support.',
+    description:
+      'Improve transcription accuracy and real-time streaming with local Whisper-based models. Work on speaker diarization, noise robustness, and multi-language support.',
     tags: ['Whisper', 'ASR', 'Python', 'C++'],
   },
   {
     title: 'macOS Engineer (Swift / Objective-C)',
     department: 'Engineering',
     type: 'Full-time · Remote',
-    description: 'Build the native macOS app experience — audio capture, menu bar UI, system permissions, and deep integration with the local AI pipeline.',
+    description:
+      'Build the native macOS app experience — audio capture, menu bar UI, system permissions, and deep integration with the local AI pipeline.',
     tags: ['Swift', 'macOS', 'CoreAudio', 'AppKit'],
   },
   {
     title: 'Windows Engineer (C++ / C#)',
     department: 'Engineering',
     type: 'Full-time · Remote',
-    description: 'Own the Windows desktop client. Build audio capture, installer experience, and performance-optimized integration with local ML models.',
+    description:
+      'Own the Windows desktop client. Build audio capture, installer experience, and performance-optimized integration with local ML models.',
     tags: ['C++', 'C#', 'Windows', 'WinRT'],
   },
   {
     title: 'Full-Stack Engineer (TypeScript / Node)',
     department: 'Engineering',
     type: 'Full-time · Remote',
-    description: 'Build the web dashboard, licensing backend, and sync features. Work on account management, subscription flows, and optional cloud-free export integrations.',
+    description:
+      'Build the web dashboard, licensing backend, and sync features. Work on account management, subscription flows, and optional cloud-free export integrations.',
     tags: ['TypeScript', 'Node.js', 'React', 'PostgreSQL'],
   },
   {
     title: 'Frontend Engineer (React / Astro)',
     department: 'Engineering',
     type: 'Full-time · Remote',
-    description: 'Own the marketing site and in-app web views. Implement landing pages, pricing flows, and the notes viewer UI with a focus on performance and accessibility.',
+    description:
+      'Own the marketing site and in-app web views. Implement landing pages, pricing flows, and the notes viewer UI with a focus on performance and accessibility.',
     tags: ['React', 'Astro', 'TypeScript', 'Tailwind'],
   },
   {
     title: 'DevOps / Platform Engineer',
     department: 'Engineering',
     type: 'Full-time · Remote',
-    description: 'Build CI/CD pipelines, auto-update infrastructure, and code-signing for desktop releases. Ensure zero-downtime deployments for backend services.',
+    description:
+      'Build CI/CD pipelines, auto-update infrastructure, and code-signing for desktop releases. Ensure zero-downtime deployments for backend services.',
     tags: ['GitHub Actions', 'Docker', 'Terraform', 'AWS'],
   },
   {
     title: 'Product Manager',
     department: 'Product',
     type: 'Full-time · Remote',
-    description: 'Define the roadmap for Siplinx AI, from core transcription features to integrations. Work closely with users, engineering, and design to ship features that matter.',
+    description:
+      'Define the roadmap for Siplinx AI, from core transcription features to integrations. Work closely with users, engineering, and design to ship features that matter.',
     tags: ['Roadmap', 'B2B', 'SaaS', 'Desktop'],
   },
   {
     title: 'UX / Product Designer',
     department: 'Design',
     type: 'Full-time · Remote',
-    description: 'Design the end-to-end product experience — from onboarding and model installation to the real-time notes panel. Privacy-first, minimal, and delightful.',
+    description:
+      'Design the end-to-end product experience — from onboarding and model installation to the real-time notes panel. Privacy-first, minimal, and delightful.',
     tags: ['Figma', 'UX Research', 'Prototyping', 'Design Systems'],
   },
   {
     title: 'Brand & Visual Designer',
     department: 'Design',
     type: 'Full-time · Remote',
-    description: 'Shape the Siplinx AI visual identity — marketing assets, landing pages, social graphics, and in-app illustrations. Own the brand across all touch points.',
+    description:
+      'Shape the Siplinx AI visual identity — marketing assets, landing pages, social graphics, and in-app illustrations. Own the brand across all touch points.',
     tags: ['Figma', 'Illustration', 'Motion', 'Branding'],
   },
   {
     title: 'Head of Growth',
     department: 'Marketing',
     type: 'Full-time · Remote',
-    description: 'Lead user acquisition, retention, and viral loops for a privacy-first AI product. Run experiments across SEO, paid, and community channels.',
+    description:
+      'Lead user acquisition, retention, and viral loops for a privacy-first AI product. Run experiments across SEO, paid, and community channels.',
     tags: ['Growth', 'SEO', 'Paid', 'Analytics'],
   },
   {
     title: 'Content Marketer / SEO',
     department: 'Marketing',
     type: 'Full-time · Remote',
-    description: 'Write high-value articles on AI, privacy, meeting productivity, and local AI tech. Build organic traffic through thought-leadership and comparison content.',
+    description:
+      'Write high-value articles on AI, privacy, meeting productivity, and local AI tech. Build organic traffic through thought-leadership and comparison content.',
     tags: ['SEO', 'Content Strategy', 'Copywriting', 'AI'],
   },
   {
     title: 'Developer Advocate',
     department: 'Marketing',
     type: 'Full-time · Remote',
-    description: 'Engage developers and technical users who care about local AI. Create tutorials, demos, and open-source integrations that showcase Siplinx AI\'s capabilities.',
+    description:
+      "Engage developers and technical users who care about local AI. Create tutorials, demos, and open-source integrations that showcase Siplinx AI's capabilities.",
     tags: ['DevRel', 'Open Source', 'Community', 'Technical Writing'],
   },
   {
     title: 'Customer Success Manager',
     department: 'Customer Success',
     type: 'Full-time · Remote',
-    description: 'Onboard enterprise customers, run business reviews, and ensure teams get maximum value from Siplinx AI. Be the bridge between users and our product team.',
+    description:
+      'Onboard enterprise customers, run business reviews, and ensure teams get maximum value from Siplinx AI. Be the bridge between users and our product team.',
     tags: ['Enterprise', 'B2B', 'Onboarding', 'Retention'],
   },
   {
     title: 'Technical Support Engineer',
     department: 'Customer Success',
     type: 'Full-time · Remote',
-    description: 'Help users resolve installation issues, model setup problems, and audio configuration. Create self-serve documentation and build diagnostic tooling.',
+    description:
+      'Help users resolve installation issues, model setup problems, and audio configuration. Create self-serve documentation and build diagnostic tooling.',
     tags: ['Support', 'macOS', 'Windows', 'Documentation'],
   },
   {
     title: 'Enterprise Sales Executive',
     department: 'Sales',
     type: 'Full-time · Remote',
-    description: 'Close enterprise deals with legal, financial, and healthcare teams who need privacy-first AI. Own the full cycle from first call to signed contract.',
+    description:
+      'Close enterprise deals with legal, financial, and healthcare teams who need privacy-first AI. Own the full cycle from first call to signed contract.',
     tags: ['Enterprise', 'B2B Sales', 'SaaS', 'Legal / Finance'],
   },
   {
     title: 'Partnerships & BD Manager',
     department: 'Sales',
     type: 'Full-time · Remote',
-    description: 'Build strategic partnerships with privacy-focused organizations, resellers, and platform ecosystems. Drive integrations with productivity tools and CRMs.',
+    description:
+      'Build strategic partnerships with privacy-focused organizations, resellers, and platform ecosystems. Drive integrations with productivity tools and CRMs.',
     tags: ['Partnerships', 'Integrations', 'SaaS', 'BD'],
   },
   {
     title: 'Data Privacy & Compliance Lead',
     department: 'Legal & Compliance',
     type: 'Full-time · Remote',
-    description: 'Own GDPR, HIPAA, and SOC 2 compliance programs. Advise product and engineering on privacy-by-design. Siplinx AI is built on local processing — help us prove it.',
+    description:
+      'Own GDPR, HIPAA, and SOC 2 compliance programs. Advise product and engineering on privacy-by-design. Siplinx AI is built on local processing — help us prove it.',
     tags: ['GDPR', 'HIPAA', 'SOC 2', 'Privacy'],
   },
   {
     title: 'AI Safety & Quality Researcher',
     department: 'AI / ML',
     type: 'Full-time · Remote',
-    description: 'Evaluate and red-team local AI outputs for accuracy, hallucination, and bias. Define quality benchmarks for meeting summaries and action item extraction.',
+    description:
+      'Evaluate and red-team local AI outputs for accuracy, hallucination, and bias. Define quality benchmarks for meeting summaries and action item extraction.',
     tags: ['AI Safety', 'Evaluation', 'Research', 'NLP'],
   },
 ];
@@ -155,12 +176,20 @@ const departments = [...new Set(jobs.map((j) => j.department))];
 <Layout metadata={metadata}>
   <!-- Hero -->
   <section class="relative py-20 md:py-28 overflow-hidden">
-    <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"></div>
+    <div
+      class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"
+    >
+    </div>
     <div class="orb orb-blue w-80 h-80 top-0 -left-24"></div>
     <div class="orb orb-violet w-72 h-72 bottom-0 -right-20"></div>
     <div class="relative max-w-5xl mx-auto px-4 sm:px-6 text-center">
-      <p class="reveal text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4">We're hiring</p>
-      <h1 class="reveal text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6" data-delay="100">
+      <p class="reveal text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4">
+        We're hiring
+      </p>
+      <h1
+        class="reveal text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6"
+        data-delay="100"
+      >
         Build the future of<br />
         <span class="gradient-animate">private AI</span>
       </h1>
@@ -168,7 +197,10 @@ const departments = [...new Set(jobs.map((j) => j.department))];
         At Siplinx AI we believe AI should work for you — on your device, under your control. Join a small, ambitious
         team building the meeting AI that never sends your data anywhere.
       </p>
-      <div class="reveal flex flex-wrap justify-center gap-6 text-sm text-gray-600 dark:text-slate-400" data-delay="280">
+      <div
+        class="reveal flex flex-wrap justify-center gap-6 text-sm text-gray-600 dark:text-slate-400"
+        data-delay="280"
+      >
         <span class="flex items-center gap-2">
           <span class="w-2 h-2 rounded-full bg-green-500 inline-block animate-pulse"></span>
           100% Remote
@@ -188,17 +220,31 @@ const departments = [...new Set(jobs.map((j) => j.department))];
   <!-- Values strip -->
   <section class="bg-white dark:bg-[#060512] border-y border-gray-100 dark:border-slate-800 py-12">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
-      {[
-        { icon: '🔒', title: 'Privacy by default', desc: "Everything we build starts with the assumption that your data is yours. That's not a feature — it's a principle." },
-        { icon: '⚡', title: 'Local-first engineering', desc: 'We run LLMs and STT models on your device. Our engineering challenges are real: latency, accuracy, power, and size.' },
-        { icon: '🌍', title: 'Async & remote', desc: 'We hire the best people regardless of location. We communicate in writing, move fast, and respect deep work.' },
-      ].map((v, i) => (
-        <div class="reveal-scale px-4" data-delay={i * 100}>
-          <div class="text-4xl mb-3">{v.icon}</div>
-          <h3 class="font-bold text-gray-900 dark:text-white mb-2">{v.title}</h3>
-          <p class="text-sm text-gray-600 dark:text-slate-400 leading-relaxed">{v.desc}</p>
-        </div>
-      ))}
+      {
+        [
+          {
+            icon: '🔒',
+            title: 'Privacy by default',
+            desc: "Everything we build starts with the assumption that your data is yours. That's not a feature — it's a principle.",
+          },
+          {
+            icon: '⚡',
+            title: 'Local-first engineering',
+            desc: 'We run LLMs and STT models on your device. Our engineering challenges are real: latency, accuracy, power, and size.',
+          },
+          {
+            icon: '🌍',
+            title: 'Async & remote',
+            desc: 'We hire the best people regardless of location. We communicate in writing, move fast, and respect deep work.',
+          },
+        ].map((v, i) => (
+          <div class="reveal-scale px-4" data-delay={i * 100}>
+            <div class="text-4xl mb-3">{v.icon}</div>
+            <h3 class="font-bold text-gray-900 dark:text-white mb-2">{v.title}</h3>
+            <p class="text-sm text-gray-600 dark:text-slate-400 leading-relaxed">{v.desc}</p>
+          </div>
+        ))
+      }
     </div>
   </section>
 
@@ -206,58 +252,79 @@ const departments = [...new Set(jobs.map((j) => j.department))];
   <section class="py-20 max-w-6xl mx-auto px-4 sm:px-6">
     <h2 class="reveal text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center">Open Positions</h2>
 
-    {departments.map((dept) => (
-      <div class="mb-14">
-        <h3 class="reveal text-xs font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4 pb-2 border-b border-gray-100 dark:border-slate-800">
-          {dept}
-        </h3>
-        <div class="space-y-4">
-          {jobs.filter((j) => j.department === dept).map((job, i) => (
-            <div class="reveal card-hover group bg-white dark:bg-slate-900/50 border border-gray-100 dark:border-slate-800 rounded-xl p-6 hover:border-blue-300 dark:hover:border-blue-700" data-delay={i * 60}>
-              <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
-                <div class="flex-1">
-                  <h4 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                    {job.title}
-                  </h4>
-                  <p class="text-sm text-gray-500 dark:text-slate-400 mt-0.5 mb-3">{job.type}</p>
-                  <p class="text-gray-600 dark:text-slate-300 text-sm leading-relaxed">{job.description}</p>
-                  <div class="flex flex-wrap gap-2 mt-4">
-                    {job.tags.map((tag) => (
-                      <span class="px-2.5 py-0.5 rounded-md text-xs font-medium bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 border border-blue-100 dark:border-blue-800">
-                        {tag}
-                      </span>
-                    ))}
+    {
+      departments.map((dept) => (
+        <div class="mb-14">
+          <h3 class="reveal text-xs font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4 pb-2 border-b border-gray-100 dark:border-slate-800">
+            {dept}
+          </h3>
+          <div class="space-y-4">
+            {jobs
+              .filter((j) => j.department === dept)
+              .map((job, i) => (
+                <div
+                  class="reveal card-hover group bg-white dark:bg-slate-900/50 border border-gray-100 dark:border-slate-800 rounded-xl p-6 hover:border-blue-300 dark:hover:border-blue-700"
+                  data-delay={i * 60}
+                >
+                  <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
+                    <div class="flex-1">
+                      <h4 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                        {job.title}
+                      </h4>
+                      <p class="text-sm text-gray-500 dark:text-slate-400 mt-0.5 mb-3">{job.type}</p>
+                      <p class="text-gray-600 dark:text-slate-300 text-sm leading-relaxed">{job.description}</p>
+                      <div class="flex flex-wrap gap-2 mt-4">
+                        {job.tags.map((tag) => (
+                          <span class="px-2.5 py-0.5 rounded-md text-xs font-medium bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 border border-blue-100 dark:border-blue-800">
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                    <div class="flex-shrink-0">
+                      <a
+                        href="https://t.me/amanyessen"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn-shimmer inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-violet-600 text-white text-sm font-semibold hover:from-blue-700 hover:to-violet-700 transition-all hover:-translate-y-0.5 duration-200"
+                      >
+                        Apply now
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
-                <div class="flex-shrink-0">
-                  <a href="https://t.me/amanyessen" target="_blank" rel="noopener noreferrer"
-                    class="btn-shimmer inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-gradient-to-r from-blue-600 to-violet-600 text-white text-sm font-semibold hover:from-blue-700 hover:to-violet-700 transition-all hover:-translate-y-0.5 duration-200">
-                    Apply now
-                    <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          ))}
+              ))}
+          </div>
         </div>
-      </div>
-    ))}
+      ))
+    }
   </section>
 
   <!-- CTA -->
-  <section class="relative py-20 overflow-hidden bg-gradient-to-br from-blue-600 via-blue-700 to-violet-700 dark:from-blue-900 dark:via-blue-950 dark:to-violet-950">
+  <section
+    class="relative py-20 overflow-hidden bg-gradient-to-br from-blue-600 via-blue-700 to-violet-700 dark:from-blue-900 dark:via-blue-950 dark:to-violet-950"
+  >
     <div class="orb orb-cyan w-64 h-64 top-0 right-0 opacity-20"></div>
     <div class="relative max-w-3xl mx-auto px-4 sm:px-6 text-center">
       <h2 class="reveal text-4xl font-bold text-white mb-4">Don't see your role?</h2>
       <p class="reveal text-xl text-blue-100 mb-8" data-delay="100">
-        We're always looking for exceptional people. If you believe in local AI and privacy-first tech, reach out and tell us what you'd build.
+        We're always looking for exceptional people. If you believe in local AI and privacy-first tech, reach out and
+        tell us what you'd build.
       </p>
-      <a href="https://t.me/amanyessen" target="_blank" rel="noopener noreferrer"
-        class="reveal btn-shimmer inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-white text-blue-700 font-bold text-lg hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 duration-200" data-delay="200">
+      <a
+        href="https://t.me/amanyessen"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="reveal btn-shimmer inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-white text-blue-700 font-bold text-lg hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 duration-200"
+        data-delay="200"
+      >
         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L6.922 14.06l-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.46c.537-.194 1.006.131.828.498z"/>
+          <path
+            d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L6.922 14.06l-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.46c.537-.194 1.006.131.828.498z"
+          ></path>
         </svg>
         Message on Telegram
       </a>
