@@ -61,7 +61,7 @@ Before understanding how AI produces meeting summaries, it's worth defining what
 
 ### Decisions Made
 
-Every meeting that accomplishes something produces at least one decision. A great summary explicitly lists what was decided, not just what was discussed. "We discussed the pricing model" is not a decision. "We decided to launch at $49/month with a 14-day free trial" is.
+Every meeting that accomplishes something produces at least one decision. A great summary explicitly lists what was decided, not just what was discussed. "We discussed the pricing model" is not a decision. "We decided to launch at $49/month with a 7-day free trial" is.
 
 ### Action Items with Owners
 
