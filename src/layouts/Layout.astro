@@ -135,20 +135,13 @@ const lang = isRuPage ? 'ru' : language;
       }
     </style>
 
-    <!-- Microsoft Clarity -->
-    <script type="text/javascript">
-      (function (c, l, a, r, i, t, y) {
-        c[a] =
-          c[a] ||
-          function (...args) {
-            (c[a].q = c[a].q || []).push(args);
-          };
-        t = l.createElement(r);
-        t.async = 1;
-        t.src = 'https://www.clarity.ms/tag/' + i;
-        y = l.getElementsByTagName(r)[0];
-        y.parentNode.insertBefore(t, y);
-      })(window, document, 'clarity', 'script', 'xbp2gn6ew9');
+    <!-- Microsoft Clarity — is:inline so Astro doesn't bundle/transform it -->
+    <script is:inline>
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window,document,"clarity","script","xbp2gn6ew9");
     </script>
   </head>
 
@@ -183,46 +176,77 @@ const lang = isRuPage ? 'ru' : language;
 
     <!-- Clarity event tracking -->
     <script>
-      document.addEventListener('click', (e) => {
+      type ClarityFn = (method: string, ...args: string[]) => void;
+
+      function clarityFire(event: string) {
+        const w = window as Record<string, unknown>;
+        if (typeof w.clarity === 'function') {
+          (w.clarity as ClarityFn)('event', event);
+        }
+      }
+
+      function clarityPageView() {
+        const path = window.location.pathname;
+        if (path === '/' || path === '/ru' || path === '/ru/') clarityFire('page_home');
+        else if (path.includes('/pricing')) clarityFire('page_pricing');
+        else if (path.includes('/download')) clarityFire('page_download');
+        else if (path.includes('/help')) clarityFire('page_help');
+        else if (path.includes('/blog')) clarityFire('page_blog');
+        else if (path.includes('/about')) clarityFire('page_about');
+        else if (path.includes('/contact')) clarityFire('page_contact');
+      }
+
+      function clarityClickHandler(e: MouseEvent) {
         const target = (e.target as HTMLElement).closest('a, button');
         if (!target) return;
         const href = (target as HTMLAnchorElement).href || '';
         const text = target.textContent?.trim().toLowerCase() || '';
         const cls = target.className || '';
 
-        const fire = (event: string) => {
-          if (typeof (window as Record<string, unknown>).clarity === 'function') {
-            ((window as Record<string, unknown>).clarity as (a: string, b: string) => void)('event', event);
-          }
-        };
-
         if (href.includes('/download') || text.includes('download') || text.includes('скачать')) {
-          if (cls.includes('hero-btn') || cls.includes('hero')) fire('click_download_hero');
-          else if (cls.includes('cta-btn') || cls.includes('cta')) fire('click_download_cta');
-          else fire('click_download_nav');
+          if (cls.includes('hero-btn') || cls.includes('hero')) clarityFire('click_download_hero');
+          else if (cls.includes('cta-btn') || cls.includes('cta')) clarityFire('click_download_cta');
+          else clarityFire('click_download_nav');
         } else if (
           href.includes('/pricing') ||
           text.includes('pricing') ||
           text.includes('цены') ||
           text.includes('тарифы')
         ) {
-          fire('click_pricing_nav');
+          clarityFire('click_pricing_nav');
         } else if (href.includes('/help') || text.includes('help center') || text.includes('центр помощи')) {
-          fire('click_help_center');
+          clarityFire('click_help_center');
         } else if (href.includes('/blog') || text.includes('blog') || text.includes('блог')) {
-          fire('click_blog');
+          clarityFire('click_blog');
+        } else if (href.includes('/contact') || text.includes('contact') || text.includes('контакт')) {
+          clarityFire('click_contact');
         } else if (
           text.includes('get started') ||
           text.includes('buy') ||
           text.includes('choose') ||
-          text.includes('начать')
+          text.includes('начать') ||
+          text.includes('выбрать') ||
+          text.includes('купить')
         ) {
           if (text.includes('starter') || text.includes('monthly') || text.includes('месяц'))
-            fire('click_pricing_starter');
-          else if (text.includes('pro') || text.includes('annual') || text.includes('год')) fire('click_pricing_pro');
-          else fire('click_pricing_cta');
+            clarityFire('click_pricing_starter');
+          else if (text.includes('pro') || text.includes('annual') || text.includes('год'))
+            clarityFire('click_pricing_pro');
+          else clarityFire('click_pricing_cta');
+        } else if (text.includes('telegram') || href.includes('t.me')) {
+          clarityFire('click_telegram');
         }
-      });
+      }
+
+      // Attach click handler once; use astro:page-load to track SPA page views
+      // Guard against double-registration across hot reloads
+      if (!(window as Record<string, unknown>).__clarityInit) {
+        (window as Record<string, unknown>).__clarityInit = true;
+        document.addEventListener('click', clarityClickHandler);
+      }
+
+      // Fire page-view on every navigation (initial + View Transitions)
+      document.addEventListener('astro:page-load', clarityPageView);
     </script>
 
     <script>
