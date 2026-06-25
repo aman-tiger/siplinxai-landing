@@ -55,7 +55,7 @@ A meeting summary generator is a software tool that converts meeting recordings 
 
 ## What is a meeting summary generator?
 
-A meeting summary generator is a tool (usually AI-powered) that takes a meeting recording or live transcript and produces a written summary of what happened. The output typically includes who said what, what decisions were made, and what action items need follow-up.
+A meeting summary generator is a tool (usually AI-powered) that takes a meeting recording or live transcript and produces a written summary of what happened. The output typically includes who said what, what decisions were made, and what [action items](https://en.wikipedia.org/wiki/Action_item) need follow-up. This is the automated equivalent of [meeting minutes](https://en.wikipedia.org/wiki/Minutes), the formal written record of a meeting's proceedings that organizations have kept for decades.
 
 Early versions were just transcription services with a search box. The modern generation goes further. They identify speakers, categorize discussion into themes, extract commitments by name, and deliver a shareable document within minutes of the call ending. The better tools work across Zoom, Google Meet, and Microsoft Teams. A handful work offline, on your device, without any cloud upload at all.
 
@@ -67,7 +67,7 @@ The core workflow is: record audio (or join live) → transcribe speech to text 
 
 Manual note-taking during meetings is a compromise. The person typing notes is half-listening. Their summaries reflect what they considered important, not a full record. And after the meeting, they face 20-40 minutes of write-up time before the notes are ready to share.
 
-The numbers are stark. According to [Fellow.ai's 2025 State of Meetings Report](https://fellow.ai/blog/meeting-statistics-the-future-of-meetings-report/), U.S. businesses lose **$375 billion per year** to unproductive meetings. Seventy-one percent of senior executives say meetings are unproductive and inefficient. And 83% of employees spend up to one-third of their workweek in meetings. That's before accounting for the time spent writing up what happened afterward.
+The numbers are stark. According to [Fellow.ai's 2025 State of Meetings Report](https://fellow.ai/blog/meeting-statistics-the-future-of-meetings-report/), U.S. businesses lose **$375 billion per year** to unproductive meetings. Seventy-one percent of senior executives say meetings are unproductive and inefficient. And 83% of employees spend up to one-third of their workweek in meetings. That's before accounting for the time spent writing up what happened afterward. According to [Harvard Business Review](https://hbr.org/2022/03/dear-manager-youre-holding-too-many-meetings), unnecessary meetings cost U.S. companies an estimated $37 billion per year in lost productivity alone.
 
 ![Team collaborating in a hybrid meeting with laptops open, taking notes and discussing action items](https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80)
 
@@ -81,7 +81,7 @@ AI meeting summary generators solve the documentation problem by removing the hu
 
 A good AI meeting summary tool does four things well: accuracy, structure, speed, and privacy. Most comparison articles focus only on the first three. Here's what to actually look for.
 
-**Accuracy** means the tool produces summaries that reflect what was said, not approximations of it. Tools using large language models with high-quality speech-to-text engines (like Whisper-based systems) perform well in normal audio conditions. Accuracy drops with heavy accents, background noise, or technical jargon. The honest benchmark is around 90-95% for clean audio, less for in-person room recordings.
+**Accuracy** means the tool produces summaries that reflect what was said, not approximations of it. Tools using large language models with high-quality speech-to-text engines (like Whisper-based systems) perform well in normal audio conditions. The underlying [natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing) technology is what separates a tool that merely transcribes from one that understands context and extracts meaning. Accuracy drops with heavy accents, background noise, or technical jargon. The honest benchmark is around 90-95% for clean audio, less for in-person room recordings.
 
 **Structure** means the output is organized in a way your team can act on. A good summary separates decisions from action items from open questions. A bad summary is just a block of text that paraphrases the transcript chronologically. You want: speaker labels, decision markers, owned action items with names, and a clean next-steps section.
 
@@ -141,7 +141,7 @@ This process works whether you're using a cloud tool or a local one like Siplinx
 
 A few things stand out from this table. The free tiers from Otter, Fireflies, and Fathom are real and usable for individuals. But they all send audio to the cloud. If you're discussing client matters, medical data, or anything covered by NDA, a free cloud tier is not the right tool, regardless of what the marketing page says.
 
-Siplinx AI and Jamie are the two tools on this list that run entirely on your device. [Siplinx AI runs on Mac and Windows without any cloud dependency](https://siplinx.com/privacy/?utm_source=own_blog&utm_medium=article&utm_campaign=meeting-summary-generator&utm_content=privacy-local-processing), which matters for GDPR and HIPAA-sensitive environments. No audio file, transcript, or summary ever leaves your machine.
+Siplinx AI and Jamie are the two tools on this list that run entirely on your device. [Siplinx AI runs on Mac and Windows without any cloud dependency](https://siplinx.com/security/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=meeting-summary-generator&utm_content=security-local-processing), which matters for GDPR and HIPAA-sensitive environments. No audio file, transcript, or summary ever leaves your machine.
 
 I'll be direct about the tradeoff: cloud tools are more convenient for sharing and collaboration. If you're summarizing a public marketing call with no confidential content, Fathom or Otter work fine. If you're in a legal deposition, a patient consultation, or an executive strategy discussion, local processing is not optional. It's the baseline.
 
@@ -159,7 +159,7 @@ For professionals who handle sensitive conversations, this changes the risk prof
 
 The tradeoff is that local processing requires a reasonably modern machine. Siplinx AI recommends a Mac with Apple Silicon or a Windows PC with a dedicated GPU for best performance. The summary quality is comparable to cloud tools for most meetings, though heavily accented speech in noisy environments benefits more from cloud-scale training data.
 
-If your work involves attorney-client privilege, HIPAA-covered health data, or anything where confidentiality is a professional obligation, [try Siplinx AI to see how local processing compares](https://siplinx.com/download/?utm_source=own_blog&utm_medium=article&utm_campaign=meeting-summary-generator&utm_content=cta-download).
+If your work involves attorney-client privilege, HIPAA-covered health data, or anything where confidentiality is a professional obligation, [try Siplinx AI to see how local processing compares](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=meeting-summary-generator&utm_content=download-cta).
 
 ---
 
@@ -213,7 +213,7 @@ The tools have matured rapidly. Most cloud options are accurate enough for every
 
 If your meetings are internal stand-ups and project check-ins, any of the free cloud tools will do the job. If your meetings involve clients, patients, or confidential strategy, you need to know exactly where your audio goes after the call ends. Siplinx AI is one of the few tools that gives a simple, auditable answer to that question: it goes nowhere. It stays on your device.
 
-[Download Siplinx AI and generate your first private meeting summary today.](https://siplinx.com/download/?utm_source=own_blog&utm_medium=article&utm_campaign=meeting-summary-generator&utm_content=conclusion-cta)
+[Download Siplinx AI and generate your first private meeting summary today.](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=meeting-summary-generator&utm_content=conclusion-download)
 
 ---
 
