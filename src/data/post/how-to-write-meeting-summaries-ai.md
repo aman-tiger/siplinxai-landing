@@ -115,7 +115,7 @@ When your team receives the same structure every time, they know where to look f
 
 ## How to use AI to write meeting summaries (without sounding like a robot) {#how-to-use-ai-to-write-meeting-summaries}
 
-AI meeting tools can generate a summary from a transcript in under 30 seconds. The speed is real. The problem is that raw AI output often sounds like... AI output. Generic phrasing, missed nuance, bullet points that list what was discussed but not what was actually decided.
+AI meeting tools can generate a summary from a transcript in under 30 seconds. The speed is real. The problem is that raw AI output often sounds like... AI output. Generic phrasing, missed nuance, bullet points that list what was discussed but not what was actually decided. These tools rely on [natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing) to parse speech and extract meaning, and while the technology has improved dramatically, it still misses context that a human participant picks up automatically.
 
 I've tested several AI meeting tools over the past year, and the pattern is consistent: the first draft is a decent skeleton, but it takes a human edit pass to make it something people will actually act on.
 
