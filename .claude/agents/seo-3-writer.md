@@ -184,6 +184,25 @@ Published: [Month DD, YYYY] · Updated: [Month DD, YYYY]
 ---
 ```
 
+## Internal linking / Related articles (REQUIRED)
+
+At the bottom of the article, before the Schema.org block, add a "Related articles" section with 3-5 links to other Siplinx blog posts. Use ONLY these confirmed existing URLs:
+
+```markdown
+## Related articles
+
+- [Best Granola alternative in 2026](/granola-alternative-siplinx/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=[SLUG]&utm_content=related-granola)
+- [Fireflies.ai alternative: privacy-first option](/fireflies-alternative/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=[SLUG]&utm_content=related-fireflies)
+- [Otter AI alternative with local processing](/otter-ai-alternative/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=[SLUG]&utm_content=related-otter)
+- [Offline meeting recorder: no cloud required](/offline-meeting-recorder/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=[SLUG]&utm_content=related-offline)
+- [AI meeting notes: complete guide](/ai-meeting-notes-complete-guide/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=[SLUG]&utm_content=related-guide)
+- [Real-time meeting transcription](/real-time-meeting-transcription/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=[SLUG]&utm_content=related-transcription)
+- [Meeting summary generator](/meeting-summary-generator/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=[SLUG]&utm_content=related-summary)
+- [Zoom meeting notes with AI](/zoom-meeting-notes/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=[SLUG]&utm_content=related-zoom)
+```
+
+Pick the 3-4 most relevant to the current article topic. Do NOT link to the current article itself.
+
 ## Schema.org (at very end of article)
 
 ```json
