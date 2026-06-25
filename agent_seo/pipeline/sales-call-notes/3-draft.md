@@ -196,8 +196,8 @@ Here's a template you can copy directly into your CRM or a shared notes document
 
 **SALES CALL NOTES TEMPLATE**
 
-**Date:** **_
-**Contact:** _** (name, title, company)
+**Date:** **\_
+**Contact:** \_** (name, title, company)
 **Call type:** Discovery / Demo / Negotiation / Check-in / Renewal
 
 ---
