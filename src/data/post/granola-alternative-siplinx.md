@@ -75,6 +75,7 @@ Per-seat SaaS pricing for multiple users grows fast. Some tools offer lifetime l
 **Why it stands out:** Siplinx AI is the only Granola alternative that processes everything locally. No audio is ever sent to a server. No account required to take notes. No subscription that can be canceled, repriced, or shut down by a vendor. The application works in airplane mode, in secure facilities, on networks with strict egress filtering, and anywhere else where cloud connectivity is unavailable or prohibited.
 
 **Key features:**
+
 - Real-time transcription with speaker identification (who said what)
 - AI-generated meeting summaries with key decisions and action items
 - Automatic export in multiple formats (plain text, Markdown, structured notes)
@@ -139,25 +140,26 @@ Per-seat SaaS pricing for multiple users grows fast. Some tools offer lifetime l
 
 ## Feature Comparison Table
 
-| Feature | **Siplinx AI** | Granola | Fireflies | Otter.ai | Fathom |
-|---|---|---|---|---|---|
-| **Local/offline processing** | ✅ Yes | ❌ No | ❌ No | ❌ No | ❌ No |
-| **Mac support** | ✅ Yes | ✅ Yes | Browser | Browser | Browser |
-| **Windows support** | ✅ Yes | ❌ No | Browser | Browser | Browser |
-| **No bot in meeting** | ✅ Yes | ✅ Yes | ❌ No | ❌ No | ✅ Yes |
-| **In-person meeting support** | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ❌ No |
-| **Real-time transcription** | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Speaker identification** | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Action item extraction** | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Data never leaves device** | ✅ Yes | ❌ No | ❌ No | ❌ No | ❌ No |
-| **One-time pricing option** | ✅ Yes | ❌ No | ❌ No | ❌ No | ❌ No |
-| **Offline mode** | ✅ Yes | ❌ No | ❌ No | ❌ No | ❌ No |
+| Feature                       | **Siplinx AI** | Granola | Fireflies | Otter.ai | Fathom  |
+| ----------------------------- | -------------- | ------- | --------- | -------- | ------- |
+| **Local/offline processing**  | ✅ Yes         | ❌ No   | ❌ No     | ❌ No    | ❌ No   |
+| **Mac support**               | ✅ Yes         | ✅ Yes  | Browser   | Browser  | Browser |
+| **Windows support**           | ✅ Yes         | ❌ No   | Browser   | Browser  | Browser |
+| **No bot in meeting**         | ✅ Yes         | ✅ Yes  | ❌ No     | ❌ No    | ✅ Yes  |
+| **In-person meeting support** | ✅ Yes         | ✅ Yes  | ✅ Yes    | ✅ Yes   | ❌ No   |
+| **Real-time transcription**   | ✅ Yes         | ✅ Yes  | ✅ Yes    | ✅ Yes   | ✅ Yes  |
+| **Speaker identification**    | ✅ Yes         | ✅ Yes  | ✅ Yes    | ✅ Yes   | ✅ Yes  |
+| **Action item extraction**    | ✅ Yes         | ✅ Yes  | ✅ Yes    | ✅ Yes   | ✅ Yes  |
+| **Data never leaves device**  | ✅ Yes         | ❌ No   | ❌ No     | ❌ No    | ❌ No   |
+| **One-time pricing option**   | ✅ Yes         | ❌ No   | ❌ No     | ❌ No    | ❌ No   |
+| **Offline mode**              | ✅ Yes         | ❌ No   | ❌ No     | ❌ No    | ❌ No   |
 
 ---
 
 ## Who Should Switch From Granola—and to What?
 
 **Switch to Siplinx AI if:**
+
 - Your meetings contain confidential, regulated, or legally sensitive information
 - You or your team uses Windows (or a mixed Mac/Windows environment)
 - You need your meeting notes to work without internet access
@@ -165,15 +167,18 @@ Per-seat SaaS pricing for multiple users grows fast. Some tools offer lifetime l
 - You work in healthcare, legal, finance, government, or any field with strict data governance
 
 **Stay with Granola if:**
+
 - You're a Mac-only user without sensitive data concerns
 - You value Granola's polish and specific UX choices
 - You don't mind cloud processing and are comfortable with Granola's terms of service
 
 **Switch to Fireflies if:**
+
 - You run a sales team and need deep CRM integration
 - Volume and searchability across many meetings is more important than privacy
 
 **Switch to Fathom if:**
+
 - You're an individual user on Zoom with no sensitive data and want zero cost
 
 ---
@@ -217,6 +222,7 @@ No. Siplinx AI is fully functional offline. All processing runs on your local de
 Granola is a well-designed product for a specific user: Mac-only, comfortable with cloud processing, and prioritizing a polished consumer UX. If that describes you, Granola is a reasonable choice.
 
 But if you need:
+
 - **Privacy** (no audio leaving your device)
 - **Cross-platform support** (Windows + Mac)
 - **Offline capability**
