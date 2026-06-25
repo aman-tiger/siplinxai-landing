@@ -1,0 +1,24 @@
+# Siplinx AI
+
+> Private, offline AI meeting notes — runs entirely on your local device using a local LLM. No cloud upload, no third-party servers.
+
+Siplinx AI transcribes, summarizes, and organizes your meeting notes locally. Key differentiators: 100% offline, no data leaves your device, works with Zoom, Google Meet, and Microsoft Teams, supports English and Russian. Competitors include Granola, Fireflies.ai, Otter.ai, and Fathom.
+
+## Product
+
+- [Home](https://siplinx.com/): Overview, features, pricing, and download
+- [Blog](https://siplinx.com/blog/): Articles on AI privacy, local LLM use cases, and meeting productivity
+
+## Authors
+
+- [Authors](https://siplinx.com/authors/): Team and advisors behind Siplinx AI
+
+## Russian Version
+
+- [Главная (RU)](https://siplinx.com/ru/): Russian-language landing page
+- [Блог (RU)](https://siplinx.com/ru/blog/): Russian blog on AI and privacy
+- [Авторы (RU)](https://siplinx.com/ru/authors/): Russian authors page
+
+## Optional
+
+- [Samal Bekmaganbetova](https://siplinx.com/authors/samal-bekmaganbetova/): Privacy & Data Governance Advisor, UN DRRS Programme Manager
