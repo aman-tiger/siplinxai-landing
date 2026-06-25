@@ -56,7 +56,7 @@ Microsoft Teams currently ships two distinct note experiences. The first is **co
 
 Here is what each option gives you at no extra cost. Collaborative notes are available to anyone on a Teams meeting. You open the Notes pane, start typing, and colleagues see your edits in real time. The transcript feature (turning speech into text) is also free if your admin has enabled it, though you must start it manually during each meeting. What you don't get for free is the AI layer that turns those raw transcripts into structured summaries.
 
-Microsoft has [320 million monthly active Teams users](https://speakwiseapp.com/blog/microsoft-teams-statistics) as of 2026, which means whatever note system Microsoft builds into the platform reaches more people than any third-party tool. That scale is why understanding what's native matters before paying for add-ons.
+According to [Harvard Business Review](https://hbr.org/2022/03/dear-manager-youre-holding-too-many-meetings), unnecessary meetings cost U.S. companies an estimated $37 billion per year in lost productivity, which makes capturing decisions and action items accurately a genuine business problem, not just a convenience. Microsoft has [320 million monthly active Teams users](https://speakwiseapp.com/blog/microsoft-teams-statistics) as of 2026, which means whatever note system Microsoft builds into the platform reaches more people than any third-party tool. That scale is why understanding what's native matters before paying for add-ons.
 
 Since April 2026, Loop-powered meeting notes are also available for instant "Meet Now" meetings and calls started from chat. Previously, they were limited to scheduled calendar meetings. That's a meaningful improvement for teams that run a lot of ad hoc calls.
 
@@ -66,9 +66,9 @@ Since April 2026, Loop-powered meeting notes are also available for instant "Mee
 
 The biggest frustrations with Teams meeting notes are fragmentation, accuracy, and scope. Notes can end up in three different places (Loop, OneNote, the Recap tab), transcription struggles with technical terms, and the most useful AI features sit behind a paywall most teams haven't paid for.
 
-**The fragmentation problem.** Teams has historically routed notes to different locations depending on how the meeting was set up, which version of Teams you run, and whether your organization uses OneNote for Business. In practice, this means teams spend time after meetings searching across SharePoint, OneNote, and the chat thread for the same notes. That confusion is real. And [70% of meeting decisions are forgotten within 24 hours](https://www.notta.ai/en/blog/meeting-statistics) without structured documentation. Fragmented notes make that worse, not better.
+**The fragmentation problem.** Teams has historically routed notes to different locations depending on how the meeting was set up, which version of Teams you run, and whether your organization uses OneNote for Business. In practice, this means teams spend time after meetings searching across SharePoint, OneNote, and the chat thread for the same notes. That confusion is real. Proper [meeting minutes](https://en.wikipedia.org/wiki/Minutes) have been a cornerstone of organizational decision-making for centuries precisely because decisions without written records get lost. And [70% of meeting decisions are forgotten within 24 hours](https://www.notta.ai/en/blog/meeting-statistics) without structured documentation. Fragmented notes make that worse, not better.
 
-**Transcription accuracy.** The free Teams transcription engine works reasonably well for clear speech in standard English. It degrades when speakers have accents, use domain-specific vocabulary (legal citations, medical terms, product code names), or talk over each other. I've seen engineering team transcripts where product names were consistently wrong, making the transcript nearly unusable for action items.
+**Transcription accuracy.** The free Teams transcription engine works reasonably well for clear speech in standard English. [Speech recognition](https://en.wikipedia.org/wiki/Speech_recognition) accuracy depends heavily on acoustic conditions, speaker accents, and vocabulary domain, and Teams' engine is no exception. It degrades when speakers have accents, use domain-specific vocabulary (legal citations, medical terms, product code names), or talk over each other. I've seen engineering team transcripts where product names were consistently wrong, making the transcript nearly unusable for action items.
 
 **What it still doesn't cover.** Even with the April 2026 expansion to instant meetings, AI-generated summaries are not available for channel meetings, external guest-only calls, or meetings where transcription was disabled at the admin level. Those are common scenarios for many organizations.
 
@@ -112,13 +112,13 @@ Several third-party tools integrate with Microsoft Teams to add AI note-taking t
 
 **Otter.ai** consistently gets high marks for real-time transcription accuracy and a searchable note archive. The 300 minutes/month free tier is enough for occasional users. Beyond that, the $10/month plan covers most individual contributors.
 
-**[Siplinx AI](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=teams-meeting-notes&utm_content=comparison-table-intro) runs entirely on your device.** No bot joins the call. No audio leaves your computer. It processes transcription and AI summaries using a local speech-to-text engine and a local LLM. That approach matters for anyone who handles conversations that can't go to a third-party cloud, regardless of that cloud's privacy policy.
+**[Siplinx AI](https://siplinx.com/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=teams-meeting-notes&utm_content=comparison-table-intro) runs entirely on your device.** No bot joins the call. No audio leaves your computer. It processes transcription and AI summaries using a local speech-to-text engine and a local LLM. That approach matters for anyone who handles conversations that can't go to a third-party cloud, regardless of that cloud's privacy policy.
 
 ---
 
 ## How does privacy work with Teams transcription and cloud note storage? {#privacy-and-compliance}
 
-When Teams transcribes a meeting, the audio and resulting transcript are processed and stored on Microsoft's servers, not on your device. Microsoft encrypts data in transit and at rest using TLS and SRTP. But encryption doesn't mean the data isn't on Microsoft's infrastructure. It means it's protected while it's there.
+When Teams transcribes a meeting, [transcription](https://en.wikipedia.org/wiki/Transcription_(linguistics)) converts the spoken audio into a written record that is processed and stored on Microsoft's servers, not on your device. Microsoft encrypts data in transit and at rest using TLS and SRTP. But encryption doesn't mean the data isn't on Microsoft's infrastructure. It means it's protected while it's there.
 
 For most organizations, that's an acceptable risk. Microsoft holds SOC 2 Type II certifications, ISO 27001, and offers HIPAA Business Associate Agreements for qualifying customers. But those certifications apply to Microsoft's handling of your data, not to the content of what was said.
 
@@ -126,7 +126,7 @@ The question that most Teams notes articles skip entirely is this: who in your o
 
 Third-party tools add another layer of data custody. When Fireflies or Otter joins your Teams meeting as a bot, that company's servers also receive and process your audio. Their privacy policies vary. Some explicitly opt customers out of training data by default; others require enterprise agreements for that protection.
 
-The only approach that removes cloud risk entirely is local processing. [Siplinx AI keeps all audio, transcripts, and summaries on your device](https://siplinx.com/privacy/?utm_source=own_blog&utm_medium=article&utm_campaign=teams-meeting-notes&utm_content=privacy-section-local), using a local LLM and local speech-to-text engine. Nothing is sent anywhere. For lawyers under attorney-client privilege, doctors handling protected health information, or executives discussing material non-public information, that architecture is the only one that doesn't create a compliance question.
+The only approach that removes cloud risk entirely is local processing. [Siplinx AI keeps all audio, transcripts, and summaries on your device](https://siplinx.com/security/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=teams-meeting-notes&utm_content=security-local-processing), using a local LLM and local speech-to-text engine. Nothing is sent anywhere. For lawyers under attorney-client privilege, doctors handling protected health information, or executives discussing material non-public information, that architecture is the only one that doesn't create a compliance question.
 
 ![Privacy-conscious professional using offline meeting notes software on a desktop computer](https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1200&q=80)
 
@@ -199,7 +199,7 @@ Teams meeting notes don't have a single right answer. If you're a team of five r
 
 The piece that almost no Teams article discusses honestly: if the content of your meetings is confidential, the note-taking tool you choose is also a data custody decision. Cloud tools, including Microsoft's own Copilot, process your audio and transcripts on remote servers. That's fine until it isn't.
 
-[Try Siplinx AI](https://siplinx.com/download/?utm_source=own_blog&utm_medium=article&utm_campaign=teams-meeting-notes&utm_content=conclusion-cta) if you need meeting notes that stay entirely on your device. It works alongside Teams without joining as a bot, transcribes locally, and produces structured summaries without sending a single byte to any server.
+[Try Siplinx AI](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=teams-meeting-notes&utm_content=conclusion-download-cta) if you need meeting notes that stay entirely on your device. It works alongside Teams without joining as a bot, transcribes locally, and produces structured summaries without sending a single byte to any server.
 
 ---
 
