@@ -67,7 +67,7 @@ One detail most buyers miss: many cloud tools also join your meeting as a visibl
 
 ## Why most Windows meeting recorders send your audio to the cloud {#why-cloud-risks-matter}
 
-This matters more than most articles admit. Research cited by Windows News AI in 2025 found that **78% of cloud transcription services retain user data longer than their privacy policies state**, and **43% share anonymized data with third parties for AI model training**. That means your meeting about a client's legal case, a patient's medical situation, or a company acquisition may end up in a training dataset.
+This matters more than most articles admit. According to [Harvard Business Review](https://hbr.org/2022/03/dear-manager-youre-holding-too-many-meetings), unnecessary meetings cost U.S. companies an estimated $37 billion per year in lost productivity, which makes the tools you use to manage them a real business decision, not just a preference. Research cited by Windows News AI in 2025 found that **78% of cloud transcription services retain user data longer than their privacy policies state**, and **43% share anonymized data with third parties for AI model training**. That means your meeting about a client's legal case, a patient's medical situation, or a company acquisition may end up in a training dataset.
 
 The problem isn't hypothetical. An IT director quoted in the same report described discovering that transcripts saved to shared drives on Windows had inherited incorrect file permissions, making confidential meeting recordings accessible to entire departments that were not supposed to see them. Windows file permission propagation compounded a cloud storage problem into an organizational data breach.
 
@@ -130,7 +130,7 @@ Regulated industries face a harder constraint: compliance is not optional. A clo
 
 **Legal.** Attorney-client privilege depends on confidentiality. A cloud meeting recorder that retains transcripts, trains models on your data, or exposes content to vendor employees creates a potential privilege issue. Law firms should either use local tools or obtain written assurances about data handling from any cloud vendor they consider.
 
-**Finance.** Financial regulators in multiple jurisdictions require records management policies that specify where data is stored and who can access it. Cloud tools complicate this. A local recorder with local storage makes compliance documentation straightforward.
+**Finance.** Financial regulators in multiple jurisdictions require records management policies that specify where data is stored and who can access it. Proper [meeting minutes](https://en.wikipedia.org/wiki/Minutes) and records are a compliance requirement, not just good practice. Cloud tools complicate this. A local recorder with local storage makes compliance documentation straightforward.
 
 For all three industries, [Siplinx AI's on-device approach](https://siplinx.com/security/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=windows-meeting-recorder&utm_content=security-privacy-page) removes the vendor data risk entirely. Since the local LLM and local speech-to-text engine run on your own Windows machine, there's no cloud vendor involved in the data chain. This does not replace a formal compliance review, but it removes the biggest exposure point.
 

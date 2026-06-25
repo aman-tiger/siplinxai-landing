@@ -28,7 +28,7 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 - According to Atlassian, 54% of employees leave meetings unclear about next steps. Better minutes fix that directly.
 - You need different templates for different meeting types: board meetings, team standups, project kickoffs, and 1:1s each have distinct requirements.
 - AI tools can now generate meeting minutes automatically, but cloud-based options upload your audio to their servers. For confidential meetings, that's a problem.
-- [Siplinx AI](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=meeting-minutes-template&utm_content=tldr-intro) processes everything on your device with no audio ever sent to the cloud.
+- [Siplinx AI](https://siplinx.com/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=meeting-minutes-template&utm_content=tldr-homepage) processes everything on your device with no audio ever sent to the cloud.
 
 ---
 
@@ -51,9 +51,9 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 
 ## What are meeting minutes and why do they matter? {#what-are-meeting-minutes}
 
-Meeting minutes are the official written record of a meeting. They document what was discussed, what decisions were made, which tasks were assigned to which people, and what deadlines were set. The name comes from the Latin "minuta scriptura," meaning a small or rough draft, not from the unit of time.
+Meeting minutes are the official written record of a meeting. They document what was discussed, what decisions were made, which tasks were assigned to which people, and what deadlines were set. The name comes from the Latin "minuta scriptura," meaning a small or rough draft, not from the unit of time. [Wikipedia's entry on minutes](https://en.wikipedia.org/wiki/Minutes) traces this convention back to formal parliamentary procedure, where minutes became the standard for recording collective decisions.
 
-They matter because memory is unreliable. Without a written record, different people walk out of the same meeting with different versions of what was decided. According to Bloomberg data cited by Flowtrace (2025), U.S. businesses lose $375 billion per year to unproductive meetings. That number partly comes from decisions that don't get followed through because there was no clear record. Atlassian found that 54% of employees leave meetings not knowing what their next steps are. Minutes fix that.
+They matter because memory is unreliable. Without a written record, different people walk out of the same meeting with different versions of what was decided. According to [Harvard Business Review](https://hbr.org/2022/03/dear-manager-youre-holding-too-many-meetings), unnecessary meetings cost U.S. companies an estimated $37 billion per year in lost productivity, much of it tied to decisions that never get properly documented or followed through. According to Bloomberg data cited by Flowtrace (2025), U.S. businesses lose $375 billion per year to unproductive meetings. That number partly comes from decisions that don't get followed through because there was no clear record. Atlassian found that 54% of employees leave meetings not knowing what their next steps are. Minutes fix that.
 
 For some organizations, minutes aren't optional. Board meetings, nonprofit general meetings, and certain corporate meetings are legally required to maintain official minutes under state and federal law.
 

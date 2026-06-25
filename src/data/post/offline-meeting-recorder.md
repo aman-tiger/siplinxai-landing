@@ -58,7 +58,7 @@ Here is how it differs from cloud-based tools. When you use Otter.ai, Fireflies.
 
 An offline recorder keeps that entire pipeline inside your machine. The STT model runs locally. The summarization model runs locally. Your notes are written to local disk. Nothing touches a vendor's server.
 
-This matters for two distinct groups: professionals with compliance obligations (healthcare, legal, finance) and professionals whose clients or employers forbid cloud recording. Both groups have grown fast. [AI usage in meetings grew 17x between January and August 2024](https://speakwiseapp.com/blog/video-conferencing-statistics), and compliance concerns scaled right alongside that adoption.
+According to [Harvard Business Review](https://hbr.org/2022/03/dear-manager-youre-holding-too-many-meetings), unnecessary meetings cost U.S. companies an estimated $37 billion per year in lost productivity, which makes accurate, retrievable meeting notes a genuine business asset, not a nice-to-have. This matters for two distinct groups: professionals with compliance obligations (healthcare, legal, finance) and professionals whose clients or employers forbid cloud recording. Both groups have grown fast. [AI usage in meetings grew 17x between January and August 2024](https://speakwiseapp.com/blog/video-conferencing-statistics), and compliance concerns scaled right alongside that adoption.
 
 ---
 
@@ -78,7 +78,7 @@ Honestly, the more I look at these numbers, the question isn't "why would someon
 
 ![Legal and healthcare professionals in a meeting where confidential client information is discussed](https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80)
 
-There's also a softer reason beyond compliance and breach risk. [58% of employees report being uncomfortable knowing their meeting recordings are stored on third-party cloud servers](https://blog.buildbetter.ai/best-local-meeting-recorders-no-cloud-2026/). The clients and colleagues in your meetings didn't consent to their voices training a vendor's model. Many professionals feel a duty of care around that, separate from any legal obligation.
+There's also a softer reason beyond compliance and breach risk. [58% of employees report being uncomfortable knowing their meeting recordings are stored on third-party cloud servers](https://blog.buildbetter.ai/best-local-meeting-recorders-no-cloud-2026/). The clients and colleagues in your meetings didn't consent to their voices training a vendor's model. Many professionals feel a duty of care around that, separate from any legal obligation. [Information privacy](https://en.wikipedia.org/wiki/Information_privacy) principles increasingly hold that individuals should control how their personal data, including voice recordings, is collected and used.
 
 The EU AI Act, which introduced new obligations beginning August 2026, adds another layer. AI systems used for worker monitoring may now be classified as high-risk, a category that can include tools offering sentiment analysis alongside transcription. European teams using cloud AI meeting tools need to assess whether their vendor qualifies as a high-risk AI provider under the new framework.
 
@@ -86,7 +86,7 @@ The EU AI Act, which introduced new obligations beginning August 2026, adds anot
 
 ## Is offline transcription accurate enough for real work? {#accuracy}
 
-Yes, and this wasn't always true. Two years ago, local speech-to-text lagged noticeably behind cloud services like Google Speech-to-Text and AWS Transcribe. That gap has closed.
+Yes, and this wasn't always true. Two years ago, local speech-to-text lagged noticeably behind cloud services like Google Speech-to-Text and AWS Transcribe. That gap has closed. [Speech recognition](https://en.wikipedia.org/wiki/Speech_recognition) technology has advanced rapidly since 2022, with open-source models now competitive with proprietary cloud systems for most business use cases.
 
 [Whisper large-v3, OpenAI's open-source speech recognition model, now achieves approximately 95-96% accuracy on English transcription](https://blog.buildbetter.ai/best-local-meeting-recorders-no-cloud-2026/), comparable to major cloud transcription services. A 4-6% word error rate is the practical range for a typical office recording environment. For most business meetings, that's workable.
 
@@ -110,7 +110,7 @@ Not all offline tools are equivalent. Here's what actually separates the useful 
 
 **Trigger mechanism.** Can the recording start without internet? Some "offline" tools require an initial connection to authenticate or sync settings. A genuinely offline tool launches and records without any network call.
 
-**Storage and export.** Where do transcripts and notes get saved? Can you export to PDF, Markdown, or Notion? Local-only storage is fine as a default, but you want export flexibility.
+**Storage and export.** Where do transcripts and notes get saved? Can you export to PDF, Markdown, or Notion? Local-only storage is fine as a default, but you want export flexibility. Proper [meeting minutes](https://en.wikipedia.org/wiki/Minutes) often need to be shared with stakeholders who weren't present, so export options matter as much as privacy.
 
 **Compliance claims vs. compliance reality.** "HIPAA-friendly" is not a certification. It's a claim. For HIPAA compliance, what matters is whether PHI ever leaves the device and whether you have a Business Associate Agreement with the vendor. If all processing is on-device, there's no PHI transmission, which sidesteps the BAA requirement entirely. That's the strongest position.
 
@@ -118,7 +118,7 @@ Not all offline tools are equivalent. Here's what actually separates the useful 
 
 ## How Siplinx AI handles offline meeting notes from start to finish {#siplinx}
 
-[Siplinx AI](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=offline-meeting-recorder&utm_content=hero-siplinx-link) is a desktop application for Mac and Windows that runs the complete meeting notes pipeline on your device: recording, transcription, summarization, and action item extraction. Nothing leaves your machine at any step.
+[Siplinx AI](https://siplinx.com/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=offline-meeting-recorder&utm_content=hero-siplinx-homepage) is a desktop application for Mac and Windows that runs the complete meeting notes pipeline on your device: recording, transcription, summarization, and action item extraction. Nothing leaves your machine at any step.
 
 The recording layer captures system audio for remote meetings and microphone input for in-person sessions. The transcription runs on a local Whisper model. The summarization and action item extraction use a local LLM. No cloud API calls are made during or after the meeting.
 
@@ -128,7 +128,7 @@ For professionals who need to demonstrate compliance, that means you can show a 
 
 ![Screenshot concept of a local meeting notes app running entirely on a desktop computer with no network indicators](https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80)
 
-Siplinx works for both remote and in-person meetings. For remote calls, it captures system audio directly, so no bot joins your call and no one in the meeting sees a recording indicator from a third-party app. For in-person meetings, you use the microphone input. You can [try Siplinx AI on your current hardware](https://siplinx.com/download/?utm_source=own_blog&utm_medium=article&utm_campaign=offline-meeting-recorder&utm_content=download-cta) to see how it performs in your specific recording environment.
+Siplinx works for both remote and in-person meetings. For remote calls, it captures system audio directly, so no bot joins your call and no one in the meeting sees a recording indicator from a third-party app. For in-person meetings, you use the microphone input. You can [try Siplinx AI on your current hardware](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=offline-meeting-recorder&utm_content=download-cta) to see how it performs in your specific recording environment.
 
 ---
 
@@ -191,7 +191,7 @@ For English audio in a standard office environment, yes. Whisper large-v3 achiev
 
 **What is the best offline meeting recorder for lawyers?**
 
-Siplinx AI is purpose-built for professionals handling confidential conversations. It runs all processing on-device with no cloud dependency, which means client privileged communications never leave your machine. That's the cleanest compliance position for attorney-client privilege and bar ethics requirements. [See how Siplinx AI handles legal meeting notes](https://siplinx.com/legal/?utm_source=own_blog&utm_medium=article&utm_campaign=offline-meeting-recorder&utm_content=legal-use-case).
+Siplinx AI is purpose-built for professionals handling confidential conversations. It runs all processing on-device with no cloud dependency, which means client privileged communications never leave your machine. That's the cleanest compliance position for attorney-client privilege and bar ethics requirements. [See Siplinx AI's security and privacy details](https://siplinx.com/security/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=offline-meeting-recorder&utm_content=security-legal-use-case).
 
 **Does Siplinx AI work without an internet connection?**
 
