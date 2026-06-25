@@ -54,7 +54,7 @@ According to Salesforce's [2025 State of Sales report](https://www.salesforce.co
 
 Here's the counterintuitive part: taking better notes doesn't cost you more time. It costs you less. When you capture the right information right after a call, every subsequent step (follow-up email, internal debrief, next discovery call) takes half as long because the context is already there.
 
-[Siplinx AI processes your call audio and summaries entirely on your device](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=sales-call-notes&utm_content=on-device-processing), so the notes land in your CRM without ever leaving your computer. More on that below.
+[Siplinx AI processes your call audio and summaries entirely on your device](https://siplinx.com/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=sales-call-notes&utm_content=on-device-processing), so the notes land in your CRM without ever leaving your computer. More on that below.
 
 ---
 
@@ -73,7 +73,7 @@ That's it. If your notes answer those five questions clearly enough that another
 
 What you should NOT capture in call notes: a word-for-word transcript of the conversation, rambling context without a point, or vague qualitative assessments like "they seemed interested." Those waste space and don't help the next rep.
 
-The quality difference matters more than you'd think. A Forrester study of 3,031 sales reps found that [data entry and CRM updates eat 17% of a rep's working week](https://www.superoffice.com/blog/50-crm-statistics/). A lot of that time is wasted re-reading their own notes from last week trying to figure out what actually happened. Specific, structured notes cut that loop short.
+The quality difference matters more than you'd think. A Forrester study of 3,031 sales reps found that [data entry and CRM updates eat 17% of a rep's working week](https://www.superoffice.com/blog/50-crm-statistics/). A lot of that time is wasted re-reading their own notes from last week trying to figure out what actually happened. Specific, structured notes cut that loop short. According to [Harvard Business Review](https://hbr.org/2022/03/dear-manager-youre-holding-too-many-meetings), unnecessary meetings cost U.S. companies an estimated $37 billion per year in lost productivity, making every minute of structured follow-up documentation worth the effort.
 
 ![A close-up of a notebook with structured call notes showing pain points, timeline, and next steps listed clearly](https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=1200&q=80)
 
@@ -100,6 +100,8 @@ The practical rules for note-taking during calls:
 - During the call: keywords only, 3-10 word fragments.
 - After the call: block 10 minutes, no exceptions, to expand into structured notes.
 - Before closing the note: confirm the next step is written with a name and a date.
+
+Good [meeting minutes](https://en.wikipedia.org/wiki/Minutes) follow the same logic: capture decisions and action items, not a full transcript of who said what.
 
 ---
 
@@ -142,7 +144,7 @@ How your notes are structured also affects how well AI tools can parse and summa
 
 ## How does AI change the way sales teams take call notes? {#ai-and-sales-call-notes}
 
-AI changes sales call notes in two specific ways: it removes the manual transcription step, and it surfaces patterns across hundreds of calls that no human could spot.
+AI changes sales call notes in two specific ways: it removes the manual transcription step, and it surfaces patterns across hundreds of calls that no human could spot. Modern [speech recognition](https://en.wikipedia.org/wiki/Speech_recognition) technology has matured to the point where on-device transcription accuracy rivals cloud-based services for clear call audio.
 
 The first change is the most immediately useful. Instead of writing fragments and expanding them post-call, an AI note taker listens to the call, produces a transcript, and then generates a structured summary that maps onto your note template categories. The rep reviews and edits rather than writing from scratch. According to [Kixie's 2026 Sales Automation Statistics](https://www.kixie.com/sales-blog/sales-automation-statistics-2026/), sales teams using AI automation tools make 23% more calls per day and close deals 20% faster than those without automation.
 
@@ -172,7 +174,7 @@ Yes. On-device AI tools now exist that transcribe and summarize sales calls enti
 
 The way it works: a local speech-to-text model transcribes the call audio on your machine. A local LLM then summarizes the transcript and structures it into your note format. The output is a clean sales call summary you can paste into your CRM. None of the audio, transcript, or summary ever touches an external server.
 
-[Siplinx AI takes this approach](https://siplinx.com/features/?utm_source=own_blog&utm_medium=article&utm_campaign=sales-call-notes&utm_content=offline-recording-features): everything runs on your Mac or Windows machine, using a local LLM and local speech-to-text engine. For sales teams handling confidential conversations, this means you get the productivity benefit of AI note automation without the compliance exposure of cloud uploads.
+[Siplinx AI takes this approach](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=sales-call-notes&utm_content=offline-recording-features): everything runs on your Mac or Windows machine, using a local LLM and local speech-to-text engine. For sales teams handling confidential conversations, this means you get the productivity benefit of AI note automation without the compliance exposure of cloud uploads.
 
 Why does this matter specifically for sales? A few scenarios where on-device matters:
 
@@ -181,7 +183,7 @@ Why does this matter specifically for sales? A few scenarios where on-device mat
 - **Financial services:** Conversations with registered investment advisors or insurance brokers may involve non-public client information.
 - **Enterprise accounts with strict data governance:** Many large companies prohibit third-party recording tools on procurement grounds. An on-device tool bypasses this entirely.
 
-The practical limitation of on-device tools is that you don't get cross-team analytics. The insights stay on your machine. For solo reps or small teams where the notes are going into a CRM anyway, that's a fair tradeoff.
+The practical limitation of on-device tools is that you don't get cross-team analytics. The insights stay on your machine. For solo reps or small teams where the notes are going into a CRM anyway, that's a fair tradeoff. For context on why this matters, [information privacy](https://en.wikipedia.org/wiki/Information_privacy) regulations continue to tighten across healthcare, finance, and legal sectors, making local-first tools a more defensible choice year over year.
 
 ---
 
@@ -259,7 +261,7 @@ Sales call notes should include the prospect's main pain point (in their words),
 Use a two-pass method. During the call, write only short keywords and fragments. Within ten minutes after the call, expand those fragments into structured notes while the conversation is still fresh. This keeps you present during the call and produces better notes than trying to do both at once.
 
 **What is the best app for taking sales call notes automatically?**
-The right tool depends on your team's privacy requirements. Gong and Fireflies.ai are strong choices for teams with standard cloud requirements who want conversation intelligence dashboards. For teams handling sensitive client data (legal, healthcare, financial services), an on-device tool like [Siplinx AI](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=sales-call-notes&utm_content=faq-best-app) processes audio locally with no cloud upload.
+The right tool depends on your team's privacy requirements. Gong and Fireflies.ai are strong choices for teams with standard cloud requirements who want conversation intelligence dashboards. For teams handling sensitive client data (legal, healthcare, financial services), an on-device tool like [Siplinx AI](https://siplinx.com/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=sales-call-notes&utm_content=faq-best-app) processes audio locally with no cloud upload.
 
 **How do sales call notes sync with a CRM like Salesforce or HubSpot?**
 Cloud-based tools like Gong, Fireflies, and Otter sync call summaries directly to CRM opportunity or contact records through native integrations. On-device tools generate a structured summary that you paste or import manually. The extra 60 seconds of manual CRM sync is the main tradeoff when choosing an offline tool for compliance reasons.
@@ -289,7 +291,7 @@ Sales call notes are the raw, structured record of what happened during a specif
 
 Good sales call notes are one of the few habits with an almost immediate, measurable return. They shorten follow-up emails, clean up rep-to-rep handoffs, and turn your CRM from a graveyard of contact records into something that actually tells you what happened. The template above works. The two-pass method during calls works. And if you're dealing with the compliance reality of sensitive client conversations, on-device AI note-taking is now a practical option, not a theoretical one.
 
-If you want to see what on-device AI note automation looks like in practice, [try Siplinx AI on your next sales call](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=sales-call-notes&utm_content=conclusion-cta). No cloud. No upload. Notes in your CRM within minutes.
+If you want to see what on-device AI note automation looks like in practice, [try Siplinx AI on your next sales call](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=sales-call-notes&utm_content=conclusion-cta). No cloud. No upload. Notes in your CRM within minutes.
 
 ---
 
