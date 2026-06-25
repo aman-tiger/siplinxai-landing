@@ -6,7 +6,8 @@ export const prerender = true;
 
 const metadata = {
   title: 'Authors — Siplinx AI',
-  description: 'Meet the team and advisors who write for Siplinx AI — experts in AI, privacy, and meeting productivity.',
+  description:
+    'Meet the team and advisors who write for Siplinx AI — experts in AI, privacy, and meeting productivity.',
   robots: { index: true, follow: true },
 };
 ---
@@ -64,15 +65,18 @@ const metadata = {
     </div>
   </section>
 
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Siplinx AI Authors",
-    "itemListElement": authors.map((a, i) => ({
-      "@type": "ListItem",
-      "position": i + 1,
-      "url": `https://siplinx.com/authors/${a.slug}/`,
-      "name": a.name,
-    })),
-  })} />
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: 'Siplinx AI Authors',
+      itemListElement: authors.map((a, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: `https://siplinx.com/authors/${a.slug}/`,
+        name: a.name,
+      })),
+    })}
+  />
 </Layout>

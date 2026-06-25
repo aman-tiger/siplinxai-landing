@@ -31,8 +31,20 @@ At Siplinx AI, Samal contributes articles on data privacy, digital sovereignty, 
 В Siplinx AI Самал пишет статьи о защите данных, цифровом суверенитете и реальных рисках облачных AI-инструментов — помогая профессионалам понять, почему хранение данных встреч на собственном устройстве — единственный подход, который действительно защищает конфиденциальность.`,
     photo: '/images/authors/samal-bekmaganbetova.jpg',
     linkedin: 'https://www.linkedin.com/in/samalbek',
-    expertise: ['Data Privacy', 'Digital Governance', 'International Frameworks', 'Disaster Risk Reduction', 'Urban Resilience'],
-    expertiseRu: ['Защита данных', 'Цифровое управление', 'Международные стандарты', 'Снижение рисков', 'Устойчивость городов'],
+    expertise: [
+      'Data Privacy',
+      'Digital Governance',
+      'International Frameworks',
+      'Disaster Risk Reduction',
+      'Urban Resilience',
+    ],
+    expertiseRu: [
+      'Защита данных',
+      'Цифровое управление',
+      'Международные стандарты',
+      'Снижение рисков',
+      'Устойчивость городов',
+    ],
   },
 ];
 
