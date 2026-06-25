@@ -28,7 +28,7 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 - Capture decisions, action items (with owner and due date), and open questions. Skip verbatim transcription.
 - The Cornell method, outline method, and quadrant method each work better for different meeting types.
 - AI note-taking tools can free you to participate fully, but cloud-based tools store your audio on external servers.
-- If your meetings are confidential, use a tool like [Siplinx AI](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=how-to-take-meeting-notes&utm_content=hero-intro) that processes everything on your device.
+- If your meetings are confidential, use a tool like [Siplinx AI](https://siplinx.com/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=how-to-take-meeting-notes&utm_content=tldr-cta) that processes everything on your device.
 
 ---
 
@@ -51,7 +51,7 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 
 ## What are meeting notes and how are they different from meeting minutes? {#what-are-meeting-notes}
 
-Meeting notes are an informal record of the most important content from a meeting: decisions made, questions raised, and next steps agreed on. Meeting minutes are a formal legal record that follows a set structure and must often be approved by the group in a follow-up session. The distinction matters because most people who search for "how to take meeting notes" actually need notes, not minutes.
+Meeting notes are an informal record of the most important content from a meeting: decisions made, questions raised, and next steps agreed on. [Meeting minutes](https://en.wikipedia.org/wiki/Minutes) are a formal legal record that follows a set structure and must often be approved by the group in a follow-up session. The distinction matters because most people who search for "how to take meeting notes" actually need notes, not minutes.
 
 Most workplace meetings (team standups, client calls, project check-ins, 1:1s) need notes, not minutes. Board meetings, shareholder meetings, and any meeting where legal accountability matters need formal minutes.
 
@@ -73,6 +73,8 @@ The confusion between notes and minutes causes real problems. I've seen teams sp
 ## What should your meeting notes always include? {#what-to-include}
 
 Every effective set of meeting notes should contain five things: the date and attendees, the agenda (or at least the topics covered), the decisions made, action items with named owners and due dates, and open questions that need follow-up. Miss any one of these and the notes lose their core value.
+
+According to [Harvard Business Review](https://hbr.org/2022/03/dear-manager-youre-holding-too-many-meetings), unnecessary meetings cost U.S. companies an estimated $37 billion per year in lost productivity, which makes capturing the right information from every meeting that does happen all the more important.
 
 According to a 2025 report by [Fellow](https://fellow.ai/blog/meeting-statistics-the-future-of-meetings-report/), only 37% of workplace meetings actively use meeting agendas. When there's no agenda, there's usually no clear record of what happened either. The two failures travel together.
 
@@ -148,7 +150,7 @@ Most people default to the outline method and that's fine. But if you're routine
 
 ## How do you turn meeting notes into action items that actually get done? {#action-items}
 
-Meeting notes become useful when every action item has three fields: a named person responsible, a specific deliverable, and a hard deadline. Without all three, the action item will not get done. "Someone should follow up" is not an action item. "Maria: draft revised proposal for client by Thursday June 26" is.
+Meeting notes become useful when every [action item](https://en.wikipedia.org/wiki/Action_item) has three fields: a named person responsible, a specific deliverable, and a hard deadline. Without all three, the action item will not get done. "Someone should follow up" is not an action item. "Maria: draft revised proposal for client by Thursday June 26" is.
 
 The research backs this up clearly. A 2026 report from [Cirrus Insight](https://www.cirrusinsight.com/blog/meeting-statistics) found that organizations using structured meeting documentation improved follow-up completion rates by 42% compared to those using ad hoc notes.
 
@@ -179,7 +181,7 @@ The practical tradeoffs look like this:
 | Factor                    | Manual notes                  | AI note-taker                   |
 | ------------------------- | ----------------------------- | ------------------------------- |
 | Attention during meeting  | Split (listening and writing) | Fully present                   |
-| Accuracy of transcription | Depends on note-taker skill   | 85-95% for clear audio          |
+| Accuracy of transcription | Depends on note-taker skill   | 85-95% for clear audio ([speech recognition](https://en.wikipedia.org/wiki/Speech_recognition)) |
 | Time to produce notes     | 20-30 min post-meeting        | Minutes, sometimes live         |
 | Action item extraction    | Manual, easy to miss          | Automated                       |
 | Cost                      | Free                          | $10-$30/month per user          |
@@ -188,7 +190,7 @@ The practical tradeoffs look like this:
 
 Honestly, I think the biggest mistake people make with AI note-takers is choosing one without asking where the audio goes. Most popular tools (Otter.ai, Fireflies.ai, Fathom) upload your meeting audio to their cloud servers. For casual team meetings, that's probably fine. For conversations involving legal advice, patient information, financial details, or HR matters, uploading audio to a third-party server is a material risk.
 
-The alternative is a tool that processes everything locally. [Siplinx AI runs entirely on your device](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=how-to-take-meeting-notes&utm_content=ai-section), using a local LLM and local speech-to-text. No audio or transcript ever leaves your computer. That makes it the only genuinely private AI note-taker available for Mac and Windows.
+The alternative is a tool that processes everything locally. [Siplinx AI runs entirely on your device](https://siplinx.com/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=how-to-take-meeting-notes&utm_content=ai-section-local), using a local LLM and local speech-to-text. No audio or transcript ever leaves your computer. That makes it the only genuinely private AI note-taker available for Mac and Windows.
 
 ---
 
@@ -212,7 +214,7 @@ The practical options are:
 
 **Option 2: Use a cloud AI tool with strong data agreements.** Some enterprise tools offer data processing agreements (DPAs) that limit how your data is used. This doesn't mean your data stays private. It means the vendor has contractual obligations around it. Read the DPA carefully before signing up.
 
-**Option 3: Use a local AI tool that never uploads data.** [Siplinx AI does exactly this](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=how-to-take-meeting-notes&utm_content=privacy-section): all transcription and summarization happens on your device using a local LLM and local speech-to-text engine. Nothing is sent to any server. GDPR-compliant and HIPAA-friendly by design.
+**Option 3: Use a local AI tool that never uploads data.** [Siplinx AI does exactly this](https://siplinx.com/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=how-to-take-meeting-notes&utm_content=privacy-section-local): all transcription and summarization happens on your device using a local LLM and local speech-to-text engine. Nothing is sent to any server. GDPR-compliant and HIPAA-friendly by design.
 
 For professionals handling any confidential information in meetings, Option 3 is the only one that genuinely solves the problem rather than managing it.
 
