@@ -60,14 +60,14 @@ tl;dv focuses on creating shareable video clips and timestamped summaries. If yo
 
 ## Comparison: Siplinx AI vs Fireflies
 
-| Feature | **Siplinx AI** | Fireflies.ai |
-|---|---|---|
-| Local processing | ✅ Yes | ❌ No |
-| No bot in meeting | ✅ Yes | ❌ Visible bot |
-| Windows + Mac | ✅ Yes | Browser only |
-| Offline support | ✅ Yes | ❌ No |
-| CRM integrations | Limited | ✅ Extensive |
-| Free tier | ✅ Yes | Limited |
+| Feature           | **Siplinx AI** | Fireflies.ai   |
+| ----------------- | -------------- | -------------- |
+| Local processing  | ✅ Yes         | ❌ No          |
+| No bot in meeting | ✅ Yes         | ❌ Visible bot |
+| Windows + Mac     | ✅ Yes         | Browser only   |
+| Offline support   | ✅ Yes         | ❌ No          |
+| CRM integrations  | Limited        | ✅ Extensive   |
+| Free tier         | ✅ Yes         | Limited        |
 
 ---
 

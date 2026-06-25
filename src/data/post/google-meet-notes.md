@@ -21,6 +21,7 @@ author: Siplinx AI Team
 Google Workspace subscribers with Business Standard plans or above can enable Meet's built-in transcription. It auto-generates a `.docx` transcript in Google Drive after the meeting. For basic needs, this works.
 
 **Limitations:**
+
 - Requires Google Workspace Business plan—personal Gmail users can't access it
 - Produces raw transcripts only—no AI summary, no action items
 - Stores data in Google Drive (which has its own privacy implications for sensitive discussions)
@@ -68,6 +69,7 @@ With Siplinx AI's local processing, none of these issues arise. The app captures
 ## Setting Up AI Notes for Google Meet
 
 With Siplinx AI:
+
 1. Install Siplinx AI on Mac or Windows
 2. Open your Google Meet link as normal
 3. Siplinx AI begins transcribing automatically when it detects audio

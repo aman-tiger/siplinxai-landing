@@ -70,14 +70,14 @@ Otter's Mac presence is primarily through the browser and iOS app. It works, but
 
 ## Feature Comparison for Mac
 
-| Feature | **Siplinx AI** | Granola | Fathom | Otter |
-|---|---|---|---|---|
-| Native Mac app | ✅ Yes | ✅ Yes | Limited | Browser |
-| Apple Silicon optimized | ✅ Yes | ✅ Yes | — | — |
-| Local processing | ✅ Yes | ❌ No | ❌ No | ❌ No |
-| Offline support | ✅ Yes | ❌ No | ❌ No | ❌ No |
-| Windows support | ✅ Yes | ❌ No | Limited | Browser |
-| Free tier | ✅ Yes | Limited | ✅ Yes | Limited |
+| Feature                 | **Siplinx AI** | Granola | Fathom  | Otter   |
+| ----------------------- | -------------- | ------- | ------- | ------- |
+| Native Mac app          | ✅ Yes         | ✅ Yes  | Limited | Browser |
+| Apple Silicon optimized | ✅ Yes         | ✅ Yes  | —       | —       |
+| Local processing        | ✅ Yes         | ❌ No   | ❌ No   | ❌ No   |
+| Offline support         | ✅ Yes         | ❌ No   | ❌ No   | ❌ No   |
+| Windows support         | ✅ Yes         | ❌ No   | Limited | Browser |
+| Free tier               | ✅ Yes         | Limited | ✅ Yes  | Limited |
 
 ---
 

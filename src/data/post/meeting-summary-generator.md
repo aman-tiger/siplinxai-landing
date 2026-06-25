@@ -23,6 +23,7 @@ A meeting summary generator is software that automatically produces a structured
 Unlike a raw transcript—which is just a word-for-word record of what was said—a meeting summary is a condensed, structured document designed to communicate the meeting's outcomes to people who didn't attend, or to serve as a quick reference for those who did.
 
 A good AI-generated summary includes:
+
 - **Meeting overview:** What the meeting was about and who attended
 - **Key decisions:** What was agreed, resolved, or concluded
 - **Action items:** Who is doing what, by when

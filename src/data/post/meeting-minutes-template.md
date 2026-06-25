@@ -23,7 +23,8 @@ The terms are often used interchangeably, but they mean different things in prof
 
 **Meeting notes** are informal records of what was discussed. They're personal, internal, and don't need to follow any standard format. Most workplace note-taking falls into this category.
 
-**Meeting minutes** are formal records of what was *decided* in an official meeting. They're often required for board meetings, committee sessions, legal proceedings, and corporate governance contexts. Minutes are typically:
+**Meeting minutes** are formal records of what was _decided_ in an official meeting. They're often required for board meetings, committee sessions, legal proceedings, and corporate governance contexts. Minutes are typically:
+
 - Dated and signed off by a secretary or chair
 - Structured around motions, votes, and resolutions
 - Used as legal documentation that what was decided is on record
@@ -37,18 +38,21 @@ For most workplace meetings, you want structured **meeting notes** that include 
 Whether you're writing formal minutes or structured work meeting notes, these elements should always appear:
 
 **Header:**
+
 - Meeting title and purpose
 - Date, time, and location (or platform)
 - Attendees present (and absent if relevant)
 - Who facilitated and who took notes
 
 **Body:**
+
 - Agenda items covered (in order)
 - Key discussion points per agenda item
 - Decisions made (explicitly marked)
 - Votes taken and results (for formal meetings)
 
 **Footer:**
+
 - Action items with assigned owners and due dates
 - Next meeting date and agenda preview (if set)
 - Signature of minute-taker (for formal minutes)

@@ -63,14 +63,14 @@ The tradeoff: local processing requires a capable machine and consumes local com
 
 ## Choosing the Right Transcription Tool
 
-| Need | Best option |
-|---|---|
+| Need                     | Best option                   |
+| ------------------------ | ----------------------------- |
 | Privacy / regulated data | Siplinx AI (local processing) |
-| Free, Zoom-focused | Fathom |
-| CRM integration | Fireflies.ai |
-| Accessibility / captions | Otter.ai |
-| Mac native experience | Granola |
-| Windows + Mac + offline | Siplinx AI |
+| Free, Zoom-focused       | Fathom                        |
+| CRM integration          | Fireflies.ai                  |
+| Accessibility / captions | Otter.ai                      |
+| Mac native experience    | Granola                       |
+| Windows + Mac + offline  | Siplinx AI                    |
 
 ---
 

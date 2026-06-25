@@ -36,6 +36,7 @@ The best action items follow a simple formula:
 **[Action verb] + [deliverable] + [owner] + [deadline]**
 
 Examples:
+
 - ✅ "Draft the Q3 proposal — Maria — by Friday"
 - ✅ "Schedule follow-up call with procurement — James — this week"
 - ❌ "Someone look into the pricing thing" (no owner, no deadline, vague deliverable)

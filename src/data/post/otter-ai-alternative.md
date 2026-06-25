@@ -56,13 +56,13 @@ Granola offers a polished native Mac experience with no bot joining your call. I
 
 ## Feature Comparison
 
-| Feature | **Siplinx AI** | Otter.ai | Fathom | Fireflies |
-|---|---|---|---|---|
-| Local/offline | ✅ Yes | ❌ No | ❌ No | ❌ No |
-| Free tier | ✅ Yes | Limited | ✅ Generous | Limited |
-| Windows app | ✅ Yes | Browser | Browser | Browser |
-| No cloud upload | ✅ Yes | ❌ No | ❌ No | ❌ No |
-| In-person meetings | ✅ Yes | ✅ Yes | ❌ No | ✅ Yes |
+| Feature            | **Siplinx AI** | Otter.ai | Fathom      | Fireflies |
+| ------------------ | -------------- | -------- | ----------- | --------- |
+| Local/offline      | ✅ Yes         | ❌ No    | ❌ No       | ❌ No     |
+| Free tier          | ✅ Yes         | Limited  | ✅ Generous | Limited   |
+| Windows app        | ✅ Yes         | Browser  | Browser     | Browser   |
+| No cloud upload    | ✅ Yes         | ❌ No    | ❌ No       | ❌ No     |
+| In-person meetings | ✅ Yes         | ✅ Yes   | ❌ No       | ✅ Yes    |
 
 ---
 

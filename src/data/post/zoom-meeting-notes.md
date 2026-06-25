@@ -61,6 +61,7 @@ Otter's Zoom integration is well-known and widely used. The free tier is limited
 ## Setting Up AI Notes for Zoom
 
 With Siplinx AI (recommended):
+
 1. Download and install Siplinx AI on Mac or Windows
 2. Start your Zoom call as normal
 3. Siplinx AI detects the call and begins transcribing automatically

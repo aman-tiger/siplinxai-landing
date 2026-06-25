@@ -74,7 +74,7 @@ AI handles documentation well, but some contexts benefit from a human layer:
 
 - **Nuance and subtext:** AI captures what was said. A skilled human note-taker can also capture what was implied, what body language suggested, or what wasn't said.
 - **Priority filtering:** AI may surface ten action items when three are the ones that actually matter. A human reviewer adds judgment about priority.
-- **Sensitive interpretation:** In negotiations or conflict resolution, what something *means* politically or interpersonally may be as important as what was said.
+- **Sensitive interpretation:** In negotiations or conflict resolution, what something _means_ politically or interpersonally may be as important as what was said.
 
 The best practice: use AI for the documentation layer, then spend five minutes reviewing and annotating the output with your own context before sharing.
 

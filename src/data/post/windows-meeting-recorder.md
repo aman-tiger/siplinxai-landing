@@ -33,6 +33,7 @@ Siplinx AI is one of the few AI meeting note-takers built with genuine Windows s
 On Windows 10 and Windows 11 (including ARM laptops), Siplinx AI captures Zoom, Teams, Google Meet, and in-person meeting audio, transcribes in real time, and generates a structured summary with action items at the end of each meeting.
 
 **Key advantages for Windows users:**
+
 - Native Windows app—not a browser tab
 - Works on Intel, AMD, and ARM Windows devices
 - Local processing—no cloud upload of audio

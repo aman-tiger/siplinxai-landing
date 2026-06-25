@@ -48,14 +48,14 @@ Otter's Teams integration works similarly to its Zoom integration. Free tier is 
 
 ## How Teams Transcription Compares to Local AI
 
-| Aspect | Teams Copilot | Siplinx AI |
-|---|---|---|
-| Cost | +$30/user/month | One-time or low subscription |
-| Privacy | Microsoft cloud | On-device only |
-| Works offline | No | Yes |
-| Windows + Mac | Windows-focused | Both |
-| No account required | Requires M365 | Yes |
-| Summary quality | Good | Comparable |
+| Aspect              | Teams Copilot   | Siplinx AI                   |
+| ------------------- | --------------- | ---------------------------- |
+| Cost                | +$30/user/month | One-time or low subscription |
+| Privacy             | Microsoft cloud | On-device only               |
+| Works offline       | No              | Yes                          |
+| Windows + Mac       | Windows-focused | Both                         |
+| No account required | Requires M365   | Yes                          |
+| Summary quality     | Good            | Comparable                   |
 
 ---
 
