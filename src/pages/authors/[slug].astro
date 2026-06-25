@@ -132,7 +132,9 @@ const personSchema = {
                 </div>
               )}
               <div class="p-5">
-                <p class="text-xs text-blue-600 dark:text-blue-400 font-medium mb-2">{typeof post.category === 'object' ? post.category?.title : post.category}</p>
+                <p class="text-xs text-blue-600 dark:text-blue-400 font-medium mb-2">
+                  {typeof post.category === 'object' ? post.category?.title : post.category}
+                </p>
                 <h3 class="font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2">
                   {post.title}
                 </h3>
