@@ -14,6 +14,7 @@
 **H1:** How to Take and Use Sales Call Notes
 
 **H2 headings:**
+
 - Key Takeaways
 - How to Take and Use Sales Call Notes
 - Where Sales Call Notes Live Determines Whether They Matter
@@ -39,6 +40,7 @@
 **AI-generated feel:** yes (very structured, no specific examples with numbers)
 
 **Weaknesses:**
+
 1. Zero external sources or data citations — every claim is asserted without evidence
 2. Heavy product-centric promotion for Read AI; feels like a landing page disguised as an article
 3. No angle for privacy-sensitive sales teams (legal, medical, financial) who can't use cloud recorders
@@ -56,6 +58,7 @@
 **H1:** Sales Notes: a Guide with Template
 
 **H2 headings:**
+
 - Why You Should Always Take Notes on Your Sales Calls
 - Sales Note Template
 - Sales Note Best Practices
@@ -69,6 +72,7 @@
 **AI-generated feel:** yes
 
 **Weaknesses:**
+
 1. Very short (~2,200 words) for a competitive keyword — surface-level coverage
 2. Template section has no filled-in example; just blank fields
 3. No data or studies cited for any claims about note-taking effectiveness
@@ -86,6 +90,7 @@
 **H1:** Why Proper Call Notes Can Transform Your Sales Team's Success
 
 **H2 headings:**
+
 - What is a Call Note Template?
 - How to Take Good Call Notes
 - Where Do Call Notes Go?
@@ -104,6 +109,7 @@
 **AI-generated feel:** yes (generic advice with no specific examples or citations)
 
 **Weaknesses:**
+
 1. No statistics or external research cited anywhere in the article
 2. No FAQ section; misses People Also Ask traffic entirely
 3. No comparison of tools or approaches
@@ -117,6 +123,7 @@
 **Target word count:** 3,200-3,600 words (beats longest competitor by ~20-25%)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. What are sales call notes and why do they matter for closing deals?
 2. What should you capture in every sales call note?
 3. How do you take notes during a call without losing focus on the conversation?

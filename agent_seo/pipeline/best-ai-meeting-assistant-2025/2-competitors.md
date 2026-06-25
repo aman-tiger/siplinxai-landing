@@ -14,6 +14,7 @@
 **H1:** The 10 best AI meeting assistants in 2026
 
 **H2 headings:**
+
 - The 10 best AI meeting assistants
 - What makes the best AI note taker for meetings?
 - Do I need an AI meeting assistant?
@@ -38,6 +39,7 @@
 **AI-generated feel:** No — editorially structured, human voice
 
 **Weaknesses:**
+
 1. No mention of the Otter.ai or Fireflies.ai privacy lawsuits filed in 2025-2026 — completely ignores the biggest news in this space
 2. No coverage of offline or local AI meeting assistants (Siplinx AI, Meetily, etc.) — missing an entire product category growing due to privacy concerns
 3. No FAQ section — misses featured snippet opportunities from People Also Ask
@@ -55,6 +57,7 @@
 **H1:** Best AI Meeting Assistant Tools for 2026
 
 **H2 headings:**
+
 - Best AI Meeting Assistants (Overall)
 - How We Tested and Scored the AI Meeting Assistants
 - A Comparison of 20 AI Meeting Assistants
@@ -74,6 +77,7 @@
 **AI-generated feel:** Yes — repetitive structure, formulaic product descriptions, biased toward tl;dv
 
 **Weaknesses:**
+
 1. Heavy bias toward tl;dv as winner — editorial independence is zero; recommendation is self-serving
 2. No mention of either Otter or Fireflies privacy lawsuits — ignores the most important legal development in this market
 3. No offline or local processing tools covered
@@ -91,6 +95,7 @@
 **H1:** Best AI Meeting Assistants 2026: Independent Benchmarks & Real-World Results
 
 **H2 headings:**
+
 - Exactly How We Tested (And How You Can Replicate It)
 - Scenarios, Speakers, Accents, and Noise Profiles
 - Metrics: WER, Diarization, Action-Item Precision, Latency
@@ -113,6 +118,7 @@
 **AI-generated feel:** Partially — consistent formulaic structure, but benchmark tables show human curation
 
 **Weaknesses:**
+
 1. All benchmark data is proprietary and unverifiable — no external validation or published methodology
 2. Krisp is placed #1 despite being the publisher's own product — obvious conflict of interest
 3. No coverage of local/offline AI meeting tools despite having a "Bot Joiners vs. Bot-Free" section that sets up the question perfectly but doesn't answer it fully
@@ -127,6 +133,7 @@
 **Target word count:** 3,481 words (our WORD_TARGET — well-positioned between Zapier at ~4,800 and tl;dv at ~5,100, but denser with real data and unique angles)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. What is an AI meeting assistant and how does it actually work? (AEO answer block)
 2. Why AI meeting assistants are now a legal risk (the 2025-2026 lawsuit angle ALL competitors miss)
 3. How the top AI meeting assistants compare on privacy, accuracy, and price (comparison table)
@@ -139,6 +146,7 @@
 **Our #1 differentiator:** Every competitor article ignores the 2025-2026 privacy lawsuits against Otter.ai and Fireflies.ai. We lead with this as a freshness signal and use it to frame the entire comparison around privacy risk, not just feature comparison. This is the angle no competitor owns.
 
 **Data competitors don't have:**
+
 - Otter.ai class-action lawsuit (NPR, August 2025) — not in any competitor article
 - Cruz v. Fireflies.AI Corp. BIPA lawsuit (December 2025) — not in any competitor article
 - Market size: $2.789B in 2024 growing to $34.28B by 2035 (25.62% CAGR)

@@ -14,6 +14,7 @@
 **H1:** The 10 best AI meeting assistants in 2026
 
 **H2 headings:**
+
 - The best AI meeting assistants
 - What makes the best AI note taker for meetings?
 - Do I need an AI meeting assistant?
@@ -38,6 +39,7 @@
 **AI-generated feel:** Moderate — formulaic per-tool structure
 
 **Weaknesses:**
+
 1. No FAQ section — misses People Also Ask traffic entirely
 2. No real statistics cited — readers can't trust benchmarks
 3. No privacy/compliance deep-dive despite "Best for data privacy" category — the section is superficial
@@ -55,6 +57,7 @@
 **H1:** Perfect meeting memory.
 
 **H2 headings:**
+
 - Tailored to every meeting.
 - Works everywhere you do.
 - The only place where notes turn into progress.
@@ -71,6 +74,7 @@
 **AI-generated feel:** No — marketing copy, not editorial
 
 **Weaknesses:**
+
 1. Product landing page, not informational guide — won't outrank editorial content for "ai meeting notes" informational searches
 2. No competitor comparison at all
 3. No data or statistics on productivity benefits
@@ -88,6 +92,7 @@
 **H1:** Meet My Notes: Your new AI note taker
 
 **H2 headings:**
+
 - Focus on the conversation, not the notes
 - Your notes, wherever you meet
 - Turn meetings into action
@@ -107,6 +112,7 @@
 **AI-generated feel:** No — corporate marketing copy
 
 **Weaknesses:**
+
 1. Self-promotional comparison table — biases readers but doesn't build trust
 2. No mention of privacy risks with cloud-based tools (ironic given this is a cloud product)
 3. No coverage of offline or bot-free AI meeting notes
@@ -120,6 +126,7 @@
 **Target word count:** 3,086 words (matches research-backed target, beats Zapier with more depth per section)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. What are ai meeting notes and how do they work? (foundational — competitors assume readers know)
 2. Why 73% of businesses haven't adopted ai meeting notes yet (privacy problem — no competitor covers this honestly)
 3. What to look for in an ai meeting notes tool (buying guide — competitors list tools without criteria)
@@ -132,6 +139,7 @@
 **Our #1 differentiator:** Privacy-first framing with real data. The Otter.ai lawsuit, the 73% adoption barrier stat, and the 84% behavior-change stat are not in any of these 3 competitor articles. This angle is both more honest and more timely.
 
 **Data competitors don't have:**
+
 - 73% of businesses cite privacy as their #1 barrier to AI meeting note adoption (Sonix 2026)
 - 84% of professionals change how they speak when an AI bot is present
 - Otter.ai federal class action lawsuit (August 2025) — no competitor mentions this

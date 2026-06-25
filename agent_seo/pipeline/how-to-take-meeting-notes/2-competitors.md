@@ -14,6 +14,7 @@
 **H1:** How to take flawless meeting notes (Free template included)
 
 **H2 headings:**
+
 - How to take meeting notes — Summary & key takeaways
 - 5 items that should be covered in your meeting notes
 - 8 tips for taking effective meeting notes
@@ -28,6 +29,7 @@
 **AI-generated feel:** no — reads as human, well-structured
 
 **Weaknesses:**
+
 1. No FAQ section — misses People Also Ask coverage entirely
 2. No comparison table — misses featured snippet opportunity for "manual vs AI notes"
 3. No guidance on privacy or confidentiality of meeting notes shared in cloud tools
@@ -45,6 +47,7 @@
 **H1:** From Huddle to Action: How to Take Effective Meeting Notes
 
 **H2 headings:**
+
 - What are meeting notes?
 - How to take meeting notes effectively
 - Essential elements to include in your meeting notes
@@ -63,6 +66,7 @@
 **AI-generated feel:** slightly — structured but reads corporate
 
 **Weaknesses:**
+
 1. Heavy promotional bias toward Slack features throughout
 2. Key statistic ("97 minutes saved weekly") has no source — undermines credibility
 3. No FAQ section
@@ -81,6 +85,7 @@
 **H1:** How to Take Meeting Notes That Are Actually Helpful
 
 **H2 headings:**
+
 - Why is it important to take good meeting notes?
 - The importance of action items
 - Taking meeting notes manually vs. with an AI note taker
@@ -96,6 +101,7 @@
 **AI-generated feel:** partially
 
 **Weaknesses:**
+
 1. No FAQ, no comparison table, no TL;DR
 2. Heavy bias toward promoting Amie app — barely neutral
 3. Unsourced statistics reduce trust
@@ -110,6 +116,7 @@
 **Target word count:** 3,452 words (beats longest competitor by ~40%)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. What are meeting notes (and how are they different from meeting minutes)?
 2. What should your meeting notes always include?
 3. How do you take meeting notes without missing what's being said?
@@ -122,6 +129,7 @@
 **Our #1 differentiator:** All 3 competitors completely ignore the privacy and security dimension of meeting notes. None asks: "Who can see these notes once they're in the cloud?" This is a critical gap for lawyers, doctors, and executives handling sensitive conversations. The Siplinx AI angle (local processing, nothing uploaded) fills this gap directly and gives the article a unique editorial position no competitor article holds.
 
 **Data competitors don't have:**
+
 - 71% of senior executives find meetings unproductive (Fellow, 2025)
 - AI transcription adoption: 8% in 2021 to 52% in 2025 (Cirrus Insight, 2026)
 - $37 billion lost annually to ineffective meetings (My Hours, 2025)

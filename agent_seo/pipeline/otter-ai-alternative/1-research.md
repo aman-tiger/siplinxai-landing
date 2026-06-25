@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 otter ai alternative
 
 ## LSI / related keywords
+
 - alternatives to otter ai
 - otter alternative free
 - offline otter alternative
@@ -21,9 +23,11 @@ otter ai alternative
 - hipaa meeting recorder
 
 ## Target audience
+
 Privacy-conscious professionals (lawyers, doctors, HR teams, consultants) who currently use Otter.ai and are looking for more private, offline, or accurate alternatives after the 2025 class action lawsuit.
 
 ## Search intent
+
 Commercial / Comparison: The user has used or considered Otter.ai and wants to evaluate alternatives. They want a ranked list with enough detail to pick a tool.
 
 ---
@@ -93,6 +97,7 @@ These become H2 questions and FAQ entries.
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. Why people are leaving Otter.ai in 2026 (the lawsuit, the bot, the language limits)
 2. What to look for in an Otter AI alternative (criteria: privacy, accuracy, bot-free, offline)
 3. The best Otter AI alternative for privacy and offline use (Siplinx AI)

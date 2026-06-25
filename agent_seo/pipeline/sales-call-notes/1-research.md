@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 sales call notes
 
 ## LSI / related keywords
+
 - sales meeting notes
 - sales call recorder
 - crm meeting notes
@@ -20,9 +22,11 @@ sales call notes
 - sales call transcription
 
 ## Target audience
+
 Sales reps, account executives, and sales managers who spend too much time on after-call admin work and want to capture better notes without breaking their flow during calls.
 
 ## Search intent
+
 Informational / Commercial
 Users searching "sales call notes" want to understand how to take better notes on sales calls, find templates or tools to do it faster, and potentially find AI solutions that automate the process.
 
@@ -87,6 +91,7 @@ These should become H2 questions and FAQ entries.
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. What are sales call notes and why do they matter for closing deals?
 2. What should you include in every sales call note?
 3. How do you take notes during a call without losing the thread of the conversation?

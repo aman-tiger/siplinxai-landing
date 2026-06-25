@@ -14,6 +14,7 @@
 **H1:** 10 Best Free Meeting Recorder Apps 2026 (Transcribe, No Bot)
 
 **H2 headings:**
+
 - Why Do Most Meeting Recorders Fall Short?
 - What Is the Best Free Meeting Recorder Software in 2026?
 - 1. Meetily (Best Overall - Free & Open Source)
@@ -39,6 +40,7 @@
 **AI-generated feel:** partially — formulaic structure, very consistent sentence rhythm
 
 **Weaknesses:**
+
 1. Self-promotional: Meetily ranked #1 by its own company's blog, undermining credibility
 2. No coverage of desktop apps with local LLM for offline summaries — only transcription tools covered
 3. Does not explain how offline summarization works (what happens when there's no internet for the AI layer, not just STT)
@@ -54,6 +56,7 @@
 **H1:** Best AI meeting recorder for in-person meetings (2026)
 
 **H2 headings:**
+
 - Best AI meeting recorder for physical meetings
 - What is Plaud Note Pro
 - Why Plaud Note Pro works best for in-person meetings
@@ -69,6 +72,7 @@
 **AI-generated feel:** yes — repetitive structure, circular arguments, zero acknowledgment of limitations
 
 **Weaknesses:**
+
 1. Hardware-only focus (Plaud Note Pro device) — misses all software-only offline solutions
 2. No comparison table and no FAQ — leaves readers without side-by-side context
 3. Does not address compliance requirements (HIPAA, GDPR) even though in-person professionals care deeply about this
@@ -84,6 +88,7 @@
 **H1:** Offline Meeting Recorder for iPhone & Mac
 
 **H2 headings:**
+
 - Record Anywhere, Anytime
 - On-Device AI Processing
 - Platform Coverage
@@ -98,6 +103,7 @@
 **AI-generated feel:** yes — formulaic, heavy emoji dividers, no real information density
 
 **Weaknesses:**
+
 1. Very thin (~1,100 words) — almost no depth on how offline AI processing works
 2. No discussion of compliance, accuracy benchmarks, or real use cases
 3. iPhone and Mac only — misses Windows users and hybrid remote/in-person teams entirely
@@ -109,6 +115,7 @@
 **Target word count:** 3,330 words (matches our random target, beats competitor 2 and 3 comfortably; less than Meetily but higher information density)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. What is an offline meeting recorder and how does it work?
 2. Why professionals are ditching cloud recorders (real events, lawsuits, breaches)
 3. Is offline transcription accurate enough for real work?
@@ -121,6 +128,7 @@
 **Our #1 differentiator:** All 3 competitors cover transcription-only offline tools. None explain the full offline workflow: capture audio + transcribe + AI summarize + extract action items, ALL without internet. Siplinx AI does every step on-device. That's the angle no competitor owns.
 
 **Data competitors don't have:**
+
 - Third-party breach data doubled from 15% to 30% of all breaches in 2025 (Verizon DBIR)
 - Average US data breach cost hit $10.22 million in 2025 (IBM)
 - Cluely breach exposed 83,000 users' meeting recordings in 2025

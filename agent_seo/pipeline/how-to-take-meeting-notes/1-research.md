@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 how to take meeting notes
 
 ## LSI / related keywords
+
 - best practices meeting notes
 - effective meeting notes
 - meeting note taking tips
@@ -22,9 +24,11 @@ how to take meeting notes
 - meeting productivity
 
 ## Target audience
+
 Professionals (managers, consultants, lawyers, executives, remote workers) who attend frequent meetings and want to capture decisions and action items without slowing down the conversation.
 
 ## Search intent
+
 Informational. The user wants practical, step-by-step guidance on how to take better meeting notes — likely because their current approach loses key decisions or leaves action items untracked.
 
 ---
@@ -91,6 +95,7 @@ These should become H2 questions and FAQ entries.
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. What are meeting notes (and why they're different from meeting minutes)?
 2. What should you always include in meeting notes?
 3. How do you take meeting notes without missing what's being said?

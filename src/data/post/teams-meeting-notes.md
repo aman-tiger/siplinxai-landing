@@ -23,6 +23,7 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 ![A professional reviewing meeting notes on a laptop screen during a Microsoft Teams video call](https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1200&q=80)
 
 **TL;DR**
+
 - Teams has two native note options: collaborative Loop notes (free) and AI-generated summaries via Copilot ($30/user/month extra)
 - Built-in transcription is free but works only for scheduled meetings with transcription enabled; accuracy degrades with jargon
 - Copilot meeting recap is genuinely useful but locked behind an expensive per-user license
@@ -95,15 +96,15 @@ Several third-party tools integrate with Microsoft Teams to add AI note-taking t
 
 ![Side-by-side comparison of AI meeting note taker dashboards showing transcript and summary panels](https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80)
 
-| Tool | Teams integration | AI summaries | Free tier | Price/user/mo | Privacy model |
-|---|---|---|---|---|---|
-| Microsoft Copilot | Native | Yes (templates) | No | $30 | Cloud (Microsoft) |
-| Fireflies.ai | Bot joins call | Yes | Yes (limited) | $10 | Cloud (Fireflies) |
-| Otter.ai | Bot joins call | Yes | Yes (300 min/mo) | $10 | Cloud (Otter) |
-| Fathom | Bot joins call | Yes | Yes (unlimited) | $15 | Cloud (Fathom) |
-| tl;dv | Bot joins call | Yes (highlight reels) | Yes | $18 | Cloud (tl;dv) |
-| Fellow | Bot joins call | Yes | No | $7 | Cloud (Fellow) |
-| Siplinx AI | Desktop (no bot) | Yes | No | contact | 100% offline |
+| Tool              | Teams integration | AI summaries          | Free tier        | Price/user/mo | Privacy model     |
+| ----------------- | ----------------- | --------------------- | ---------------- | ------------- | ----------------- |
+| Microsoft Copilot | Native            | Yes (templates)       | No               | $30           | Cloud (Microsoft) |
+| Fireflies.ai      | Bot joins call    | Yes                   | Yes (limited)    | $10           | Cloud (Fireflies) |
+| Otter.ai          | Bot joins call    | Yes                   | Yes (300 min/mo) | $10           | Cloud (Otter)     |
+| Fathom            | Bot joins call    | Yes                   | Yes (unlimited)  | $15           | Cloud (Fathom)    |
+| tl;dv             | Bot joins call    | Yes (highlight reels) | Yes              | $18           | Cloud (tl;dv)     |
+| Fellow            | Bot joins call    | Yes                   | No               | $7            | Cloud (Fellow)    |
+| Siplinx AI        | Desktop (no bot)  | Yes                   | No               | contact       | 100% offline      |
 
 **Fireflies.ai** ($10/user/month) joins Teams meetings as a bot, transcribes in 69+ languages, and offers a natural-language query tool called AskFred. Its AI policy notes that customer data may be used for model training unless you're on an enterprise agreement.
 
@@ -244,7 +245,7 @@ Published: June 25, 2026 · Updated: June 25, 2026
       "publisher": {
         "@type": "Organization",
         "name": "Siplinx AI",
-        "logo": {"@type": "ImageObject", "url": "https://siplinx.com/logo.png"}
+        "logo": { "@type": "ImageObject", "url": "https://siplinx.com/logo.png" }
       },
       "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1200&q=80"
     },
@@ -297,12 +298,36 @@ Published: June 25, 2026 · Updated: June 25, 2026
       "@type": "HowTo",
       "name": "How to set up meeting notes in Teams without Copilot",
       "step": [
-        {"@type": "HowToStep", "name": "Enable transcription in Teams Admin Center", "text": "Go to Teams Admin Center, Meetings > Meeting policies, set 'Allow transcription' to On."},
-        {"@type": "HowToStep", "name": "Start transcription at the beginning of each call", "text": "Click the three-dot menu during the meeting and select 'Start transcription'."},
-        {"@type": "HowToStep", "name": "Open the Notes pane and set an agenda", "text": "Click 'Notes' in the meeting toolbar and add agenda items before or at the start of the meeting."},
-        {"@type": "HowToStep", "name": "Assign action items during the meeting", "text": "Use the task-assignment feature in the Loop notes pane to tag colleagues directly during the call."},
-        {"@type": "HowToStep", "name": "Review and clean the transcript in Meeting Recap", "text": "After the meeting, go to Calendar, open the event, click the Recap tab, and copy key sections into your Loop notes."},
-        {"@type": "HowToStep", "name": "Share notes via the meeting chat", "text": "The Loop notes page is automatically linked in the meeting chat. Export as PDF for external participants."}
+        {
+          "@type": "HowToStep",
+          "name": "Enable transcription in Teams Admin Center",
+          "text": "Go to Teams Admin Center, Meetings > Meeting policies, set 'Allow transcription' to On."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Start transcription at the beginning of each call",
+          "text": "Click the three-dot menu during the meeting and select 'Start transcription'."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Open the Notes pane and set an agenda",
+          "text": "Click 'Notes' in the meeting toolbar and add agenda items before or at the start of the meeting."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Assign action items during the meeting",
+          "text": "Use the task-assignment feature in the Loop notes pane to tag colleagues directly during the call."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Review and clean the transcript in Meeting Recap",
+          "text": "After the meeting, go to Calendar, open the event, click the Recap tab, and copy key sections into your Loop notes."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Share notes via the meeting chat",
+          "text": "The Loop notes page is automatically linked in the meeting chat. Export as PDF for external participants."
+        }
       ]
     }
   ]

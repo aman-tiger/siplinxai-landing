@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 offline meeting recorder
 
 ## LSI / related keywords
+
 - offline meeting notes
 - no internet transcription
 - local meeting recorder
@@ -21,9 +23,11 @@ offline meeting recorder
 - bot-free meeting recorder
 
 ## Target audience
+
 Privacy-conscious professionals (lawyers, doctors, executives, consultants) who need to transcribe and summarize in-person or remote meetings without sending audio data to third-party cloud servers.
 
 ## Search intent
+
 Informational / Commercial Investigation. Users want to understand what an offline meeting recorder is, whether it's reliable, and which tool to use. Many are motivated by a specific privacy concern or compliance requirement.
 
 ---
@@ -90,6 +94,7 @@ These should become H2 questions and FAQ entries.
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. What is an offline meeting recorder and how does it work?
 2. Why do professionals switch to offline recording (data breaches, lawsuits, bans)?
 3. Is offline transcription accurate enough to rely on?

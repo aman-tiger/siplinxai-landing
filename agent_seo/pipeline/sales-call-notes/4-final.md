@@ -23,6 +23,7 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 ![A salesperson reviewing notes on a laptop after a client call, with a CRM dashboard visible on screen](https://images.unsplash.com/photo-1560472355-536de3962603?auto=format&fit=crop&w=1200&q=80)
 
 **TL;DR**
+
 - Sales reps spend just 28% of their working week actually selling, according to Salesforce's 2025 State of Sales report. Good notes reclaim some of that time.
 - Effective sales call notes capture pain points, decision timeline, stakeholders, objections, and a named next step (not a word-for-word transcript).
 - The biggest risk with AI call recorders is uploading sensitive client audio to third-party cloud servers. There are now on-device alternatives.
@@ -63,6 +64,7 @@ Here's the counterintuitive part: taking better notes doesn't cost you more time
 Every sales call note should answer five specific questions about the conversation, regardless of what type of call it was.
 
 The five things to capture in every sales call note:
+
 1. **Pain point:** What problem is the prospect trying to solve, in their exact words?
 2. **Decision process:** Who else is involved? What does approval look like?
 3. **Timeline:** When do they need a solution? Is there an event or deadline driving it?
@@ -96,6 +98,7 @@ If you're running back-to-back calls, use a recorder. There's no shame in it. Th
 Most call recorders (Fireflies, Otter, Gong) upload your audio to their cloud servers for transcription. For a lot of sales teams that's fine. But if you're selling into legal, healthcare, financial services, or enterprise accounts with strict data governance policies, uploading call audio to a third-party server is a real compliance issue. More on the alternative in a moment.
 
 The practical rules for note-taking during calls:
+
 - Before the call: confirm your note template is open and ready in your CRM.
 - During the call: keywords only, 3-10 word fragments.
 - After the call: block 10 minutes, no exceptions, to expand into structured notes.
@@ -150,13 +153,13 @@ The second change takes longer to show up but is more powerful. When you have a 
 
 Here's a quick comparison of how major tools handle AI sales call notes:
 
-| Tool | Transcription method | Where audio goes | CRM sync | Privacy model |
-|------|---------------------|-----------------|----------|---------------|
-| Gong | Cloud (proprietary AI) | Gong cloud servers | Salesforce, HubSpot | Cloud-only |
-| Fireflies.ai | Cloud (AWS) | Fireflies cloud | 40+ integrations | Cloud-only |
-| Otter.ai | Cloud | Otter servers | Salesforce, HubSpot | Cloud-only |
-| Fathom | Cloud | Fathom servers | Salesforce, HubSpot | Cloud-only |
-| Siplinx AI | On-device (local LLM) | Never leaves your computer | Export + CRM paste | 100% offline |
+| Tool         | Transcription method   | Where audio goes           | CRM sync            | Privacy model |
+| ------------ | ---------------------- | -------------------------- | ------------------- | ------------- |
+| Gong         | Cloud (proprietary AI) | Gong cloud servers         | Salesforce, HubSpot | Cloud-only    |
+| Fireflies.ai | Cloud (AWS)            | Fireflies cloud            | 40+ integrations    | Cloud-only    |
+| Otter.ai     | Cloud                  | Otter servers              | Salesforce, HubSpot | Cloud-only    |
+| Fathom       | Cloud                  | Fathom servers             | Salesforce, HubSpot | Cloud-only    |
+| Siplinx AI   | On-device (local LLM)  | Never leaves your computer | Export + CRM paste  | 100% offline  |
 
 The tradeoff is real. Cloud-based tools give you richer analytics and team dashboards. On-device tools give you a guarantee that your call recordings never leave your hardware, which matters a great deal in regulated industries.
 
@@ -193,44 +196,52 @@ Here's a template you can copy directly into your CRM or a shared notes document
 
 **SALES CALL NOTES TEMPLATE**
 
-**Date:** ___
-**Contact:** ___ (name, title, company)
+**Date:** **_
+**Contact:** _** (name, title, company)
 **Call type:** Discovery / Demo / Negotiation / Check-in / Renewal
 
 ---
 
 **1. Core pain point**
 (Use their exact words where possible)
-___
+
+---
 
 **2. Decision process**
-- Decision maker: ___
-- Others involved: ___
-- Approval steps: ___
+
+- Decision maker: \_\_\_
+- Others involved: \_\_\_
+- Approval steps: \_\_\_
 
 **3. Timeline**
-- Target date for a solution: ___
-- What's driving the timeline: ___
+
+- Target date for a solution: \_\_\_
+- What's driving the timeline: \_\_\_
 
 **4. Budget**
+
 - Budget confirmed: Yes / No / Not discussed
-- Range mentioned: ___
+- Range mentioned: \_\_\_
 
 **5. Objections raised**
-- Objection 1 / Response: ___
-- Objection 2 / Response: ___
+
+- Objection 1 / Response: \_\_\_
+- Objection 2 / Response: \_\_\_
 
 **6. Competitor mentions**
-___
+
+---
 
 **7. Next step**
-- What: ___
-- Who owns it: ___
-- By when: ___
+
+- What: \_\_\_
+- Who owns it: \_\_\_
+- By when: \_\_\_
 
 **8. Internal notes**
 (Context for internal team, not for CRM customer-facing fields)
-___
+
+---
 
 ---
 
@@ -331,7 +342,7 @@ Published: June 25, 2026 · Updated: June 25, 2026
   "publisher": {
     "@type": "Organization",
     "name": "Siplinx AI",
-    "logo": {"@type": "ImageObject", "url": "https://siplinx.com/logo.png"}
+    "logo": { "@type": "ImageObject", "url": "https://siplinx.com/logo.png" }
   },
   "image": "https://images.unsplash.com/photo-1560472355-536de3962603?auto=format&fit=crop&w=1200&q=80"
 }

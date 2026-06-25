@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 zoom meeting notes
 
 ## LSI / related keywords
+
 - ai note taker for zoom
 - zoom transcription
 - zoom meeting summary
@@ -20,9 +22,11 @@ zoom meeting notes
 - private zoom notes
 
 ## Target audience
+
 Privacy-conscious professionals (lawyers, doctors, executives, consultants) who use Zoom regularly and want accurate, secure meeting notes without exposing conversation data to cloud services.
 
 ## Search intent
+
 Informational / Commercial Investigation
 Users want to understand their options for capturing and summarizing Zoom meetings — some want the native Zoom solution, others want third-party tools, and a growing segment actively cares about where their audio goes.
 
@@ -82,6 +86,7 @@ Users want to understand their options for capturing and summarizing Zoom meetin
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. What are zoom meeting notes and why do they matter? (AEO / featured snippet target)
 2. How does Zoom's built-in AI note taker work?
 3. What are the best AI note takers for Zoom in 2026?

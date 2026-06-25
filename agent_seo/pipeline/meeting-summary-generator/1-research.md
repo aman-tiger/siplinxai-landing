@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 meeting summary generator
 
 ## LSI / related keywords
+
 - meeting summary
 - ai meeting summary
 - meeting recap template
@@ -22,9 +24,11 @@ meeting summary generator
 - private meeting notes
 
 ## Target audience
+
 Productivity-focused professionals (managers, consultants, lawyers, doctors) who attend many meetings and need a fast, reliable way to convert raw discussion into shareable summaries without wasting time or leaking sensitive data.
 
 ## Search intent
+
 Informational + Commercial. The user wants to understand how meeting summary generators work, see a comparison of tools, and likely choose one to adopt. They may also want tips to write better summaries manually.
 
 ---
@@ -82,6 +86,7 @@ These should become H2 questions and FAQ entries.
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. What is a meeting summary generator and how does it work?
 2. Why your current meeting notes probably aren't good enough
 3. What to look for in an AI meeting summary tool (and what to avoid)

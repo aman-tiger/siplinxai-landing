@@ -14,6 +14,7 @@
 **H1:** Action items: Definition, how to write, and examples
 
 **H2 headings:**
+
 - What is an action item?
 - What are the benefits of using action items?
 - When to use action items
@@ -32,6 +33,7 @@
 **AI-generated feel:** Moderate — very structured but generic
 
 **Weaknesses:**
+
 1. No mention of AI-powered extraction tools — entirely focused on manual processes
 2. No section on what to do when action items fail or get missed
 3. Zero privacy angle — doesn't address confidential meetings or cloud concerns
@@ -49,6 +51,7 @@
 **H1:** How to Manage Meeting Action Items So Nothing Falls Through [Updated for 2026]
 
 **H2 headings:**
+
 - The foundation: 5 core principles for effective action items
 - Why manual action item tracking fails at scale
 - The solution: AI meeting assistants with universal integration
@@ -66,6 +69,7 @@
 **AI-generated feel:** High — very formulaic, stats without citations, robotic structure
 
 **Weaknesses:**
+
 1. No comparison table — doesn't compare tools or manual vs. AI approaches visually
 2. Stats cited without actual sources — undermines credibility
 3. No privacy consideration — ignores GDPR, HIPAA, confidential meeting use cases
@@ -83,6 +87,7 @@
 **H1:** The key to turning meeting action items into real action
 
 **H2 headings:**
+
 - Effective action item management starts with a great meeting agenda
 - The best way to track action items during and after meetings
 - A smart and simple meeting notes template with action items
@@ -97,6 +102,7 @@
 **AI-generated feel:** Low — reads human but shallow
 
 **Weaknesses:**
+
 1. No FAQ section — misses PAA traffic entirely
 2. No statistics or data to back up any claim
 3. Very generic advice — nothing specific to AI-era workflows
@@ -110,6 +116,7 @@
 **Target word count:** 3,832 words (beats longest competitor — fellow.ai at ~4,500 by covering the offline/privacy angle they all miss)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. What are meeting action items and why do most of them fail? (answers gap: root cause analysis all 3 skip)
 2. What makes a meeting action item actually stick? (answers the "4 W's" better than Asana with depth)
 3. How do you extract action items from a meeting without losing any? (critical how-to step all 3 skip or skim)

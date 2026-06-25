@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 ai meeting notes
 
 ## LSI / related keywords
+
 - ai note taker
 - ai notetaker
 - automatic meeting notes
@@ -20,9 +22,11 @@ ai meeting notes
 - private meeting notes
 
 ## Target audience
+
 Privacy-conscious professionals (lawyers, doctors, executives, consultants) and knowledge workers who want to stop wasting time on manual note-taking and need accurate, automated meeting documentation.
 
 ## Search intent
+
 Informational / Commercial Investigation
 The user wants to understand what AI meeting notes tools exist, how they work, which is best for their use case, and whether they should trust them with their meeting data. Many are in the evaluation/comparison phase before buying.
 

@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 windows meeting recorder
 
 ## LSI / related keywords
+
 - meeting notes app windows
 - ai notetaker windows
 - windows meeting notes
@@ -20,9 +22,11 @@ windows meeting recorder
 - HIPAA meeting transcription windows
 
 ## Target audience
+
 Windows-based professionals (lawyers, consultants, healthcare workers, executives) who want an AI meeting recorder that transcribes and summarizes locally without uploading audio to the cloud.
 
 ## Search intent
+
 Informational / Commercial Investigation
 The user wants to find the best tool to record and transcribe meetings on Windows, possibly with AI summaries. Many are privacy-conscious and frustrated by cloud-based alternatives sending audio to third-party servers.
 
@@ -88,6 +92,7 @@ These should become H2 questions and FAQ entries.
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. What is a Windows meeting recorder and how does it work?
 2. Why do most Windows meeting recorders send your audio to the cloud (and why that matters)?
 3. What should you look for in a Windows AI meeting recorder?

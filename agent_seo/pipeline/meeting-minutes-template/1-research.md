@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 meeting minutes template
 
 ## LSI / related keywords
+
 - how to write meeting minutes
 - meeting minutes format
 - meeting minutes example
@@ -20,9 +22,11 @@ meeting minutes template
 - action items meeting notes
 
 ## Target audience
+
 Project managers, executive assistants, team leads, and administrative professionals who need a structured, reusable system for capturing decisions and action items from meetings.
 
 ## Search intent
+
 Informational / Navigational — users want a downloadable or copyable template plus practical guidance on how to fill it in. Secondary intent: discover an AI tool that automates the process entirely.
 
 ---
@@ -86,6 +90,7 @@ These should become H2 questions and FAQ entries.
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. What are meeting minutes and why do they matter? (definition + stat hook)
 2. What should a meeting minutes template include? (the actual template breakdown)
 3. What types of meeting minutes templates do you need? (board, team standup, 1:1, project kickoff)

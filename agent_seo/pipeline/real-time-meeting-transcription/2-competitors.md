@@ -14,6 +14,7 @@
 **H1:** Transcribe meetings live. Focus on the conversation.
 
 **H2 headings:**
+
 - Helping the world's most modern companies communicate better
 - View real-time transcriptions during meetings
 - Turn transcripts into recaps, summaries, and project progress
@@ -32,6 +33,7 @@
 **AI-generated feel:** partially — testimonial sections feel templated
 
 **Weaknesses:**
+
 1. No comparison against other tools — users have to leave to compare
 2. Zero external data citations; all claims are unverified
 3. No privacy or security section beyond a vague "Trust Center" link
@@ -49,6 +51,7 @@
 **H1:** How to Get Real Time Meeting Transcription Anywhere
 
 **H2 headings:**
+
 - How to get Real-Time Meeting Transcription in Zoom, Google Meet, Teams...
 - Custom Real-Time Meeting Transcription Method
 - Real-Time Meeting Transcription Everywhere: Noota
@@ -62,6 +65,7 @@
 **AI-generated feel:** yes — generic, promotional tone throughout
 
 **Weaknesses:**
+
 1. Very thin at ~1,300 words — easy to beat on depth
 2. Only three H2 sections; major topics like accuracy, privacy, and tool comparison are absent
 3. No mention of privacy risks, data storage, or consent issues
@@ -79,6 +83,7 @@
 **H1:** AI Meeting Transcription - accurate transcripts
 
 **H2 headings:**
+
 - Organizations worldwide trust us
 - One app. Every Voice AI feature for meetings.
 - Capture every conversation with Krisp AI Meeting Transcription
@@ -98,6 +103,7 @@
 **AI-generated feel:** yes — generic section titles, no personality
 
 **Weaknesses:**
+
 1. No competitor comparison — does not help users make a choice
 2. No mention of the real privacy risks of cloud-based transcription (Otter.ai lawsuit, GDPR)
 3. Accuracy claims ("96%") have no methodology or conditions defined
@@ -111,6 +117,7 @@
 **Target word count:** 2,932 words (matches pipeline target; beats Noota by 2x, matches Krisp)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. What is real-time meeting transcription and how does it actually work?
 2. What are the three main approaches to real-time transcription?
 3. Why do 73% of businesses hold back on AI meeting transcription? (the privacy barrier)
@@ -123,6 +130,7 @@
 **Our #1 differentiator:** None of the top 3 competitors covers the privacy and legal risk angle with real data (the Otter.ai lawsuit, GDPR exposure, Verizon breach data). This is the #1 adoption barrier (73% of businesses) and zero competitors address it head-on.
 
 **Data competitors don't have:**
+
 - 73% of businesses cite privacy as the primary barrier to adoption (Sonix 2025)
 - Otter.ai class-action lawsuit consolidated October 2025 (NPR)
 - Third-party data breach involvement doubled from 15% to 30% in 2025 (Verizon DBIR)

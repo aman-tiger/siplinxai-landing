@@ -172,16 +172,16 @@ The whole process takes about 20 minutes for most users. The hardest part is cho
 
 ## Comparison table: Otter AI vs top alternatives {#comparison-table}
 
-| Tool | On-device processing | Meeting bot | Free plan | Languages | Best for |
-|------|---------------------|-------------|-----------|-----------|----------|
-| Otter.ai | No (cloud) | Yes (OtterPilot) | 300 min/month | 4 | General transcription |
-| Siplinx AI | Yes (fully local) | No | See siplinx.com | English | Privacy-first professionals |
-| Fathom | No (cloud) | Yes | Unlimited (Zoom) | English | Free Zoom notes |
-| Tactiq | No (cloud) | No (extension) | 10 meetings/month | 60+ | Bot-free browser capture |
-| Fireflies.ai | No (cloud) | Yes | 800 min storage | 69+ | Team collaboration |
-| Notta | No (cloud) | Yes | 120 min/month | 58 | Multilingual teams |
-| MeetGeek | No (cloud) | Yes | Basic free tier | Multiple | Team integration depth |
-| Jamie | Partial (offline record) | No | 10 credits/month | 100+ | In-person meetings |
+| Tool         | On-device processing     | Meeting bot      | Free plan         | Languages | Best for                    |
+| ------------ | ------------------------ | ---------------- | ----------------- | --------- | --------------------------- |
+| Otter.ai     | No (cloud)               | Yes (OtterPilot) | 300 min/month     | 4         | General transcription       |
+| Siplinx AI   | Yes (fully local)        | No               | See siplinx.com   | English   | Privacy-first professionals |
+| Fathom       | No (cloud)               | Yes              | Unlimited (Zoom)  | English   | Free Zoom notes             |
+| Tactiq       | No (cloud)               | No (extension)   | 10 meetings/month | 60+       | Bot-free browser capture    |
+| Fireflies.ai | No (cloud)               | Yes              | 800 min storage   | 69+       | Team collaboration          |
+| Notta        | No (cloud)               | Yes              | 120 min/month     | 58        | Multilingual teams          |
+| MeetGeek     | No (cloud)               | Yes              | Basic free tier   | Multiple  | Team integration depth      |
+| Jamie        | Partial (offline record) | No               | 10 credits/month  | 100+      | In-person meetings          |
 
 The comparison above shows the clearest gap in the current market: most tools are cloud-based with bot presence. Siplinx AI and Jamie are the only two that avoid the bot entirely. Siplinx is the only one with fully on-device processing for both transcription and summarization.
 
@@ -282,7 +282,7 @@ Published: June 25, 2026 · Updated: June 25, 2026
       "publisher": {
         "@type": "Organization",
         "name": "Siplinx AI",
-        "logo": {"@type": "ImageObject", "url": "https://siplinx.com/logo.png"}
+        "logo": { "@type": "ImageObject", "url": "https://siplinx.com/logo.png" }
       },
       "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=1200&q=80"
     },

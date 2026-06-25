@@ -14,6 +14,7 @@
 **H1:** How to Write a Meeting Summary: Guide, Examples, and a Free Template
 
 **H2 headings:**
+
 - What Is a Meeting Summary?
 - Meeting Summary vs. Meeting Minutes: What Is the Difference?
 - What Should a Meeting Summary Include?
@@ -31,6 +32,7 @@
 **AI-generated feel:** Yes — formulaic, no personality, generic phrasing
 
 **Weaknesses:**
+
 1. No real statistics cited — claims made without any data backup
 2. Very short FAQ (only 3 questions vs. the typical 5-7)
 3. No discussion of privacy or sensitive meetings — what happens when you can't use cloud AI?
@@ -48,6 +50,7 @@
 **H1:** How To Write a Meeting Summary (With Examples)
 
 **H2 headings:**
+
 - What is a meeting summary?
 - How do you write an effective meeting summary?
 - What should a meeting summary include?
@@ -64,6 +67,7 @@
 **AI-generated feel:** Moderate — well-written but very generic, no concrete examples
 
 **Weaknesses:**
+
 1. No comparison table — doesn't compare AI tools against each other or manual vs. AI
 2. No discussion of privacy trade-offs or sensitive data risks with cloud-based AI notetakers
 3. No real statistics to back up claims about productivity savings
@@ -81,6 +85,7 @@
 **H1:** How to Write a Meeting Summary (+ Examples, Templates & Best Practices)
 
 **H2 headings:**
+
 - What Is a Meeting Summary? (+ Why It's Important)
 - When to Use a Meeting Summary
 - How Meeting Summaries, Minutes, and Agendas Work Together
@@ -98,6 +103,7 @@
 **AI-generated feel:** Moderate — templated structure, formulaic transitions
 
 **Weaknesses:**
+
 1. Only 1 statistic, weakly cited — misses the opportunity to build authority with data
 2. No comparison table between AI meeting tools
 3. Doesn't address how to make AI-generated summaries sound human
@@ -111,6 +117,7 @@
 **Target word count:** 3,325 words (matches our random target, beats shortest competitor by ~50%, close to Fellow's length)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. What is a meeting summary (and why most teams get it wrong)?
 2. What a good meeting summary actually includes
 3. How to write a meeting summary step by step
@@ -131,7 +138,7 @@
 ## SERP features present
 
 - Featured snippet: Yes — paragraph format (definition of meeting summary)
-- People Also Ask: 
+- People Also Ask:
   - What should be included in a meeting summary?
   - How long should a meeting summary be?
   - What is the difference between meeting minutes and meeting summary?

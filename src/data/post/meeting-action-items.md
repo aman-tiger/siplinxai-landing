@@ -216,16 +216,16 @@ Examples:
 
 ## Comparison: manual vs. AI action item extraction
 
-| Dimension | Manual extraction | Cloud AI tool | Offline AI (e.g., Siplinx AI) |
-|---|---|---|---|
-| Speed | Slow (during or after meeting) | Instant | Near-instant |
-| Accuracy | Depends on the note-taker | High for explicit commitments | High for explicit commitments |
-| Privacy | Full control | Audio sent to vendor servers | Full control, local only |
-| GDPR/HIPAA compliance | Yes | Requires DPA with vendor | Yes, by design |
-| Integrations | Manual copy | Slack, Asana, CRM sync | Manual copy (fewer integrations) |
-| Cost | Free (time cost) | $15-30/user/month | One-time or subscription |
-| Works without internet | Yes | No | Yes |
-| Best for | Small teams, low meeting volume | High-volume, non-sensitive meetings | Legal, medical, executive, regulated industries |
+| Dimension              | Manual extraction               | Cloud AI tool                       | Offline AI (e.g., Siplinx AI)                   |
+| ---------------------- | ------------------------------- | ----------------------------------- | ----------------------------------------------- |
+| Speed                  | Slow (during or after meeting)  | Instant                             | Near-instant                                    |
+| Accuracy               | Depends on the note-taker       | High for explicit commitments       | High for explicit commitments                   |
+| Privacy                | Full control                    | Audio sent to vendor servers        | Full control, local only                        |
+| GDPR/HIPAA compliance  | Yes                             | Requires DPA with vendor            | Yes, by design                                  |
+| Integrations           | Manual copy                     | Slack, Asana, CRM sync              | Manual copy (fewer integrations)                |
+| Cost                   | Free (time cost)                | $15-30/user/month                   | One-time or subscription                        |
+| Works without internet | Yes                             | No                                  | Yes                                             |
+| Best for               | Small teams, low meeting volume | High-volume, non-sensitive meetings | Legal, medical, executive, regulated industries |
 
 ---
 
@@ -321,7 +321,7 @@ Published: June 25, 2026 · Updated: June 25, 2026
   "publisher": {
     "@type": "Organization",
     "name": "Siplinx AI",
-    "logo": {"@type": "ImageObject", "url": "https://siplinx.com/logo.png"}
+    "logo": { "@type": "ImageObject", "url": "https://siplinx.com/logo.png" }
   },
   "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80"
 }

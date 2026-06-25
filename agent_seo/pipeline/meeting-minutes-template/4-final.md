@@ -64,12 +64,14 @@ For some organizations, minutes aren't optional. Board meetings, nonprofit gener
 A meeting minutes template needs seven core elements. Miss any of them and the document loses its usefulness.
 
 **1. Meeting header**
+
 - Date and start/end time
 - Location or platform (Zoom, Teams, Google Meet, in-person)
 - Meeting name or topic
 - Who called the meeting
 
 **2. Attendees**
+
 - Names of everyone present
 - Names of expected attendees who were absent
 - Note who was a guest versus a regular member
@@ -83,11 +85,11 @@ This is the most important section. Every decision needs its own line. "The team
 **5. Action items**
 Each action item needs three fields: what needs to be done, who owns it, and by when. A table format works best here.
 
-| Action item | Owner | Due date |
-|-------------|-------|----------|
-| Draft revised budget | Marcus T. | July 3 |
-| Send survey to clients | Priya S. | July 7 |
-| Schedule follow-up meeting | Elena K. | June 28 |
+| Action item                | Owner     | Due date |
+| -------------------------- | --------- | -------- |
+| Draft revised budget       | Marcus T. | July 3   |
+| Send survey to clients     | Priya S.  | July 7   |
+| Schedule follow-up meeting | Elena K.  | June 28  |
 
 **6. Next meeting**
 Date, time, and preliminary agenda for the next meeting, if known.
@@ -141,12 +143,12 @@ The short answer: yes, if you're spending more than 20 minutes after every meeti
 
 Here's how the approaches compare:
 
-| Approach | Time cost | Accuracy | Privacy | Works offline |
-|----------|-----------|----------|---------|---------------|
-| Manual note-taking during meeting | High (full attention split) | Depends on note-taker | Full | Yes |
-| Transcription after (record then type) | Medium (post-processing) | Good | Depends on tool | Depends |
-| Cloud AI (Otter, Fireflies, Fathom) | Low | High | Low (audio uploaded) | No |
-| Local AI (Siplinx AI) | Low | High | Full (nothing leaves device) | Yes |
+| Approach                               | Time cost                   | Accuracy              | Privacy                      | Works offline |
+| -------------------------------------- | --------------------------- | --------------------- | ---------------------------- | ------------- |
+| Manual note-taking during meeting      | High (full attention split) | Depends on note-taker | Full                         | Yes           |
+| Transcription after (record then type) | Medium (post-processing)    | Good                  | Depends on tool              | Depends       |
+| Cloud AI (Otter, Fireflies, Fathom)    | Low                         | High                  | Low (audio uploaded)         | No            |
+| Local AI (Siplinx AI)                  | Low                         | High                  | Full (nothing leaves device) | Yes           |
 
 Cloud AI tools like Otter.ai and Fireflies.ai work by recording your meeting audio and sending it to their servers for transcription and summarization. That works well for internal brainstorming sessions or product reviews. But if you're a lawyer taking notes during a client call, a doctor discussing patient cases, or a consultant handling strategic information, uploading that audio to a third-party cloud is a real compliance problem.
 
@@ -178,14 +180,14 @@ The tradeoff is clear. If you're taking notes manually, you'll always miss some 
 
 The right tool depends on your privacy requirements and meeting setup.
 
-| Tool | AI minutes | Works offline | Privacy | Best for |
-|------|-----------|---------------|---------|----------|
-| Siplinx AI | Yes | Yes | Full (local only) | Confidential meetings |
-| Fireflies.ai | Yes | No | Cloud storage | Sales teams, internal meetings |
-| Otter.ai | Yes | No | Cloud storage | General business |
-| Fathom | Yes | No | Cloud storage | Zoom-native teams |
-| Google Docs | No | No | Cloud storage | Teams already in Google workspace |
-| Microsoft Word | Limited (Copilot) | No | Cloud storage | Office 365 teams |
+| Tool           | AI minutes        | Works offline | Privacy           | Best for                          |
+| -------------- | ----------------- | ------------- | ----------------- | --------------------------------- |
+| Siplinx AI     | Yes               | Yes           | Full (local only) | Confidential meetings             |
+| Fireflies.ai   | Yes               | No            | Cloud storage     | Sales teams, internal meetings    |
+| Otter.ai       | Yes               | No            | Cloud storage     | General business                  |
+| Fathom         | Yes               | No            | Cloud storage     | Zoom-native teams                 |
+| Google Docs    | No                | No            | Cloud storage     | Teams already in Google workspace |
+| Microsoft Word | Limited (Copilot) | No            | Cloud storage     | Office 365 teams                  |
 
 For most teams handling general business conversations, any cloud AI tool works fine. The quality differences between Fireflies, Otter, and Fathom are relatively small; they all produce usable minutes from decent audio.
 
@@ -280,7 +282,7 @@ Published: June 25, 2026 · Updated: June 25, 2026
       "publisher": {
         "@type": "Organization",
         "name": "Siplinx AI",
-        "logo": {"@type": "ImageObject", "url": "https://siplinx.com/logo.png"}
+        "logo": { "@type": "ImageObject", "url": "https://siplinx.com/logo.png" }
       },
       "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80"
     },

@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 how to write meeting summaries
 
 ## LSI / related keywords
+
 - meeting summary template
 - meeting recap template
 - ai meeting summary
@@ -20,9 +22,11 @@ how to write meeting summaries
 - automated meeting summary
 
 ## Target audience
+
 Professionals (managers, consultants, executives, lawyers) who need to produce clear, actionable meeting summaries quickly and are considering AI tools to automate or improve the process.
 
 ## Search intent
+
 Informational + Tool-seeking. Users want a practical guide on how to write effective meeting summaries, and many are also looking for AI tools that can automate the process for them.
 
 ---
@@ -93,6 +97,7 @@ These should become H2 questions and FAQ entries.
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. What is a meeting summary (and how is it different from meeting minutes)?
 2. What should a good meeting summary include?
 3. How to write a meeting summary step by step (manual method)

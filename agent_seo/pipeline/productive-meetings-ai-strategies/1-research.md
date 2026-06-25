@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 productive meetings ai
 
 ## LSI / related keywords
+
 - effective meetings
 - meeting productivity
 - ai meeting strategies
@@ -22,9 +24,11 @@ productive meetings ai
 - unproductive meetings cost
 
 ## Target audience
+
 Knowledge workers, managers, and executives who spend too much time in meetings and want to use AI to make those meetings shorter, cleaner, and more actionable.
 
 ## Search intent
+
 Informational. The user wants practical strategies and tool recommendations to improve meeting outcomes using AI. They are problem-aware (meetings are broken) and solution-curious (can AI actually fix this?).
 
 ---

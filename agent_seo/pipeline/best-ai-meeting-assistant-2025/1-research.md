@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 best ai meeting assistant
 
 ## LSI / related keywords
+
 - ai meeting assistant
 - best meeting ai tool
 - top ai notetakers
@@ -22,9 +24,11 @@ best ai meeting assistant
 - local ai meeting notes
 
 ## Target audience
+
 Privacy-conscious professionals (lawyers, doctors, consultants, executives) comparing AI meeting tools, specifically those handling confidential conversations who need to understand privacy risks before choosing a tool.
 
 ## Search intent
+
 Commercial Investigation / Comparison. The user wants to compare and choose the best AI meeting assistant. They are close to a purchase decision and need a trusted, specific comparison — not generic marketing copy.
 
 ---
@@ -101,6 +105,7 @@ These should become H2 questions and FAQ entries.
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. What is an AI meeting assistant and how does it work? (AEO/featured snippet target)
 2. Why the privacy risks of cloud AI meeting tools are now a legal issue (unique angle, freshness)
 3. How do the top AI meeting assistants actually compare? (comparison table — all competitors want this)

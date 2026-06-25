@@ -14,6 +14,7 @@
 **H1:** 11 Meeting AI Tools For Boosting Productivity
 
 **H2 headings:**
+
 - Rev
 - Otter
 - Fireflies
@@ -37,6 +38,7 @@
 **AI-generated feel:** yes — listicle format, generic descriptions per tool
 
 **Weaknesses:**
+
 1. Pure tool listicle with no strategic guidance on how to actually run productive meetings
 2. Zero data on meeting costs, time wasted, or productivity gains — no authority signals
 3. No comparison table, no FAQ, no structured answer format for featured snippets
@@ -54,6 +56,7 @@
 **H1:** Top 12 AI Tools for Meeting Productivity in 2025
 
 **H2 headings:**
+
 - Transcription and meeting assistants
 - AI scheduling tools
 - Chatbots
@@ -70,6 +73,7 @@
 **AI-generated feel:** yes — categorical lists, no editorial judgment
 
 **Weaknesses:**
+
 1. No pricing, no security/privacy comparison — critical gaps for buyers
 2. Uses a 2017 HBR stat as only data point; no 2024 or 2025 data
 3. Obvious self-promotion: Fireflies.ai is featured prominently in its own article
@@ -87,6 +91,7 @@
 **H1:** Make Meetings More Productive With AI
 
 **H2 headings:**
+
 - Understanding the challenges in traditional meetings
 - AI Meeting Recording Software?
 - Importance of Productivity in Meetings
@@ -103,6 +108,7 @@
 **AI-generated feel:** yes — generic structure, no contrarian takes
 
 **Weaknesses:**
+
 1. Unsourced statistics that undermine credibility
 2. Conclusion section breaks the rule of not saying "In conclusion"
 3. No comparison table or step-by-step process
@@ -117,6 +123,7 @@
 **Target word count:** 2,181 words (matches our WORD_TARGET, beats competitors by ~20-25% in quality even if similar length through better structure)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. Why meetings are still broken in 2026 (sets up with real data — none of the competitors open this way)
 2. What does AI actually do in a meeting? (AEO-friendly direct answer competitors skip)
 3. How AI cuts meeting time without cutting outcomes (specific tactics)

@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 meeting action items
 
 ## LSI / related keywords
+
 - extract action items
 - action item extraction
 - meeting follow up tasks
@@ -21,9 +23,11 @@ meeting action items
 - how to extract action items from meetings
 
 ## Target audience
+
 Busy professionals, team leads, project managers, and executives who run frequent meetings and need a reliable system for capturing and following through on commitments.
 
 ## Search intent
+
 Informational / How-to
 The user wants to know how to reliably capture, assign, and follow through on tasks that come out of meetings — they're frustrated with items falling through the cracks and want a practical system or tool.
 
@@ -87,6 +91,7 @@ These should become H2 questions and FAQ entries.
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. What are meeting action items and why do most of them fail?
 2. What makes an action item actually work?
 3. How do you extract action items from a meeting without missing any?

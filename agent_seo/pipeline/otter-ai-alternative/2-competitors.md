@@ -14,6 +14,7 @@
 **H1:** Top 15 Otter AI Alternatives for Transcription & Meeting Notes in 2026
 
 **H2 headings:**
+
 - Why do people look for Otter.ai alternatives? (online reviews)
 - Top 15 alternatives to Otter for AI meeting transcription and note-taking
 - Quick comparison overview
@@ -29,6 +30,7 @@
 **AI-generated feel:** Moderate — heavy templating, consistent structure, marketing-speak
 
 **Weaknesses:**
+
 1. Clear conflict of interest: Fellow is #1 on their own list, written by a Fellow employee
 2. Zero real statistics cited — no source links for any accuracy or market claims
 3. Completely ignores the 2025 Otter.ai class action lawsuit and the privacy crisis driving users away
@@ -46,6 +48,7 @@
 **H1:** Best 6 Otter AI Alternatives | 20+ Personally Tested Apps (2026)
 
 **H2 headings:**
+
 - The Best Alternatives to Otter AI at a Glance
 - How We Test AI Note-Takers
 - A Side-by-Side Look at the Otter AI Alternatives
@@ -63,6 +66,7 @@
 **AI-generated feel:** Low — specific anecdotes, consistent voice
 
 **Weaknesses:**
+
 1. Heavy affiliate linking throughout — ranking bias from commission relationships
 2. Zero coverage of the legal/privacy crisis (lawsuit not mentioned)
 3. None of the 6 tools featured offer true offline or on-device processing
@@ -81,6 +85,7 @@
 **H1:** Best Otter.ai Alternatives in 2026
 
 **H2 headings:**
+
 - Why Look for Otter.ai Alternatives?
 - Top Otter.ai Alternatives
 - Choosing the Right Alternative
@@ -94,6 +99,7 @@
 **AI-generated feel:** Moderate
 
 **Weaknesses:**
+
 1. Extremely thin content (~1,300 words) — most searchers want more depth
 2. No FAQ — misses a huge featured snippet opportunity
 3. No TL;DR — fails basic AEO structure
@@ -108,6 +114,7 @@
 **Target word count:** 3,500-3,800 words (beats thebusinessdive.com's length by ~10% but with better structure, real stats, and no filler)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. Why people are leaving Otter.ai in 2026 (covers the lawsuit, bot fatigue, language limits)
 2. What to look for in an Otter AI alternative (clear buying criteria)
 3. The best Otter AI alternative for privacy and offline use (Siplinx AI positioned here)

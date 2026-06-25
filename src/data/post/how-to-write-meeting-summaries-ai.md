@@ -23,6 +23,7 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 ![Professional reviewing a structured meeting summary on a laptop in a modern office setting](https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80)
 
 **TL;DR**
+
 - A meeting summary is a short, scannable record of decisions, action items, and next steps. Not a transcript.
 - 70% of meeting decisions are forgotten within 24 hours without written notes; a good summary prevents that.
 - AI can write your meeting summary in seconds, but the raw output often sounds generic and needs editing.
@@ -134,14 +135,14 @@ Here's how to get better output from AI meeting summaries:
 
 ### How AI meeting tools compare for summary quality
 
-| Tool | Summary quality | Privacy model | Offline capable | Best for |
-|------|----------------|---------------|-----------------|----------|
-| Siplinx AI | High, with human editing | 100% local, no cloud | Yes | Confidential and regulated meetings |
-| Fireflies | High | Cloud-based | No | General business teams |
-| Otter.ai | Good | Cloud-based | No | Small teams, Google Meet users |
-| Granola | Good | Mostly local (Mac) | Partial | Mac-only users |
-| Fellow | Good | Cloud-based | No | Teams using Fellow for agendas |
-| tl;dv | Good | Cloud-based | No | Video-first and async teams |
+| Tool       | Summary quality          | Privacy model        | Offline capable | Best for                            |
+| ---------- | ------------------------ | -------------------- | --------------- | ----------------------------------- |
+| Siplinx AI | High, with human editing | 100% local, no cloud | Yes             | Confidential and regulated meetings |
+| Fireflies  | High                     | Cloud-based          | No              | General business teams              |
+| Otter.ai   | Good                     | Cloud-based          | No              | Small teams, Google Meet users      |
+| Granola    | Good                     | Mostly local (Mac)   | Partial         | Mac-only users                      |
+| Fellow     | Good                     | Cloud-based          | No              | Teams using Fellow for agendas      |
+| tl;dv      | Good                     | Cloud-based          | No              | Video-first and async teams         |
 
 The difference between tools is less about summary quality (most are reasonably accurate) and more about what happens to your audio. Cloud-based tools send your recording to a server for processing. If your meeting involves client data, medical information, legal advice, or anything that falls under GDPR or HIPAA, that's a meaningful risk.
 
@@ -163,6 +164,7 @@ Copy and adapt this template for your team:
 ---
 
 **Decisions made:**
+
 - [Decision 1: specific outcome]
 - [Decision 2: specific outcome]
 
@@ -174,6 +176,7 @@ Copy and adapt this template for your team:
 | [Task 3] | [Name] | [Date] |
 
 **Open questions / parking lot:**
+
 - [Question or issue not resolved, to be addressed at next meeting]
 
 **Next meeting:** [Date, time, main agenda item]
@@ -313,7 +316,7 @@ Published: June 25, 2026 · Updated: June 25, 2026
   "publisher": {
     "@type": "Organization",
     "name": "Siplinx AI",
-    "logo": {"@type": "ImageObject", "url": "https://siplinx.com/logo.png"}
+    "logo": { "@type": "ImageObject", "url": "https://siplinx.com/logo.png" }
   },
   "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
 }

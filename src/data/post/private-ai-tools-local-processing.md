@@ -24,6 +24,7 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 ![A privacy-conscious professional reviewing meeting notes on a laptop in a quiet office setting](https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?auto=format&fit=crop&w=1200&q=80)
 
 **TL;DR**
+
 - "Private" in meeting tools means three very different things: bot-free, local transcription only, or fully local processing. Most tools only deliver one.
 - Cloud-based AI meeting tools carry real legal risk: a class action lawsuit was filed against Otter.ai in August 2025 for recording non-users without consent.
 - According to Cisco's 2024 Data Privacy Benchmark Study, 48% of organizations admit entering non-public company information into generative AI tools.
@@ -92,16 +93,16 @@ I've reviewed the terms of service for six major cloud meeting tools as part of 
 
 The table below breaks down how the major tools handle transcription and summarization, and whether any data leaves your machine.
 
-| Tool | Transcription | Summarization | Platform | Price |
-|---|---|---|---|---|
-| Siplinx AI | On-device (local STT) | On-device (local LLM) | Mac, Windows | Paid |
-| Meetily | On-device (Whisper/Parakeet) | On-device (Ollama) | Mac, Windows | Free/from $10/mo |
-| Talat | On-device | On-device | Mac only | $49-$99 one-time |
-| Granola | On-device | Cloud (API) | Mac only | From $18/mo |
-| Jamie | On-device | Cloud (API) | Mac, Windows | Freemium |
-| Otter.ai | Cloud | Cloud | Mac, Windows, mobile | From $8.33/mo |
-| Fireflies.ai | Cloud | Cloud | Mac, Windows | From $10/mo |
-| tl;dv | Cloud | Cloud | Mac, Windows | Freemium |
+| Tool         | Transcription                | Summarization         | Platform             | Price            |
+| ------------ | ---------------------------- | --------------------- | -------------------- | ---------------- |
+| Siplinx AI   | On-device (local STT)        | On-device (local LLM) | Mac, Windows         | Paid             |
+| Meetily      | On-device (Whisper/Parakeet) | On-device (Ollama)    | Mac, Windows         | Free/from $10/mo |
+| Talat        | On-device                    | On-device             | Mac only             | $49-$99 one-time |
+| Granola      | On-device                    | Cloud (API)           | Mac only             | From $18/mo      |
+| Jamie        | On-device                    | Cloud (API)           | Mac, Windows         | Freemium         |
+| Otter.ai     | Cloud                        | Cloud                 | Mac, Windows, mobile | From $8.33/mo    |
+| Fireflies.ai | Cloud                        | Cloud                 | Mac, Windows         | From $10/mo      |
+| tl;dv        | Cloud                        | Cloud                 | Mac, Windows         | Freemium         |
 
 A few things this table makes clear. First, Granola is widely described as a "private" tool, and it is bot-free and transcribes locally. But it sends transcripts to cloud APIs for summarization, which puts it firmly in Level 2. If your concern is that your audio doesn't leave your device, Granola works. If your concern is that your words don't reach a third-party AI service, it doesn't.
 
@@ -254,7 +255,7 @@ Published: June 25, 2026 · Updated: June 25, 2026
   "publisher": {
     "@type": "Organization",
     "name": "Siplinx AI",
-    "logo": {"@type": "ImageObject", "url": "https://siplinx.com/logo.png"}
+    "logo": { "@type": "ImageObject", "url": "https://siplinx.com/logo.png" }
   },
   "image": "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?auto=format&fit=crop&w=1200&q=80"
 }

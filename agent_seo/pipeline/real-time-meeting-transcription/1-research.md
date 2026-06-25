@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 real time meeting transcription
 
 ## LSI / related keywords
+
 - live transcription app
 - meeting transcription software
 - automatic meeting transcription
@@ -20,9 +22,11 @@ real time meeting transcription
 - AI meeting notes real time
 
 ## Target audience
+
 Privacy-conscious professionals (lawyers, doctors, executives, consultants) who want to capture meeting content accurately without uploading audio to third-party servers.
 
 ## Search intent
+
 Informational / Commercial Investigation — Users want to understand how real-time meeting transcription works, compare tools, and find the best option for their use case (often with a preference for privacy or offline capability).
 
 ---
@@ -89,6 +93,7 @@ These should become H2 questions and FAQ entries.
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. What is real-time meeting transcription and how does it work?
 2. What are the three main types of real-time transcription tools?
 3. Why do so many professionals avoid AI meeting transcription? (privacy barrier)

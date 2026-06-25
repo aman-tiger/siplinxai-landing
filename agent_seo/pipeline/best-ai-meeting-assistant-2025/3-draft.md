@@ -23,6 +23,7 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 ![A professional reviewing AI-generated meeting notes on a laptop in a private office setting](https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80)
 
 **TL;DR**
+
 - The AI meeting assistant market grew from $2.79B in 2024 and is on track to hit $34B by 2035 — adoption is moving faster than privacy protections.
 - In 2025, Otter.ai and Fireflies.ai both faced class-action lawsuits for recording participants without consent. No major comparison article covers this.
 - Cloud-based tools upload your audio to third-party servers. For lawyers, doctors, and executives, that's a compliance problem.
@@ -82,15 +83,15 @@ These lawsuits point to a structural problem in how most AI meeting tools are bu
 
 Here's how the leading tools stack up on the dimensions that actually matter for most professional users. I've tested several of these directly and supplemented with benchmark data from Krisp's 2026 independent accuracy study, which is the only publicly available WER benchmark in this space.
 
-| Tool | Processing | Data storage | WER (clean audio) | Bot joins call? | Approx. price/month | HIPAA-friendly? |
-|---|---|---|---|---|---|---|
-| Siplinx AI | 100% local | On-device only | Not applicable (local STT) | No | ~$20 | Yes (by design) |
-| Granola | Hybrid | Cloud | ~7% | No (system audio) | $18 | No |
-| Fireflies.ai | Cloud | Cloud (AWS) | ~8% | Yes | Free / $10 / $19 | Paid tier only |
-| Otter.ai | Cloud | Cloud | ~9% | Yes (OtterPilot) | Free / $17 / $40 | Business plan only |
-| Fathom | Cloud | Cloud | ~7.5% | Yes | Free / $19 / $29 | Paid tier only |
-| tl;dv | Cloud | Cloud | ~8.5% | Yes | Free / $25 / $75 | Paid tier only |
-| Fellow | Cloud | Cloud | ~8% | Yes | Free / $9 / $16 | Enterprise only |
+| Tool         | Processing | Data storage   | WER (clean audio)          | Bot joins call?   | Approx. price/month | HIPAA-friendly?    |
+| ------------ | ---------- | -------------- | -------------------------- | ----------------- | ------------------- | ------------------ |
+| Siplinx AI   | 100% local | On-device only | Not applicable (local STT) | No                | ~$20                | Yes (by design)    |
+| Granola      | Hybrid     | Cloud          | ~7%                        | No (system audio) | $18                 | No                 |
+| Fireflies.ai | Cloud      | Cloud (AWS)    | ~8%                        | Yes               | Free / $10 / $19    | Paid tier only     |
+| Otter.ai     | Cloud      | Cloud          | ~9%                        | Yes (OtterPilot)  | Free / $17 / $40    | Business plan only |
+| Fathom       | Cloud      | Cloud          | ~7.5%                      | Yes               | Free / $19 / $29    | Paid tier only     |
+| tl;dv        | Cloud      | Cloud          | ~8.5%                      | Yes               | Free / $25 / $75    | Paid tier only     |
+| Fellow       | Cloud      | Cloud          | ~8%                        | Yes               | Free / $9 / $16     | Enterprise only    |
 
 A few notes on this table:
 
@@ -172,11 +173,11 @@ tl;dv's free plan caps you at 10 video recordings per month. It's enough to eval
 
 The real cost structure looks like this for most professionals:
 
-| Plan tier | Monthly cost | What it actually limits |
-|---|---|---|
-| Free | $0 | Recording minutes, storage, integrations, AI summaries |
-| Pro/Individual | $15-25/mo | Some storage caps, limited seats |
-| Business | $30-75/mo | Full features, BAA access, admin controls |
+| Plan tier      | Monthly cost | What it actually limits                                |
+| -------------- | ------------ | ------------------------------------------------------ |
+| Free           | $0           | Recording minutes, storage, integrations, AI summaries |
+| Pro/Individual | $15-25/mo    | Some storage caps, limited seats                       |
+| Business       | $30-75/mo    | Full features, BAA access, admin controls              |
 
 And there's a less visible cost: your data. Several tools use free-tier recordings to train their models. Paying for a plan doesn't always opt you out — you need to read the enterprise data processing agreement to be certain.
 
@@ -272,7 +273,7 @@ Published: June 25, 2026 · Updated: June 25, 2026
       "publisher": {
         "@type": "Organization",
         "name": "Siplinx AI",
-        "logo": {"@type": "ImageObject", "url": "https://siplinx.com/logo.png"}
+        "logo": { "@type": "ImageObject", "url": "https://siplinx.com/logo.png" }
       },
       "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80"
     },
@@ -341,13 +342,41 @@ Published: June 25, 2026 · Updated: June 25, 2026
       "@type": "HowTo",
       "name": "How to set up a private AI meeting assistant",
       "step": [
-        {"@type": "HowToStep", "name": "Download and install the app", "text": "Download the Mac or Windows desktop app from siplinx.com. No account required."},
-        {"@type": "HowToStep", "name": "Choose your local model", "text": "On first launch, the app downloads local LLM and speech-to-text model files to your device (2-4 GB)."},
-        {"@type": "HowToStep", "name": "Set your audio source", "text": "Select system audio for virtual meetings or microphone input for in-person meetings."},
-        {"@type": "HowToStep", "name": "Test with a short recording", "text": "Run a 2-minute test recording to verify transcription accuracy for your voice and environment."},
-        {"@type": "HowToStep", "name": "Join your meeting normally", "text": "No bot joins the call. The app runs silently in the background capturing your selected audio source."},
-        {"@type": "HowToStep", "name": "Review your notes", "text": "After the meeting, review the locally generated summary, transcript, and action items."},
-        {"@type": "HowToStep", "name": "Configure retention", "text": "Set automatic deletion of recordings and transcripts in settings to match your privacy policy."}
+        {
+          "@type": "HowToStep",
+          "name": "Download and install the app",
+          "text": "Download the Mac or Windows desktop app from siplinx.com. No account required."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Choose your local model",
+          "text": "On first launch, the app downloads local LLM and speech-to-text model files to your device (2-4 GB)."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Set your audio source",
+          "text": "Select system audio for virtual meetings or microphone input for in-person meetings."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Test with a short recording",
+          "text": "Run a 2-minute test recording to verify transcription accuracy for your voice and environment."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Join your meeting normally",
+          "text": "No bot joins the call. The app runs silently in the background capturing your selected audio source."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Review your notes",
+          "text": "After the meeting, review the locally generated summary, transcript, and action items."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Configure retention",
+          "text": "Set automatic deletion of recordings and transcripts in settings to match your privacy policy."
+        }
       ]
     }
   ]

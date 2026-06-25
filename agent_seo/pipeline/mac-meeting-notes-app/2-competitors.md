@@ -14,6 +14,7 @@
 **H1:** 8 Best Local AI Meeting Note Takers for Mac in 2026: Private, Offline, Bot-Free Options
 
 **H2 headings:**
+
 - Bot-Free vs Local: They Are Not the Same Thing
 - Why Local AI Meeting Notes Matter in 2026
 - How We Tested
@@ -33,6 +34,7 @@
 **AI-generated feel:** low
 
 **Weaknesses:**
+
 1. No quantitative data: no transcription speed benchmarks, memory usage, or accuracy rates cited.
 2. Missing consolidated pricing: only Talat ($49 one-time) and Otter pricing mentioned; no full pricing table.
 3. No step-by-step setup guide: says "more configuration required" for Meetily/Hyprnote but gives no actual steps.
@@ -50,6 +52,7 @@
 **H1:** The Best Mac AI Meeting Note Takers in 2026
 
 **H2 headings:**
+
 - What is an AI Meeting Note Taker?
 - What to Consider When Choosing an AI Meeting Assistant for Mac
 - Best AI Meeting Note Takers for Mac (2026)
@@ -69,6 +72,7 @@
 **AI-generated feel:** moderate
 
 **Weaknesses:**
+
 1. Zero statistics or research cited anywhere in the article.
 2. Heavy Timing app promotion makes the article feel advertorial.
 3. Does not explain the "bot-free vs. local" distinction, which is the most important concept for privacy-conscious users.
@@ -86,6 +90,7 @@
 **H1:** Best AI Meeting Notes Apps for Mac in 2026: Local & Cloud Options
 
 **H2 headings:**
+
 - How AI Meeting Notes Work
 - Best AI Meeting Notes Apps
 - Comparison Table
@@ -103,6 +108,7 @@
 **AI-generated feel:** moderate
 
 **Weaknesses:**
+
 1. Shortest article of the three at ~2,400 words — thin coverage for a topic that warrants depth.
 2. Promotes Hapi without disclosing it's the author's own product.
 3. No personal opinions or real test results.
@@ -116,6 +122,7 @@
 **Target word count:** 3,900 words (beats the 2,400-word shortest competitor by 60%, beats average of 4,500 words from the longest competitor)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. What makes a good meeting notes app for Mac? (definition + quick answer for AEO)
 2. Local vs. cloud meeting notes on Mac: why "bot-free" is not enough
 3. The best Mac meeting notes apps in 2026 (comparison table + tool breakdown)

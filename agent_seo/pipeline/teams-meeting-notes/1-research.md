@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 teams meeting notes
 
 ## LSI / related keywords
+
 - microsoft teams transcription
 - teams note taker
 - teams ai notes
@@ -20,9 +22,11 @@ teams meeting notes
 - teams meeting summary
 
 ## Target audience
+
 IT professionals, team leads, and knowledge workers who use Microsoft Teams daily and want better, more reliable meeting documentation without paying for Copilot or worrying about cloud privacy.
 
 ## Search intent
+
 Informational / Commercial
 The user wants to understand how Teams meeting notes work natively, whether built-in tools are good enough, or which third-party AI note taker works best with Teams.
 
@@ -83,6 +87,7 @@ These should become H2 questions and FAQ entries.
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. What are Teams meeting notes and how do they work natively?
 2. Why do Teams' built-in notes frustrate so many users?
 3. Does Microsoft Copilot fix Teams meeting notes — and is it worth the cost?

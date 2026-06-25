@@ -23,6 +23,7 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 ![A professional reviewing automated meeting notes on a laptop after a Zoom video call](https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=1200&q=80)
 
 **TL;DR**
+
 - The average employee spends 392 hours per year in meetings, yet 71% of senior executives call meetings unproductive — better notes fix much of that gap.
 - Zoom has a native AI note taker (AI Companion), but it requires a paid plan, sends your audio to Zoom's cloud, and lets Zoom use that data for AI training unless your admin opts out.
 - Third-party tools like Fireflies, Otter, and Fellow add features but also route your audio through their own cloud servers.
@@ -76,15 +77,15 @@ But there are real limits. First, it's cloud-based. Your audio is processed on Z
 
 There are three categories of tools: Zoom's built-in AI Companion, cloud-based third-party tools (with or without a bot), and offline tools that never touch a server. Here's how the main options compare.
 
-| Tool | Method | Free tier | Privacy model | Best for |
-|---|---|---|---|---|
-| Zoom AI Companion | Native (cloud) | No (paid plan required) | Cloud, opt-out for training | Teams already on paid Zoom |
-| Fireflies.ai | Bot + cloud | Yes (800 min storage) | Cloud | Large teams, integrations |
-| Otter.ai | Bot + cloud | Yes (300 min/mo) | Cloud | Budget-conscious individuals |
-| Fathom | Bot + cloud | Yes (unlimited) | Cloud | Zoom-only users on free tier |
-| Fellow | Bot-free option + cloud | No | Cloud, SOC 2 / HIPAA | Enterprise compliance teams |
-| tl;dv | Bot or native desktop | Yes | Cloud (GDPR-compliant, EU) | European teams, budget |
-| Siplinx AI | Offline desktop app | Yes | 100% on-device, no cloud | Lawyers, doctors, executives |
+| Tool              | Method                  | Free tier               | Privacy model               | Best for                     |
+| ----------------- | ----------------------- | ----------------------- | --------------------------- | ---------------------------- |
+| Zoom AI Companion | Native (cloud)          | No (paid plan required) | Cloud, opt-out for training | Teams already on paid Zoom   |
+| Fireflies.ai      | Bot + cloud             | Yes (800 min storage)   | Cloud                       | Large teams, integrations    |
+| Otter.ai          | Bot + cloud             | Yes (300 min/mo)        | Cloud                       | Budget-conscious individuals |
+| Fathom            | Bot + cloud             | Yes (unlimited)         | Cloud                       | Zoom-only users on free tier |
+| Fellow            | Bot-free option + cloud | No                      | Cloud, SOC 2 / HIPAA        | Enterprise compliance teams  |
+| tl;dv             | Bot or native desktop   | Yes                     | Cloud (GDPR-compliant, EU)  | European teams, budget       |
+| Siplinx AI        | Offline desktop app     | Yes                     | 100% on-device, no cloud    | Lawyers, doctors, executives |
 
 I've tested several of these in real calls. Fathom is the best free option if you're only on Zoom and don't handle sensitive data. Fellow's bot-free mode is the cleanest mid-tier choice for teams that want compliance without going fully offline. But the tool I keep coming back to for client work — where the stakes are high — is one that never sends audio anywhere. More on that in the regulated industries section.
 
@@ -252,7 +253,7 @@ Published: June 25, 2026 · Updated: June 25, 2026
       "publisher": {
         "@type": "Organization",
         "name": "Siplinx AI",
-        "logo": {"@type": "ImageObject", "url": "https://siplinx.com/logo.png"}
+        "logo": { "@type": "ImageObject", "url": "https://siplinx.com/logo.png" }
       },
       "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=1200&q=80"
     },

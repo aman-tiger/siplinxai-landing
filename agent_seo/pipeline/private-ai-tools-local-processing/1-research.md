@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 private ai meeting tools
 
 ## LSI / related keywords
+
 - meeting privacy
 - local ai processing
 - on device ai notes
@@ -22,9 +24,11 @@ private ai meeting tools
 - self-hosted meeting notes
 
 ## Target audience
+
 Privacy-conscious professionals (lawyers, doctors, executives, consultants) who need AI meeting notes without sending sensitive audio to third-party cloud servers.
 
 ## Search intent
+
 Commercial / Informational hybrid. Users want to find which tools actually process locally, not just marketing claims. They're comparing options, often for regulated industries (legal, medical, financial). They're near a purchase decision but need to understand the privacy tradeoffs before committing.
 
 ---

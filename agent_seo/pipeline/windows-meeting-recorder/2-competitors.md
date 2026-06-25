@@ -14,6 +14,7 @@
 **H1:** 10 Best Free Meeting Recorder Apps 2026 (Transcribe, No Bot)
 
 **H2 headings:**
+
 - Why Do Most Meeting Recorders Fall Short?
 - What Is the Best Free Meeting Recorder Software in 2026?
 - How Do These Meeting Recorders Compare?
@@ -32,6 +33,7 @@
 **AI-generated feel:** moderate (institutional "we tested" voice, fairly templated)
 
 **Weaknesses:**
+
 1. Does not address Windows-specific setup, GPU acceleration, or system requirements at all
 2. Skips HIPAA/GDPR compliance breakdown for regulated industries (healthcare, legal)
 3. Heavily promotes Meetily's own product in a way that feels biased and reduces trust
@@ -49,6 +51,7 @@
 **H1:** AI Meeting Recorder for Windows
 
 **H2 headings:**
+
 - Trusted by Millions Worldwide
 - Unlimited access to all our tools
 - Frequently Asked Questions
@@ -62,6 +65,7 @@
 **AI-generated feel:** yes (generic landing page copy, no substance)
 
 **Weaknesses:**
+
 1. Pure product landing page, not an editorial article; provides zero guidance on how to choose or compare tools
 2. No privacy or compliance information despite data handling being the central concern
 3. No competitor comparison at all
@@ -79,6 +83,7 @@
 **H1:** The 10 Best Meeting Recorder Apps (With and Without AI)
 
 **H2 headings:**
+
 - Quick Pick: Top Meeting Recorder Apps
 - Why Use a Meeting Recorder App?
 - 1. Tactiq - Best AI Transcription App (and 9 others as H2 tool sections)
@@ -94,6 +99,7 @@
 **AI-generated feel:** moderate-to-high (repetitive templates per tool, no personal testing perspective)
 
 **Weaknesses:**
+
 1. No statistics cited with sources -- zero data credibility
 2. Not Windows-specific despite ranking for "windows meeting recorder"
 3. No coverage of privacy compliance (HIPAA, GDPR) at all
@@ -107,6 +113,7 @@
 **Target word count:** 2,982 words (beats Tactiq/competitor 3 while staying focused and lean; Meetily is padded and self-serving)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. What is a Windows meeting recorder and how does it work?
 2. Why most Windows meeting recorders send your audio to the cloud (and why that matters)
 3. What to look for in an AI meeting recorder for Windows

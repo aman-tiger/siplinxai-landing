@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 mac meeting notes app
 
 ## LSI / related keywords
+
 - meeting recorder mac
 - ai notetaker mac
 - granola mac alternative
@@ -20,9 +22,11 @@ mac meeting notes app
 - private meeting notes mac
 
 ## Target audience
+
 Mac-using professionals (lawyers, consultants, executives, doctors) who want AI-powered meeting notes without sending audio to the cloud.
 
 ## Search intent
+
 Commercial / Informational hybrid. The user wants to find and evaluate the best Mac app for meeting notes, comparing local vs. cloud options with a focus on privacy and accuracy.
 
 ---
@@ -82,6 +86,7 @@ These should become H2 questions and FAQ entries.
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. What makes a good meeting notes app for Mac? (defines the category, hits AEO)
 2. Local vs. cloud: why the distinction matters more than you think (addresses #1 user confusion)
 3. The best Mac meeting notes apps in 2026 (tool-by-tool breakdown with comparison table)

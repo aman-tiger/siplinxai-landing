@@ -14,6 +14,7 @@
 **H1:** How Microsoft Teams meeting notes work (and where they fall short)
 
 **H2 headings:**
+
 - How Teams meeting notes work
 - What Copilot does and where it falls short
 - The IT department problem
@@ -31,6 +32,7 @@
 **AI-generated feel:** partially — clean but generic
 
 **Weaknesses:**
+
 1. No pricing comparison between Copilot ($30/user/month) and third-party alternatives — a major question for cost-sensitive users
 2. No comparison table despite covering multiple tools — readers can't quickly compare
 3. No TL;DR or AEO answer block — misses featured snippet opportunities
@@ -48,6 +50,7 @@
 **H1:** How to Take Meeting Notes in Teams: A Comprehensive Guide
 
 **H2 headings:**
+
 - Why Taking Teams Meeting Notes Matters
 - How To Take Meeting Notes In Teams
 - Limitations Of Microsoft Teams Meeting Notes
@@ -64,6 +67,7 @@
 **AI-generated feel:** yes — generic structure, repetitive, promotional
 
 **Weaknesses:**
+
 1. Zero statistics or research cited — the entire article is assertion-based, building no trust
 2. Heavily promotional for Krisp with almost no balanced comparison of alternatives
 3. No coverage of Teams Copilot AI features or the 2026 Facilitator agent
@@ -81,6 +85,7 @@
 **H1:** Ditch Meeting Chaos: Take Perfect Notes in Microsoft Teams (+ Explore a Better Alternative)
 
 **H2 headings:**
+
 - 60-second Summary
 - How Do You Take Meeting Notes in Microsoft Teams Step by Step?
 - Featured Template
@@ -99,6 +104,7 @@
 **AI-generated feel:** partially — structured but one-sided
 
 **Weaknesses:**
+
 1. Stats cited without direct sourcing or methodology links — low credibility
 2. Only compares Teams vs. ClickUp — no broader competitive landscape
 3. No coverage of AI-powered note taking tools (Copilot, Fireflies, Otter, Siplinx)
@@ -112,6 +118,7 @@
 **Target word count:** 2,400 words (beats longest competitor while staying within our 2258 ±10% target)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. What are Teams meeting notes and how do they work natively? (covers the basics competitor 3 rushes through)
 2. Why do Teams' built-in notes frustrate so many users? (honest limitations — more specific than competitors)
 3. Does Microsoft Copilot fix Teams meeting notes and is it worth $30 per month? (cost angle competitors 1 and 3 miss)
@@ -123,6 +130,7 @@
 **Our #1 differentiator:** Privacy and compliance angle — all three competitors ignore what happens to meeting audio and transcripts in the cloud, which is the central question for lawyers, doctors, consultants, and executives who handle confidential conversations.
 
 **Data competitors don't have:**
+
 - $37 billion annual cost of ineffective meetings (SpeakWise 2026)
 - AI meeting tool adoption grew 17x in 2024 (Fellow)
 - 70% of meeting decisions forgotten within 24 hours without notes

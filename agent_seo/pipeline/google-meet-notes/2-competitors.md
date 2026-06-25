@@ -14,6 +14,7 @@
 **H1:** Best Google Meet AI Note Taker in 2026: Top Tools Compared
 
 **H2 headings:**
+
 - 10 best AI meeting note takers for Google Meet
 - What is the best AI note taker for Google Meet?
 - Why automate note taking in Google Meet?
@@ -30,6 +31,7 @@
 **AI-generated feel:** moderately yes (structured but clearly promotional)
 
 **Weaknesses:**
+
 1. No mention of privacy or data residency anywhere — the article assumes all users are fine with cloud processing.
 2. All tools compared are cloud-based; no offline or on-device option is presented as a category.
 3. Setup instructions are Fellow-specific only; the guide isn't genuinely tool-agnostic.
@@ -47,6 +49,7 @@
 **H1:** How to Take Notes with Gemini on Google Meet (Updated May 2026)
 
 **H2 headings:**
+
 - TL;DR: How Do You Actually Take Notes with Gemini on Google Meet
 - What is Gemini?
 - How to Use Gemini in Google Meet
@@ -81,6 +84,7 @@
 **AI-generated feel:** low (reads more human than most)
 
 **Weaknesses:**
+
 1. At 6,800 words it's comprehensive but buries the most useful info deep in the piece — users wanting "how do I get notes privately" never find a good answer.
 2. No comparison table despite covering many alternatives — hard to scan.
 3. The "Controversy Around Google Meet" section mentions problems but doesn't explain what users at risk should actually do.
@@ -98,6 +102,7 @@
 **H1:** Google Meet Transcription: Enterprise + Alternative 2026
 
 **H2 headings:**
+
 - Google Meet Built-In Transcription: What's Included
 - Google Workspace Plan Requirements and Pricing
 - How to Enable Google Meet Transcription
@@ -121,6 +126,7 @@
 **AI-generated feel:** yes (very structured, clearly template-driven)
 
 **Weaknesses:**
+
 1. No privacy or GDPR analysis despite covering enterprise use cases — a significant gap for compliance teams.
 2. All three methods still send audio to cloud services — no offline option explored.
 3. Promotional toward BrassTranscripts' own service without being transparent about it.
@@ -134,6 +140,7 @@
 **Target word count:** ~3,283 words (our random target, beats the shorter competitors; we win on density not length)
 
 **H2 structure we will use** (more comprehensive than all 3 on the privacy angle):
+
 1. What Google Meet notes actually are (and what Gemini does with them)
 2. What does Google do with your meeting audio?
 3. Why the native Gemini notes don't work for everyone

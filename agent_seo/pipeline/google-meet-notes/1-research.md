@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 google meet notes
 
 ## LSI / related keywords
+
 - google meet transcription
 - google meet ai notes
 - ai notetaker google meet
@@ -20,9 +22,11 @@ google meet notes
 - google meet notes privacy
 
 ## Target audience
+
 Privacy-conscious professionals, lawyers, doctors, and executives who use Google Meet regularly and want automated AI notes without sending their meeting audio to third-party clouds.
 
 ## Search intent
+
 Informational / Commercial Investigation. Users want to know how to get AI-generated notes from Google Meet, what the native Gemini feature does, and whether there are better private alternatives.
 
 ---
@@ -86,6 +90,7 @@ These should become H2 questions and FAQ entries.
 ## Recommended article structure
 
 Based on research, these H2 sections will perform best:
+
 1. What are Google Meet notes and how does the built-in Gemini feature work?
 2. What does Google do with your meeting audio?
 3. Why the native Gemini notes fall short for many users

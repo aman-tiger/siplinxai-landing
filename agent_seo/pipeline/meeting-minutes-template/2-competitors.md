@@ -14,6 +14,7 @@
 **H1:** How To Write Effective Meeting Minutes (+ Templates and Samples)
 
 **H2 headings:**
+
 - New To Writing Meeting Minutes?
 - What Are Meeting Minutes?
 - What Should You Include When Writing Meeting Minutes?
@@ -38,6 +39,7 @@
 **AI-generated feel:** no (human, conversational)
 
 **Weaknesses:**
+
 1. No real statistics about meeting productivity or meeting minutes effectiveness
 2. No comparison table between tools or formats
 3. No FAQ section despite covering many common questions
@@ -55,6 +57,7 @@
 **H1:** Board meeting minutes 101: Free template and examples included
 
 **H2 headings:**
+
 - What are meeting minutes?
 - Preparation for board secretaries: Using a board meeting template
 - What to include in meeting minutes
@@ -74,6 +77,7 @@
 **AI-generated feel:** moderate
 
 **Weaknesses:**
+
 1. Focused only on board/nonprofit meetings — ignores team standups, 1:1s, project kickoffs
 2. Heavy BoardEffect product promotion reduces objectivity
 3. No comparison of manual vs AI-generated minutes
@@ -91,6 +95,7 @@
 **H1:** 5 Professional Meeting Minutes Examples & Templates [Free 2026 Guide]
 
 **H2 headings:**
+
 - Why meeting minutes still matter
 - Who should be appointed to take meeting minutes?
 - 7 best practices for great meeting minutes
@@ -107,6 +112,7 @@
 **AI-generated feel:** moderate (structured, repetitive, promotional)
 
 **Weaknesses:**
+
 1. No statistics or data — all claims are unsupported
 2. Shortest of the three at ~2,100 words — thinnest coverage
 3. Misses: board/legal minutes, privacy/confidentiality considerations, hybrid meetings
@@ -120,6 +126,7 @@
 **Target word count:** 2,352 words (our random target — this beats Fellow's 2,100 and is competitive with WildApricot's 2,700)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. What are meeting minutes and why do they matter so much? (definition + real stats)
 2. What should a meeting minutes template include? (the actual template elements)
 3. What types of meeting minutes templates do you need? (board, team, 1:1, kickoff)

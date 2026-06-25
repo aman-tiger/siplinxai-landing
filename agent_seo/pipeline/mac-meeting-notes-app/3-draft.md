@@ -96,16 +96,16 @@ Here are the tools worth considering, grouped by architecture type.
 
 ### Comparison table
 
-| Tool | Processing | Bot joins call? | Mac-native? | Platforms | Starting price |
-|---|---|---|---|---|---|
-| Siplinx AI | Local (on-device) | No | Yes (Mac + Windows) | Zoom, Meet, Teams, in-person | Free tier available |
-| Mumble AI | Local (on-device) | No | Yes (Mac) | Zoom, Meet, Teams, in-person | $19/month |
-| Meetily | Local (Whisper + Ollama) | No | Yes (Mac) | Any (mic input) | Free (open source) |
-| Granola | Cloud | No | Yes (Mac, Windows, iOS) | Any (system audio) | $14/month |
-| Fathom | Cloud | Yes (visible bot) | No (web/Mac app) | Zoom, Meet, Teams | Free tier |
-| Otter.ai | Cloud | Yes (OtterPilot bot) | No (web/Mac app) | Zoom, Meet, Teams | Free tier / $16.99/month |
-| Fireflies.ai | Cloud | Yes (visible bot) | No (web app) | Zoom, Meet, Teams | Free tier / $18/month |
-| tl;dv | Cloud | Yes (visible bot) | No (web app) | Zoom, Meet | Free tier / $18/month |
+| Tool         | Processing               | Bot joins call?      | Mac-native?             | Platforms                    | Starting price           |
+| ------------ | ------------------------ | -------------------- | ----------------------- | ---------------------------- | ------------------------ |
+| Siplinx AI   | Local (on-device)        | No                   | Yes (Mac + Windows)     | Zoom, Meet, Teams, in-person | Free tier available      |
+| Mumble AI    | Local (on-device)        | No                   | Yes (Mac)               | Zoom, Meet, Teams, in-person | $19/month                |
+| Meetily      | Local (Whisper + Ollama) | No                   | Yes (Mac)               | Any (mic input)              | Free (open source)       |
+| Granola      | Cloud                    | No                   | Yes (Mac, Windows, iOS) | Any (system audio)           | $14/month                |
+| Fathom       | Cloud                    | Yes (visible bot)    | No (web/Mac app)        | Zoom, Meet, Teams            | Free tier                |
+| Otter.ai     | Cloud                    | Yes (OtterPilot bot) | No (web/Mac app)        | Zoom, Meet, Teams            | Free tier / $16.99/month |
+| Fireflies.ai | Cloud                    | Yes (visible bot)    | No (web app)            | Zoom, Meet, Teams            | Free tier / $18/month    |
+| tl;dv        | Cloud                    | Yes (visible bot)    | No (web app)            | Zoom, Meet                   | Free tier / $18/month    |
 
 ### Local tools
 
@@ -180,6 +180,7 @@ Apple's M1, M2, M3, and M4 chips include a Neural Processing Unit (NPU) specific
 Intel Macs work too, but they're slower. A 60-minute recording might take 12-15 minutes to process on a 2019 Intel MacBook Pro. That's still acceptable for most workflows, since the processing happens in the background after the meeting ends.
 
 The minimum specs for running Siplinx AI locally:
+
 - macOS 12 Monterey or later
 - 8 GB RAM (16 GB recommended for larger models)
 - 5 GB free disk space for models
@@ -195,16 +196,16 @@ One thing worth knowing: the processing happens after the meeting, not in real-t
 
 Pricing in this category is all over the place. Here's what you're actually paying and what you get.
 
-| Tool | Free tier | Paid plan | What the paid plan adds |
-|---|---|---|---|
-| Siplinx AI | Yes | Paid tier (see site) | More model options, priority processing |
-| Mumble AI | No | $19/month | Full local processing, diarization |
-| Meetily | Free (open source) | Self-hosted | You manage your own setup |
-| Granola | 25 meetings free | $14/month | Unlimited meetings, custom templates |
-| Fathom | Unlimited (Zoom) | $19/month | Google Meet, Teams, more integrations |
-| Otter.ai | 300 min/month | $16.99/month (Pro) | 1,200 min, team features |
-| Fireflies.ai | Limited storage | $18/month (Pro) | Unlimited transcription, CRM sync |
-| tl;dv | Unlimited recordings | $18/month | AI summaries, playback clips |
+| Tool         | Free tier            | Paid plan            | What the paid plan adds                 |
+| ------------ | -------------------- | -------------------- | --------------------------------------- |
+| Siplinx AI   | Yes                  | Paid tier (see site) | More model options, priority processing |
+| Mumble AI    | No                   | $19/month            | Full local processing, diarization      |
+| Meetily      | Free (open source)   | Self-hosted          | You manage your own setup               |
+| Granola      | 25 meetings free     | $14/month            | Unlimited meetings, custom templates    |
+| Fathom       | Unlimited (Zoom)     | $19/month            | Google Meet, Teams, more integrations   |
+| Otter.ai     | 300 min/month        | $16.99/month (Pro)   | 1,200 min, team features                |
+| Fireflies.ai | Limited storage      | $18/month (Pro)      | Unlimited transcription, CRM sync       |
+| tl;dv        | Unlimited recordings | $18/month            | AI summaries, playback clips            |
 
 A few observations on the pricing math. Cloud tools look cheaper at $14-19/month, but that cost scales with your team. A 10-person team on Otter Pro is $169.90/month, every month, indefinitely. Local tools (or Siplinx AI's one-time-access model) often work out cheaper over a 12-month period for individuals and small teams.
 
@@ -305,7 +306,7 @@ Published: June 25, 2026 · Updated: June 25, 2026
       "publisher": {
         "@type": "Organization",
         "name": "Siplinx AI",
-        "logo": {"@type": "ImageObject", "url": "https://siplinx.com/logo.png"}
+        "logo": { "@type": "ImageObject", "url": "https://siplinx.com/logo.png" }
       },
       "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&q=80"
     },
