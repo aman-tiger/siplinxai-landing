@@ -73,7 +73,7 @@ So what's the catch with Level 3? Hardware requirements. Fully local AI processi
 
 ## Why cloud-based meeting tools carry real legal risk
 
-The privacy risk of cloud-based meeting tools isn't hypothetical. It's showing up in courtrooms.
+The privacy risk of cloud-based meeting tools isn't hypothetical. It's showing up in courtrooms. According to [Stanford's AI Index Report](https://aiindex.stanford.edu/report/), AI adoption in enterprise settings has accelerated faster than organizations' ability to govern how those tools handle sensitive data, making meeting transcription one of the highest-risk contact points for data exposure.
 
 In August 2025, a class action complaint was filed in the US District Court for the Northern District of California against Otter.ai, alleging that the service recorded and transcribed conversations of non-users without their knowledge or consent, and used that data to train its machine learning models. The case was consolidated on October 22, 2025. Whether Otter.ai ultimately prevails matters less than what the lawsuit reveals: cloud meeting tools process your conversations in ways you can't fully audit, even if you've read the privacy policy.
 
@@ -120,7 +120,7 @@ On-device AI meeting processing uses two components running locally: a speech-to
 
 The STT component converts your meeting audio into a text transcript in real time. Most local tools use OpenAI's Whisper model, which is open source and can run entirely offline. Some tools (Meetily, for instance) use NVIDIA's Parakeet model, which is faster than Whisper on compatible hardware. Either way, no audio leaves your computer.
 
-The summarization component takes that transcript and turns it into structured meeting notes, action items, and key decisions. This is where the difference between Level 2 and Level 3 tools becomes visible. Level 2 tools send the transcript text to a cloud API at this step. Level 3 tools run a local language model (like Llama or Mistral via Ollama, or a purpose-built model) to generate the summary on your machine.
+The summarization component takes that transcript and turns it into structured meeting notes, [action items](https://en.wikipedia.org/wiki/Action_item), and key decisions. This is where the difference between Level 2 and Level 3 tools becomes visible. Level 2 tools send the transcript text to a cloud API at this step. Level 3 tools run a local language model (like Llama or Mistral via Ollama, or a purpose-built model) to generate the summary on your machine.
 
 [Siplinx AI keeps your meeting audio and transcripts on-device](https://siplinx.com/security/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=private-ai-tools-local-processing&utm_content=on-device-security), running both STT and summarization through local models on Mac and Windows. The audio file, the transcript, and the final notes all stay on your computer unless you explicitly export them.
 
