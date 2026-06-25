@@ -1,0 +1,136 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import { authors } from '~/data/authors';
+import { fetchPosts } from '~/utils/blog';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  return authors.map((author) => ({
+    params: { slug: author.slug },
+    props: { author },
+  }));
+}
+
+const { author } = Astro.props;
+
+const allPosts = await fetchPosts();
+const authorPosts = allPosts.filter(
+  (p) => p.slug.startsWith('ru-') && (p.author === author.name || p.author === author.slug)
+);
+
+const metadata = {
+  title: `${author.nameRu} — Автор Siplinx AI`,
+  description: `Статьи ${author.nameRu}, ${author.roleRu} в Siplinx AI. Эксперт в области ${author.expertiseRu.slice(0, 3).join(', ')}.`,
+  robots: { index: true, follow: true },
+};
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: author.name,
+  url: `https://siplinx.com/ru/authors/${author.slug}/`,
+  image: `https://siplinx.com${author.photo}`,
+  jobTitle: author.role,
+  worksFor: {
+    '@type': 'Organization',
+    name: 'Siplinx AI',
+    url: 'https://siplinx.com',
+  },
+  sameAs: [author.linkedin],
+  knowsAbout: author.expertise,
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="relative not-prose overflow-hidden">
+    <div
+      class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"
+    >
+    </div>
+    <div class="absolute orb orb-blue w-60 h-60 -top-10 -left-12"></div>
+    <div class="absolute orb orb-violet w-52 h-52 -bottom-8 -right-10"></div>
+    <div class="relative max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-16">
+      <a href="/ru/authors/" class="inline-flex items-center gap-1 text-sm text-blue-600 dark:text-blue-400 hover:underline mb-8">
+        ← Все авторы
+      </a>
+      <div class="flex flex-col sm:flex-row items-start gap-8">
+        <div class="flex-shrink-0">
+          <div class="w-32 h-32 sm:w-40 sm:h-40 rounded-2xl overflow-hidden bg-gradient-to-br from-blue-100 to-violet-100 dark:from-blue-900 dark:to-violet-900 shadow-lg">
+            <img
+              src={author.photo}
+              alt={author.nameRu}
+              class="w-full h-full object-cover"
+              onerror="this.style.display='none'"
+              loading="eager"
+            />
+          </div>
+        </div>
+        <div class="flex-1">
+          <h1 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-2">{author.nameRu}</h1>
+          <p class="text-blue-600 dark:text-blue-400 font-semibold text-lg mb-4">{author.roleRu}</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            {
+              author.expertiseRu.map((tag) => (
+                <span class="inline-block text-xs px-2.5 py-1 rounded-full bg-blue-50 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 border border-blue-100 dark:border-blue-800">
+                  {tag}
+                </span>
+              ))
+            }
+          </div>
+          <a
+            href={author.linkedin}
+            target="_blank"
+            rel="noopener noreferrer me"
+            class="inline-flex items-center gap-2 text-sm text-gray-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+          >
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+            </svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-10">
+    <div class="prose dark:prose-invert max-w-none">
+      {author.bioRu.split('\n\n').map((para) => <p>{para}</p>)}
+    </div>
+  </section>
+
+  {
+    authorPosts.length > 0 && (
+      <section class="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
+        <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Статьи {author.nameRu}</h2>
+        <div class="grid gap-6 sm:grid-cols-2">
+          {authorPosts.map((post) => (
+            <a
+              href={`/${post.permalink}/`}
+              class="group block bg-white dark:bg-slate-800 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-100 dark:border-slate-700 overflow-hidden"
+            >
+              {post.image && (
+                <div class="aspect-video overflow-hidden">
+                  <img
+                    src={typeof post.image === 'string' ? post.image : post.image.src}
+                    alt={post.title}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                </div>
+              )}
+              <div class="p-5">
+                <h3 class="font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2">
+                  {post.title}
+                </h3>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+</Layout>
