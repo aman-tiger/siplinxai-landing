@@ -51,7 +51,7 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 
 You wrap up a one-hour meeting. Everyone nods. The vibe is productive. Then nothing happens.
 
-Sound familiar? According to research from Laxis, 70% of meeting decisions are forgotten within 24 hours without written notes. And according to fellow.ai's 2026 analysis, 44% of meeting action items never get completed at all. That's not a motivation problem. It's a process problem. Specifically, it's a problem with how action items get captured, written, and tracked.
+Sound familiar? According to research from Laxis, 70% of meeting decisions are forgotten within 24 hours without written notes. And according to fellow.ai's 2026 analysis, 44% of meeting action items never get completed at all. That's not a motivation problem. It's a process problem. Specifically, it's a problem with how action items get captured, written, and tracked. According to [Harvard Business Review](https://hbr.org/2022/03/dear-manager-youre-holding-too-many-meetings), unnecessary meetings cost U.S. companies an estimated $37 billion per year in lost productivity, making the failure to capture and act on [action items](https://en.wikipedia.org/wiki/Action_item) one of the most expensive process gaps in the modern workplace.
 
 This guide covers the full lifecycle: how to extract action items during the meeting, how to write them so they actually get done, and how to track them to completion. It also covers what happens when your meetings involve confidential information and you can't use a cloud recording tool.
 
@@ -142,7 +142,7 @@ Teams using AI-assisted action item extraction complete 91% of action items, com
 
 For meetings that involve sensitive or regulated information, the right answer is an AI tool that runs entirely on your device. No audio leaves your computer. No transcript goes to a cloud server. The processing happens locally using a local LLM (large language model) and a local speech-to-text engine.
 
-[Siplinx AI](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=meeting-action-items&utm_content=offline-processing-intro) is one example of this approach. It transcribes and summarizes meetings entirely on-device, which means the audio, transcript, and extracted action items never touch any external server. That design makes it compatible with GDPR and HIPAA requirements by default, because the data never leaves the machine it was created on.
+[Siplinx AI](https://siplinx.com/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=meeting-action-items&utm_content=offline-ai-intro) is one example of this approach. It transcribes and summarizes meetings entirely on-device, which means the audio, transcript, and extracted action items never touch any external server. That design makes it compatible with GDPR and HIPAA requirements by default, because the data never leaves the machine it was created on.
 
 This matters for specific use cases:
 
@@ -171,7 +171,7 @@ Here is a tracking system that actually works for most teams:
 
 **Visible due dates.** Set due dates in the tool, not just in the email summary. When action items have visible due dates in the system people use for their work, they stay on the radar.
 
-**Review at the start of the next meeting.** The first agenda item of any recurring meeting should be reviewing open action items from the last one. This closes the loop. If an item wasn't done, the team knows immediately and can decide to reassign, adjust the deadline, or drop it. This prevents the accumulation of zombie tasks that nobody does and nobody officially cancels.
+**Review at the start of the next meeting.** The first agenda item of any recurring meeting should be reviewing open action items from the last one. This is a core principle behind formal [meeting minutes](https://en.wikipedia.org/wiki/Minutes), which have tracked commitments and decisions in recorded meetings for centuries. This closes the loop. If an item wasn't done, the team knows immediately and can decide to reassign, adjust the deadline, or drop it. This prevents the accumulation of zombie tasks that nobody does and nobody officially cancels.
 
 **Honest escalation.** When an action item is consistently missed by the same person, address it directly rather than reassigning it silently. Silent reassignment protects harmony but creates resentment and confusion over time.
 
@@ -234,14 +234,14 @@ Examples:
 - The 44% failure rate for meeting action items is a process failure, not a people failure. Fix the extraction step first.
 - Every action item needs four things: a named owner, a specific task, a deadline, and a brief reason.
 - AI extraction is fast and accurate, but cloud tools send your audio to external servers. That's a real problem for regulated industries.
-- Offline AI tools like [Siplinx AI](https://siplinx.com/features/?utm_source=own_blog&utm_medium=article&utm_campaign=meeting-action-items&utm_content=features-takeaways) process everything on your device, which means your meeting content stays private.
+- Offline AI tools like [Siplinx AI](https://siplinx.com/security/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=meeting-action-items&utm_content=security-takeaways) process everything on your device, which means your meeting content stays private.
 - Tracking matters as much as extraction. Assign tasks in the tool your team already uses, set visible due dates, and review open items at the start of every next meeting.
 
 ---
 
 ## How to set up AI-powered action item extraction in 5 steps
 
-1. **Choose your tool.** If your meetings are non-sensitive, cloud tools like Otter.ai or Fireflies.ai work well. If you handle confidential content, use an offline option like [Siplinx AI](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=meeting-action-items&utm_content=cta-steps).
+1. **Choose your tool.** If your meetings are non-sensitive, cloud tools like Otter.ai or Fireflies.ai work well. If you handle confidential content, use an offline option like [Siplinx AI](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=meeting-action-items&utm_content=download-cta).
 2. **Start recording at the start of the meeting.** Don't wait until later. Most context for action items comes early in the meeting.
 3. **Let the AI generate the initial extraction.** After the meeting, the AI will output a list of action items from the transcript. Review this list rather than creating one from scratch.
 4. **Edit and verify.** Check each item: Does it have a named owner? A deadline? A clear task? Fix anything vague before sending.
