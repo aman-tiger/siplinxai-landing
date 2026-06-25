@@ -83,7 +83,7 @@ List each agenda item as a header. For each one, note the discussion summary (no
 This is the most important section. Every decision needs its own line. "The team decided to postpone the Q3 launch to September 15." Not "Q3 launch was discussed."
 
 **5. Action items**
-Each action item needs three fields: what needs to be done, who owns it, and by when. A table format works best here.
+Each action item needs three fields: what needs to be done, who owns it, and by when. A table format works best here. [Wikipedia defines an action item](https://en.wikipedia.org/wiki/Action_item) as a documented task resulting from a meeting, assigned to a specific owner with a specific deadline.
 
 | Action item                | Owner     | Due date |
 | -------------------------- | --------- | -------- |
@@ -152,7 +152,7 @@ Here's how the approaches compare:
 
 Cloud AI tools like Otter.ai and Fireflies.ai work by recording your meeting audio and sending it to their servers for transcription and summarization. That works well for internal brainstorming sessions or product reviews. But if you're a lawyer taking notes during a client call, a doctor discussing patient cases, or a consultant handling strategic information, uploading that audio to a third-party cloud is a real compliance problem.
 
-This is where [Siplinx AI's offline approach](https://siplinx.com/features/?utm_source=own_blog&utm_medium=article&utm_campaign=meeting-minutes-template&utm_content=ai-comparison-table) is different. It runs a local LLM and local speech-to-text engine on your Mac or Windows machine. Your audio never leaves your computer. You get the same AI-generated minutes without the privacy exposure.
+This is where [Siplinx AI's offline approach](https://siplinx.com/security/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=meeting-minutes-template&utm_content=security-privacy-page) is different. It runs a local LLM and local speech-to-text engine on your Mac or Windows machine. Your audio never leaves your computer. You get the same AI-generated minutes without the privacy exposure.
 
 For teams where confidentiality isn't a concern, cloud tools are genuinely good. For anyone handling sensitive conversations, local AI is the only reasonable option.
 
@@ -191,7 +191,7 @@ The right tool depends on your privacy requirements and meeting setup.
 
 For most teams handling general business conversations, any cloud AI tool works fine. The quality differences between Fireflies, Otter, and Fathom are relatively small; they all produce usable minutes from decent audio.
 
-For privacy-sensitive work, [try Siplinx AI free](https://siplinx.com/download/?utm_source=own_blog&utm_medium=article&utm_campaign=meeting-minutes-template&utm_content=cta-download) and compare the output quality to your current manual process. The AI runs locally, so you can test it on real meetings without any data leaving your device.
+For privacy-sensitive work, [try Siplinx AI free](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=meeting-minutes-template&utm_content=download-cta) and compare the output quality to your current manual process. The AI runs locally, so you can test it on real meetings without any data leaving your device.
 
 ![AI meeting assistant interface showing automated meeting minutes on a laptop screen](https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=1200&q=80)
 
