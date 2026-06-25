@@ -57,7 +57,7 @@ This guide cuts through the marketing. It explains what different privacy levels
 
 ## What does "private ai meeting tool" actually mean?
 
-Private AI meeting tools fall into three distinct categories, and conflating them leads to real privacy gaps.
+Private AI meeting tools fall into three distinct categories, and conflating them leads to real privacy gaps. [Information privacy](https://en.wikipedia.org/wiki/Information_privacy) under frameworks like GDPR and HIPAA depends heavily on where data is processed, not just who can access it after the fact.
 
 **Level 1: Bot-free.** The tool doesn't send a visible bot into your meeting. Recording happens on your computer in the background. But the audio or transcript is still uploaded to the vendor's cloud servers for AI processing. Granola and Jamie work this way. They're private in the sense that there's no awkward bot participant, but your data still leaves your machine.
 
@@ -122,7 +122,7 @@ The STT component converts your meeting audio into a text transcript in real tim
 
 The summarization component takes that transcript and turns it into structured meeting notes, action items, and key decisions. This is where the difference between Level 2 and Level 3 tools becomes visible. Level 2 tools send the transcript text to a cloud API at this step. Level 3 tools run a local language model (like Llama or Mistral via Ollama, or a purpose-built model) to generate the summary on your machine.
 
-[Siplinx AI keeps your meeting audio and transcripts on-device](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=private-ai-tools-local-processing&utm_content=on-device-explanation), running both STT and summarization through local models on Mac and Windows. The audio file, the transcript, and the final notes all stay on your computer unless you explicitly export them.
+[Siplinx AI keeps your meeting audio and transcripts on-device](https://siplinx.com/security/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=private-ai-tools-local-processing&utm_content=on-device-security), running both STT and summarization through local models on Mac and Windows. The audio file, the transcript, and the final notes all stay on your computer unless you explicitly export them.
 
 This architecture is why local tools can claim genuine GDPR and HIPAA friendliness. There's no data processor relationship with a third party because there is no third party. The data never moves. That's a structural privacy guarantee, not a contractual one.
 
@@ -152,7 +152,7 @@ The right privacy level depends on your specific regulatory and professional con
 
 Setting up Siplinx AI for a fully private meeting notes workflow takes about 10 minutes.
 
-1. **Download Siplinx AI** from siplinx.com for Mac or Windows. No account creation is required to start.
+1. **Download Siplinx AI** from [siplinx.com/download/](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=private-ai-tools-local-processing&utm_content=download-cta) for Mac or Windows. No account creation is required to start.
 
 2. **Install the app** and complete the first-run setup. The app downloads the local speech-to-text model (approximately 1-3 GB depending on the quality setting you choose).
 
@@ -162,7 +162,7 @@ Setting up Siplinx AI for a fully private meeting notes workflow takes about 10 
 
 5. **Generate notes.** When the meeting ends, click "Summarize." The local LLM processes the transcript and returns structured notes, action items, and key decisions. This takes 20-60 seconds depending on meeting length and hardware.
 
-6. **Export or save.** Notes stay local by default. You can copy them to your note-taking app, export as Markdown or plain text, or integrate with your workflow. [Try Siplinx AI](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=private-ai-tools-local-processing&utm_content=setup-cta) to see the full workflow.
+6. **Export or save.** Notes stay local by default. You can copy them to your note-taking app, export as Markdown or plain text, or integrate with your workflow. [Try Siplinx AI](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=private-ai-tools-local-processing&utm_content=setup-workflow-cta) to see the full workflow.
 
 The setup requires no third-party accounts and no cloud configuration. Once the models are downloaded, the tool works with no internet connection.
 
@@ -206,7 +206,7 @@ Local transcription means the speech-to-text step runs on your device. Local sum
 
 **Is Siplinx AI available on both Mac and Windows?**
 
-Yes. [Siplinx AI runs on both Mac and Windows](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=private-ai-tools-local-processing&utm_content=platform-faq), which distinguishes it from several local-only alternatives that are Mac-exclusive. This matters for corporate environments where Windows is standard.
+Yes. [Siplinx AI runs on both Mac and Windows](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=private-ai-tools-local-processing&utm_content=platform-faq), which distinguishes it from several local-only alternatives that are Mac-exclusive. This matters for corporate environments where Windows is standard.
 
 ---
 

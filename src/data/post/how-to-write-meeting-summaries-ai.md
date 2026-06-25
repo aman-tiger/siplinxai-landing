@@ -55,11 +55,11 @@ A meeting summary is a short written document that captures what was decided, wh
 
 Most teams get this wrong in one of two ways. They either write too much (capturing every comment said in the room) or too little (sending "Great meeting! Will follow up soon." with no specifics). Both versions fail to do the one thing a summary actually needs to do: prevent decisions from being forgotten.
 
-According to [Fellow's State of Meetings report](https://fellow.ai/blog/meeting-statistics-the-future-of-meetings-report/), 70% of meeting decisions are forgotten within 24 hours without written notes. And unproductive meetings cost businesses upwards of $375 billion annually in the US. Those aren't abstract numbers. They represent real hours, real budgets, and real projects that stalled because nobody wrote down what was decided.
+According to [Fellow's State of Meetings report](https://fellow.ai/blog/meeting-statistics-the-future-of-meetings-report/), 70% of meeting decisions are forgotten within 24 hours without written notes. And unproductive meetings cost businesses upwards of $375 billion annually in the US. Those aren't abstract numbers. They represent real hours, real budgets, and real projects that stalled because nobody wrote down what was decided. According to [Harvard Business Review](https://hbr.org/2022/03/dear-manager-youre-holding-too-many-meetings), unnecessary meetings cost U.S. companies an estimated $37 billion per year in lost productivity, making a reliable summary process one of the highest-leverage habits a team can build.
 
 The good news: a well-written meeting summary doesn't take long. With practice (or with AI), you can produce one in 10 minutes or less. The structure is repeatable. The output is something people will actually open.
 
-Meeting summaries vs. meeting minutes is a distinction worth making once. Minutes are a formal, often legal record of what was discussed in sequence, typically required for board meetings and governance contexts. A summary is informal, outcome-focused, and designed to align your team quickly. Most of your meetings need a summary, not minutes.
+Meeting summaries vs. meeting minutes is a distinction worth making once. [Meeting minutes](https://en.wikipedia.org/wiki/Minutes) are a formal, often legal record of what was discussed in sequence, typically required for board meetings and governance contexts. A summary is informal, outcome-focused, and designed to align your team quickly. Most of your meetings need a summary, not minutes.
 
 ---
 
@@ -71,7 +71,7 @@ A good meeting summary includes six things: context, decisions, action items, op
 
 **Decisions** are the most important part and the section most summaries bury or skip. Every decision made in the meeting should appear here in plain language: "We will delay the v2.0 launch by three weeks to fix the onboarding flow." Note the reasoning briefly if it's not obvious.
 
-**Action items** need three things: a specific task, a single owner, and a clear deadline. "Someone should look into the pricing model" is not an action item. "Alex will send the updated pricing proposal to the client by July 3" is. The difference is accountability. Vague action items are just suggestions dressed up as tasks.
+**[Action items](https://en.wikipedia.org/wiki/Action_item)** need three things: a specific task, a single owner, and a clear deadline. "Someone should look into the pricing model" is not an action item. "Alex will send the updated pricing proposal to the client by July 3" is. The difference is accountability. Vague action items are just suggestions dressed up as tasks.
 
 ![Team reviewing action items and decisions after a productive meeting with clear notes on screen](https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80)
 
@@ -217,7 +217,7 @@ The options for sensitive meetings are:
 
 **Manual notes:** The traditional approach. Someone in the meeting takes structured notes in real time and sends a summary afterward. Reliable but slow, and accuracy depends on how well the note-taker can track a fast conversation while also participating.
 
-**Local AI processing:** AI meeting tools that run entirely on your device, with no audio leaving your computer. [Siplinx AI](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=how-to-write-meeting-summaries-ai&utm_content=local-ai-intro) works this way. It transcribes, summarizes, and extracts action items using a local LLM and local speech-to-text engine. Nothing is sent to a server. The output is a structured summary that you can then edit and distribute through whatever channel your team uses.
+**Local AI processing:** AI meeting tools that run entirely on your device, with no audio leaving your computer. [Siplinx AI](https://siplinx.com/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=how-to-write-meeting-summaries-ai&utm_content=local-ai-intro) works this way. It transcribes, summarizes, and extracts action items using a local LLM and local speech-to-text engine. Nothing is sent to a server. The output is a structured summary that you can then edit and distribute through whatever channel your team uses.
 
 This matters specifically for GDPR and HIPAA contexts. A cloud-based tool that processes audio on external servers can create compliance exposure even when you don't intend it to. A local tool eliminates that risk by design.
 
@@ -225,7 +225,7 @@ This matters specifically for GDPR and HIPAA contexts. A cloud-based tool that p
 
 For most professionals handling sensitive conversations, local AI is the most practical path. You get the speed of AI-generated summaries without the privacy trade-off.
 
-[See how Siplinx AI processes meetings entirely on your device](https://siplinx.com/privacy/?utm_source=own_blog&utm_medium=article&utm_campaign=how-to-write-meeting-summaries-ai&utm_content=privacy-local-processing): no cloud, no bots in the call, no data leaving your machine.
+[See how Siplinx AI processes meetings entirely on your device](https://siplinx.com/security/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=how-to-write-meeting-summaries-ai&utm_content=security-local-processing): no cloud, no bots in the call, no data leaving your machine.
 
 ---
 
@@ -260,7 +260,7 @@ Yes. Tools like Siplinx AI, Fireflies, Otter, and Fellow can generate a summary 
 Edit the decisions section to be explicit ("We decided to X" not "X was discussed"). Add one or two sentences of human judgment about the meeting context. Remove filler sentences that describe discussion without capturing outcome. Assign specific owners to every action item. These four edits take about 5 minutes and make a significant difference.
 
 **What do I do if my meetings involve confidential information and I can't use cloud AI?**
-Use a local AI meeting tool like [Siplinx AI](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=how-to-write-meeting-summaries-ai&utm_content=faq-confidential-meetings), which processes all audio on your device using a local LLM. No audio, transcripts, or summaries leave your computer. This is the right approach for lawyers, doctors, executives, and anyone whose meetings involve data protected under GDPR, HIPAA, or attorney-client privilege.
+Use a local AI meeting tool like [Siplinx AI](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=how-to-write-meeting-summaries-ai&utm_content=faq-confidential-download), which processes all audio on your device using a local LLM. No audio, transcripts, or summaries leave your computer. This is the right approach for lawyers, doctors, executives, and anyone whose meetings involve data protected under GDPR, HIPAA, or attorney-client privilege.
 
 ---
 
