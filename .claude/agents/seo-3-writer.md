@@ -94,9 +94,9 @@ Natural anchor examples:
 - "Siplinx AI's approach to local processing"
 - "see how Siplinx AI compares"
 
-## External authority links (REQUIRED: exactly 3-5)
+## External authority links (REQUIRED: 2 to 4 links, choose randomly)
 
-**MUST include at minimum 3 external links.** Use: Wikipedia, .gov, .edu, Statista, Forbes, NYT, Reuters, McKinsey, HBR, Google's official blog, academic papers.
+**MUST include 2 to 4 external links** (choose a random number between 2 and 4 each time). Use: Wikipedia, .gov, .edu, Statista, Forbes, NYT, Reuters, McKinsey, HBR, Google's official blog, academic papers.
 
 Rules:
 - Link to a specific page, never the domain root
