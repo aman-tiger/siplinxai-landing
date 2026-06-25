@@ -175,14 +175,13 @@ const departments = [...new Set(jobs.map((j) => j.department))];
 
 <Layout metadata={metadata}>
   <!-- Hero -->
-  <section class="relative md:-mt-[76px] not-prose overflow-hidden">
+  <section class="relative not-prose overflow-hidden">
     <div
       class="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-violet-50 dark:from-[#06051A] dark:via-[#060512] dark:to-[#0A0618]"
     >
     </div>
     <div class="orb orb-blue w-80 h-80 top-0 -left-24"></div>
     <div class="orb orb-violet w-72 h-72 bottom-0 -right-20"></div>
-    <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
     <div class="relative max-w-5xl mx-auto px-4 sm:px-6 text-center py-12 md:py-16">
       <p class="text-sm font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400 mb-4">We're hiring</p>
       <h1 class="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6" data-delay="100">

@@ -9,7 +9,7 @@ const metadata = {
     'Статьи о приватных AI-заметках на встречах, локальных языковых моделях, конфиденциальности данных и продуктивности команд.',
 };
 
-const posts = await fetchPosts();
+const posts = (await fetchPosts()).filter((p) => p.slug.startsWith('ru-'));
 ---
 
 <Layout metadata={metadata}>
