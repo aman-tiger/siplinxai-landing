@@ -51,7 +51,7 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 
 ## What is a Windows meeting recorder and how does it work? {#what-is-a-windows-meeting-recorder}
 
-A Windows meeting recorder captures system audio and microphone input during video calls (Zoom, Teams, Google Meet) or in-person conversations, then runs speech recognition to produce a transcript. Modern tools add a second layer: an AI language model that reads the transcript and pulls out summaries, action items, and follow-up tasks.
+A Windows meeting recorder captures system audio and microphone input during video calls (Zoom, Teams, Google Meet) or in-person conversations, then runs [speech recognition](https://en.wikipedia.org/wiki/Speech_recognition) to produce a transcript. Modern tools add a second layer: an AI language model that reads the transcript and pulls out summaries, action items, and follow-up tasks.
 
 There are two distinct architectures:
 
@@ -132,7 +132,7 @@ Regulated industries face a harder constraint: compliance is not optional. A clo
 
 **Finance.** Financial regulators in multiple jurisdictions require records management policies that specify where data is stored and who can access it. Cloud tools complicate this. A local recorder with local storage makes compliance documentation straightforward.
 
-For all three industries, [Siplinx AI's on-device approach](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=windows-meeting-recorder&utm_content=regulated-industries-mention) removes the vendor data risk entirely. Since the local LLM and local speech-to-text engine run on your own Windows machine, there's no cloud vendor involved in the data chain. This does not replace a formal compliance review, but it removes the biggest exposure point.
+For all three industries, [Siplinx AI's on-device approach](https://siplinx.com/security/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=windows-meeting-recorder&utm_content=security-privacy-page) removes the vendor data risk entirely. Since the local LLM and local speech-to-text engine run on your own Windows machine, there's no cloud vendor involved in the data chain. This does not replace a formal compliance review, but it removes the biggest exposure point.
 
 The alternative is using a cloud tool with a BAA and strict contractual controls. That's workable, but it introduces ongoing compliance management overhead that local tools avoid.
 
@@ -151,7 +151,7 @@ This guide covers setting up a local AI meeting recorder on Windows 10 or Window
 
 **Steps:**
 
-1. **Download the Windows installer.** Go to [siplinx.com](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=windows-meeting-recorder&utm_content=setup-guide-cta) and download the Windows .exe installer. The file is around 200-400 MB.
+1. **Download the Windows installer.** Go to [siplinx.com/download/](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=windows-meeting-recorder&utm_content=download-cta) and download the Windows .exe installer. The file is around 200-400 MB.
 
 2. **Run the installer.** Double-click the downloaded file and follow the setup wizard. No admin rights are required for a per-user install. The install takes under two minutes.
 
@@ -204,7 +204,7 @@ My honest take: if you're comparing Granola vs. Siplinx AI for Windows, the comp
 - A Windows meeting recorder captures and transcribes meeting audio; the key decision is whether processing happens locally or in the cloud.
 - 78% of cloud transcription services retain data longer than stated; 43% share it with third parties for model training (Windows News AI, 2025).
 - Local recorders like Siplinx AI eliminate vendor data risk and work without an internet connection, which matters for regulated industries.
-- Granola runs on Mac only -- Windows users need a Windows-native local option. [Siplinx AI fills that gap](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=windows-meeting-recorder&utm_content=key-takeaways-cta) with a fully local Windows desktop app.
+- Granola runs on Mac only -- Windows users need a Windows-native local option. [Siplinx AI fills that gap](https://siplinx.com/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=windows-meeting-recorder&utm_content=homepage-cta) with a fully local Windows desktop app.
 - Setup on Windows takes under 10 minutes for most local tools once you complete the one-time model download.
 
 ---

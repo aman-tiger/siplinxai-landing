@@ -53,11 +53,13 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 
 Google Meet notes are transcripts and AI-generated summaries produced during or after a Google Meet call. The native version, called "Take notes for me," is powered by Gemini and saves a structured summary to a Google Doc in your Drive. Third-party tools add their own layer on top, either through a Chrome extension or a bot that joins the meeting as a participant.
 
+According to [Harvard Business Review](https://hbr.org/2022/03/dear-manager-youre-holding-too-many-meetings), unnecessary meetings cost U.S. companies an estimated $37 billion per year in lost productivity, which is part of why automated [meeting minutes](https://en.wikipedia.org/wiki/Minutes) and AI note-taking have grown so fast.
+
 Since June 2025, more than 50 million people have used AI-powered meeting notes in Google Meet in a single month (according to Google's own reporting). That scale matters. It means the infrastructure handling those transcripts is enormous and its data practices are worth scrutinizing.
 
 The choice between native Gemini notes, a third-party cloud tool, and an offline solution comes down to three things: how sensitive your meetings are, how much you're paying for Google Workspace, and whether you can afford to have a bot sitting in your participant list during a client call.
 
-[Siplinx AI keeps your meeting audio on-device](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=google-meet-notes&utm_content=intro-on-device), so you get full transcription and summaries without any of that cloud exposure. But before deciding, it helps to understand what each approach actually does with your audio.
+[Siplinx AI keeps your meeting audio on-device](https://siplinx.com/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=google-meet-notes&utm_content=intro-on-device), so you get full transcription and summaries without any of that cloud exposure. But before deciding, it helps to understand what each approach actually does with your audio.
 
 ---
 
@@ -95,7 +97,7 @@ But the limitations stack up quickly.
 
 ## How to get Google Meet notes without a bot in your call
 
-Most AI note-taking tools for Google Meet work one of two ways: a Chrome extension that overlays on the browser window, or a bot account that joins the meeting as a named participant. Both approaches route your audio through the provider's cloud infrastructure.
+Most AI note-taking tools for Google Meet work one of two ways: a Chrome extension that overlays on the browser window, or a bot account that joins the meeting as a named participant. Both approaches route your audio through the provider's cloud infrastructure. Google Meet itself is a [videotelephony](https://en.wikipedia.org/wiki/Videotelephony) platform, meaning the audio stream passes through Google's infrastructure before it even reaches your note-taking tool.
 
 The bot approach is the most common and the most visible. When a tool like Otter.ai, Fireflies, or tl;dv joins your call, every participant can see a non-human account in the participant list. In a one-on-one client call, that's often awkward. In a medical consultation or legal intake, it's potentially a problem.
 
@@ -119,7 +121,7 @@ This approach works with any meeting platform, not just Google Meet. The same se
 
 The practical requirement is a machine with enough RAM to run a local LLM (typically 8-16GB for a mid-tier model). On modern Apple Silicon Macs this is straightforward. On Windows machines with 16GB RAM it runs well. On older machines with 8GB and a spinning disk, the experience degrades.
 
-Accuracy is comparable to cloud tools for clean English audio, generally in the 88-93% word error rate range (based on Interspeech 2023 research on similar local STT models). For heavily accented speech or background noise, cloud tools with larger server-side models still have an edge.
+In the context of AI note-taking, [transcription](https://en.wikipedia.org/wiki/Transcription_(linguistics)) refers to converting spoken audio into a written text record, which the AI then processes further into summaries. Accuracy is comparable to cloud tools for clean English audio, generally in the 88-93% word error rate range (based on Interspeech 2023 research on similar local STT models). For heavily accented speech or background noise, cloud tools with larger server-side models still have an edge.
 
 The tradeoff is real. The privacy benefit is also real. Whether it's worth it depends entirely on what you're discussing in your meetings.
 
@@ -140,7 +142,7 @@ Siplinx AI is particularly well-suited for:
 - Executives in M&A discussions where confidentiality is a hard requirement
 - Any team operating under GDPR where audio data residency matters
 
-[Try Siplinx AI free](https://siplinx.com/download/?utm_source=own_blog&utm_medium=article&utm_campaign=google-meet-notes&utm_content=try-free-cta) and run it alongside your next Google Meet call. The notes are ready within a minute of the call ending.
+[Try Siplinx AI free](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=google-meet-notes&utm_content=try-free-cta) and run it alongside your next Google Meet call. The notes are ready within a minute of the call ending.
 
 ---
 
@@ -228,7 +230,7 @@ Getting good notes from Google Meet doesn't require sending your audio to Google
 
 The 50 million people who used AI meeting notes in Google Meet in June 2025 alone are mostly fine with cloud processing. But if you're reading this article, there's a good chance you're not. You handle conversations that need to stay where they happen.
 
-[See how Siplinx AI compares](https://siplinx.com/compare/?utm_source=own_blog&utm_medium=article&utm_campaign=google-meet-notes&utm_content=compare-footer) to cloud-based alternatives, or download it and run it on your next call. The audio stays on your machine. The notes are yours.
+[Download Siplinx AI](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=google-meet-notes&utm_content=footer-download-cta) and run it on your next call. The audio stays on your machine. The notes are yours.
 
 ---
 

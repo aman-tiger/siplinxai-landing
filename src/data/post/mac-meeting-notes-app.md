@@ -55,7 +55,9 @@ A good Mac meeting notes app captures audio from your meetings, converts speech 
 
 That sounds simple. In practice, most tools cut corners on one or more of those requirements, usually on privacy.
 
-The problem isn't hard to see once you look. According to [Atlassian's productivity research](https://www.atlassian.com/time-wasting-at-work-infographic), 24 billion hours are wasted globally every year in unproductive meetings, and only 11% of meetings are rated "highly productive" by attendees. Meeting notes are one of the few interventions that demonstrably help: they capture decisions, assign tasks, and give people who weren't there a reliable record. But if your notes app sends the audio of those meetings to an external server, you've traded one problem (lost context) for another (data exposure).
+According to [Harvard Business Review](https://hbr.org/2022/03/dear-manager-youre-holding-too-many-meetings), unnecessary meetings cost U.S. companies an estimated $37 billion per year in lost productivity, making accurate meeting records one of the highest-leverage tools a team can adopt.
+
+The problem isn't hard to see once you look. According to [Atlassian's productivity research](https://www.atlassian.com/time-wasting-at-work-infographic), 24 billion hours are wasted globally every year in unproductive meetings, and only 11% of meetings are rated "highly productive" by attendees. [Meeting minutes](https://en.wikipedia.org/wiki/Minutes) are one of the few interventions that demonstrably help: they capture decisions, assign tasks, and give people who weren't there a reliable record. But if your notes app sends the audio of those meetings to an external server, you've traded one problem (lost context) for another (data exposure).
 
 So the criteria I use when evaluating these tools:
 
@@ -82,9 +84,9 @@ You can be bot-free but still cloud-based. Granola, for example, captures system
 
 ![Diagram showing the difference between local AI processing and cloud-based meeting notes on Mac](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80)
 
-For most users, that's an acceptable tradeoff. For a lawyer discussing case strategy, a doctor taking patient notes, or an executive in an M&A meeting, it's not. [Harvard Business Review](https://hbr.org/2017/07/stop-the-meeting-madness) data shows that managers spend an average of 13 hours per week in meetings. If those meetings contain confidential content, every hour of audio is potential liability.
+For most users, that's an acceptable tradeoff. For a lawyer discussing case strategy, a doctor taking patient notes, or an executive in an M&A meeting, it's not. [Harvard Business Review](https://hbr.org/2017/07/stop-the-meeting-madness) data shows that managers spend an average of 13 hours per week in meetings. If those meetings contain confidential content, every hour of audio is potential liability. [Information privacy](https://en.wikipedia.org/wiki/Information_privacy) regulations in many jurisdictions impose strict requirements on where and how personal data can be processed, and meeting audio often qualifies.
 
-[Siplinx AI](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=mac-meeting-notes-app&utm_content=local-processing-intro) takes the opposite approach: the audio is processed entirely on your Mac, using a local speech-to-text engine and a local language model. Nothing leaves the device. That's not a privacy promise in a terms-of-service document. It's architecture.
+[Siplinx AI](https://siplinx.com/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=mac-meeting-notes-app&utm_content=local-processing-intro) takes the opposite approach: the audio is processed entirely on your Mac, using a local speech-to-text engine and a local language model. Nothing leaves the device. That's not a privacy promise in a terms-of-service document. It's architecture.
 
 The practical test: disconnect your Mac from the internet and try your meeting notes app. If it still works, it's genuinely local. If it fails, it's cloud-based regardless of what the marketing says.
 
@@ -135,7 +137,7 @@ Here are the tools worth considering, grouped by architecture type.
 
 This guide uses Siplinx AI. The steps are similar for Mumble and Meetily.
 
-1. **Download Siplinx AI.** Go to [siplinx.com](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=mac-meeting-notes-app&utm_content=setup-guide-step1) and download the Mac app. It's a standard `.dmg` installer.
+1. **Download Siplinx AI.** Go to [siplinx.com/download/](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=mac-meeting-notes-app&utm_content=setup-download-step) and download the Mac app. It's a standard `.dmg` installer.
 
 2. **Install and open.** Drag Siplinx AI to your Applications folder and open it. On first launch, macOS will ask for microphone and screen recording permissions. Grant both. The app needs them to capture audio from your meetings.
 
@@ -175,7 +177,7 @@ The right tool depends on what kind of meetings you run and what your risk profi
 
 Yes, and faster than you'd expect. This is one of the biggest changes in the Mac meeting notes landscape over the past two years.
 
-Apple's M1, M2, M3, and M4 chips include a Neural Processing Unit (NPU) specifically designed for machine learning inference. Local speech-to-text models like Whisper and local LLMs like Llama 3 run on these chips with surprisingly low latency. A 60-minute meeting typically processes in 3-5 minutes on an M2 Mac. On an M4 MacBook Pro, it's closer to 90 seconds.
+Apple's M1, M2, M3, and M4 chips include a Neural Processing Unit (NPU) specifically designed for machine learning inference. [Speech recognition](https://en.wikipedia.org/wiki/Speech_recognition) models like Whisper and local LLMs like Llama 3 run on these chips with surprisingly low latency. A 60-minute meeting typically processes in 3-5 minutes on an M2 Mac. On an M4 MacBook Pro, it's closer to 90 seconds.
 
 Intel Macs work too, but they're slower. A 60-minute recording might take 12-15 minutes to process on a 2019 Intel MacBook Pro. That's still acceptable for most workflows, since the processing happens in the background after the meeting ends.
 
@@ -249,7 +251,7 @@ Yes. Most apps in this list support microphone input for in-person meetings, not
 
 ## The right choice for most Mac users in 2026
 
-If you handle confidential conversations, whether client calls, patient notes, legal strategy, or M&A discussions, the architecture of your meeting notes app is not a minor detail. It's a compliance decision. [Siplinx AI's approach to local processing](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=mac-meeting-notes-app&utm_content=conclusion-cta) means your audio never leaves your Mac, and that's not a setting you can toggle off by accident.
+If you handle confidential conversations, whether client calls, patient notes, legal strategy, or M&A discussions, the architecture of your meeting notes app is not a minor detail. It's a compliance decision. [Siplinx AI's approach to local processing](https://siplinx.com/security/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=mac-meeting-notes-app&utm_content=conclusion-security-cta) means your audio never leaves your Mac, and that's not a setting you can toggle off by accident.
 
 For everyone else, Granola is the most polished cloud option if you're on Mac and don't have confidentiality requirements. Fathom is the best free option for sales teams and non-sensitive work. And if you're technically comfortable and want fully local processing at zero cost, Meetily's open-source version is worth the setup time.
 

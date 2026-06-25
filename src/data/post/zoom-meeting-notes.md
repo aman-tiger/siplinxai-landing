@@ -51,7 +51,7 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 
 ## Why Zoom meeting notes matter more than you think {#why-zoom-meeting-notes-matter}
 
-Zoom meeting notes solve a specific, expensive problem: the gap between what was decided in a call and what people actually remember afterward. According to [fellow.ai's 2025 Meeting Statistics report](https://fellow.ai/blog/meeting-statistics-the-future-of-meetings-report/), 71% of senior executives describe meetings as unproductive and inefficient. A separate analysis from [My Hours](https://myhours.com/articles/meeting-statistics-2025) puts the average annual meeting load at 392 hours per person. That's more than 16 full working days.
+Zoom meeting notes solve a specific, expensive problem: the gap between what was decided in a call and what people actually remember afterward. According to [Harvard Business Review](https://hbr.org/2022/03/dear-manager-youre-holding-too-many-meetings), unnecessary meetings cost U.S. companies an estimated $37 billion per year in lost productivity. According to [fellow.ai's 2025 Meeting Statistics report](https://fellow.ai/blog/meeting-statistics-the-future-of-meetings-report/), 71% of senior executives describe meetings as unproductive and inefficient. A separate analysis from [My Hours](https://myhours.com/articles/meeting-statistics-2025) puts the average annual meeting load at 392 hours per person. That's more than 16 full working days.
 
 That's a lot of time to lose track of.
 
@@ -63,7 +63,7 @@ The math gets worse when you consider follow-through. Without notes, action item
 
 ## How Zoom's built-in AI note taker works {#how-zoom-ai-companion-works}
 
-Zoom AI Companion is Zoom's native AI note-taking feature, available on paid Zoom Workplace plans starting at $13.33 per user per month. It transcribes meetings in real time, generates a summary after the call, and extracts action items. All of that is accessible from your calendar or from the [ai.zoom.us](https://ai.zoom.us) interface that launched with Zoom AI Companion 3.0 in December 2025.
+Zoom AI Companion is Zoom's native AI note-taking feature, available on paid Zoom Workplace plans starting at $13.33 per user per month. [Videotelephony platforms](https://en.wikipedia.org/wiki/Videotelephony) like Zoom have made real-time transcription a standard expectation, and AI Companion is Zoom's answer to that demand. It transcribes meetings in real time, generates a summary after the call, and extracts action items. All of that is accessible from your calendar or from the [ai.zoom.us](https://ai.zoom.us) interface that launched with Zoom AI Companion 3.0 in December 2025.
 
 Here's what it actually does well. The integration is frictionless: no bots, no third-party apps to configure. If you're on a paid plan, you turn it on and it works. The December 2025 update added a Daily Reflection Report and personal workflow automation, which are genuinely useful for people who want a single tool rather than a stack of integrations.
 
@@ -89,7 +89,7 @@ There are three categories of tools: Zoom's built-in AI Companion, cloud-based t
 
 I've tested several of these in real calls. Fathom is the best free option if you're only on Zoom and don't handle sensitive data. Fellow's bot-free mode is the cleanest mid-tier choice for teams that want compliance without going fully offline. But the tool I keep coming back to for client work (where the stakes are high) is one that never sends audio anywhere. More on that in the regulated industries section.
 
-[Try Siplinx AI free. It runs entirely on your Mac or Windows machine, no cloud required.](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=zoom-meeting-notes&utm_content=hero-cta)
+[Try Siplinx AI free. It runs entirely on your Mac or Windows machine, no cloud required.](https://siplinx.com/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=zoom-meeting-notes&utm_content=hero-cta)
 
 ---
 
@@ -103,7 +103,7 @@ This is the question all three top-ranking articles on this topic skip entirely.
 
 **Offline tools** (Siplinx AI) process everything on your device using a local speech-to-text engine and a local large language model. Nothing is uploaded. The transcript lives on your computer. The summary is generated on your machine. If your laptop isn't connected to the internet, the tool still works.
 
-The practical difference comes down to one question: who else has access to your meeting content? With cloud tools, that answer is always "the service provider, and potentially their subprocessors." With offline tools, the answer is "no one but you."
+The practical difference comes down to one question: who else has access to your meeting content? With cloud tools, that answer is always "the service provider, and potentially their subprocessors." With offline tools, the answer is "no one but you." [Meeting minutes](https://en.wikipedia.org/wiki/Minutes) have always been considered sensitive records; the same principle applies to AI-generated transcripts.
 
 For a casual team meeting about product roadmaps, that probably doesn't matter. For a conversation between a doctor and patient, or between a lawyer and a client, it almost certainly does.
 
@@ -114,7 +114,7 @@ For a casual team meeting about product roadmaps, that probably doesn't matter. 
 Setting up automated Zoom meeting notes takes about five minutes with any modern AI tool. Here's how to do it with Siplinx AI, which works without a bot and without a cloud account.
 
 **Step 1: Download Siplinx AI.**
-Install the desktop app on your Mac or Windows machine from [siplinx.com](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=zoom-meeting-notes&utm_content=install-step). The first launch downloads the local AI models, which takes a few minutes depending on your connection.
+Install the desktop app on your Mac or Windows machine from [siplinx.com/download](https://siplinx.com/download/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=zoom-meeting-notes&utm_content=download-step). The first launch downloads the local AI models, which takes a few minutes depending on your connection.
 
 **Step 2: Open your Zoom call as usual.**
 You don't need to change anything about how you use Zoom. Start or join your meeting normally.
@@ -152,11 +152,11 @@ For teams handling routine internal meetings with no confidentiality concerns, Z
 
 ## Which tool is right for lawyers, doctors, and regulated professionals? {#regulated-industries}
 
-Regulated professionals face a problem the mainstream AI note-taker market hasn't really solved. HIPAA requires that any system handling protected health information maintain specific security controls and signed Business Associate Agreements with every vendor that processes that data. Attorney-client privilege depends on keeping communications confidential. And "confidential" has a specific legal meaning that doesn't necessarily include "uploaded to a vendor's cloud servers and retained for an unspecified period."
+Regulated professionals face a problem the mainstream AI note-taker market hasn't really solved. HIPAA requires that any system handling protected health information maintain specific security controls and signed Business Associate Agreements with every vendor that processes that data. Attorney-client privilege depends on keeping communications confidential. And "confidential" has a specific legal meaning that doesn't necessarily include "uploaded to a vendor's cloud servers and retained for an unspecified period." [Information privacy](https://en.wikipedia.org/wiki/Information_privacy) law in many jurisdictions treats audio recordings of professional consultations as particularly sensitive data requiring explicit protection.
 
 Cloud-based AI note takers, by definition, route your audio through servers you don't control. Fellow offers HIPAA compliance with a signed BAA, which makes it viable for healthcare teams willing to pay for that tier. Most other tools don't offer this at all.
 
-The only category that sidesteps the third-party data problem entirely is offline processing. When the AI runs on your device and nothing leaves your machine, there's no vendor to sign a BAA with, no cloud server to audit, and no retention policy to worry about. [Siplinx AI processes every transcript and summary locally on your Mac or Windows device](https://siplinx.com/?utm_source=own_blog&utm_medium=article&utm_campaign=zoom-meeting-notes&utm_content=regulated-industries), making it GDPR and HIPAA-friendly by design rather than by contract.
+The only category that sidesteps the third-party data problem entirely is offline processing. When the AI runs on your device and nothing leaves your machine, there's no vendor to sign a BAA with, no cloud server to audit, and no retention policy to worry about. [Siplinx AI processes every transcript and summary locally on your Mac or Windows device](https://siplinx.com/security/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=zoom-meeting-notes&utm_content=security-regulated), making it GDPR and HIPAA-friendly by design rather than by contract.
 
 That said, offline tools have real trade-offs. You need a reasonably modern machine (Siplinx recommends at least 8GB RAM for smooth local model performance). You don't get the team collaboration features that cloud tools offer. And you're responsible for your own backup and access controls.
 
@@ -215,7 +215,7 @@ If you're in the camp that needs complete data control, take a look at how Sipli
 
 Samal Bekmaganbetova is a Privacy & Data Governance Advisor with 8 years of experience in data governance and digital privacy frameworks. She is a Programme Manager at the United Nations Office for Disaster Risk Reduction (UNDRR), advising on responsible AI deployment and data protection standards.
 
-[Profile](https://siplinx.com/authors/samal-bekmaganbetova/) · [LinkedIn](https://www.linkedin.com/in/samalbek)
+[Profile](https://siplinx.com/authors/samal-bekmaganbetova/?utm_source=siplinx.com&utm_medium=blog&utm_campaign=zoom-meeting-notes&utm_content=author-profile) · [LinkedIn](https://www.linkedin.com/in/samalbek)
 
 Published: June 25, 2026 · Updated: June 25, 2026
 
