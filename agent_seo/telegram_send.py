@@ -52,33 +52,24 @@ def api_call(token: str, method: str, payload: dict) -> dict:
 
 
 def send_preview(slug: str, title: str, excerpt: str, keyword: str, word_count: int) -> int:
-    """Send article preview with 3 inline buttons. Returns message_id."""
+    """Send article publish notification to Telegram. Returns message_id."""
     token, chat_id, thread_id = get_credentials()
 
     text = (
-        f"<b>New article draft ready</b>\n\n"
+        f"<b>✅ Published</b>\n\n"
         f"<b>Title:</b> {title}\n"
         f"<b>Keyword:</b> {keyword}\n"
         f"<b>Words:</b> {word_count}\n"
         f"<b>Slug:</b> <code>{slug}</code>\n\n"
         f"<b>Excerpt:</b>\n<i>{excerpt[:200]}</i>\n\n"
-        f"<b>Draft:</b> <code>agent_seo/drafts/{slug}.md</code>"
+        f"<b>URL:</b> https://siplinx.com/{slug}/"
     )
-
-    keyboard = {
-        "inline_keyboard": [[
-            {"text": "✅ Опубликовать", "callback_data": f"publish_{slug}"},
-            {"text": "✏️ Исправить",    "callback_data": f"fix_{slug}"},
-            {"text": "❌ Отменить",     "callback_data": f"cancel_{slug}"},
-        ]]
-    }
 
     payload: dict = {
         "chat_id": chat_id,
         "text": text,
         "parse_mode": "HTML",
         "disable_web_page_preview": True,
-        "reply_markup": keyboard,
     }
     if thread_id:
         payload["message_thread_id"] = int(thread_id)
