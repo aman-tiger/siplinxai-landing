@@ -72,7 +72,7 @@ metadata:
 9. **Numbered steps section** — "How to [do X] with Siplinx AI" or similar
 10. **Key takeaways** — 4-5 bullets
 11. **FAQ** — 5-7 questions, sourced from PAA list in competitor analysis + real user pain points
-12. **Conclusion** — 100-150 words, specific CTA (not generic "the future is bright")
+12. **Conclusion** — 100-150 words, specific CTA. Must include a download CTA phrase, for example: "Download Siplinx AI free and try it on your next meeting." or "You can try Siplinx AI for free at siplinx.com/download." Link the CTA to `https://siplinx.com/download/?utm_source=own_blog&utm_medium=article&utm_campaign=[SLUG]&utm_content=conclusion-cta`
 13. **About the Author** block
 14. **Sources** list
 15. **Schema.org JSON-LD** — Article + FAQPage + (HowTo if steps present)
@@ -94,10 +94,33 @@ Natural anchor examples:
 - "Siplinx AI's approach to local processing"
 - "see how Siplinx AI compares"
 
-## External authority links (3-5)
+## External authority links (REQUIRED: exactly 3-5)
 
-Wikipedia, .gov, .edu, Statista, Forbes, NYT, Reuters, McKinsey, HBR, Google's official blog.
-Each from a specific page, not domain root. Use meaningful anchor text.
+**MUST include at minimum 3 external links.** Use: Wikipedia, .gov, .edu, Statista, Forbes, NYT, Reuters, McKinsey, HBR, Google's official blog, academic papers.
+
+Rules:
+- Link to a specific page, never the domain root
+- Use meaningful anchor text (not "click here" or "source")
+- Spread across the article (not all at the end)
+- Examples: `[Wikipedia on speech recognition](https://en.wikipedia.org/wiki/Speech_recognition)`, `[Statista data on meeting costs](https://www.statista.com/...)`
+- At least one Wikipedia link and one statistics source (.edu, Statista, McKinsey, etc.)
+
+## Internal links to siplinx.com — must work (REQUIRED)
+
+All internal links must use EXACT existing URLs on siplinx.com. Only link to these confirmed pages:
+
+- `https://siplinx.com/` — homepage
+- `https://siplinx.com/download/` — download page
+- `https://siplinx.com/pricing/` — pricing page
+- `https://siplinx.com/security/` — security/privacy page
+- `https://siplinx.com/granola-alternative-siplinx/` — granola comparison
+- `https://siplinx.com/fireflies-alternative/` — fireflies comparison
+- `https://siplinx.com/otter-ai-alternative/` — otter comparison
+- `https://siplinx.com/zoom-meeting-notes/` — zoom article
+- `https://siplinx.com/offline-meeting-recorder/` — offline article
+- `https://siplinx.com/meeting-summary-generator/` — summary article
+
+NEVER invent URLs. If linking to Siplinx, use only the list above.
 
 ## Human voice rules (non-negotiable)
 
