@@ -99,6 +99,7 @@ Natural anchor examples:
 **MUST include 2 to 4 external links** (choose a random number between 2 and 4 each time). Use: Wikipedia, .gov, .edu, Statista, Forbes, NYT, Reuters, McKinsey, HBR, Google's official blog, academic papers.
 
 Rules:
+
 - Link to a specific page, never the domain root
 - Use meaningful anchor text (not "click here" or "source")
 - Spread across the article (not all at the end)

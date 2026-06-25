@@ -118,7 +118,7 @@ Several third-party tools integrate with Microsoft Teams to add AI note-taking t
 
 ## How does privacy work with Teams transcription and cloud note storage? {#privacy-and-compliance}
 
-When Teams transcribes a meeting, [transcription](https://en.wikipedia.org/wiki/Transcription_(linguistics)) converts the spoken audio into a written record that is processed and stored on Microsoft's servers, not on your device. Microsoft encrypts data in transit and at rest using TLS and SRTP. But encryption doesn't mean the data isn't on Microsoft's infrastructure. It means it's protected while it's there.
+When Teams transcribes a meeting, [transcription](<https://en.wikipedia.org/wiki/Transcription_(linguistics)>) converts the spoken audio into a written record that is processed and stored on Microsoft's servers, not on your device. Microsoft encrypts data in transit and at rest using TLS and SRTP. But encryption doesn't mean the data isn't on Microsoft's infrastructure. It means it's protected while it's there.
 
 For most organizations, that's an acceptable risk. Microsoft holds SOC 2 Type II certifications, ISO 27001, and offers HIPAA Business Associate Agreements for qualifying customers. But those certifications apply to Microsoft's handling of your data, not to the content of what was said.
 

@@ -121,7 +121,7 @@ This approach works with any meeting platform, not just Google Meet. The same se
 
 The practical requirement is a machine with enough RAM to run a local LLM (typically 8-16GB for a mid-tier model). On modern Apple Silicon Macs this is straightforward. On Windows machines with 16GB RAM it runs well. On older machines with 8GB and a spinning disk, the experience degrades.
 
-In the context of AI note-taking, [transcription](https://en.wikipedia.org/wiki/Transcription_(linguistics)) refers to converting spoken audio into a written text record, which the AI then processes further into summaries. Accuracy is comparable to cloud tools for clean English audio, generally in the 88-93% word error rate range (based on Interspeech 2023 research on similar local STT models). For heavily accented speech or background noise, cloud tools with larger server-side models still have an edge.
+In the context of AI note-taking, [transcription](<https://en.wikipedia.org/wiki/Transcription_(linguistics)>) refers to converting spoken audio into a written text record, which the AI then processes further into summaries. Accuracy is comparable to cloud tools for clean English audio, generally in the 88-93% word error rate range (based on Interspeech 2023 research on similar local STT models). For heavily accented speech or background noise, cloud tools with larger server-side models still have an edge.
 
 The tradeoff is real. The privacy benefit is also real. Whether it's worth it depends entirely on what you're discussing in your meetings.
 

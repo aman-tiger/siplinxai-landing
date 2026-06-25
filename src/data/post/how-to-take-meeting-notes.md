@@ -178,15 +178,15 @@ The numbers on adoption tell part of the story. AI-powered meeting transcription
 
 The practical tradeoffs look like this:
 
-| Factor                    | Manual notes                  | AI note-taker                   |
-| ------------------------- | ----------------------------- | ------------------------------- |
-| Attention during meeting  | Split (listening and writing) | Fully present                   |
+| Factor                    | Manual notes                  | AI note-taker                                                                                   |
+| ------------------------- | ----------------------------- | ----------------------------------------------------------------------------------------------- |
+| Attention during meeting  | Split (listening and writing) | Fully present                                                                                   |
 | Accuracy of transcription | Depends on note-taker skill   | 85-95% for clear audio ([speech recognition](https://en.wikipedia.org/wiki/Speech_recognition)) |
-| Time to produce notes     | 20-30 min post-meeting        | Minutes, sometimes live         |
-| Action item extraction    | Manual, easy to miss          | Automated                       |
-| Cost                      | Free                          | $10-$30/month per user          |
-| Privacy (cloud tools)     | Notes stored where you choose | Audio uploaded to vendor server |
-| Privacy (local tools)     | Notes on your device          | Audio stays on your device      |
+| Time to produce notes     | 20-30 min post-meeting        | Minutes, sometimes live                                                                         |
+| Action item extraction    | Manual, easy to miss          | Automated                                                                                       |
+| Cost                      | Free                          | $10-$30/month per user                                                                          |
+| Privacy (cloud tools)     | Notes stored where you choose | Audio uploaded to vendor server                                                                 |
+| Privacy (local tools)     | Notes on your device          | Audio stays on your device                                                                      |
 
 Honestly, I think the biggest mistake people make with AI note-takers is choosing one without asking where the audio goes. Most popular tools (Otter.ai, Fireflies.ai, Fathom) upload your meeting audio to their cloud servers. For casual team meetings, that's probably fine. For conversations involving legal advice, patient information, financial details, or HR matters, uploading audio to a third-party server is a material risk.
 

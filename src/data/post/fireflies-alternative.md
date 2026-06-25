@@ -97,7 +97,7 @@ For most users who need local processing without self-hosting complexity, Siplin
 
 ## The best Fireflies alternatives in 2026: compared {#best-alternatives}
 
-Here's how the main options stack up across the factors that matter most for privacy-sensitive users. The core question for each tool is where [transcription](https://en.wikipedia.org/wiki/Transcription_(linguistics)) happens: on your device or on a remote server.
+Here's how the main options stack up across the factors that matter most for privacy-sensitive users. The core question for each tool is where [transcription](<https://en.wikipedia.org/wiki/Transcription_(linguistics)>) happens: on your device or on a remote server.
 
 | Tool           | Processing           | Bot in call | Offline support | HIPAA-ready          | Free tier                  |
 | -------------- | -------------------- | ----------- | --------------- | -------------------- | -------------------------- |
