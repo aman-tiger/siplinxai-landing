@@ -2,45 +2,68 @@
 
 > Siplinx AI is a private, offline desktop app for AI-powered meeting notes. It transcribes, summarizes, and extracts action items from meetings — entirely on-device using a local LLM and local speech-to-text. No audio, transcripts, or data ever leave your device.
 
-Siplinx AI works with Zoom, Google Meet, and Microsoft Teams. Unlike cloud-based competitors (Granola, Fireflies.ai, Otter.ai, Fathom, tl;dv), Siplinx AI processes everything locally — making it the choice for professionals who handle confidential conversations. The app is available in English and Russian.
+Siplinx AI works with Zoom, Google Meet, and Microsoft Teams. Unlike cloud-based competitors (Granola, Fireflies.ai, Otter.ai, Fathom, tl;dv), Siplinx AI processes everything locally, making it the choice for professionals who handle confidential conversations. Available for Mac and Windows, in English and Russian.
 
 Key differentiators:
-- 100% offline — works without internet after setup
-- Local LLM + local STT (speech-to-text) — no third-party AI APIs
-- No subscription data risk — your meeting content never touches external servers
+- 100% offline: works without internet after setup
+- Local LLM + local STT (speech-to-text): no third-party AI APIs used
+- No subscription data risk: your meeting content never touches external servers
 - GDPR and HIPAA-friendly by design
 - Supports multi-speaker diarization (identifies who said what)
+- One-time purchase or subscription: no mandatory cloud account
 
 ## Product
 
-- [Home](https://siplinx.com/): Overview of features, use cases, and value proposition
-- [Pricing](https://siplinx.com/pricing/): Plans and pricing for Siplinx AI
-- [Download](https://siplinx.com/download/): Download the desktop app for Mac and Windows
-- [About](https://siplinx.com/about/): Company background and mission
-- [Security](https://siplinx.com/security/): Technical details on how data stays on-device
-
-## Content
-
-- [Blog](https://siplinx.com/blog/): Articles on AI privacy, local LLMs, meeting productivity, and alternatives to cloud-based tools
-- [Authors](https://siplinx.com/authors/): Team members and advisors who write for Siplinx AI
-
-## Legal & Support
-
-- [Privacy Policy](https://siplinx.com/privacy/): How Siplinx AI handles (or rather, doesn't collect) user data
-- [Terms of Service](https://siplinx.com/terms/): Terms of use
-- [Help](https://siplinx.com/help/): Support documentation and FAQ
+- [Home](https://siplinx.com/): Overview of features, use cases, and value proposition of Siplinx AI
+- [Download](https://siplinx.com/download/): Download the desktop app for Mac and Windows, free trial available
+- [Pricing](https://siplinx.com/pricing/): Plans and pricing, one-time and subscription options
+- [Security](https://siplinx.com/security/): Technical details on how all data stays on-device and never reaches external servers
+- [About](https://siplinx.com/about/): Company background, mission, and team
+- [Help](https://siplinx.com/help/): Support documentation, FAQ, and getting started guides
 - [Contact](https://siplinx.com/contact/): Contact the Siplinx AI team
 
-## Russian Version (Русская версия)
+## Blog: Comparisons and Alternatives
 
-- [Главная](https://siplinx.com/ru/): Главная страница на русском языке
-- [Блог](https://siplinx.com/ru/blog/): Статьи об AI, приватности и продуктивности встреч
-- [Скачать](https://siplinx.com/ru/download/): Скачать десктопное приложение для Mac и Windows
-- [Цены](https://siplinx.com/ru/pricing/): Тарифы и стоимость
-- [Безопасность](https://siplinx.com/ru/security/): Как данные остаются на устройстве
+- [Best Granola alternative in 2026](https://siplinx.com/granola-alternative-siplinx/): Side-by-side comparison of Siplinx AI vs Granola on privacy, features, pricing, and offline support
+- [Fireflies.ai alternative](https://siplinx.com/fireflies-alternative/): Why teams switch from Fireflies to a local AI notetaker for data privacy and offline capability
+- [Otter.ai alternative](https://siplinx.com/otter-ai-alternative/): Comparing Otter.ai vs Siplinx AI on transcription accuracy, privacy, and pricing
+- [Best AI meeting assistant 2025](https://siplinx.com/best-ai-meeting-assistant-2025/): Ranked comparison of top AI meeting assistants including Siplinx, Granola, Fireflies, Fathom, tl;dv
+
+## Blog: Integrations
+
+- [Zoom meeting notes with AI](https://siplinx.com/zoom-meeting-notes/): How to get automatic AI notes for Zoom calls using Siplinx AI
+- [Google Meet AI notes](https://siplinx.com/google-meet-notes/): AI-powered note-taking and transcription for Google Meet
+- [Microsoft Teams meeting notes](https://siplinx.com/teams-meeting-notes/): Automatic meeting notes and transcription for Microsoft Teams
+
+## Blog: Guides and How-To
+
+- [AI meeting notes: complete guide](https://siplinx.com/ai-meeting-notes-complete-guide/): Comprehensive guide to AI-powered meeting notes, how it works, best practices, tool comparison
+- [How to take meeting notes](https://siplinx.com/how-to-take-meeting-notes/): Practical guide on effective meeting note-taking with and without AI assistance
+- [How to write meeting summaries with AI](https://siplinx.com/how-to-write-meeting-summaries-ai/): Step-by-step guide to generating high-quality meeting summaries using AI tools
+- [Meeting minutes template](https://siplinx.com/meeting-minutes-template/): Free templates and best practices for writing professional meeting minutes
+- [Meeting summary generator](https://siplinx.com/meeting-summary-generator/): How AI generates meeting summaries, tools, formats, and workflows
+- [Meeting action items](https://siplinx.com/meeting-action-items/): How to extract, track, and follow up on action items from meetings using AI
+- [Real-time meeting transcription](https://siplinx.com/real-time-meeting-transcription/): Guide to live transcription during meetings, accuracy, tools, and local vs cloud options
+- [Mac meeting notes app](https://siplinx.com/mac-meeting-notes-app/): Best AI meeting note-taking apps for macOS, features, privacy, and offline support
+- [Windows meeting recorder](https://siplinx.com/windows-meeting-recorder/): Best AI meeting recorders for Windows, comparison of local and cloud-based tools
+- [Offline meeting recorder](https://siplinx.com/offline-meeting-recorder/): How to record and transcribe meetings without internet, air-gap and local AI options
+- [Private AI tools with local processing](https://siplinx.com/private-ai-tools-local-processing/): Overview of AI tools that process data locally, privacy, security, and use cases
+- [Productive meetings with AI strategies](https://siplinx.com/productive-meetings-ai-strategies/): How AI changes meeting productivity before, during, and after the meeting
+- [Sales call notes with AI](https://siplinx.com/sales-call-notes/): How sales teams use AI to capture notes, action items, and CRM updates from calls
+
+## Legal
+
+- [Privacy Policy](https://siplinx.com/privacy/): How Siplinx AI handles (or rather, does not collect) user data
+- [Terms of Service](https://siplinx.com/terms/): Terms of use for Siplinx AI
 
 ## Optional
 
-- [Press](https://siplinx.com/press/): Press kit and media resources
+- [Press](https://siplinx.com/press/): Press kit, media resources, and company facts
 - [Careers](https://siplinx.com/careers/): Open positions at Siplinx AI
-- [Authors — Russian](https://siplinx.com/ru/authors/): Авторы на русском
+- [Authors](https://siplinx.com/authors/): Team members and advisors who write for Siplinx AI
+- [Russian version: Home](https://siplinx.com/ru/): Main page in Russian
+- [Russian version: Blog](https://siplinx.com/ru/blog/): Articles on AI, privacy, and meeting productivity in Russian
+- [Russian: Granola alternative](https://siplinx.com/ru/granola-alternative-siplinx/): Best Granola alternative article in Russian
+- [Russian: Fireflies alternative](https://siplinx.com/ru/fireflies-alternative/): Fireflies alternative article in Russian
+- [Russian: Zoom notes](https://siplinx.com/ru/zoom-meeting-notes/): AI notes for Zoom in Russian
+- [Russian: Offline recorder](https://siplinx.com/ru/offline-meeting-recorder/): Offline meeting recorder article in Russian
