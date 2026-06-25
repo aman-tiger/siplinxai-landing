@@ -39,4 +39,4 @@ Allow: /
 User-agent: Claude-User
 Allow: /
 
-Sitemap: https://siplinx.com/sitemap.xml
+Sitemap: https://siplinx.com/sitemap-index.xml
