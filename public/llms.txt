@@ -1,24 +1,46 @@
 # Siplinx AI
 
-> Private, offline AI meeting notes — runs entirely on your local device using a local LLM. No cloud upload, no third-party servers.
+> Siplinx AI is a private, offline desktop and mobile app for AI-powered meeting notes. It transcribes, summarizes, and extracts action items from meetings — entirely on-device using a local LLM and local speech-to-text. No audio, transcripts, or data ever leave your device.
 
-Siplinx AI transcribes, summarizes, and organizes your meeting notes locally. Key differentiators: 100% offline, no data leaves your device, works with Zoom, Google Meet, and Microsoft Teams, supports English and Russian. Competitors include Granola, Fireflies.ai, Otter.ai, and Fathom.
+Siplinx AI works with Zoom, Google Meet, and Microsoft Teams. Unlike cloud-based competitors (Granola, Fireflies.ai, Otter.ai, Fathom, tl;dv), Siplinx AI processes everything locally — making it the choice for professionals who handle confidential conversations. The app is available in English and Russian.
+
+Key differentiators:
+- 100% offline — works without internet after setup
+- Local LLM + local STT (speech-to-text) — no third-party AI APIs
+- No subscription data risk — your meeting content never touches external servers
+- GDPR and HIPAA-friendly by design
+- Supports multi-speaker diarization (identifies who said what)
 
 ## Product
 
-- [Home](https://siplinx.com/): Overview, features, pricing, and download
-- [Blog](https://siplinx.com/blog/): Articles on AI privacy, local LLM use cases, and meeting productivity
+- [Home](https://siplinx.com/): Overview of features, use cases, and value proposition
+- [Pricing](https://siplinx.com/pricing/): Plans and pricing for Siplinx AI
+- [Download](https://siplinx.com/download/): Download the app for Mac, Windows, iOS, and Android
+- [About](https://siplinx.com/about/): Company background and mission
+- [Security](https://siplinx.com/security/): Technical details on how data stays on-device
 
-## Authors
+## Content
 
-- [Authors](https://siplinx.com/authors/): Team and advisors behind Siplinx AI
+- [Blog](https://siplinx.com/blog/): Articles on AI privacy, local LLMs, meeting productivity, and alternatives to cloud-based tools
+- [Authors](https://siplinx.com/authors/): Team members and advisors who write for Siplinx AI
 
-## Russian Version
+## Legal & Support
 
-- [Главная (RU)](https://siplinx.com/ru/): Russian-language landing page
-- [Блог (RU)](https://siplinx.com/ru/blog/): Russian blog on AI and privacy
-- [Авторы (RU)](https://siplinx.com/ru/authors/): Russian authors page
+- [Privacy Policy](https://siplinx.com/privacy/): How Siplinx AI handles (or rather, doesn't collect) user data
+- [Terms of Service](https://siplinx.com/terms/): Terms of use
+- [Help](https://siplinx.com/help/): Support documentation and FAQ
+- [Contact](https://siplinx.com/contact/): Contact the Siplinx AI team
+
+## Russian Version (Русская версия)
+
+- [Главная](https://siplinx.com/ru/): Главная страница на русском языке
+- [Блог](https://siplinx.com/ru/blog/): Статьи об AI, приватности и продуктивности встреч
+- [Скачать](https://siplinx.com/ru/download/): Скачать приложение
+- [Цены](https://siplinx.com/ru/pricing/): Тарифы и стоимость
+- [Безопасность](https://siplinx.com/ru/security/): Как данные остаются на устройстве
 
 ## Optional
 
-- [Samal Bekmaganbetova](https://siplinx.com/authors/samal-bekmaganbetova/): Privacy & Data Governance Advisor, UN DRRS Programme Manager
+- [Press](https://siplinx.com/press/): Press kit and media resources
+- [Careers](https://siplinx.com/careers/): Open positions at Siplinx AI
+- [Authors — Russian](https://siplinx.com/ru/authors/): Авторы на русском
