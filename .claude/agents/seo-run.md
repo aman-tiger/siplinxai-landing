@@ -27,6 +27,7 @@ Read `agent_seo/prompts.csv` and `agent_seo/authors.json`.
 **If no argument** → pick first row in `agent_seo/prompts.csv` with `status = rewrite`.
 
 Set these variables for the whole pipeline:
+
 - `SLUG` = the article slug
 - `KEYWORD` = primary keyword
 - `LSI` = lsi_keywords from prompts.csv
@@ -37,11 +38,13 @@ Set these variables for the whole pipeline:
 - `PIPELINE_DIR` = `agent_seo/pipeline/[SLUG]`
 
 Create the pipeline directory:
+
 ```bash
 mkdir -p agent_seo/pipeline/[SLUG]
 ```
 
 Tell the user:
+
 ```
 Starting pipeline for: [SLUG]
 Keyword: [KEYWORD]
@@ -82,6 +85,7 @@ Tell user: `✅ Step 2/5 complete — Competitor analysis saved`
 Follow ALL instructions in `.claude/agents/seo-3-writer.md`.
 
 Read as input:
+
 - `agent_seo/pipeline/[SLUG]/1-research.md`
 - `agent_seo/pipeline/[SLUG]/2-competitors.md`
 - `agent_seo/SIPLINX_MASTER_PROMPT.md`
@@ -115,6 +119,7 @@ Follow ALL instructions in `.claude/agents/seo-5-publisher.md`.
 Read `agent_seo/pipeline/[SLUG]/4-final.md` as the article to publish.
 
 This step:
+
 1. Sends Telegram preview with 3 buttons
 2. Waits for response (15 min)
 3. On "Опубликовать": commits + pushes + triggers deploy
@@ -132,6 +137,7 @@ If Step 3 word count is off by more than 20% from target, redo Step 3.
 ## After pipeline completes
 
 Final report:
+
 ```
 Pipeline complete for: [SLUG]
 ━━━━━━━━━━━━━━━━━━━━━━━━

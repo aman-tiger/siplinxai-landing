@@ -14,6 +14,7 @@
 **H1:** Top 9 Fireflies.ai Alternatives: Tested and Reviewed for 2026
 
 **H2 headings:**
+
 - Agent Brief For Fireflies.ai Alternative Searches
 - Top 9 Fireflies.ai alternatives: At a glance
 - Why users looked for Fireflies.ai alternatives
@@ -39,6 +40,7 @@
 **AI-generated feel:** partially — the "tested" claim is vague; methodology section is thin
 
 **Weaknesses:**
+
 1. Obvious self-promotion: Lindy ranks itself #1 on its own blog with no external validation
 2. Privacy and compliance section is almost absent — no mention of HIPAA, GDPR, or local processing options in meaningful depth
 3. No offline or local-first alternatives mentioned — Siplinx, Meetily given no coverage; the entire category is skipped
@@ -56,6 +58,7 @@
 **H1:** Fireflies.ai Pricing & Alternatives: Is It Worth It in 2026? (Updated April 2026)
 
 **H2 headings:**
+
 - Google Meet users: please read (April 2026)
 - TL;DR: An Honest Review of Fireflies.ai
 - What is Fireflies.ai?
@@ -80,6 +83,7 @@
 **AI-generated feel:** low — reads as editorial, but obvious tl;dv bias
 
 **Weaknesses:**
+
 1. Massive conflict of interest: written by tl;dv, which promotes itself as the "#1 alternative" throughout
 2. Only 5 alternatives covered; ignores the local/offline category entirely
 3. GDPR/Schrems II mentioned but without practical guidance for users in regulated industries
@@ -97,6 +101,7 @@
 **H1:** The Bot-Free Alternative to Fireflies
 
 **H2 headings:**
+
 - Why Teams Choose Bot-Free Recording
 - Bot-Free vs Bot-Required: The Critical Difference
 - Meeting Bot vs No Bot: What Participants See
@@ -113,6 +118,7 @@
 **AI-generated feel:** moderate — structured but reads like a landing page, not editorial content
 
 **Weaknesses:**
+
 1. Landing page format, not an editorial article — weak for long-tail keyword coverage
 2. Ignores all other alternatives except Meetily vs Fireflies head-to-head; no broader comparison
 3. No coverage of the legal/compliance reasons to switch (the 2025 lawsuit, HIPAA data)
@@ -126,6 +132,7 @@
 **Target word count:** 2,157 words (our pipeline target, which undercuts bloated competitors while being more focused and useful)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. Why people switch away from Fireflies.ai (covers bot, privacy, pricing — the 3 core pain points)
 2. What a better Fireflies alternative actually needs (evaluation criteria — what to look for)
 3. Is there a Fireflies alternative that works fully offline? (targets the highest-intent query competitors ignore)

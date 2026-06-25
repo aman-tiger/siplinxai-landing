@@ -146,18 +146,18 @@ Not good for: true offline use, or environments where even temporary cloud trans
 
 ## Feature comparison table {#comparison-table}
 
-| Feature | Siplinx AI | Granola | Fireflies | Otter.ai | Fathom |
-|---|---|---|---|---|---|
-| Local/offline processing | Yes | No | No | No | No |
-| Mac support | Yes | Yes | Browser | Browser | Browser |
-| Windows support | Yes | Yes (Jan 2026) | Browser | Browser | Browser |
-| No bot in meeting | Yes | Yes | No | No | Yes (Oct 2025) |
-| In-person meeting support | Yes | Yes | Yes | Yes | No |
-| Audio never leaves device | Yes | No | No | No | No |
-| Works without internet | Yes | No | No | No | No |
-| HIPAA-safe by design | Yes | No (BAA required) | BAA available | BAA available | No |
-| Data used for model training | Never | Default on Basic/Business | Depends on plan | Depends on plan | No |
-| One-time pricing option | Yes | No | No | No | No |
+| Feature                      | Siplinx AI | Granola                   | Fireflies       | Otter.ai        | Fathom         |
+| ---------------------------- | ---------- | ------------------------- | --------------- | --------------- | -------------- |
+| Local/offline processing     | Yes        | No                        | No              | No              | No             |
+| Mac support                  | Yes        | Yes                       | Browser         | Browser         | Browser        |
+| Windows support              | Yes        | Yes (Jan 2026)            | Browser         | Browser         | Browser        |
+| No bot in meeting            | Yes        | Yes                       | No              | No              | Yes (Oct 2025) |
+| In-person meeting support    | Yes        | Yes                       | Yes             | Yes             | No             |
+| Audio never leaves device    | Yes        | No                        | No              | No              | No             |
+| Works without internet       | Yes        | No                        | No              | No              | No             |
+| HIPAA-safe by design         | Yes        | No (BAA required)         | BAA available   | BAA available   | No             |
+| Data used for model training | Never      | Default on Basic/Business | Depends on plan | Depends on plan | No             |
+| One-time pricing option      | Yes        | No                        | No              | No              | No             |
 
 ---
 
@@ -296,7 +296,7 @@ Published: June 25, 2026 · Updated: June 25, 2026
   "publisher": {
     "@type": "Organization",
     "name": "Siplinx AI",
-    "logo": {"@type": "ImageObject", "url": "https://siplinx.com/logo.png"}
+    "logo": { "@type": "ImageObject", "url": "https://siplinx.com/logo.png" }
   },
   "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80"
 }

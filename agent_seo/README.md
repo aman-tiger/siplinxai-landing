@@ -4,12 +4,12 @@ Multi-agent pipeline for writing and publishing SEO articles via Claude Code.
 
 ## Agents (run via Claude Code: `/agent <name>`)
 
-| Agent | Command | What it does |
-|-------|---------|--------------|
-| `seo-orchestrator` | `/agent seo-orchestrator` | Write a new article from prompts.csv |
-| `seo-rewriter` | `/agent seo-rewriter` | Rewrite existing articles to fix quality issues |
-| `seo-approve` | `/agent seo-approve [slug]` | Publish an approved draft to the live blog |
-| `seo-audit` | `/agent seo-audit` | Audit all articles for quality issues |
+| Agent              | Command                     | What it does                                    |
+| ------------------ | --------------------------- | ----------------------------------------------- |
+| `seo-orchestrator` | `/agent seo-orchestrator`   | Write a new article from prompts.csv            |
+| `seo-rewriter`     | `/agent seo-rewriter`       | Rewrite existing articles to fix quality issues |
+| `seo-approve`      | `/agent seo-approve [slug]` | Publish an approved draft to the live blog      |
+| `seo-audit`        | `/agent seo-audit`          | Audit all articles for quality issues           |
 
 ## Workflow
 
@@ -38,13 +38,13 @@ agent_seo/
 
 ## prompts.csv status values
 
-| Status | Meaning |
-|--------|---------|
-| `pending` | Not started yet |
-| `rewrite` | Existing article needs rewriting |
-| `in_progress` | Currently being written |
-| `draft` | Written, saved to drafts/, waiting for Telegram approval |
-| `published` | Live on siplinx.com |
+| Status        | Meaning                                                  |
+| ------------- | -------------------------------------------------------- |
+| `pending`     | Not started yet                                          |
+| `rewrite`     | Existing article needs rewriting                         |
+| `in_progress` | Currently being written                                  |
+| `draft`       | Written, saved to drafts/, waiting for Telegram approval |
+| `published`   | Live on siplinx.com                                      |
 
 ## Rules
 
@@ -81,6 +81,7 @@ After you reply "да" in Telegram, run `/agent seo-approve [slug]` in Claude Co
 ## Adding new topics
 
 Add a row to `prompts.csv`:
+
 ```
 new-slug,"Article Title","primary keyword","lsi 1, lsi 2, lsi 3",Category,pending,guide,
 ```

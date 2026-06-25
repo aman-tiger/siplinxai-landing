@@ -23,6 +23,7 @@ Published: June 25, 2026 · Updated: June 25, 2026 · By Samal Bekmaganbetova ·
 ![Privacy-focused professional reviewing AI meeting notes on a laptop in a private office](https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80)
 
 **TL;DR**
+
 - Fireflies.ai uploads every word of your meetings to external servers, which is a dealbreaker for lawyers, doctors, and anyone handling confidential conversations.
 - A federal class-action lawsuit was filed against Fireflies.ai in August 2025 over alleged unauthorized recording and use of meeting data.
 - The best Fireflies alternatives for privacy are tools that process audio locally on your device: Siplinx AI (fully offline), Jamie (bot-free, local processing option), and Meetily (open-source, self-hosted).
@@ -98,14 +99,14 @@ For most users who need local processing without self-hosting complexity, Siplin
 
 Here's how the main options stack up across the factors that matter most for privacy-sensitive users.
 
-| Tool | Processing | Bot in call | Offline support | HIPAA-ready | Free tier |
-|------|-----------|------------|----------------|-------------|-----------|
-| **Siplinx AI** | On-device | No | Yes | Yes (by design) | Yes |
-| Fathom | Cloud | No (mostly) | No | No | Yes (unlimited for 1 user) |
-| Jamie | Local/optional cloud | No | Yes (partial) | Partial | No |
-| tl;dv | Cloud | Yes | No | Partial (paid plans) | Yes (limited) |
-| Otter.ai | Cloud | Optional | No | BAA available | Yes (300 min/mo) |
-| Fireflies.ai | Cloud | Yes | No | Enterprise only | Yes (limited) |
+| Tool           | Processing           | Bot in call | Offline support | HIPAA-ready          | Free tier                  |
+| -------------- | -------------------- | ----------- | --------------- | -------------------- | -------------------------- |
+| **Siplinx AI** | On-device            | No          | Yes             | Yes (by design)      | Yes                        |
+| Fathom         | Cloud                | No (mostly) | No              | No                   | Yes (unlimited for 1 user) |
+| Jamie          | Local/optional cloud | No          | Yes (partial)   | Partial              | No                         |
+| tl;dv          | Cloud                | Yes         | No              | Partial (paid plans) | Yes (limited)              |
+| Otter.ai       | Cloud                | Optional    | No              | BAA available        | Yes (300 min/mo)           |
+| Fireflies.ai   | Cloud                | Yes         | No              | Enterprise only      | Yes (limited)              |
 
 A few things worth noting from this table. Fathom is the strongest free alternative for cloud users who aren't handling regulated data. It has a 5.0/5 rating on G2 from over 6,000 reviews, which is the highest rating in the category. But "no bot" on Fathom is platform-dependent: it varies by video conferencing tool.
 
@@ -128,12 +129,14 @@ With [Siplinx AI](https://siplinx.com/download/?utm_source=own_blog&utm_medium=a
 The Gartner Digital Workplace Survey found that 78% of IT leaders now cite data sovereignty as a top priority when selecting meeting tools. Local processing is the only architecture that gives you data sovereignty by default, not by policy.
 
 **Where Fireflies is still better:**
+
 - Deep CRM integrations (Salesforce, HubSpot, Pipedrive out of the box)
 - Team collaboration features
 - Meeting search across your entire library
 - Mobile recording
 
 **Where Siplinx AI wins:**
+
 - No audio ever leaves your machine
 - No bot joins your call
 - Works offline and without internet after setup
@@ -259,7 +262,7 @@ Published: June 25, 2026 · Updated: June 25, 2026
   "publisher": {
     "@type": "Organization",
     "name": "Siplinx AI",
-    "logo": {"@type": "ImageObject", "url": "https://siplinx.com/logo.png"}
+    "logo": { "@type": "ImageObject", "url": "https://siplinx.com/logo.png" }
   },
   "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80"
 }

@@ -9,6 +9,7 @@ You are the competitor analysis specialist for Siplinx AI's SEO pipeline. You an
 ## Input
 
 Read:
+
 - `[PIPELINE_DIR]/1-research.md` — for keyword and already-found competitor URLs
 - Context: SLUG, KEYWORD from pipeline
 
@@ -27,6 +28,7 @@ For each of the 3 results, fetch the page and analyze it.
 For each competitor URL, extract:
 
 **Structure:**
+
 - H1 text (exact)
 - All H2 headings (exact)
 - All H3 headings (list)
@@ -37,6 +39,7 @@ For each competitor URL, extract:
 - Does it have Schema.org markup visible? (yes/no)
 
 **Content quality:**
+
 - Does it cite real statistics with sources? (yes/no, give examples)
 - Does it mention Siplinx AI? (yes/no)
 - How many internal links to their own site?
@@ -45,6 +48,7 @@ For each competitor URL, extract:
 - Is it clearly AI-generated? (be honest)
 
 **Weaknesses (most important):**
+
 - What questions does it NOT answer that users would want?
 - What's outdated or wrong?
 - What angle does it miss entirely?
@@ -53,6 +57,7 @@ For each competitor URL, extract:
 ### Step 3: Identify the winning strategy
 
 Based on 3 competitor analyses, determine:
+
 1. What word count target beats them? (usually +20-30% over longest competitor)
 2. What H2 structure would be more comprehensive?
 3. What unique data or angle can Siplinx article bring?
@@ -79,10 +84,11 @@ Save to `[PIPELINE_DIR]/2-competitors.md`:
 **H1:** [exact text]
 
 **H2 headings:**
+
 - [H2 1]
 - [H2 2]
 - [H2 3]
-...
+  ...
 
 **Has comparison table:** [yes/no]
 **Has FAQ:** [yes/no]
@@ -92,6 +98,7 @@ Save to `[PIPELINE_DIR]/2-competitors.md`:
 **AI-generated feel:** [yes/no]
 
 **Weaknesses:**
+
 1. [specific weakness]
 2. [specific weakness]
 3. [specific weakness]
@@ -115,6 +122,7 @@ Save to `[PIPELINE_DIR]/2-competitors.md`:
 **Target word count:** [N] words (beats longest competitor by ~25%)
 
 **H2 structure we will use** (more comprehensive than all 3):
+
 1. [H2 — answers question competitor 1 missed]
 2. [H2 — answers question competitor 2 missed]
 3. [H2 — unique angle no competitor covers]

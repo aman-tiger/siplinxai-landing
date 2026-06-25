@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 granola alternative
 
 ## LSI / related keywords
+
 - granola app alternative
 - private meeting notes
 - offline ai notetaker
@@ -22,9 +24,11 @@ granola alternative
 - Whisper meeting notes
 
 ## Target audience
+
 Privacy-conscious professionals (lawyers, doctors, executives, consultants) comparing AI meeting note-takers who want an alternative to Granola due to privacy, Windows support, or offline needs.
 
 ## Search intent
+
 Commercial / Comparison — users are evaluating tools and looking to switch from Granola to a better-fit alternative based on privacy, platform, or cost.
 
 ---

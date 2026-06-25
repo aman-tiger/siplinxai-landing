@@ -13,6 +13,7 @@ Read: `agent_seo/pipeline/[SLUG]/4-final.md` (or `agent_seo/drafts/[SLUG].md`)
 Also need: SLUG, title, excerpt, primary keyword, word count from pipeline context.
 
 Extract title, excerpt from frontmatter:
+
 ```bash
 head -20 agent_seo/pipeline/[SLUG]/4-final.md
 ```
@@ -48,6 +49,7 @@ python3 agent_seo/telegram_send.py \
 ```
 
 This sends the preview with 3 buttons:
+
 - ✅ Опубликовать
 - ✏️ Исправить
 - ❌ Отменить
@@ -77,6 +79,7 @@ git push -u origin main
 ```
 
 Then trigger GitHub Actions deploy using MCP tool:
+
 - method: run_workflow
 - owner: aman-tiger
 - repo: siplinxai-landing
@@ -86,6 +89,7 @@ Then trigger GitHub Actions deploy using MCP tool:
 Update `agent_seo/prompts.csv`: change status to `published` for this SLUG.
 
 Tell user:
+
 ```
 ✅ Published!
 
@@ -102,6 +106,7 @@ To verify: curl -s https://siplinx.com/[SLUG]/ | grep "[keyword]"
 ## Step 4b: If action = "fix" → REQUEST FEEDBACK
 
 Send Telegram message asking what to fix:
+
 ```bash
 python3 agent_seo/telegram_send.py "[SLUG]-feedback" \
   "What needs fixing?" \
@@ -111,6 +116,7 @@ python3 agent_seo/telegram_send.py "[SLUG]-feedback" \
 ```
 
 Tell the user:
+
 ```
 ✏️ Marked for revision.
 
@@ -135,6 +141,7 @@ rm -f agent_seo/drafts/[SLUG].md
 Update `agent_seo/prompts.csv`: change status back to `rewrite` for this SLUG.
 
 Tell user:
+
 ```
 ❌ Cancelled.
 
@@ -147,6 +154,7 @@ Run /agent seo-run [SLUG] to start over.
 ## Step 4d: If action = "timeout" → SAVE AND PAUSE
 
 Tell user:
+
 ```
 ⏰ No response in 15 minutes.
 

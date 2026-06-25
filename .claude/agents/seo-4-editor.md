@@ -25,6 +25,7 @@ grep -n "—\|–" agent_seo/pipeline/[SLUG]/3-draft.md
 ```
 
 Every hit must be rewritten. Replace with:
+
 - `—` between clauses → use a period or comma
 - `—` for parenthetical → use parentheses `(like this)`
 - `—` before a list → use a colon `:`
@@ -45,6 +46,7 @@ game-changer, paradigm shift, unlock, empower, elevate, supercharge
 ```
 
 Replacements:
+
 - utilize → use
 - facilitate → help
 - implement → do, make, set up
@@ -61,6 +63,7 @@ Replacements:
 ### CHECK 3: Banned constructions
 
 Find and fix:
+
 - "Let's dive in" / "Let's break this down" / "Here's what you need to know" → delete or rephrase
 - "In conclusion" / "To sum up" → delete or rephrase
 - "It's not just X, it's Y" → say directly what it is
@@ -88,6 +91,7 @@ Fix all Title Case headings.
 Read 10 consecutive sentences from the middle of the article. If more than 2 in a row are similar length, rewrite for variety.
 
 Pattern to check:
+
 - 3+ short sentences in a row → vary with a longer one
 - 3+ long sentences in a row → break with a shorter one
 - All medium sentences → add some short punchy ones
@@ -97,6 +101,7 @@ Pattern to check:
 ### CHECK 6: Personal opinions (minimum 2)
 
 Does the article contain at least 2 first-person opinion moments? They must be:
+
 - Specific: "Granola's interface is cleaner than most tools I've tested, and I think that matters for daily use"
 - NOT generic: "I think this is a great tool"
 
@@ -141,6 +146,7 @@ If there are 4+ siplinx.com links → remove the weakest ones.
 ### CHECK 9: Frontmatter validation
 
 Verify:
+
 - `title` is max 60 characters
 - `excerpt` is 140-160 characters
 - `author` is exactly `Samal Bekmaganbetova`

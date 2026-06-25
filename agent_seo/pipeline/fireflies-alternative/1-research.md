@@ -7,9 +7,11 @@
 ---
 
 ## Primary keyword
+
 fireflies alternative
 
 ## LSI / related keywords
+
 - fireflies ai alternative
 - private fireflies alternative
 - offline meeting recorder
@@ -20,9 +22,11 @@ fireflies alternative
 - fireflies competitor
 
 ## Target audience
+
 Privacy-conscious professionals (lawyers, doctors, executives, consultants) who use or are evaluating Fireflies.ai and want a meeting recorder that does not upload audio or transcripts to external servers.
 
 ## Search intent
+
 Commercial / Comparison
 The user wants to switch away from Fireflies.ai or evaluate it against competing tools. They are comparing options with purchase intent. Many are motivated by privacy concerns, bot visibility in calls, or frustrating pricing.
 
