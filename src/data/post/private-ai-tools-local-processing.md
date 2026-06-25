@@ -9,7 +9,7 @@ tags:
   - local ai processing
   - private ai meeting notes
   - secure meeting notes
-author: Siplinx AI Team
+author: Samal Bekmaganbetova
 ---
 
 **TL;DR:** Most AI meeting tools send your audio or transcripts to cloud servers you don't control. This creates serious risks for legal, medical, financial, and enterprise teams. Local AI processing keeps everything on your device. Here's why it matters and what to look for.
