@@ -26,6 +26,7 @@ git push -u origin main
 **Проверенная последовательность деплоя (выполнять ВСЕГДА после пуша):**
 
 **Шаг 1 — запустить деплой через GitHub MCP:**
+
 ```
 mcp__github__actions_run_trigger(method="run_workflow", owner="aman-tiger", repo="siplinxai-landing", workflow_id="actions.yaml", ref="main")
 ```
@@ -33,14 +34,17 @@ mcp__github__actions_run_trigger(method="run_workflow", owner="aman-tiger", repo
 Этот workflow (`actions.yaml`, джоб `deploy`) делает: `npm run build` → `wrangler pages deploy dist --project-name=siplinxai-landing --branch=main` на Cloudflare Pages.
 
 **Шаг 2 — дождаться раскатки и проверить прод** (билд ~1-2 мин + раскатка Cloudflare ~1 мин). Проверять напрямую на живом сайте через `curl` (браузер к siplinx.com через прокси не ходит — `ERR_CONNECTION_CLOSED`):
+
 ```
 curl -s https://siplinx.com/<страница>/ | grep -oc '<маркер изменения>'
 ```
 
 **Шаг 3 — перед деплоем убедиться, что билд проходит локально:**
+
 ```
 npm run build   # должен дать exit 0 и "Complete!"
 ```
+
 Если `npm run build` падает — Cloudflare тоже не задеплоит. Сначала чиним билд.
 
 ### 3. Язык
