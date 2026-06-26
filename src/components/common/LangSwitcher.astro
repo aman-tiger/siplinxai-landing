@@ -2,7 +2,48 @@
 const currentPath = Astro.url.pathname;
 const isRu = currentPath.startsWith('/ru');
 const enPath = isRu ? currentPath.replace(/^\/ru/, '') || '/' : currentPath;
-const ruPath = isRu ? currentPath : `/ru${currentPath === '/' ? '' : currentPath}`;
+
+// Slugs that have RU article versions
+const ruArticleSlugs = new Set([
+  '/granola-alternative-siplinx/',
+  '/fireflies-alternative/',
+  '/google-meet-notes/',
+  '/how-to-take-meeting-notes/',
+  '/mac-meeting-notes-app/',
+  '/meeting-action-items/',
+  '/meeting-minutes-template/',
+  '/meeting-summary-generator/',
+  '/offline-meeting-recorder/',
+  '/otter-ai-alternative/',
+  '/real-time-meeting-transcription/',
+  '/sales-call-notes/',
+  '/teams-meeting-notes/',
+  '/windows-meeting-recorder/',
+  '/zoom-meeting-notes/',
+]);
+
+// Paths that have explicit RU static pages
+const hasRuStaticPage =
+  currentPath === '/' ||
+  currentPath.startsWith('/ru') ||
+  currentPath.startsWith('/about') ||
+  currentPath.startsWith('/pricing') ||
+  currentPath.startsWith('/download') ||
+  currentPath.startsWith('/security') ||
+  currentPath.startsWith('/privacy') ||
+  currentPath.startsWith('/terms') ||
+  currentPath.startsWith('/careers') ||
+  currentPath.startsWith('/help') ||
+  currentPath.startsWith('/contact') ||
+  currentPath.startsWith('/press') ||
+  currentPath.startsWith('/authors') ||
+  ruArticleSlugs.has(currentPath);
+
+const ruPath = isRu
+  ? currentPath
+  : hasRuStaticPage
+    ? `/ru${currentPath === '/' ? '' : currentPath}`
+    : '/ru/blog/';
 ---
 
 <div class="flex items-center gap-0.5 ml-2">
