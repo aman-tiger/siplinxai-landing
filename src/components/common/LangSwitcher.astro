@@ -39,11 +39,7 @@ const hasRuStaticPage =
   currentPath.startsWith('/authors') ||
   ruArticleSlugs.has(currentPath);
 
-const ruPath = isRu
-  ? currentPath
-  : hasRuStaticPage
-    ? `/ru${currentPath === '/' ? '' : currentPath}`
-    : '/ru/blog/';
+const ruPath = isRu ? currentPath : hasRuStaticPage ? `/ru${currentPath === '/' ? '' : currentPath}` : '/ru/blog/';
 ---
 
 <div class="flex items-center gap-0.5 ml-2">
