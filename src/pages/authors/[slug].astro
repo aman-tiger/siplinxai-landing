@@ -16,7 +16,7 @@ const { author } = Astro.props;
 
 const allPosts = await fetchPosts();
 const authorPosts = allPosts.filter(
-  (p) => !p.slug.startsWith('ru-') && (p.author === author.name || p.author === author.slug)
+  (p) => !p.slug.startsWith('ru/') && (p.author === author.name || p.author === author.slug)
 );
 
 const metadata = {
