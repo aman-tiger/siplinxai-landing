@@ -30,7 +30,11 @@ function extractFrontmatter(content) {
   const fm = {};
   for (const line of match[1].split('\n')) {
     const [key, ...rest] = line.split(':');
-    if (key && rest.length) fm[key.trim()] = rest.join(':').trim().replace(/^['"]|['"]$/g, '');
+    if (key && rest.length)
+      fm[key.trim()] = rest
+        .join(':')
+        .trim()
+        .replace(/^['"]|['"]$/g, '');
   }
   return fm;
 }
@@ -72,8 +76,8 @@ async function main() {
   const articles = await getArticles(POSTS_DIR);
 
   // Group EN articles by category
-  const enArticles = articles.filter(a => !a.isRu);
-  const ruArticles = articles.filter(a => a.isRu);
+  const enArticles = articles.filter((a) => !a.isRu);
+  const ruArticles = articles.filter((a) => a.isRu);
 
   const byCategory = {};
   for (const article of enArticles) {
@@ -83,10 +87,19 @@ async function main() {
   }
 
   // Sort categories by priority
-  const categoryOrder = ['Comparisons', 'Integrations', 'Guides', 'Privacy', 'Productivity', 'Templates', 'Sales', 'Platform'];
+  const categoryOrder = [
+    'Comparisons',
+    'Integrations',
+    'Guides',
+    'Privacy',
+    'Productivity',
+    'Templates',
+    'Sales',
+    'Platform',
+  ];
   const sortedCategories = [
-    ...categoryOrder.filter(c => byCategory[c]),
-    ...Object.keys(byCategory).filter(c => !categoryOrder.includes(c)),
+    ...categoryOrder.filter((c) => byCategory[c]),
+    ...Object.keys(byCategory).filter((c) => !categoryOrder.includes(c)),
   ];
 
   let out = `# Siplinx AI
